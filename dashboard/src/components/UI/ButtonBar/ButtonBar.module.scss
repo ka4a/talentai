@@ -1,0 +1,70 @@
+@import 'styles/variables';
+
+$shadowColor: rgba(0, 0, 0, 0.15);
+$borderRadius: 0 0 14px 14px;
+
+.container {
+  border-top: 1px solid transparent;
+  position: sticky;
+  z-index: 300;
+  bottom: 0;
+
+  &.withShadow {
+    border-top-color: $neutral-dark;
+    bottom: 30px;
+  }
+
+  &.withShadow.modal {
+    bottom: 0;
+    box-shadow: 0 -5px 5px -5px $shadowColor;
+  }
+}
+
+.backgroundWrapper {
+  background-color: $neutral-lighter;
+  position: absolute;
+  z-index: 100;
+  left: -20px;
+  width: calc(100% + 20px * 2); // width + horizontal margins
+  height: calc(62px + 30px); // ButtonBar height + bottom
+}
+
+.shadow {
+  background-color: transparent;
+  border-radius: $borderRadius;
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  height: 62px;
+
+  &.withShadow {
+    box-shadow: 7px 0 15px 0 $shadowColor;
+  }
+}
+
+.wrapper {
+  background-color: $white;
+  border-radius: $borderRadius;
+  position: relative;
+  z-index: 200;
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 30px 14px;
+
+  &.withShadow:not(.modal) {
+    border: 1px solid $neutral-dark;
+    border-top: none;
+    // need to align ButtonBar's width with form's width
+    width: calc(100% + 2px);
+    margin-left: -1px;
+  }
+
+  & > div {
+    margin-left: 20px;
+  }
+}
+
+.wrapperEdge {
+  visibility: hidden;
+  height: 1px;
+}

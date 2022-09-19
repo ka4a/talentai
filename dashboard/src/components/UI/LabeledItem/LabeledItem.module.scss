@@ -1,0 +1,34 @@
+@import 'styles/variables';
+
+.wrapper {
+  flex-direction: column;
+  flex: 1;
+}
+
+.label {
+  color: $text-light;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.value {
+  color: $text-normal;
+  margin-bottom: 0;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.link {
+  color: $primary;
+  cursor: pointer;
+}
+
+.textarea {
+  line-height: 125%;
+}

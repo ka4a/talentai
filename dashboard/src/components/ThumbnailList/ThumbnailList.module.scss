@@ -1,0 +1,35 @@
+@import 'styles/variables';
+
+.thumbnailList {
+  display: flex;
+  flex-wrap: wrap;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.fileWrapper {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.fileName {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  color: $text-light;
+  margin-right: 28px;
+  margin-bottom: 0;
+}
+
+.downloadButton {
+  border: 1px solid $primary;
+  border-radius: 8px;
+  background: transparent;
+
+  svg g {
+    fill: $primary;
+  }
+}

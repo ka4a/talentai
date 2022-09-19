@@ -1,0 +1,16 @@
+@import 'styles/variables';
+
+.root {
+  font-size: 12px;
+  font-weight: 400;
+  color: $text-light;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.clock {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}

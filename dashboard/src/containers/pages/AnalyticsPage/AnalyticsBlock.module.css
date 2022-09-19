@@ -1,0 +1,33 @@
+.helpContainer {
+  position: relative;
+}
+
+.helpBlock {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+.helpPopover {
+  color: #374966;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 5px;
+  border: solid 2px #e5e5e5;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 24px;
+
+  overflow: hidden;
+}
+
+.chartContainer {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}

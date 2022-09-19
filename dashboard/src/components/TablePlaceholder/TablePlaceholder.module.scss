@@ -1,0 +1,21 @@
+@import 'styles/variables';
+
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $text-light;
+}
+
+.title {
+  margin-bottom: 11px;
+}
+
+.description {
+  line-height: 20px;
+  text-align: center;
+}
+
+.icon {
+  margin: 50px 0 30px;
+}

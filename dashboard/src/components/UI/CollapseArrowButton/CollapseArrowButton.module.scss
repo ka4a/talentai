@@ -1,0 +1,29 @@
+@import 'styles/variables';
+
+.button {
+  background: $neutral-dark;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  outline: none !important;
+  box-shadow: none;
+
+  &.disabled {
+    background: $secondary-disabled;
+    cursor: default;
+
+    svg {
+      fill: $primary-disabled;
+    }
+  }
+
+  svg {
+    width: 24px;
+    height: 24px;
+    fill: $secondary;
+  }
+}

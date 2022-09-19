@@ -1,0 +1,35 @@
+@import 'styles/variables';
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  padding: 5px 20px 20px;
+  position: sticky;
+  top: 20px;
+  width: 200px;
+
+  .menuItem {
+    border-bottom: 1px solid $neutral-light;
+    color: $text-light;
+    cursor: pointer;
+    display: block;
+    line-height: 14px;
+    margin-top: 4px;
+    padding: 11px 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    white-space: nowrap;
+
+    &:hover {
+      color: $secondary-dark;
+    }
+
+    &.isActive {
+      border-bottom-color: $secondary;
+      color: $secondary;
+    }
+  }
+}

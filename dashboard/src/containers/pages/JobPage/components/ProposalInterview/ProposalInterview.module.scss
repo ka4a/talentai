@@ -1,0 +1,118 @@
+@import 'styles/variables';
+@import '../ProposalQuestion/ProposalQuestion.module';
+
+.control {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  &:not(.isOpen) {
+    border-bottom: none;
+    border-radius: 8px;
+  }
+
+  &.disabled {
+    cursor: default;
+  }
+
+  .headerRight {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.headerItem {
+  margin-left: 20px;
+}
+
+.collapseArrow {
+  margin-left: 20px;
+}
+
+.headerInterviewer {
+  display: flex;
+  align-items: baseline;
+
+  div:first-child {
+    margin-right: 5px;
+  }
+}
+
+.headerScheduledDate {
+  color: $text-light;
+  display: flex;
+  align-items: center;
+
+  svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+  }
+}
+
+.interviewer {
+  color: $text-light;
+}
+
+.details {
+  margin: 20px;
+}
+
+.interviewerWrapper {
+  display: flex;
+  margin-bottom: 20px;
+
+  & > div {
+    flex: 1;
+  }
+}
+
+.timeslotsWrapper {
+  margin-bottom: 10px;
+}
+
+.timeslotsBadges {
+  display: flex;
+  flex-wrap: wrap;
+
+  > div {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.assessments {
+  margin: 20px;
+
+  .decision {
+    margin: 20px 0;
+  }
+
+  .ratings {
+    display: flex;
+    flex-wrap: wrap;
+
+    & > div {
+      width: 25%;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.confirmedTime {
+  color: $text-light;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.clock {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.recipients {
+  margin-top: 20px;
+}

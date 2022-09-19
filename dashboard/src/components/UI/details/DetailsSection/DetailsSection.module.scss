@@ -1,0 +1,18 @@
+@import 'styles/variables';
+
+.root {
+  border: 1px solid $neutral-dark;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.content {
+  display: grid;
+  grid-template-rows: auto;
+}
+
+.title {
+  color: $text-normal;
+  margin-bottom: 24px;
+}

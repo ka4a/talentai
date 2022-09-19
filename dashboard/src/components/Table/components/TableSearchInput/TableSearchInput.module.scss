@@ -1,0 +1,28 @@
+@import 'styles/variables';
+
+.container {
+  display: inline-block;
+  position: relative;
+}
+
+.input {
+  min-width: 221px;
+  padding-left: 34px;
+  background-color: $white;
+  border: 1px solid #e0e4eb;
+  border-radius: 6px;
+  color: $text-normal;
+  height: 32px;
+}
+
+.iconContainer {
+  color: $text-normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 2px;
+}

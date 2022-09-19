@@ -1,0 +1,30 @@
+__pycache__/
+.vscode/
+.idea/
+.vscode
+*.pyc
+# Compiled version of .po (translation) files
+*.mo
+
+.DS_Store
+
+/django_static/
+media/
+
+# Coverage tools
+.coverage
+htmlcov
+
+*.pid
+celerybeat-schedule
+celerybeat-schedule.db
+
+# Django environ
+.env
+
+#Other
+_sandbox.py
+_sandbox/
+*.zip
+.eslintcache
+node_modules

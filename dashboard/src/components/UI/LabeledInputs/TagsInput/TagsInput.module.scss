@@ -1,0 +1,17 @@
+@import '../LabeledMultiSelect/LabeledMultiSelect.module';
+
+.multiselect {
+  & :global {
+    & .multiselect__option {
+      padding: 10px;
+
+      &.multiselect__option--is-selected:before {
+        all: unset;
+      }
+
+      &:before {
+        all: unset;
+      }
+    }
+  }
+}

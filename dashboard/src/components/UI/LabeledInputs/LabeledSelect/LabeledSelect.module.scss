@@ -1,0 +1,93 @@
+@import 'styles/variables';
+@import '../commonInputStyles.module';
+
+.select {
+  & :global {
+    & .select__control {
+      border: 1px solid $neutral-darker;
+      border-radius: 8px;
+      box-shadow: none;
+      padding: 0 3px;
+      height: 48px;
+
+      &:hover {
+        border-color: $primary-dark;
+      }
+
+      &:focus {
+        border-color: $primary;
+      }
+    }
+
+    & .select__single-value,
+    .select__input {
+      font-size: 14px;
+    }
+
+    & .select__control--menu-is-open,
+    & .select__control--menu-is-open:hover {
+      border-color: $primary;
+    }
+
+    & .select__indicator-separator {
+      display: none;
+    }
+
+    & .select__placeholder {
+      color: $primary-disabled;
+      font-size: 14px;
+    }
+
+    & .select__indicator svg {
+      fill: $text-light;
+    }
+
+    & .select__menu {
+      border-radius: 8px;
+      overflow: hidden;
+      z-index: 1000000000000 !important;
+    }
+
+    & .select__menu-list {
+      padding-bottom: 0;
+      padding-top: 0;
+    }
+
+    & .select__option {
+      cursor: pointer;
+    }
+  }
+}
+
+.disabled {
+  :global {
+    & .select__control,
+    & .select__control:hover {
+      background-color: transparent;
+      border-color: $primary-disabled;
+    }
+
+    & .select__single-value {
+      color: $primary-disabled;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    & .select__input {
+      display: none !important;
+    }
+
+    & .select__indicator {
+      display: none;
+    }
+  }
+}
+
+.errors {
+  :global {
+    & .select__control,
+    & .select__control:hover {
+      border: 1px solid $danger;
+    }
+  }
+}

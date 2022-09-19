@@ -1,0 +1,19 @@
+@import 'styles/variables';
+
+.header {
+  padding: 10px 50px;
+  background: $white;
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.notificationContainer {
+  padding: 10px 50px;
+  max-width: 1600px;
+  margin: 0 auto;
+}

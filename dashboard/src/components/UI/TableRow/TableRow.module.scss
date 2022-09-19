@@ -1,0 +1,24 @@
+@import 'styles/variables';
+
+.wrapper {
+  border: 1px solid $neutral-dark;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 0 15px;
+  cursor: pointer;
+  transition: all 0.1s;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.03);
+
+  &:hover {
+    border-color: $secondary-dark;
+  }
+
+  &.active {
+    background-color: $secondary;
+    color: $white;
+    border-color: $secondary;
+    cursor: default;
+  }
+}

@@ -1,0 +1,1 @@
+{% load i18n %}{% autoescape off %}New Application for {{ job }}{% endautoescape %}

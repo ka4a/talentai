@@ -1,0 +1,36 @@
+{
+  "name": "HCCR LinkedIn to Zoho Extension",
+  "description": "An internal extension for HCCR.com employees only",
+  "version": "19.14.4",
+  "manifest_version": 3,
+  "homepage_url": "https://tool.hccr.com",
+  "background": {
+    "service_worker": "background.bundle.js"
+  },
+  "host_permissions": ["*://tool.hccr.com/*"],
+  "permissions": ["cookies", "activeTab", "scripting", "tabs"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.linkedin.com/*"],
+      "js": ["main.bundle.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/img/logo_16.png",
+      "48": "/img/logo_48.png",
+      "128": "/img/logo_128.png"
+    }
+  },
+  "icons": {
+    "16": "/img/logo_16.png",
+    "48": "/img/logo_48.png",
+    "128": "/img/logo_128.png"
+  },
+  "options_page": "options.html",
+  "content_security_policy": {
+    "script-src": "self unsafe-eval",
+    "object-src": "self"
+  }
+}

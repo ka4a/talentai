@@ -1,0 +1,24 @@
+@import 'styles/variables';
+
+.back {
+  display: inline-block;
+  transition: all 0.2s;
+
+  & > div {
+    color: $primary;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  &:hover {
+    transform: translateX(10px);
+    text-decoration: none;
+  }
+
+  svg {
+    margin-right: 10px;
+    fill: $primary;
+  }
+}

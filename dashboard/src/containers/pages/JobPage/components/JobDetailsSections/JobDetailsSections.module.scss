@@ -1,0 +1,48 @@
+@import 'styles/variables';
+@import 'styles/form.module';
+
+.skillsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+  & > div {
+    margin-top: 10px;
+  }
+}
+
+.skillTitle {
+  color: $text-light;
+  margin-right: 10px;
+}
+
+.skillBadge {
+  margin-right: 10px;
+}
+
+.languageWrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+  & > div {
+    width: 25%;
+    padding-top: 10px;
+  }
+}
+
+.label {
+  color: $text-light;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.flexWrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.listNoSpacing {
+  ul {
+    padding: 0 20px;
+    margin: 0;
+  }
+}

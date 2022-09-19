@@ -1,0 +1,47 @@
+$rt-color-default: #f6f9fc;
+$rt-color-info: #4781f7;
+$rt-color-success: #61c378;
+$rt-color-warning: #f1b00a;
+$rt-color-error: #fd5068;
+
+$rt-text-color-default: #f6f9fc;
+$rt-text-color-dark: #1e2d3e;
+
+@import '../../node_modules/react-toastify/scss/main.scss';
+
+.#{$rt-namespace}__close-button {
+  opacity: 0.75;
+}
+
+@mixin color($color) {
+  background: $color;
+  border-color: darken($color, 10%);
+}
+
+.#{$rt-namespace}__toast {
+  box-shadow: none;
+  border-radius: 0.25rem;
+  border: 1px solid darken($rt-color-default, 10%);
+  color: $rt-text-color-default;
+
+  &--default {
+    background: $rt-color-default;
+    color: $rt-text-color-dark;
+  }
+
+  &--info {
+    @include color($rt-color-info);
+  }
+
+  &--success {
+    @include color($rt-color-success);
+  }
+
+  &--warning {
+    @include color($rt-color-warning);
+  }
+
+  &--error {
+    @include color($rt-color-error);
+  }
+}

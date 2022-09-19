@@ -1,0 +1,15 @@
+.root {
+  display: flex;
+  align-items: baseline;
+  margin-left: 16px;
+  border: 1px solid #dddddd;
+  border-radius: 0.25rem;
+  background-color: transparent;
+
+  &:hover,
+  &:active:not(:disabled):not(.disabled),
+  &:focus,
+  &:active:focus {
+    background-color: transparent;
+  }
+}

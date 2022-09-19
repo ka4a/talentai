@@ -1,0 +1,11 @@
+.disappearing {
+  position: absolute;
+  bottom: 0;
+  height: 32px;
+  width: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 1)
+  );
+}

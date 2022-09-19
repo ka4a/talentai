@@ -1,0 +1,32 @@
+@import './variables.scss';
+
+.item {
+  background-color: transparent;
+  border: none;
+  height: $item-height;
+  margin: 0;
+  padding: 10px 35px 10px 10px;
+  flex: 1;
+  text-align: left;
+  line-height: 1;
+  border-radius: 0;
+
+  &:focus:active {
+    background-color: $bg-color-pressed;
+    color: #fff;
+  }
+
+  &:hover {
+    background-color: $bg-color;
+    color: #fff;
+  }
+
+  &:not(:last-child) {
+    border: none;
+  }
+}
+
+.selected {
+  background-color: $bg-color;
+  color: #fff;
+}

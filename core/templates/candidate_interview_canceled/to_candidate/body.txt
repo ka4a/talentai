@@ -1,0 +1,10 @@
+{% load i18n %}{% autoescape off %}{% blocktrans %}Dear {{ candidate }}, your interview with {{ organisation }} has been cancelled:
+
+Position: {{ job }}
+
+When: {{ timeframe }}
+
+Candidate: {{ candidate }}
+Interviewer: {{ interviewer }}
+{% endblocktrans %}
+{% endautoescape %}

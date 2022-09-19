@@ -1,0 +1,45 @@
+@import 'styles/form.module';
+
+.alert {
+  max-width: 740px;
+  margin: 30px auto 0;
+}
+
+.halfWidth {
+  width: 50%;
+}
+
+.checkboxWrapper {
+  position: relative;
+  top: 25px;
+}
+
+.addressWrapper {
+  & > div:first-child {
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  & > div:nth-child(2) {
+    flex: 0.47;
+  }
+}
+
+.compensationWrapper {
+  justify-content: flex-start;
+
+  & > div {
+    margin-right: 20px;
+    max-width: 198px;
+  }
+}
+
+.attachmentWrapper {
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+.subheading {
+  margin-bottom: 20px;
+}

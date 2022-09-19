@@ -1,0 +1,17 @@
+.tag {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  $border-radius: 4px;
+  padding: 3px 6px;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 1;
+  min-width: 70px;
+  color: #fff;
+  border: {
+    top-right-radius: $border-radius;
+    top-left-radius: $border-radius;
+  }
+}

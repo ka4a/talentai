@@ -1,0 +1,185 @@
+@import 'styles/variables';
+
+.candidateDetailsWrapper {
+  padding: 20px 30px;
+}
+
+.wrapper {
+  border: 1px solid $neutral-dark;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  padding: 20px;
+
+  &.greyOverlay {
+    background: $neutral-light;
+  }
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.countriesRow {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  & > div {
+    width: 25%;
+    margin-bottom: 10px;
+    padding-right: 10px;
+  }
+}
+
+.withBorder {
+  border-bottom: 1px solid $neutral-dark;
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.title {
+  color: $text-normal;
+  margin-bottom: 24px;
+}
+
+.skillsTitle {
+  color: $text-light;
+  display: block;
+}
+
+.skills {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  & > div {
+    margin: 10px 10px 0 0;
+  }
+}
+
+.otherFilesTitle {
+  margin-bottom: 10px;
+}
+
+.detailList {
+  display: flex;
+  flex-direction: column;
+
+  .detailsItem {
+    background: $white;
+    border: 1px solid $neutral-dark;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding: 0;
+  }
+
+  .header {
+    background-color: $neutral-light;
+    border-bottom: 1px solid $neutral-dark;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px 20px;
+  }
+
+  .title {
+    margin: 0;
+    padding: 0;
+  }
+
+  .count {
+    background: $neutral-dark;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    margin-right: 20px;
+  }
+
+  .control {
+    display: flex;
+    align-items: center;
+  }
+
+  .details {
+    margin: 20px 20px 0;
+    padding-bottom: 20px;
+  }
+
+  .interviewerWrapper,
+  .multiRowWrapper {
+    display: flex;
+    margin-bottom: 20px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    & > div {
+      flex: 1;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+  }
+
+  .expectationWrapper {
+    display: grid;
+    margin-bottom: 20px;
+    grid-template-columns: 1fr 1fr 2fr;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+  }
+
+  .jobChangePeriod {
+    border-top: 1px solid #d8dee9;
+    display: flex;
+    margin-top: 20px;
+    padding-top: 20px;
+
+    & > div {
+      flex: 1;
+    }
+  }
+
+  .fullWidth {
+    width: 100%;
+  }
+}
+
+.applicationRow {
+  background: $neutral-light;
+  border: 1px solid $neutral-dark;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 15px;
+}
+
+.salaryWrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+  & > div {
+    flex: unset;
+    width: 30%;
+    margin-bottom: 20px;
+  }
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}

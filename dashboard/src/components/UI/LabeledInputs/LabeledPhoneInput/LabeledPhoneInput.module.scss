@@ -1,0 +1,50 @@
+@import 'styles/variables';
+@import '../commonInputStyles.module';
+
+$border-color: $neutral-darker;
+
+.wrapper {
+  z-index: unset;
+
+  .dropdownButton:global(.flag-dropdown) {
+    // Button will sink beneath the form, once z-index unset, so we adding divider to the flag instead
+    border-right-width: 0;
+
+    &:global(.open) {
+      // Ensures that button and menu can have different z-indexes
+      // So button won't overlap label or footer, but menu should
+      z-index: unset;
+
+      :global {
+        .country-list {
+          z-index: 401;
+        }
+      }
+    }
+
+    :global {
+      .selected-flag {
+        border-right: 1px solid $border-color;
+
+        &.open {
+          z-index: 3;
+        }
+      }
+    }
+  }
+}
+
+.dropdownButton,
+.dropdownButton > div {
+  border-color: $border-color !important;
+  border-top-left-radius: 8px !important;
+  border-bottom-left-radius: 8px !important;
+  background-color: $white !important;
+}
+
+.input {
+  border-color: $border-color !important;
+  height: 48px !important;
+  width: 100% !important;
+  border-radius: 8px !important;
+}

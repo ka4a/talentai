@@ -1,0 +1,25 @@
+@import 'styles/variables';
+
+.button {
+  color: $text-light;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: none;
+
+  span {
+    text-transform: capitalize;
+  }
+}
+
+.active {
+  color: $secondary;
+}
+
+.icon {
+  display: none;
+  margin-left: 5px;
+
+  &.active {
+    display: inline-block;
+  }
+}

@@ -1,0 +1,23 @@
+@import 'styles/variables';
+
+.description {
+  margin-bottom: 20px;
+}
+
+.list {
+  list-style: none;
+  padding-left: 30px;
+  margin-bottom: 0;
+
+  li::before {
+    content: '\2022';
+    color: $text-light;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+}
+
+.field {
+  color: $text-light;
+}

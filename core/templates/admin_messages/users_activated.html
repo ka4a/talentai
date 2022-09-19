@@ -1,0 +1,24 @@
+{% load reverse_admin %}
+
+{% if activated_users|length == 1 %}
+  1 user was activated:
+{% else %}
+  {{ activated_users|length }} users were activated:
+{% endif %}
+
+<br/>
+
+{% for user in activated_users %}
+  <a href='{{ user|reverse_admin }}'>
+    {{ user.first_name }} {{ user.last_name }} ({{ user.email }})
+  </a>
+  <br/>
+{% endfor %}
+
+{% if errors %}
+  <br/>
+  Errors:<br/>
+  {% for error in errors %}
+    {{ error }}<br/>
+  {% endfor %}
+{% endif %}

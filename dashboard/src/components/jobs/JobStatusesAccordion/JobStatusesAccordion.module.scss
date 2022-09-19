@@ -1,0 +1,84 @@
+@import 'styles/variables';
+
+.container {
+  margin-bottom: 25px;
+
+  &.opened {
+    border-bottom: 1px solid $neutral;
+  }
+}
+
+.title {
+  color: $text-normal;
+  width: 100%;
+
+  &.disabled {
+    color: $primary-disabled;
+  }
+}
+
+.cardsWrapper {
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+.nameWrapper {
+  align-items: center;
+  color: $text-normal;
+  display: flex;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.name {
+  margin-left: 10px;
+}
+
+.cardWrap {
+  border: none;
+}
+
+.active {
+  .card {
+    background: $secondary;
+    border-color: $primary;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+
+    .card {
+      border-color: $primary;
+    }
+  }
+
+  .agency,
+  .nameWrapper {
+    color: $white;
+  }
+}
+
+.card {
+  background: $white;
+  border: 1px solid $neutral-darker;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.itemRow {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.agency {
+  color: $text-light;
+}
+
+.hired {
+  color: $success-dark;
+}
+
+.rejected {
+  color: $danger;
+}

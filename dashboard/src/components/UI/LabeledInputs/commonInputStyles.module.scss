@@ -1,0 +1,85 @@
+@import 'styles/variables';
+
+.wrapper {
+  position: relative;
+  padding-top: 10px;
+
+  * {
+    font-size: 14px;
+  }
+}
+
+.input {
+  font-size: 14px;
+  background-color: $white;
+  color: $text-normal;
+  border: 1px solid $neutral-darker;
+  border-radius: 8px;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  padding: 14px 16px;
+
+  &:hover {
+    border-color: $primary-dark;
+  }
+
+  &:focus {
+    border-color: $primary;
+  }
+}
+
+.label {
+  line-height: normal;
+  background-color: $white;
+  color: $text-light;
+  position: absolute;
+  z-index: 4;
+  top: 0;
+  left: 10px;
+  margin-bottom: 0;
+  padding: 0 4px;
+  white-space: nowrap;
+  letter-spacing: -0.3px;
+  text-transform: capitalize;
+  pointer-events: none;
+
+  &.withoutCapitalize {
+    text-transform: unset;
+  }
+}
+
+.required {
+  font-size: 28px;
+  line-height: 20px;
+  color: $danger;
+  display: inline-block;
+  height: 15px;
+  margin-left: 2px;
+  vertical-align: middle;
+}
+
+.errors,
+.errors:hover,
+.errors:focus {
+  .input {
+    border: 1px solid $danger;
+  }
+}
+
+.disabled {
+  input {
+    background-color: $white !important;
+    color: $primary-disabled;
+    border: 1px solid $primary-disabled !important;
+
+    &:hover,
+    &:focus {
+      border-color: $primary-disabled;
+    }
+  }
+
+  label {
+    color: $primary-disabled;
+  }
+}

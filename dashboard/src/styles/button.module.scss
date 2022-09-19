@@ -1,0 +1,195 @@
+@import 'styles/variables';
+
+$box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.03);
+
+.button {
+  line-height: 18px;
+  border: 1px solid $primary;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  padding: 0 15px;
+  white-space: nowrap;
+  text-decoration: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  transition: all 0.2s;
+}
+
+@mixin colors($background, $border, $text: $white) {
+  background: $background;
+  border-color: $border;
+  color: $text;
+}
+
+@mixin default-focus($background, $border, $text: $white) {
+  &:focus {
+    @include colors($background, $border, $text);
+    box-shadow: $box-shadow;
+  }
+
+  &:focus:active {
+    box-shadow: $box-shadow;
+  }
+}
+
+.primary {
+  @include colors($primary, $primary);
+  box-shadow: $box-shadow;
+
+  &:not(:global(.disabled)):not(:disabled) {
+    @include default-focus($primary, $primary);
+
+    &:hover {
+      @include colors($primary-dark, $primary-dark);
+    }
+
+    &:active {
+      @include colors($primary-darker, $primary-darker);
+    }
+  }
+
+  &:disabled {
+    @include colors($primary-disabled, $primary-disabled);
+    border: 1px solid $primary-disabled;
+  }
+}
+
+.secondary {
+  @include colors(transparent, $primary, $primary);
+
+  border: 1px solid $primary;
+  box-shadow: $box-shadow;
+
+  &:not(:global(.disabled)):not(:disabled) {
+    @include default-focus(transparent, $primary, $primary);
+
+    &:hover {
+      @include colors($primary-light, $primary-dark, $primary-dark);
+    }
+
+    &:active {
+      @include colors($primary-darker, $primary-darker, $white);
+    }
+  }
+
+  &:disabled {
+    @include colors(transparent, $primary-disabled, $primary-disabled);
+  }
+
+  &.success {
+    @include colors(transparent, $success-dark, $success-dark);
+
+    &:not(:global(.disabled)):not(:disabled) {
+      @include default-focus(transparent, $success-dark, $success-dark);
+
+      &:hover {
+        @include colors($success-light, $success-darker, $success-darker);
+      }
+
+      &:active {
+        @include colors($success-darker, $success-darker, $white);
+      }
+    }
+  }
+
+  &.danger {
+    @include colors(transparent, $danger, $danger);
+
+    &:not(:global(.disabled)):not(:disabled) {
+      @include default-focus(transparent, $danger, $danger);
+
+      &:hover {
+        @include colors($danger-light, $danger-dark, $danger-dark);
+      }
+
+      &:active {
+        @include colors($danger-dark, $danger-dark, $white);
+      }
+    }
+  }
+
+  &.neutral {
+    @include colors(transparent, $text-light, $text-light);
+
+    &:not(:global(.disabled)):not(:disabled) {
+      @include default-focus(transparent, $text-light, $text-light);
+
+      &:hover {
+        background-color: $neutral;
+      }
+
+      &:active {
+        @include colors($text-light, $text-light, $white);
+      }
+    }
+  }
+
+  &.inverse {
+    @include colors(transparent, $white, $white);
+
+    &:not(:global(.disabled)):not(:disabled) {
+      @include default-focus(transparent, $white, $white);
+
+      &:hover {
+        background-color: rgba(228, 234, 240, 0.5);
+      }
+
+      &:active {
+        @include colors($white, $white, $text-light);
+      }
+    }
+  }
+}
+
+.text {
+  background: none;
+  color: $primary;
+  border: none;
+  text-transform: uppercase;
+
+  &:not(:global(.disabled)):not(:disabled) {
+    &:hover {
+      color: $primary-dark;
+    }
+
+    &:active,
+    &:focus {
+      color: $primary-darker;
+    }
+  }
+
+  &:disabled {
+    color: $primary-disabled !important;
+  }
+}
+
+.dot {
+  background: none;
+  color: $primary;
+  border: none;
+  align-self: baseline;
+  height: 14px;
+  padding: 0;
+
+  &:not(:global(.disabled)):not(:disabled) {
+    &:hover {
+      color: $primary-dark;
+    }
+
+    &:active,
+    &:focus {
+      color: $primary-darker;
+    }
+  }
+
+  &:disabled {
+    color: $primary-disabled !important;
+  }
+}
+
+.quickAction {
+  margin-left: 20px;
+}

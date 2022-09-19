@@ -1,0 +1,35 @@
+@import 'styles/variables';
+
+@mixin badge($color, $background) {
+  align-items: center;
+  border-radius: 6px;
+  cursor: default;
+  display: inline-flex;
+  height: 30px;
+  justify-content: center;
+  padding: 0 10px;
+  text-transform: capitalize;
+  color: $color;
+  background-color: $background;
+  white-space: nowrap;
+}
+
+.normal {
+  @include badge($primary, $primary-light);
+}
+
+.neutral {
+  @include badge($text-light, $neutral);
+}
+
+.success {
+  @include badge($success-dark, $success-light);
+}
+
+.danger {
+  @include badge($danger, $danger-light);
+}
+
+.warning {
+  @include badge($warning-dark, $warning-light);
+}

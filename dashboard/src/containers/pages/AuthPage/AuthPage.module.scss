@@ -1,0 +1,151 @@
+@import 'styles/variables';
+
+.wrapper {
+  display: flex;
+}
+
+.sideInfoWrapper {
+  align-items: center;
+  background-color: $neutral-light;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  max-width: 400px;
+  padding: 30px 60px;
+  width: 100%;
+
+  .sideInfo {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    .description {
+      color: $text-light;
+      line-height: 34px;
+      margin-top: 35px;
+      text-align: center;
+    }
+  }
+
+  .footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footerText {
+    color: $text-light;
+    line-height: 21px;
+    opacity: 0.7;
+  }
+}
+
+.content {
+  align-items: center;
+  background-color: $neutral-dark;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  padding: 30px 50px;
+  width: 100%;
+
+  .contentHeader {
+    margin-bottom: 30px;
+  }
+
+  .input {
+    margin-bottom: 30px;
+  }
+}
+
+.loginButtons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forgotPasswordLink a {
+  color: $text-normal;
+  padding: 0;
+  text-transform: none;
+}
+
+.error {
+  color: $danger;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.submitButton {
+  align-self: flex-end;
+}
+
+.instructionsText {
+  line-height: 24px;
+  text-align: center;
+}
+
+.instructionsGap {
+  margin-bottom: 30px;
+}
+
+.agreementWrapper {
+  max-width: 750px;
+
+  .preview {
+    align-items: center;
+    background-color: $neutral-darker;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    margin-bottom: 10px;
+    overflow-y: scroll;
+    padding-top: 19px;
+  }
+
+  .agreementFooter {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .agreementLink {
+    color: $primary;
+    text-decoration: none;
+
+    &:hover {
+      color: $primary-dark;
+      text-decoration: none;
+    }
+
+    &:active {
+      color: $primary-darker;
+    }
+
+    &.termsLink {
+      font-size: 14px;
+      margin-bottom: 30px;
+    }
+  }
+
+  .agreementButtons {
+    display: flex;
+    margin-top: 30px;
+
+    & > div:first-child {
+      margin-right: 20px;
+    }
+  }
+
+  .logoutButton button {
+    border-color: $text-light;
+    color: $text-light;
+  }
+}

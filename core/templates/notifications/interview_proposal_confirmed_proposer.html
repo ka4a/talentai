@@ -1,0 +1,11 @@
+{% load i18n %}{% blocktrans with interview_order=action_object.order user=action_object.interviewer.name candidate=actor.name job=target.job.title %}
+The interview {{ interview_order }} with {{ candidate }} has been confirmed:
+{% endblocktrans %}
+<br/><br/>{% trans 'Job' %}: {{ target.job.title }}
+<br/><br/>{% trans 'When' %}: {{ timeframe }}
+<br/><br/>{% trans 'Candidate' %}: {{ actor.name }}
+<br/>{% trans 'Interviewer' %}: {{ action_object.interviewer.name }}
+<br/><br/>{{ action_object.notes|safe }}
+{% if link %}
+<br/><br/><a href='{{ base_url }}{{ link }}'>{{link_text|default:"Link"}}</a>
+{% endif %}

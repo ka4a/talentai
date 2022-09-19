@@ -1,0 +1,33 @@
+@import 'styles/variables';
+
+.outerWrapper {
+  position: relative;
+  overflow-x: auto;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.jobTitle {
+  max-width: 400px;
+  word-break: break-all;
+}
+
+.innerWrapper {
+  @media screen and (max-width: 1500px) {
+    width: 1400px;
+  }
+}
+
+.jobStatusWrapper {
+  padding-right: 15px;
+}
+
+.caption {
+  color: $text-light;
+}
+
+.proposal::before {
+  content: none;
+}

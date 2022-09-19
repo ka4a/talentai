@@ -1,0 +1,101 @@
+@import 'styles/variables';
+
+.tableWrapper {
+  overflow-x: auto;
+}
+
+.table {
+  border-spacing: 0 10px;
+  border-collapse: separate;
+
+  thead {
+    th {
+      font-size: 14px;
+      font-weight: 500;
+      color: $text-light;
+      height: auto;
+      padding: 0 13px;
+      white-space: nowrap;
+
+      button {
+        font-size: 14px;
+        font-weight: 500;
+        color: $text-light;
+      }
+
+      .table-filter {
+        background-color: $white;
+      }
+    }
+  }
+
+  tr {
+    > a:only-child {
+      display: inline-block;
+      width: 100%;
+    }
+
+    &:hover td {
+      border-color: $secondary-dark !important;
+    }
+
+    td {
+      background: $white;
+      color: $text-normal;
+      border: none;
+      border-top: 1px solid $neutral-dark;
+      border-bottom: 1px solid $neutral-dark;
+      position: relative;
+
+      :global(.with-border) {
+        &:before {
+          background: $neutral-dark;
+          position: absolute;
+          top: 50%;
+          right: 0;
+          display: block;
+          width: 1px;
+          height: calc(100% - 32px);
+          content: '';
+          transform: translateY(-50%);
+        }
+      }
+
+      &:first-child {
+        border-left: 1px solid $neutral-dark;
+        border-radius: 12px 0 0 12px;
+      }
+
+      &:last-child {
+        border-right: 1px solid $neutral-dark;
+        border-radius: 0 12px 12px 0;
+
+        &:before {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@mixin rowSize($padding, $height) {
+  tr {
+    td {
+      padding: $padding;
+      height: $height;
+    }
+  }
+}
+
+.bigRow {
+  @include rowSize(17px 20px, 70px);
+}
+
+.defaultRow {
+  @include rowSize(0 12px, 56px);
+}
+
+.statusRow {
+  border-radius: 12px !important;
+  text-align: center;
+}

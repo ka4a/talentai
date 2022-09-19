@@ -1,0 +1,10 @@
+.root {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  max-width: 274px;
+  margin-left: 10px;
+  word-break: break-all;
+}

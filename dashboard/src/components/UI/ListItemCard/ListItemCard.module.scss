@@ -1,0 +1,47 @@
+@import 'styles/variables';
+
+.wrapper {
+  background-color: $white;
+  border: 1px solid $neutral-dark;
+  border-radius: 8px;
+  flex: 1;
+  margin-right: 0 !important;
+}
+
+.header {
+  background-color: $neutral-light;
+  border-bottom: 1px solid $neutral-dark;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.order {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  background-color: $neutral-dark;
+  color: $text-normal;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+}
+
+.deleteButton {
+  cursor: pointer;
+
+  &.disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+}
+
+.content {
+  padding: 20px;
+}

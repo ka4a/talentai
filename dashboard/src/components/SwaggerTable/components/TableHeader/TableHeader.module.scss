@@ -1,0 +1,31 @@
+@import 'styles/variables';
+
+.headerWrapper {
+  background-color: $white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 16px;
+  padding: 30px 15px 70px;
+}
+
+.searchWrapper {
+  background: $white;
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 10px 0;
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.searchContentWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search {
+  min-width: 230px;
+}
+
+.bottomGap {
+  margin-bottom: 16px;
+}

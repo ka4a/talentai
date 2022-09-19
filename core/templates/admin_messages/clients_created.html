@@ -1,0 +1,24 @@
+{% load reverse_admin %}
+
+{% if created_objects|length == 1 %}
+  1 client was created:
+{% else %}
+  {{ created_objects|length }} clients were created:
+{% endif %}
+
+<br/>
+
+{% for client in created_objects %}
+  <a href='{{ client|reverse_admin }}'>
+    {{ client.name }}
+  </a>
+  <br/>
+{% endfor %}
+
+{% if errors %}
+  <br/>
+  Errors:<br/>
+  {% for error in errors %}
+    {{ error }}<br/>
+  {% endfor %}
+{% endif %}

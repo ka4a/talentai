@@ -1,0 +1,117 @@
+@import './variables.scss';
+
+.trigger {
+  $trigger-active: '&:active:not(:disabled):not(.disabled)';
+
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  border: none;
+  border-radius: 0;
+
+  &:hover,
+  #{$trigger-active},
+  #{$trigger-active}:focus,
+  &:focus:not(:disabled) {
+    background-color: transparent;
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+  }
+
+  &:disabled {
+    color: inherit;
+    border-color: transparent;
+    background-color: transparent;
+    opacity: 1;
+
+    .button {
+      background-color: #e8e8e8;
+      border-color: #e8e8e8;
+    }
+  }
+}
+
+.selector {
+  width: auto;
+  height: auto;
+  border: 1px solid #d8dee9;
+  padding: 6px 16px;
+  border-radius: 8px;
+  margin: 0 10px;
+  min-width: 64px;
+  background-color: #fff;
+}
+
+.button {
+  position: relative;
+  -webkit-appearance: none;
+  text-align: left;
+  padding-right: 25px;
+  line-height: 1.3;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  .icon {
+    fill: $text-color;
+    position: absolute;
+    right: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .icon.iconInvalid {
+    fill: $error-color;
+  }
+}
+
+.tableButton {
+  width: 100%;
+  color: $text-color;
+  height: 19px;
+  white-space: nowrap;
+  text-align: left;
+
+  svg {
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &:hover {
+    color: $bg-color;
+  }
+
+  &:active {
+    color: $bg-color-pressed;
+  }
+}
+
+.icon {
+  margin-left: 3px;
+  fill: currentColor;
+  display: inline;
+  position: relative;
+  height: 20px;
+  width: 20px;
+}
+
+.menu {
+  padding: 10px 0;
+  border: #e5e5e5 solid 1px;
+  box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.13);
+  max-height: 400px;
+  overflow-y: auto;
+
+  // For dropdowns contained in Modal
+  z-index: 1051;
+}
+
+.placeholder {
+  opacity: 0.33;
+}

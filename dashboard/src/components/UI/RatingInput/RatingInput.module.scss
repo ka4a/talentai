@@ -1,0 +1,18 @@
+@import '../LabeledInputs/commonInputStyles.module';
+
+.star {
+  margin-right: 5px;
+}
+
+.input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .cross {
+    fill: $text-light;
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+  }
+}

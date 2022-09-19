@@ -1,0 +1,21 @@
+@import 'styles/form.module';
+
+.notificationsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+  & > div {
+    width: 50%;
+    padding-right: 20px;
+
+    &:nth-child(even):not(:last-child) {
+      padding-bottom: 20px;
+    }
+  }
+}
+
+.roleCheckbox {
+  position: relative;
+  top: 24px;
+  display: inline-block;
+}

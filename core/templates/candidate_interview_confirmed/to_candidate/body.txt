@@ -1,0 +1,9 @@
+{% load i18n %}{% autoescape off %}{% blocktrans %}Dear {{ candidate }},
+your interview with {{ organisation }} has been confirmed:
+
+When: {{ timeframe }}
+Who: {{ user }}, {{ candidate }}
+
+{{ info }}
+{% endblocktrans %}
+{% endautoescape %}

@@ -1,0 +1,22 @@
+{% extends "admin/change_form.html" %}
+{% block extrastyle %}
+    {{ block.super }}
+    <style type="text/css">
+        .field-client, .field-agency {
+            display: none;
+        }
+        select[readonly] option, select[readonly] optgroup {
+            display: none;
+        }
+        select[readonly] {
+            pointer-events: none;
+            touch-action: none;
+            background: #eee;
+            box-shadow: none;
+        }
+    </style>
+{% endblock %}
+{% block content %}
+    {{ block.super }}
+    {% include "admin/user_extended/scripts.html" %}
+{% endblock %}

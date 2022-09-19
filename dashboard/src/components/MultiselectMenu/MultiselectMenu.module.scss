@@ -1,0 +1,115 @@
+$bg-color: #4781f7;
+$bg-color-pressed: #0846c4;
+$text-color: #8593a3;
+
+.trigger {
+  $trigger-active: '&:active:not(:disabled):not(.disabled)';
+
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  width: auto;
+  height: auto;
+  border: none;
+  border-radius: 0;
+
+  &:hover,
+  #{$trigger-active},
+  #{$trigger-active}:focus,
+  &:focus {
+    background-color: transparent;
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+.item {
+  padding: 0 15px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+
+  &:focus-within:active {
+    background-color: $bg-color-pressed;
+
+    & .itemLabel {
+      color: #fff;
+    }
+  }
+
+  &:hover {
+    background-color: $bg-color;
+    & .itemLabel {
+      color: #fff;
+    }
+  }
+
+  &:not(:last-child) {
+    border: none;
+  }
+}
+
+.itemLabel {
+  padding: 10px 0 10px 20px;
+  flex: 1;
+  text-align: right;
+  line-height: 1;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+
+  &:focus {
+    background-color: transparent;
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+  }
+
+  &:focus:active {
+  }
+}
+
+.selector {
+  width: auto;
+  height: auto;
+
+  $selector-active: '&:active:not(:disabled):not(.disabled)';
+
+  &:hover,
+  #{$selector-active},
+  #{$selector-active}:focus,
+  &:focus {
+    background-color: transparent;
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+.funcPanel {
+  padding: 0 15px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  margin-top: 7px;
+  justify-content: flex-end;
+  font-size: 14px;
+  cursor: pointer;
+  text-transform: none;
+}
+
+.menu {
+  padding: 10px 0;
+  border: #e5e5e5 solid 1px;
+  box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.13);
+
+  // For dropdowns contained in Modal
+  z-index: 1051;
+}

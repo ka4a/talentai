@@ -1,0 +1,16 @@
+@import 'styles/variables';
+
+.trigger {
+  align-items: center;
+  background-color: $white;
+  border: 1px solid $neutral-dark;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  padding: 7px 5px 7px 16px;
+}
+
+.icon {
+  margin-left: 10px;
+  fill: $primary !important;
+}

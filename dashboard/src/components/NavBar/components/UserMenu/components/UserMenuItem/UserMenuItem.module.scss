@@ -1,0 +1,28 @@
+@import 'styles/variables';
+
+.root {
+  border-bottom: none !important;
+  border-radius: 0 !important;
+  height: 40px;
+  padding: 10px 12px !important;
+  cursor: pointer;
+  outline: none !important;
+  display: flex;
+  align-items: center;
+
+  & > div {
+    color: $text-normal;
+    display: flex;
+    align-items: center;
+  }
+
+  svg {
+    margin-right: 10px;
+    fill: transparent !important;
+    stroke: $text-light;
+  }
+
+  &:active {
+    background-color: $primary-light !important;
+  }
+}

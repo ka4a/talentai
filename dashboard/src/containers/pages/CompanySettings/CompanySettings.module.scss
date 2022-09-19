@@ -1,0 +1,21 @@
+@import 'styles/variables';
+@import 'styles/form.module';
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.careerSite {
+  position: relative;
+
+  .host {
+    color: $text-lighter;
+    pointer-events: none;
+  }
+
+  &Input {
+    padding-left: 215px;
+  }
+}

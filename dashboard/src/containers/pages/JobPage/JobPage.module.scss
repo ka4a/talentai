@@ -1,0 +1,27 @@
+@import 'styles/variables';
+
+.popoverBody {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.copyInputWrapper {
+  display: flex;
+
+  input {
+    height: 32px;
+    border-radius: 8px 0 0 8px;
+  }
+
+  button {
+    border-radius: 0 8px 8px 0;
+  }
+}
+
+.copyDivider {
+  margin: 20px 0;
+}
+
+.loading {
+  margin-top: 30px;
+}

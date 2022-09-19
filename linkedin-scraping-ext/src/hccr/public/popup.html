@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="theme-color" content="#000000" />
+
+  <title>HCCR Linkedin Scraper</title>
+
+  <script src="popup.bundle.js"></script>
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+
+  <h6 class="text-center mt-4">
+    <b>HCCR LinkedIn to Zoho</b>
+  </h6>
+  <div id="alertElement" class="alert" role="alert" style="display: none;">
+    Profile Added 🎉
+  </div>
+
+  <!-- Loading layout -->
+  <section id='loading' class="mb-4">
+    <div class="row">
+      <div class="col-12 text-center">
+        <img src="img/loader.gif" class="gif" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Login notice layout -->
+  <section id='login' class="mb-4">
+    <div class="row">
+      <div class="col-12 text-center">
+        <p>Login to <a href="https://tool.hccr.com">HCCR Tool Site</a> to use this extension</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Welcome layout -->
+  <section id='page_not_supported' class="mb-4">
+    <div class="row">
+      <div class="col-12">
+        <div class="mt-3">
+          <p>
+            Navigate to a LinkedIn profile page to use this extension
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Candidate exists layout -->
+  <section id='single_exists' class="mb-4">
+    <div class="row">
+      <div class="col-12 text-center">
+        <button id="viewOnZoho" type="button" class="btn btn-sm btn-primary">View on Zoho</button>
+        <button id="recrawlSingle" type="button" class="btn btn-sm btn-secondary">Recrawl Profile</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Candidate does not exist layout -->
+  <section id='single' class="mb-4">
+    <div class="row">
+      <div class="col-12 text-center">
+        <button id="addToZoho" type="button" class="btn btn-sm btn-primary">Add to Zoho</button>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>

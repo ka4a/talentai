@@ -1,0 +1,25 @@
+@import 'styles/variables';
+
+.container {
+  max-width: 640px;
+  margin: 20px auto;
+  padding: 30px;
+
+  h3 {
+    margin-bottom: 30px;
+  }
+}
+
+.statusBar {
+  margin-bottom: 30px;
+}
+
+.text {
+  line-height: 24px;
+  width: 100%;
+  text-align: center;
+}
+
+.email {
+  color: $text-light;
+}

@@ -1,0 +1,10 @@
+@import 'styles/variables';
+
+.description {
+  padding: 30px;
+  border-bottom: 1px solid $neutral-dark;
+
+  > div {
+    line-height: 20px;
+  }
+}

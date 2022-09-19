@@ -1,0 +1,18 @@
+@import 'styles/variables';
+@import 'styles/form.module';
+
+.wrapper {
+  margin: 0;
+  transform: unset;
+  padding: 20px 30px 30px;
+
+  // FormSection
+  & > div {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+.subtitle {
+  margin-bottom: 20px;
+}

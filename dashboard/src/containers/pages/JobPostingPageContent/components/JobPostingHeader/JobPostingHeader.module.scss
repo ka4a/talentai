@@ -1,0 +1,61 @@
+@import 'styles/variables';
+
+.header {
+  background-color: $white;
+  padding: 20px 50px 23px;
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titleWrapper {
+  display: flex;
+  align-items: baseline;
+
+  h1 {
+    margin-right: 30px;
+  }
+
+  div {
+    color: $text-light;
+  }
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  margin-top: 13px;
+}
+
+.employment {
+  margin-right: 35px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+
+  svg {
+    margin-right: 7px;
+    fill: $text-light;
+  }
+}
+
+.rightWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.rightInfo {
+  display: flex;
+  margin-bottom: 15px;
+
+  & div:last-child {
+    margin-left: 20px;
+  }
+}

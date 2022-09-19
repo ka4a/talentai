@@ -1,0 +1,106 @@
+@import 'styles/variables';
+
+%regularButton {
+  background: transparent !important;
+  border: none !important;
+  color: $text-normal !important;
+  box-shadow: none !important;
+}
+
+.transparentTrigger {
+  button {
+    @extend %regularButton;
+
+    &:hover,
+    &:active,
+    &:focus {
+      @extend %regularButton;
+    }
+  }
+}
+
+.button {
+  button {
+    display: inline-block;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    background: transparent;
+    padding: 10px;
+    border: none;
+    border-radius: 0;
+    color: $text-normal;
+
+    &:hover {
+      background: $primary-light !important;
+      color: $text-normal;
+    }
+
+    &:focus,
+    &:active {
+      background: $primary !important;
+      box-shadow: none !important;
+      border: none !important;
+      color: $white !important;
+
+      .icon svg {
+        fill: $white !important;
+      }
+    }
+  }
+}
+
+.resetButtonStyles {
+  padding: 0;
+}
+
+.menu {
+  background: $white !important;
+  border: 1px solid $neutral-darker !important;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05) !important;
+  border-radius: 8px !important;
+  transform: none !important;
+  min-width: auto !important;
+  width: max-content;
+  overflow: hidden;
+  top: 100% !important;
+
+  &.overlapping {
+    top: -10px !important;
+  }
+}
+
+.option {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: $text-normal;
+  cursor: pointer;
+  line-height: 14px;
+
+  &:hover {
+    background: $primary-light !important;
+  }
+
+  &.active {
+    background: $primary !important;
+    color: $white;
+
+    .icon svg {
+      fill: $white !important;
+    }
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.icon {
+  margin-right: 10px;
+
+  svg {
+    fill: $text-light !important;
+  }
+}

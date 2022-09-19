@@ -1,0 +1,7 @@
+{% load i18n %}{% blocktrans %}
+  Dear {{ candidate }}, your interview with {{ organisation }} has been confirmed:
+{% endblocktrans %}
+<br/>
+<br/>{% trans 'When' %}: {{ timeframe }}
+<br/>{% trans 'Who' %}: {{ user }}, {{ candidate }}
+<br/>{{ info|safe }}

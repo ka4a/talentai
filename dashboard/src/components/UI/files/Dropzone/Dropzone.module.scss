@@ -1,0 +1,22 @@
+@import 'styles/variables';
+
+.root {
+  align-items: center;
+  background-color: $neutral-light;
+  border: 2px dashed $neutral-dark;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 23px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.hover {
+  background-color: darken($neutral-light, 3%);
+}
+
+.text {
+  color: $text-light;
+  margin-bottom: 20px;
+}

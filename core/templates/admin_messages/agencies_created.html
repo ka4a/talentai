@@ -1,0 +1,24 @@
+{% load reverse_admin %}
+
+{% if created_objects|length == 1 %}
+  1 agency was created:
+{% else %}
+  {{ created_objects|length }} agencies were created:
+{% endif %}
+
+<br/>
+
+{% for agency in created_objects %}
+  <a href='{{ agency|reverse_admin }}'>
+    {{ agency.name }}
+  </a>
+  <br/>
+{% endfor %}
+
+{% if errors %}
+  <br/>
+  Errors:<br/>
+  {% for error in errors %}
+    {{ error }}<br/>
+  {% endfor %}
+{% endif %}

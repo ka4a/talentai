@@ -1,0 +1,45 @@
+@import 'styles/variables';
+
+.root {
+  padding: 30px 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+}
+
+.avatar {
+  margin-right: 20px;
+}
+
+.title {
+  text-transform: capitalize;
+  color: #292d45;
+  padding-right: 30px;
+  margin-bottom: 7px;
+  display: inline-block;
+}
+
+.controls {
+  position: absolute;
+  right: 0;
+  display: flex;
+
+  & button:first-child {
+    margin-right: 15px;
+  }
+
+  &.overlapTab {
+    bottom: -45px;
+  }
+}
+
+.subtitle {
+  display: flex;
+  align-items: center;
+  color: $text-normal;
+}

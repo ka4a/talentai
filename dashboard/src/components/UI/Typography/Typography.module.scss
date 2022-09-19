@@ -1,0 +1,58 @@
+@mixin heading($fontSize, $lineHeight: 125%) {
+  font-weight: 600;
+  line-height: $lineHeight;
+  font-size: $fontSize;
+  letter-spacing: 0;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+@mixin regular($fontSize, $fontWeight: 600) {
+  font-weight: $fontWeight;
+  font-size: $fontSize;
+  line-height: 1;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+.jumbo {
+  @include heading(44px, 64px);
+}
+
+.h1 {
+  @include heading(38px);
+}
+
+.h2 {
+  @include heading(27px);
+}
+
+.h3 {
+  @include heading(23px);
+}
+
+.subheading {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.75px;
+  line-height: 125%;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.bodyStrong {
+  @include regular(16px);
+}
+
+.body {
+  @include regular(16px, 400);
+}
+
+.button {
+  @include regular(14px);
+}
+
+.caption {
+  @include regular(14px, 500);
+}

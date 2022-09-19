@@ -1,0 +1,10 @@
+@import 'styles/variables';
+
+.input {
+  height: 32px;
+
+  &[readonly] {
+    background: $secondary-disabled;
+    color: $text-light;
+  }
+}

@@ -1,0 +1,1 @@
+{% load i18n %}{% autoescape off %}{{ job }} - Interview {{ interview_order }} with {{ organisation }} confirmed{% endautoescape %}

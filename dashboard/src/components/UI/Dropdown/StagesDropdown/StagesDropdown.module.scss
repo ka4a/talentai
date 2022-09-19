@@ -1,0 +1,84 @@
+@import 'styles/variables';
+
+@mixin main($background, $color, $border) {
+  background: $background !important;
+  border: 1px solid $border !important;
+  color: $color !important;
+}
+
+.title,
+.title:hover {
+  @include main($white, $text-normal, $neutral-darker);
+
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  height: 35px;
+  padding: 5px 8px;
+  cursor: pointer;
+  text-transform: capitalize;
+  box-shadow: none !important;
+}
+
+.disabled,
+.disabled:hover {
+  @include main($secondary-disabled, $primary-disabled, $primary-disabled);
+
+  cursor: default !important;
+}
+
+.active {
+  &,
+  &.title:hover {
+    @include main($primary, $white, $primary);
+  }
+
+  &.hired {
+    @include main($success-dark, $white, $success-dark);
+  }
+
+  &.disabled,
+  &.disabled:hover {
+    @include main(lighten($primary, 25), $white, lighten($primary, 25));
+  }
+}
+
+.menu {
+  @include main($white, inherit, $neutral-darker);
+
+  border-radius: 8px !important;
+  top: 100% !important;
+  overflow: hidden;
+  width: max-content;
+  min-width: 189px !important;
+  transform: none !important;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05) !important;
+}
+
+.option {
+  line-height: 14px;
+  color: $text-normal;
+  display: block;
+  padding: 10px;
+  cursor: pointer;
+
+  svg {
+    margin-right: 10px;
+    fill: $text-light !important;
+  }
+
+  &:hover {
+    background: $primary-light !important;
+  }
+
+  &.active {
+    background: $primary !important;
+    color: $white;
+
+    .icon svg {
+      fill: $white !important;
+    }
+  }
+}

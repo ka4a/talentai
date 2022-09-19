@@ -1,0 +1,12 @@
+.row {
+  display: flex;
+  margin-bottom: 30px;
+
+  & > div {
+    flex: 1;
+
+    &:first-child {
+      margin-right: 20px;
+    }
+  }
+}

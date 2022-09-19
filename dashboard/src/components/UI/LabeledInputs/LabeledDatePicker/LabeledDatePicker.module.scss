@@ -1,0 +1,28 @@
+@import 'styles/variables';
+@import '../commonInputStyles.module';
+
+.wrapper {
+  & :global {
+    & .react-datepicker-popper {
+      z-index: 1000;
+    }
+  }
+}
+
+.inputWrapper {
+  position: relative;
+
+  svg {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+  }
+}
+
+.disabled path {
+  fill: $primary-disabled;
+}
+
+.datepicker {
+  width: 100%;
+}

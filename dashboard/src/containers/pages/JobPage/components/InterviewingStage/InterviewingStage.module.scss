@@ -1,0 +1,19 @@
+@import 'styles/variables';
+
+.wrapper {
+  padding-top: 13px;
+}
+
+.subStage:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.sectionTitle {
+  color: $text-normal;
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+
+.disabled {
+  color: $primary-disabled;
+}

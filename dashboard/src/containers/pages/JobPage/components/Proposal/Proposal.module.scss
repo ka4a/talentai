@@ -1,0 +1,55 @@
+@import 'styles/variables';
+
+.modalContent {
+  background-color: transparent;
+}
+
+.modalBody {
+  background-color: $white;
+  border-radius: 0.3rem;
+}
+
+.proposalWrapper {
+  padding-bottom: 30px;
+}
+
+.header {
+  align-items: flex-start;
+  display: flex;
+  padding: 30px;
+}
+
+.headerContent {
+  position: relative;
+}
+
+.title {
+  color: #292d45;
+  margin-bottom: 12px;
+  padding-right: 300px;
+  text-transform: capitalize;
+}
+
+.controls {
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  & button:first-child {
+    margin-right: 15px;
+  }
+}
+
+.name {
+  margin-right: 30px;
+}
+
+.submittedBy {
+  display: block;
+  margin-top: 13px;
+}
+
+.loading {
+  margin-top: 30px;
+}

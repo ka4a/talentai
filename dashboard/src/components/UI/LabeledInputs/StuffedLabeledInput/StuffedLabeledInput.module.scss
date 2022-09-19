@@ -1,0 +1,83 @@
+@import 'styles/variables';
+
+$label-pop-height: 10px;
+
+.root {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  border-radius: 8px;
+  border: 1px solid $neutral-darker;
+  font-size: 14px;
+  padding: 14px 16px;
+  margin-top: $label-pop-height;
+  pointer-events: auto;
+  position: relative;
+
+  &:not(.disabled):not(.errors) {
+    &:hover {
+      border-color: $primary-dark;
+    }
+
+    &.focused {
+      border-color: $primary;
+    }
+  }
+
+  &.errors {
+    border: 1px solid $danger;
+  }
+
+  &.disabled {
+    background-color: $white;
+    color: $text-lighter;
+    border: 1px solid $primary-disabled;
+
+    .label {
+      color: $primary-disabled;
+    }
+  }
+}
+
+.required {
+  font-size: 28px;
+  line-height: 20px;
+  color: $danger;
+  display: inline-block;
+  height: 15px;
+  margin-left: 2px;
+  vertical-align: middle;
+}
+
+.label {
+  position: absolute;
+  top: -$label-pop-height;
+  left: 10px;
+  z-index: 1;
+  padding: 0 4px;
+  white-space: nowrap;
+  letter-spacing: -0.3px;
+  text-transform: capitalize;
+  background-color: $white;
+  margin-bottom: 0;
+  color: $text-light;
+  line-height: normal;
+  user-select: none;
+}
+
+.input {
+  flex: 1;
+  padding: 0;
+  background-color: $white;
+  color: $text-normal;
+
+  &,
+  :focus,
+  :active,
+  :disabled,
+  :focus:active {
+    -webkit-appearance: none;
+    outline: none;
+    border: none;
+  }
+}

@@ -1,0 +1,19 @@
+@import 'styles/variables';
+
+.label {
+  color: $text-light;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+
+  &.noValue {
+    margin-bottom: 0;
+  }
+}
+
+.stars {
+  display: flex;
+
+  & > svg {
+    margin-right: 5px;
+  }
+}

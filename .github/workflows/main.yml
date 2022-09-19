@@ -1,0 +1,241 @@
+name: CI
+
+on:
+  push:
+  workflow_dispatch:
+    inputs:
+      pre_migration:
+        description: 'Pre-migration target (e.g., `core 0271`)'
+        required: false
+        default: ''
+      push_transifex_dev:
+        description: 'Push translation files to Transifex `dev` branch [1|0]'
+        required: true
+        default: '0'
+      restore_db_from_staging:
+        description: 'Reset dev db to be the same as staging db before deployment [1|0]'
+        required: true
+        default: '0'
+
+env:
+  PIPENV_VENV_IN_PROJECT: true
+  DJANGO_SETTINGS_MODULE: talentai.settings_ci
+jobs:
+  test_python:
+    env:
+      POSTGRES_HOST: postgres
+      ENVIRONMENT: test
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:10.15
+        env:
+          POSTGRES_USER: root
+          POSTGRES_DB: ci_test
+          POSTGRES_PASSWORD: postgres
+        # needed because the postgres container does not provide a healthcheck
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          # Maps tcp port 5432 on service container to the host
+          - 5432:5432
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.9'
+    - name: Cache Python libraries
+      uses: actions/cache@v1
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.OS }}-pip-${{ hashFiles('Pipfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+
+    - uses: dschep/install-pipenv-action@v1
+      with:
+        version: 2021.5.29
+    - run: pipenv install
+    - run: pipenv run python manage.py migrate
+    - run: pipenv run python manage.py test
+    - run: pipenv run python manage.py makemigrations --check --dry-run --no-input
+
+  test_react:
+    env:
+      ENVIRONMENT: test
+    defaults:
+      run:
+        working-directory: dashboard
+    runs-on: ubuntu-latest
+    steps:
+    - name: Use Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: v15.4.0
+    - uses: actions/checkout@v1
+    - uses: actions/cache@v2
+      with:
+        path: '**/node_modules'
+        key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+    - run: yarn install --frozen-lockfile
+    - name: Lint
+      run: yarn run lint-ci && yarn run prettier-ci
+    - name: Extract translation keys
+      run: yarn run extract-ci && yarn compile
+    - name: Test
+      run: yarn run test
+
+  deploy:
+    timeout-minutes: 30
+    needs: [test_python, test_react]
+    if: github.ref == 'refs/heads/develop' || github.ref == 'refs/heads/master' || github.event_name == 'workflow_dispatch'
+    env:
+      PIPENV_VENV_IN_PROJECT: true
+      DJANGO_SETTINGS_MODULE: talentai.settings_ci
+      # Needed to run `manage.py` commands
+      DEV_SECRET_KEY: ${{ secrets.SECRET_KEY }}
+      STG_SECRET_KEY: ${{ secrets.SECRET_KEY }}
+      PROD_SECRET_KEY: ${{ secrets.SECRET_KEY }}
+      # Needed to build dashboard
+      REACT_APP_SENTRY_PUBLIC_DSN: ${{ secrets.REACT_APP_SENTRY_PUBLIC_DSN }}
+      REACT_APP_ZENDESK_WIDGET_KEY: ${{ secrets.REACT_APP_ZENDESK_WIDGET_KEY }}
+      REACT_APP_GA_MEASUREMENT_ID: ${{ secrets.REACT_APP_GA_MEASUREMENT_ID }}
+      REACT_APP_HCAPTCHA_SITE_KEY: ${{ secrets.REACT_APP_HCAPTCHA_SITE_KEY }}
+      # Needed for dump
+      DUMP_SOURCE_DB_URI: ${{ secrets.DUMP_SOURCE_DB_URI }}
+      DUMP_TARGET_DB_URI: ${{ secrets.DUMP_TARGET_DB_URI }}
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.9'
+    - name: Setup Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: v15.4.0
+    - name: Install gettext
+      run: sudo apt-get install gettext
+    - name: Install SSH key
+      uses: shimataro/ssh-key-action@v2
+      with:
+        key: ${{ secrets.SSH_KEY }}
+        name: id_rsa # optional
+        known_hosts: ${{ secrets.KNOWN_HOSTS }}
+
+    - name: Create dev env file from secret
+      if: github.event_name == 'workflow_dispatch'
+      run: |
+        echo "$DOT_ENV_FILE" > default.env
+        echo "DEPLOYMENT_HOST=dev.zookeep.com" >> $GITHUB_ENV
+      env:
+        DOT_ENV_FILE: ${{ secrets.DEV_ENV_FILE }}
+    - name: Create staging env file from secret
+      if: github.ref == 'refs/heads/develop' && github.event_name == 'push'
+      run: |
+        echo "$DOT_ENV_FILE" > default.env
+        echo "DEPLOYMENT_HOST=staging.zookeep.com" >> $GITHUB_ENV
+      env:
+        DOT_ENV_FILE: ${{ secrets.STG_ENV_FILE }}
+    - name: Create production env file from secret
+      if: github.ref == 'refs/heads/master' && github.event_name == 'push'
+      run: |
+        echo "$DOT_ENV_FILE" > default.env
+        echo "DEPLOYMENT_HOST=app.zookeep.com" >> $GITHUB_ENV
+      env:
+        DOT_ENV_FILE: ${{ secrets.PROD_ENV_FILE }}
+
+    - name: Publish env file to host
+      run: rsync -e "ssh -o StrictHostKeyChecking=no" -avz default.env ubuntu@${{ env.DEPLOYMENT_HOST }}:~/configs              
+    - name: Cache Python libraries
+      uses: actions/cache@v1
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.OS }}-pip-${{ hashFiles('Pipfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    - uses: dschep/install-pipenv-action@v1
+      with:
+        version: 2021.5.29
+    - run: pipenv install
+    - name: Deploy Staging frontend and Backend
+      if: github.ref == 'refs/heads/develop' && github.event_name == 'push'
+      run: pipenv run fab deploy-staging
+    - name: Deploy Production frontend and Backend
+      if: github.ref == 'refs/heads/master' && github.event_name == 'push'
+      run: pipenv run fab deploy-production
+    - name: Dump DB
+      if: github.event_name == 'workflow_dispatch' && github.event.inputs.restore_db_from_staging == '1'
+      run: pipenv run fab dev-backup-then-restore-db
+    - name: Deploy Dev frontend and Backend
+      if: github.event_name == 'workflow_dispatch'
+      run: pipenv run fab deploy-dev -p "${{ github.event.inputs.pre_migration }}"
+
+
+  sentry_release:
+    env:
+      SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
+      SENTRY_ORG: ${{ secrets.SENTRY_ORG }}
+      SENTRY_PROJECT: zookeep
+    needs: [deploy]
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Create a production Sentry release
+      if: github.ref == 'refs/heads/master' && github.event_name == 'push'
+      uses: getsentry/action-release@v1.1.6
+      with:
+        ignore_missing: true
+        ignore_empty: true
+        environment: production
+        sourcemaps: '/static/js'
+    - name: Create a staging Sentry release
+      if: github.ref == 'refs/heads/develop' && github.event_name == 'push'
+      uses: getsentry/action-release@v1.1.6
+      with:
+        ignore_missing: true
+        ignore_empty: true
+        environment: staging
+        sourcemaps: '/static/js'
+    - name: Create a dev Sentry release
+      if: github.event_name == 'workflow_dispatch'
+      uses: getsentry/action-release@v1.0.0
+      with:
+        ignore_missing: true
+        ignore_empty: true
+        environment: dev
+        sourcemaps: '/static/js'    
+
+
+  transifex-push:
+    env:
+      TX_TOKEN: ${{ secrets.TX_TOKEN }}
+    needs: [deploy]
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Cache Python libraries
+      uses: actions/cache@v1
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.OS }}-pip-${{ hashFiles('Pipfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    - name: Install dependencies
+      run: python -m pip install --upgrade pip
+    - name: Install transifex client
+      run: pip install transifex-client
+    - name: Push Staging translation files to Transifex
+      if: github.ref == 'refs/heads/develop' && github.event_name == 'push'
+      run: tx push -s -b staging
+    - name: Push Production translation files to Transifex
+      if: github.ref == 'refs/heads/master' && github.event_name == 'push'
+      run: tx push -s -t
+    - name: Push Dev translation files to Transifex
+      if: github.event_name == 'workflow_dispatch' && github.event.inputs.push_transifex_dev == '1'
+      run: tx push -s -b dev

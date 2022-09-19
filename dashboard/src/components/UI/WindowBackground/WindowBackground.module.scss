@@ -1,0 +1,8 @@
+@import 'styles/variables';
+
+.wrapper {
+  background-color: $white;
+  border: 1px solid $neutral-dark;
+  border-radius: 14px;
+  box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,5072 @@
+#
+# Translators:
+# Rali <rali@hccr.com>, 2021
+# Taichiro Ishida <ishida@hccr.com>, 2021
+# Izumi Kikuchi <izumi@hccr.com>, 2021
+# Alain Scialoja <alain@reustle.co>, 2021
+# Ribong Kang <ribong@hccr.com>, 2021
+# Robin Anupol <anupol@reustle.co>, 2021
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-09 05:30+0300\n"
+"PO-Revision-Date: 2021-09-30 04:30+0000\n"
+"Last-Translator: Robin Anupol <anupol@reustle.co>, 2021\n"
+"Language-Team: Japanese (https://www.transifex.com/hccr-kk/teams/120454/ja/)\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Mime-Version: 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: @lingui/cli\n"
+
+#: src/constants/choices.js:42
+msgid "$ US Dollar"
+msgstr "$米ドル"
+
+#: src/containers/pages/AnalyticsPage/ChartBlock.js:97
+msgid "% Change from Previous Month"
+msgstr "前月からの変化（％）"
+
+#: src/containers/pages/JobPage/components/JobPageContent/components/JobOpenSince/JobOpenSince.js:30
+msgid "(Open Today)"
+msgstr "(今日からオープン）"
+
+#: src/containers/pages/JobPage/components/JobPageContent/components/JobOpenSince/JobOpenSince.js:21
+msgid "(since {0})"
+msgstr "({0}から)"
+
+#: src/containers/pages/JobPage/components/JobPageContent/components/JobOpenSince/JobOpenSince.js:63
+msgid "({timeOpen} open)"
+msgstr "({timeOpen}から開始)"
+
+#: src/containers/pages/CandidateEditPage/components/sections/SkillsAndExperience.js:37
+#: src/containers/pages/JobPostingPageContent/components/JobPostingApplicationForm/components/SkillsSection.js:26
+msgid "+ Add Certification"
+msgstr " +資格追加"
+
+#: src/containers/pages/CandidateEditPage/components/sections/EducationDetails.js:89
+msgid "+ Add Education"
+msgstr " +学歴追加"
+
+#: src/containers/pages/CandidateEditPage/components/sections/ExperienceDetails.js:123
+msgid "+ Add Experience"
+msgstr " +経験追加"
+
+#: src/containers/pages/JobEditPage/components/sections/HiringProcess.js:123
+msgid "+ Add Hiring Criteria"
+msgstr " +採用条件追加"
+
+#: src/containers/pages/JobEditPage/components/Interviews/Interviews.js:75
+msgid "+ Add Interview"
+msgstr " +面接追加"
+
+#: src/components/UI/LanguageInput/LanguageInput.js:81
+msgid "+ Add Language"
+msgstr " +言語追加"
+
+#: src/containers/pages/JobEditPage/components/sections/HiringProcess.js:99
+msgid "+ Add Recruiter"
+msgstr " +リクルーター追加"
+
+#: src/containers/pages/JobEditPage/components/sections/HiringProcess.js:141
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:226
+msgid "+ Add Screening Question"
+msgstr " +質問追加"
+
+#: src/components/modals/InterviewSchedulingModal/components/TimeslotList.js:59
+msgid "+ Add Time Slot"
+msgstr "+日程追加"
+
+#: src/constants/choices.js:291
+msgid "1 Month"
+msgstr "一ヶ月"
+
+#: src/constants/choices.js:292
+msgid "2 Months"
+msgstr "二ヶ月"
+
+#: src/constants/choices.js:290
+msgid "2 Weeks"
+msgstr "二週間"
+
+#: src/constants/choices.js:293
+msgid "3+ Months"
+msgstr "三か月以上"
+
+#: src/containers/pages/NotFoundPage/NotFoundPage.js:19
+msgid "404 Not Found"
+msgstr "404ページがみつかりません"
+
+#: src/components/ErrorWindow.js:11
+msgid "<0><1>Something went wrong.</1></0><2>The development team has been notified and will look into the issue.</2>"
+msgstr "<0><1>何か不具合がありました。</1></0><2>これについて開発者に連絡しました。</2>"
+
+#: src/containers/pages/JobPage/components/TabShareExternally/components/PrivateJobPosting/openConfirmDisableDialog.js:12
+msgid "<0>Are you sure you want to disable your Private Posting?</0><1>If you have shared that Private Posting with anyone outside your organization, that link will no longer be accessible</1><2>If you re-enable your Private Posting, it will have a different URL</2>"
+msgstr "<0>非公開掲載を無効にしてもよろしいですか?</0><1>非公開掲載を組織外の方と共有されている場合、リンクにはアクセスできなくなります</1><2>非公開掲載を再び有効にすると、URLが変更されます</2>"
+
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingForm/openResetJobPostingDialog.js:12
+msgid "<0>Are you sure you want to reset your job posting content?</0><1>This will reset any fields you may have edited on your job posting to the job details value</1>"
+msgstr "<0>求人情報内容をリセットしてもよろしいですか?</0><1>これにより、求人情報で編集したすべてのフィールドが求人詳細情報にリセットされます</1>"
+
+#: src/containers/pages/JobPage/components/TabShareExternally/components/CareerSiteJobPosting/openConfirmDisableDialog.js:12
+msgid "<0>Are you sure you want to unpublish your job from your company Career Site</0><1>Your job will no longer be listed on your Career Site</1>"
+msgstr "<0>会社のキャリアサイトからあなたの求人情報を非公開にしますか？</0><1>あなたの求人情報はキャリアサイトに表示されなくなります</1>"
+
+#: src/containers/pages/client/AgencyPage/AgencyPage.js:107
+msgid "<0>Proposals by {0}:</0>"
+msgstr "<0>{0}からの提案 </0>"
+
+#: src/containers/pages/CareerSitePage/components/NoJobPostingsPlaceholder/NoJobPostingsPlaceholder.js:20
+msgid "<0>Thank you for your interest!</0><1/><2>Please check back soon.</2>"
+msgstr "<0>ご覧いただきありがとうございました!</0><1/><2>是非またご覧ください.</2>"
+
+#: src/containers/pages/CareerSitePage/components/JobPostingsNotFoundPlaceholder/JobPostingsNotFoundPlaceholder.js:14
+msgid "<0>You can try to adjust your search or filters</0>"
+msgstr "<0>検索条件やフィルターを調整してみてください</0>"
+
+#: src/containers/pages/JobPage/modals/MoveProposalModalForm.js:35
+msgid "<0> </0>(Recruiter has no access)"
+msgstr "<0> </0>（リクルーターはアクセスできません）"
+
+#: src/containers/pages/JobPage/modals/MoveProposalModalForm.js:28
+msgid "<0> </0>(already proposed)"
+msgstr "<0> </0>（提案済み）"
+
+#: src/containers/pages/CandidateConfirmation/components/CandidateConfirmed.js:36
+msgid "A calendar invitation has been sent to your email address."
+msgstr "カレンダー招待をメール送信済"
+
+#: src/containers/pages/InvitationsPage/Invitation.js:87
+msgid "Accept"
+msgstr "受理"
+
+#: src/containers/pages/ActivateAccountPage.js:64
+msgid "Account Activation"
+msgstr "アカウント開設"
+
+#: src/containers/pages/agency/AgencyClientEditPage/AgencyClientEditForm.js:58
+msgid "Account Manager"
+msgstr "アカウント管理"
+
+#: src/components/fee/FeeForm/SecondStep/FeeSplitAllocationFormContent.js:122
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:86
+msgid "Activator"
+msgstr "アクティベーター"
+
+#: src/components/fee/FeeForm/SecondStep/FeeSplitAllocationFormContent.js:129
+msgid "Activator Split"
+msgstr "アクティベーターの割当"
+
+#: src/containers/pages/PersonalSettings/components/Details.js:99
+#: src/containers/pages/users/UserEditPage/components/UserForm/UserForm.js:102
+#: src/containers/pages/users/UserViewPage/UserViewPage.js:87
+#: src/containers/pages/users/UserViewPage/components/UserDetails/UserDetails.js:75
+msgid "Active"
+msgstr "アクティブ"
+
+#: src/containers/pages/agency/ClientsPage/ClientsPage.js:41
+#: src/containers/pages/client/ClientDashboard/ActiveJobsTable.js:94
+msgid "Active Jobs"
+msgstr "募集中の求人"
+
+#: src/constants/choices.js:279
+msgid "Actively Looking"
+msgstr "積極活動中"
+
+#: src/containers/pages/JobPage/components/ProposalComments.js:93
+#: src/containers/pages/JobPage/components/ProposalComments.js:104
+msgid "Activity"
+msgstr "アクティビティ"
+
+#: src/components/modals/InterviewAssessmentModal/InterviewAssessmentModal.js:37
+#: src/containers/pages/JobPage/components/ProposalInterview/components/InterviewButtons.js:66
+msgid "Add Assessment"
+msgstr "評価追加"
+
+#: src/containers/pages/CandidatesPage/CandidatesPage.js:152
+msgid "Add Candidate"
+msgstr "候補者追加"
+
+#: src/components/modals/AddCandidateToJobModal/AddCandidateToJobModal.js:30
+#: src/components/modals/QuickAddCandidateModal/QuickAddCandidateModal.js:34
+#: src/containers/pages/CandidatesPage/components/Candidate/Candidate.js:54
+#: src/containers/pages/JobPage/components/JobPageContent/JobPageContent.js:150
+msgid "Add Candidate to Job"
+msgstr "求人に候補者を追加"
+
+#: src/components/modals/InterviewEditModal/InterviewEditModal.js:38
+#: src/containers/pages/JobPage/components/ProposalApplicationSections/ApplicationInterviews.js:45
+msgid "Add Interview"
+msgstr "面接追加"
+
+#: src/containers/pages/JobsPage/JobsPage.js:139
+msgid "Add Job"
+msgstr "求人作成"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateComments/CandidateComments.js:82
+#: src/containers/pages/JobPage/components/ProposalComments.js:71
+msgid "Add comment"
+msgstr "コメント追加"
+
+#: src/components/modals/AddCandidateToJobModal/components/CandidatesList.js:117
+#: src/components/modals/AddCandidateToJobModal/components/JobsList.js:81
+msgid "Add to Job"
+msgstr "求人に追加"
+
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:287
+msgid "Additional Info"
+msgstr "追加情報"
+
+#: src/containers/pages/JobEditPage/components/sections/JobConditions.js:126
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:193
+msgid "Additional Leave"
+msgstr "その他の休暇"
+
+#: src/containers/pages/JobPage/components/JobDetailsSections/JobConditions.js:97
+msgid "Additional Leaves"
+msgstr "その他の休暇"
+
+#: src/components/candidates/CandidateDetailsTab/sections/ContactSection.js:48
+#: src/containers/pages/CandidateEditPage/components/sections/Contact.js:43
+msgid "Address"
+msgstr "住所"
+
+#: src/constants/roles.js:23
+#: src/constants/roles.js:30
+msgid "Administrator"
+msgstr "管理者"
+
+#: src/constants/choices.js:127
+msgid "Advanced"
+msgstr "上級"
+
+#: src/constants/choices.js:306
+msgid "Afghan"
+msgstr "アフガニスタン語"
+
+#: src/components/candidates/CandidateDetailsTab/sections/PersonalInfoSection.js:28
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:100
+msgid "Age"
+msgstr "年齢"
+
+#: src/containers/pages/JobPage/components/JobDetailsSections/HiringProcess.js:50
+#: src/containers/pages/client/AgenciesPage/AgenciesPage.js:49
+msgid "Agencies"
+msgstr "エージェント"
+
+#: src/components/SignUp/SignUpCheckEmailForm.js:46
+#: src/constants/choices.js:301
+#: src/containers/pages/client/AgenciesPage/AgenciesPage.js:32
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyContractDetails.js:23
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyDirectoryPage.js:80
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyDirectoryPage.js:100
+msgid "Agency"
+msgstr "エージェント"
+
+#: src/containers/pages/client/AgenciesPage/AgenciesPage.js:61
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyDirectoryPage.js:231
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyDirectoryPage.js:241
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyDirectoryPage.js:249
+msgid "Agency Directory"
+msgstr "エージェントリスト"
+
+#: src/components/SignUp/SignUpAgencyForm.js:20
+msgid "Agency Name"
+msgstr "エージェント企業名"
+
+#: src/containers/pages/InvitationsPage/Invitation.js:112
+msgid "Agency can see your jobs."
+msgstr "エージェントは求人閲覧可能になりました"
+
+#: src/components/CookieUsagePopup.js:31
+msgid "Agree"
+msgstr "同意する"
+
+#: src/containers/pages/AuthPage/AuthPage.js:54
+msgid "Agreement"
+msgstr "契約"
+
+#: src/constants/choices.js:307
+msgid "Albanian"
+msgstr "アルバニア語"
+
+#: src/containers/pages/CandidateEditPage/components/CandidateForm/logicHooks.js:48
+msgid "Alert"
+msgstr "通知"
+
+#: src/constants/choices.js:308
+msgid "Algerian"
+msgstr "アルジェリア語"
+
+#: src/containers/pages/AnalyticsPage/AnalyticsPage.js:176
+#: src/containers/pages/AnalyticsPage/CandidateSourceStat.js:66
+msgid "All"
+msgstr "すべて"
+
+#: src/containers/pages/agency/AgencyDashboard/JobsTable.js:103
+#: src/containers/pages/agency/AgencyDashboard/JobsTable.js:127
+msgid "All Jobs"
+msgstr "すべての求人"
+
+#: src/containers/pages/AuthPage/components/SideInfo.js:26
+msgid "All Rights Reserved."
+msgstr "All Rights Reserved."
+
+#: src/containers/pages/client/AgencyPage/AgencyPage.js:117
+msgid "All Statuses"
+msgstr "すべてのステータス"
+
+#: src/containers/pages/agency/AgencyDashboard/CandidatesTable.js:153
+msgid "All Users"
+msgstr "すべてのユーザー"
+
+#: src/containers/pages/CompanySettings/utils/openDisableCareerSite.js:23
+msgid "All the jobs you have published on your company Career Site will be unpublished."
+msgstr "キャリアサイト上での求人はすべて非公開になります"
+
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyDirectoryTableHeader.js:10
+msgid "Alphabetical"
+msgstr "アルファベット順（昇順）"
+
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyDirectoryTableHeader.js:11
+msgid "Alphabetical (desc)"
+msgstr "アルファベット順（降順）"
+
+#: src/constants/choices.js:309
+msgid "American"
+msgstr "アメリカ人"
+
+#: src/containers/App.js:240
+msgid "An error occurred, please reload the page."
+msgstr "エラーが発生しました。当ページを更新してください。"
+
+#: src/utils/errorHandling.js:10
+msgid "An error occurred, please try again later"
+msgstr "エラーが発生しました、後でもう一度試してみてください"
+
+#: src/components/SwaggerTable/SwaggerTable.js:99
+#: src/components/SwaggerTable/hooks/useFetchTableData.js:25
+#: src/components/Table/Table.js:66
+#: src/containers/pages/AnalyticsPage/ErrorPlaceholder.js:9
+msgid "An error occurred."
+msgstr "エラーが発生しました。"
+
+#: src/components/modals/InterviewSchedulingModal/components/Inputs.js:125
+msgid "An interview invitation will be sent to:"
+msgstr "面接の招待状を送信の受信者："
+
+#: src/containers/pages/AnalyticsPage/AnalyticsPage.js:148
+#: src/containers/pages/AnalyticsPage/AnalyticsPage.js:161
+msgid "Analytics"
+msgstr "分析"
+
+#: src/constants/choices.js:310
+msgid "Andorran"
+msgstr "アンドラーン語"
+
+#: src/constants/choices.js:311
+msgid "Angolan"
+msgstr "アンゴラ語"
+
+#: src/containers/pages/JobPage/components/JobDetailsSections/JobConditions.js:45
+#: src/containers/pages/JobsPage/JobsPage.js:83
+msgid "Annual Salary"
+msgstr "年収"
+
+#: src/containers/pages/JobPage/components/ProposalQuestion/ProposalQuestion.js:92
+#: src/containers/pages/JobPage/components/ProposalQuestion/ProposalQuestion.js:96
+#: src/containers/pages/JobPostingPageContent/components/JobPostingApplicationForm/components/QuestionsSection.js:22
+msgid "Answer"
+msgstr "回答"
+
+#: src/constants/choices.js:312
+msgid "Antiguans"
+msgstr "アンチグア語"
+
+#: src/containers/pages/JobPage/components/ProposalTabs/ProposalTabs.js:67
+#: src/containers/pages/JobPostingPageContent/JobPostingPageContent.js:71
+#: src/containers/pages/JobPostingPageContent/components/JobPostingApplicationForm/hooks.js:137
+msgid "Application"
+msgstr "求人の応募者"
+
+#: src/containers/pages/JobPostingPageContent/components/JobPostingApplicationSubmitted/ApplicationSubmitted.js:13
+msgid "Application Submitted"
+msgstr "応募を完了しました"
+
+#: src/containers/pages/JobPage/components/JobPageContent/JobPageContent.js:79
+msgid "Applications"
+msgstr "アプリケーション"
+
+#: src/components/modals/AddCandidateToJobModal/components/CandidatesList.js:120
+#: src/components/modals/AddCandidateToJobModal/components/JobsList.js:77
+msgid "Applied"
+msgstr "応募済"
+
+#: src/containers/pages/JobPage/components/ProposalApplicationSections/ApplicationJob.js:31
+msgid "Applied Job Title"
+msgstr "応募済ポジション"
+
+#: src/containers/pages/JobPostingPageContent/components/JobPostingHeader/JobPostingHeader.js:83
+msgid "Apply"
+msgstr "応募"
+
+#: src/containers/pages/ApprovalsPage/ApprovalsPage.js:38
+msgid "Approvals"
+msgstr "承認"
+
+#: src/components/fee/FeeForm/ApprovalButtons.js:47
+msgid "Approve"
+msgstr "承認"
+
+#: src/components/fee/FeeApprovalsTable/FeeApprovalsTable.js:30
+msgid "Approved"
+msgstr "承認済"
+
+#: src/constants/choices.js:99
+msgid "Arabic"
+msgstr "アラビア語"
+
+#: src/utils/candidates/confirmArchivingCandidate.js:11
+msgid "Archive"
+msgstr "アーカイブに移す"
+
+#: src/components/candidates/CandidateIconPanel.js:69
+msgid "Archived"
+msgstr "アーカイブ済"
+
+#: src/containers/pages/CandidateEditPage/components/CandidateForm/logicHooks.js:109
+#: src/containers/pages/CandidateEditPage/components/CandidateForm/logicHooks.js:109
+msgid "Are you sure this is not a duplicate"
+msgstr "重複していませんか？"
+
+#: src/components/modals/CancelInterviewProposalModal/components/CancelInterviewProposalModalContent/CancelInterviewProposalModalContent.js:42
+msgid "Are you sure you want to cancel this Interview Proposal?"
+msgstr ""
+
+#: src/containers/pages/JobPage/components/ProposalInterview/components/CancelInterviewModal.js:19
+msgid "Are you sure you want to cancel this Interview?"
+msgstr "面接は本当にキャンセルしますか？"
+
+#: src/containers/pages/JobPage/components/ProposalInterview/dialogs/openDeleteInterview.js:11
+msgid "Are you sure you want to delete this Interview?"
+msgstr "面接は本当に削除しますか？"
+
+#: src/components/UI/files/dialogs/openDeleteFile.js:11
+msgid "Are you sure you want to delete this file?"
+msgstr "このファイルを削除してもよろしいですか？"
+
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyItem.js:98
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyItem.js:98
+msgid "Are you sure you want to end your contract with {0}"
+msgstr "{0}との契約を終了してよろしいですか？"
+
+#: src/containers/pages/JobPage/components/ProposalInterview/dialogs/openSkipInterview.js:13
+msgid "Are you sure you want to skip this interview?<0/>This action cannot be undone."
+msgstr ""
+
+#: src/constants/choices.js:313
+msgid "Argentinean"
+msgstr "アルゼンチン語"
+
+#: src/constants/choices.js:314
+msgid "Armenian"
+msgstr "アルメニア語"
+
+#: src/containers/pages/JobPage/components/ProposalInterview/components/Assessments.js:19
+msgid "Assessment"
+msgstr "評価"
+
+#: src/components/modals/InterviewAssessmentModal/components/Inputs.js:30
+#: src/containers/pages/JobPage/components/ProposalInterview/components/Assessments.js:35
+msgid "Assessment Notes"
+msgstr "評価メモ"
+
+#: src/constants/choices.js:190
+msgid "Assignment"
+msgstr "課題・実技・適性検査"
+
+#: src/constants/choices.js:168
+#: src/containers/pages/JobPage/components/ApplicationStages/ApplicationStages.js:24
+msgid "Associated"
+msgstr "アソシエイト済"
+
+#: src/components/candidates/CandidateDetailsTab/sections/AttachmentsSection.js:14
+#: src/containers/pages/CandidateEditPage/components/CandidateForm/constants.js:119
+#: src/containers/pages/CandidateEditPage/components/sections/Attachments.js:22
+#: src/containers/pages/JobEditPage/components/JobForm/constants.js:16
+#: src/containers/pages/JobEditPage/components/sections/Attachments.js:11
+#: src/containers/pages/JobPage/components/JobDetails/constants.js:8
+#: src/containers/pages/JobPage/components/JobDetailsSections/Attachments.js:14
+msgid "Attachments"
+msgstr "添付ファイル"
+
+#: src/constants/choices.js:315
+msgid "Australian"
+msgstr "オーストラリア人"
+
+#: src/constants/choices.js:316
+msgid "Austrian"
+msgstr "オーストリア人"
+
+#: src/containers/pages/AnalyticsPage/JobAverageOpenKPI.js:22
+msgid "Avg. Days Open Per Job"
+msgstr "求人別の平均募集日数"
+
+#: src/constants/choices.js:317
+msgid "Azerbaijani"
+msgstr "アゼルバイジャン人"
+
+#: src/constants/choices.js:200
+msgid "Bachelor's Degree"
+msgstr "大卒"
+
+#: src/containers/pages/agency/AgencyClientEditPage/AgencyClientEditForm.js:178
+msgid "Back to Client list"
+msgstr "クライアントリストへ戻る"
+
+#: src/containers/pages/CareerSitePage/pages/CareerSiteJobPostingPage/CareerSiteJobPostingPage.js:30
+msgid "Back to Job List"
+msgstr "求人リストへ戻る"
+
+#: src/constants/choices.js:318
+msgid "Bahamian"
+msgstr "バハミアン"
+
+#: src/constants/choices.js:319
+msgid "Bahraini"
+msgstr "バーレーン人"
+
+#: src/constants/choices.js:320
+msgid "Bangladeshi"
+msgstr "バングラデシュ人"
+
+#: src/constants/choices.js:321
+msgid "Barbadian"
+msgstr "バルバドス人"
+
+#: src/constants/choices.js:322
+msgid "Barbudans"
+msgstr "バーブーダ人"
+
+#: src/constants/choices.js:323
+msgid "Batswana"
+msgstr "バツワナ人"
+
+#: src/containers/pages/AuthPage/components/InstructionsSent.js:31
+msgid "Be sure to check your spam folder, too."
+msgstr "迷惑メールフォルダも確認してください。"
+
+#: src/constants/choices.js:324
+msgid "Belarusian"
+msgstr "ベラルーシ語"
+
+#: src/constants/choices.js:325
+msgid "Belgian"
+msgstr "ベルギー語"
+
+#: src/constants/choices.js:326
+msgid "Belizean"
+msgstr "ベリーズ人"
+
+#: src/constants/choices.js:100
+msgid "Bengali"
+msgstr "ベンガル語"
+
+#: src/constants/choices.js:327
+msgid "Beninese"
+msgstr "ベニシア語"
+
+#: src/constants/choices.js:328
+msgid "Bhutanese"
+msgstr "ブータン語"
+
+#: src/components/fee/BillDescriptionInputSet.js:48
+#: src/components/fee/FeeApprovalsTable/FeeApprovalsTable.js:64
+msgid "Bill Description"
+msgstr "請求概要"
+
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:194
+#: src/containers/pages/agency/AgencyClientEditPage/AgencyClientEditForm.js:116
+msgid "Billing Address"
+msgstr "請求先住所"
+
+#: src/constants/choices.js:520
+msgid "Biz Reach"
+msgstr "Biz Reach"
+
+#: src/constants/choices.js:329
+msgid "Bolivian"
+msgstr "ボリビアン語"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:83
+msgid "Bonus Structure"
+msgstr "ボーナスシステム"
+
+#: src/containers/pages/JobEditPage/components/sections/JobConditions.js:72
+#: src/containers/pages/JobPage/components/JobDetailsSections/JobConditions.js:65
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:151
+msgid "Bonus System"
+msgstr "ボーナスシステム"
+
+#: src/constants/choices.js:330
+msgid "Bosnian"
+msgstr "ボスニア語"
+
+#: src/containers/pages/CompanySettings/components/CareerPanel.js:29
+msgid "Branded public-facing page listing all the jobs you have published externally."
+msgstr "外部公開したすべての求人情報を掲載したページ."
+
+#: src/constants/choices.js:331
+msgid "Brazilian"
+msgstr "ポルトガル語"
+
+#: src/containers/pages/JobEditPage/components/sections/JobConditions.js:92
+#: src/containers/pages/JobPage/components/JobDetailsSections/JobConditions.js:79
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:170
+msgid "Break Time (min)"
+msgstr "休憩時間(分)"
+
+#: src/constants/choices.js:332
+msgid "British"
+msgstr "イギリス人"
+
+#: src/components/UI/files/Dropzone/Dropzone.js:72
+msgid "Browse"
+msgstr "検索"
+
+#: src/constants/choices.js:333
+msgid "Bruneian"
+msgstr "ブルネイ語"
+
+#: src/constants/choices.js:334
+msgid "Bulgarian"
+msgstr "ブルガリア語"
+
+#: src/constants/choices.js:335
+msgid "Burkinabe"
+msgstr "ブルキナベ語"
+
+#: src/constants/choices.js:336
+msgid "Burmese"
+msgstr "ビルマ語"
+
+#: src/constants/choices.js:337
+msgid "Burundian"
+msgstr "ブルンジ語"
+
+#: src/constants/choices.js:133
+msgid "Business Owner"
+msgstr "事業主"
+
+#: src/containers/pages/CompanySettings/utils/openDisableCareerSite.js:15
+msgid "By disabling your Career Site, the Career Site URL will no longer be accessible."
+msgstr "キャリアサイトを無効にすると、すべてのキャリアサイトのURLは無効になります"
+
+#: src/containers/pages/CompanySettings/utils/openEnableCareerSite.js:11
+msgid "By enabling your company Career Site, you will be able to publish Jobs visible to anyone."
+msgstr "キャリアサイトを有効にすると、求人を公開できます"
+
+#: src/constants/choices.js:68
+msgid "C$ Canadian Dollar"
+msgstr "$カナダドル"
+
+#: src/constants/choices.js:24
+msgid "CV approved"
+msgstr "CV合格"
+
+#: src/constants/choices.js:25
+msgid "CV rejected"
+msgstr "CV見送り"
+
+#: src/constants/choices.js:338
+msgid "Cambodian"
+msgstr "カンボジア語"
+
+#: src/constants/choices.js:339
+msgid "Cameroonian"
+msgstr "カメルーン語"
+
+#: src/constants/choices.js:340
+msgid "Canadian"
+msgstr "カナダ人"
+
+#: src/components/UI/ButtonBar/ButtonBar.js:67
+#: src/components/UI/Dropdown/StagesDropdown/dialogs/openMoveToInterviewing.js:15
+#: src/components/UI/files/dialogs/openDeleteFile.js:19
+#: src/components/modals/CancelInterviewProposalModal/components/CancelInterviewProposalModalContent/CancelInterviewProposalModalContent.js:34
+#: src/containers/pages/CompanySettings/utils/getCareerSiteDialogButtons.js:10
+#: src/containers/pages/JobPage/components/ProposalInterview/dialogs/openCancelInterview.js:21
+#: src/containers/pages/JobPage/components/ProposalInterview/dialogs/openDeleteInterview.js:19
+#: src/containers/pages/JobPage/components/ProposalInterview/dialogs/openSkipInterview.js:27
+#: src/containers/pages/JobPage/components/ProposalQuestion/components/QuestionButtons.js:14
+#: src/containers/pages/JobPage/components/TabShareExternally/components/CareerSiteJobPosting/openConfirmDisableDialog.js:24
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingForm/openResetJobPostingDialog.js:29
+#: src/containers/pages/JobPage/components/TabShareExternally/components/PrivateJobPosting/openConfirmDisableDialog.js:28
+#: src/utils/alert.js:20
+#: src/utils/candidates/confirmArchivingCandidate.js:15
+#: src/utils/candidates/confirmDeletionCandidate.js:15
+#: src/utils/candidates/duplication.js:18
+#: src/utils/candidates/duplication.js:34
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: src/containers/pages/JobPage/components/ProposalInterview/components/InterviewDropdown.js:110
+#: src/containers/pages/JobPage/components/ProposalInterview/dialogs/openCancelInterview.js:12
+#: src/containers/pages/JobPage/components/ProposalInterview/dialogs/openCancelInterview.js:17
+msgid "Cancel Interview"
+msgstr "面接をキャンセル"
+
+#: src/components/modals/CancelInterviewProposalModal/components/CancelInterviewProposalModalContent/CancelInterviewProposalModalContent.js:25
+#: src/components/modals/CancelInterviewProposalModal/components/CancelInterviewProposalModalContent/CancelInterviewProposalModalContent.js:31
+#: src/containers/pages/JobPage/components/ProposalInterview/components/InterviewDropdown.js:119
+msgid "Cancel Interview Proposal"
+msgstr ""
+
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:172
+#: src/containers/pages/AnalyticsPage/JobAnalytics/SnapshotTableModal.js:181
+#: src/containers/pages/JobPage/components/ApplicationStatusBar/ApplicationStatusBar.js:58
+#: src/containers/pages/JobPage/components/ProposalApplicationSections/ApplicationCandidates.js:17
+#: src/containers/pages/client/AgencyPage/AgencyPage.js:48
+msgid "Candidate"
+msgstr "候補者"
+
+#: src/containers/pages/CandidateConfirmation/CandidateConfirmation.js:39
+msgid "Candidate Confirmation"
+msgstr "候補者の承認"
+
+#: src/containers/pages/AnalyticsPage/ConversionRatioFunnel.js:51
+msgid "Candidate Conversion Ratio"
+msgstr "候補者採用率"
+
+#: src/components/modals/DataMergeModal.js:91
+msgid "Candidate Data"
+msgstr "候補者データ"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/Candidate.js:89
+#: src/containers/pages/JobPage/components/ProposalTabs/ProposalTabs.js:72
+msgid "Candidate Details"
+msgstr "候補者詳細"
+
+#: src/components/candidates/CandidateDetailsTab/sections/ExpectationsSection/index.js:39
+#: src/containers/pages/CandidateEditPage/components/CandidateForm/constants.js:104
+#: src/containers/pages/CandidateEditPage/components/sections/CandidateExpectations.js:45
+msgid "Candidate Expectations"
+msgstr "候補者への期待"
+
+#: src/components/candidates/CandidateDetailsTab/sections/CandidateManagementSection.js:27
+#: src/components/modals/QuickAddCandidateModal/sections/CandidateManagement.js:34
+#: src/containers/pages/CandidateEditPage/components/CandidateForm/constants.js:116
+#: src/containers/pages/CandidateEditPage/components/sections/CandidateManagement.js:31
+msgid "Candidate Management"
+msgstr "候補者管理"
+
+#: src/components/fee/FeeApprovalsTable/FeeApprovalsTable.js:76
+#: src/containers/pages/agency/AgencyDashboard/CandidatesTable.js:63
+#: src/containers/pages/client/ClientDashboard/ProposalsTable.js:63
+msgid "Candidate Name"
+msgstr "候補者名"
+
+#: src/components/candidates/CandidateDetailsTab/sections/CandidateManagementSection.js:54
+#: src/containers/pages/CandidateEditPage/components/sections/CandidateManagement.js:73
+msgid "Candidate Notes"
+msgstr "候補者メモ"
+
+#: src/components/fee/FeeForm/SecondStep/FeeSplitAllocationFormContent.js:59
+msgid "Candidate Owner"
+msgstr "候補者のオーナー"
+
+#: src/components/fee/FeeForm/SecondStep/FeeSplitAllocationFormContent.js:66
+msgid "Candidate Owner Split"
+msgstr "候補者のオーナーの割当"
+
+#: src/containers/pages/AnalyticsPage/CandidateDeclineReasonStat.js:35
+msgid "Candidate decline reasons"
+msgstr "候補者の辞退理由"
+
+#: src/utils/candidates/duplication.js:75
+#: src/utils/candidates/duplication.js:85
+#: src/utils/candidates/duplication.js:75
+#: src/utils/candidates/duplication.js:85
+msgid "Candidate duplication"
+msgstr "候補者の重複"
+
+#: src/components/candidates/CandidateIconPanel.js:62
+msgid "Candidate has been met in person"
+msgstr "直接会ってスクリーニング済み候補者"
+
+#: src/components/modals/InterviewSchedulingModal/components/NoEmailMessage.js:11
+msgid "Candidate has no email!"
+msgstr "候補者はメールがありません！"
+
+#: src/components/candidates/CandidateIconPanel.js:55
+msgid "Candidate is currently a client contact"
+msgstr "この候補者はクライアントでもあります。"
+
+#: src/containers/pages/agency/AgencyDashboard/DealPipelineCandidatesModal.js:48
+msgid "Candidate name"
+msgstr "候補者氏名"
+
+#: src/components/Menu/index.js:33
+#: src/containers/pages/AnalyticsPage/JobAnalytics/CandidatesStatuses.js:61
+#: src/containers/pages/AnalyticsPage/JobAnalytics/SnapshotTableModal.js:231
+#: src/containers/pages/CandidatesPage/CandidatesPage.js:134
+#: src/containers/pages/agency/AgencyDashboard/DealPipelineCandidatesModal.js:97
+#: src/containers/pages/agency/AgencyDashboard/JobsTable.js:84
+msgid "Candidates"
+msgstr "候補者"
+
+#: src/containers/pages/AnalyticsPage/CandidatesHired.js:30
+#: src/containers/pages/AnalyticsPage/CandidatesHiredKPI.js:13
+msgid "Candidates Hired"
+msgstr "採用された候補者"
+
+#: src/containers/pages/agency/ClientPage/ClientPage.js:101
+#: src/containers/pages/agency/ClientsPage/ClientsPage.js:36
+#: src/containers/pages/client/AgenciesPage/AgenciesPage.js:37
+msgid "Candidates Submitted"
+msgstr "提案された候補者"
+
+#: src/containers/pages/AnalyticsPage/CandidatesByStage.js:68
+msgid "Candidates by Stage"
+msgstr "ステージ別候補者"
+
+#: src/containers/pages/AnalyticsPage/CandidatesByStage.js:35
+msgid "Candidates by stage"
+msgstr "ステージ別候補者"
+
+#: src/containers/pages/AnalyticsPage/JobAnalytics/CurrentCandidatesFunnel.js:18
+msgid "Candidates shortlisting funnel"
+msgstr "候補者のショートリスト・ファネル"
+
+#: src/constants/choices.js:341
+msgid "Cape Verdean"
+msgstr "カーボベルデ語"
+
+#: src/constants/choices.js:300
+msgid "Career Fair"
+msgstr "キャリアフェア"
+
+#: src/components/NavBar/components/UserMenu/UserMenu.js:78
+#: src/containers/pages/CompanySettings/components/CareerPanel.js:25
+#: src/containers/pages/CompanySettings/components/CareerPanel.js:36
+#: src/containers/pages/JobPage/components/TabShareExternally/components/CareerSiteJobPosting/CareerSiteJobPosting.js:84
+msgid "Career Site"
+msgstr "キャリアサイト"
+
+#: src/containers/pages/JobPage/components/TabShareExternally/components/CareerSiteJobPosting/CareerSiteJobPosting.js:135
+msgid "Career Site Disabled"
+msgstr "キャリアサイト公開の停止"
+
+#: src/containers/pages/CompanySettings/components/CareerPanel.js:46
+msgid "Career Site URL"
+msgstr "キャリアサイトのURL"
+
+#: src/constants/choices.js:522
+msgid "CareerCross"
+msgstr "キャリアクロス"
+
+#: src/constants/choices.js:342
+msgid "Central African"
+msgstr "中央アフリカ人"
+
+#: src/hooks/candidateHooks.js:50
+msgid "Certification"
+msgstr "資格"
+
+#: src/hooks/candidateHooks.js:73
+msgid "Certification Name"
+msgstr "資格・免許"
+
+#: src/containers/pages/CandidateEditPage/components/sections/SkillsAndExperience.js:36
+#: src/containers/pages/JobPostingPageContent/components/JobPostingApplicationForm/components/SkillsSection.js:25
+msgid "Certifications"
+msgstr "資格"
+
+#: src/constants/choices.js:343
+msgid "Chadian"
+msgstr "チャド語"
+
+#: src/containers/pages/AuthPage/components/SetNewPassword.js:83
+msgid "Change Password"
+msgstr "パスワードを変更する"
+
+#: src/containers/pages/PersonalSettings/components/Password.js:11
+msgid "Change password"
+msgstr "パスワードを変更する"
+
+#: src/constants/choices.js:344
+msgid "Chilean"
+msgstr "チリ語"
+
+#: src/constants/choices.js:345
+msgid "Chinese"
+msgstr "中国語"
+
+#: src/containers/pages/CandidateEditPage/components/sections/Contact.js:54
+msgid "City"
+msgstr "市区町村"
+
+#: src/components/MultiselectMenu/MultiselectMenu.js:129
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyDirectoryFilters.js:91
+msgid "Clear"
+msgstr "クリア"
+
+#: src/components/UI/files/ModalCropImage/ModalCropImage.js:78
+msgid "Click and drag on unselected area to select area you want cropped. Drag selection in the middle to move it. Drag corners of the selection to resize it. Click outside the selection to deselect"
+msgstr ""
+
+#: src/components/fee/FeeApprovalsTable/FeeApprovalsTable.js:80
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:193
+#: src/containers/pages/agency/AgencyDashboard/CandidatesTable.js:74
+#: src/containers/pages/agency/AgencyDashboard/DealPipelineCandidatesModal.js:58
+#: src/containers/pages/agency/AgencyDashboard/JobsTable.js:54
+msgid "Client"
+msgstr "クライアント"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:95
+msgid "Client Brief"
+msgstr "クライアントの概要"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:94
+msgid "Client Expertise"
+msgstr "クライアントの業界"
+
+#: src/containers/pages/agency/AgencyClientEditPage/AgencyClientEditForm.js:74
+msgid "Client Info"
+msgstr "クライアントの情報"
+
+#: src/components/fee/FeeForm/SecondStep/FeeSplitAllocationFormContent.js:107
+msgid "Client Originator"
+msgstr "クライアント・オリジネーター"
+
+#: src/components/fee/FeeForm/SecondStep/FeeSplitAllocationFormContent.js:114
+msgid "Client Originator Split"
+msgstr "クライアント・オリジネーターの割当"
+
+#: src/containers/pages/InvitationsPage/Invitation.js:80
+msgid "Client {0} has invited you to see their jobs."
+msgstr "クライアント{0}は求人を見せるためにあなたを招待しました。"
+
+#: src/containers/pages/agency/ClientPage/ClientPage.js:214
+#: src/containers/pages/agency/ClientsPage/ClientsPage.js:73
+#: src/containers/pages/agency/ClientsPage/ClientsPage.js:77
+msgid "Clients"
+msgstr "クライアント"
+
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyItem.js:26
+#: src/utils/alert.js:13
+msgid "Close"
+msgstr "閉じる"
+
+#: src/constants/choices.js:11
+#: src/constants/choices.js:18
+#: src/constants/choices.js:31
+msgid "Closed"
+msgstr "募集終了"
+
+#: src/constants/choices.js:346
+msgid "Colombian"
+msgstr "コロンビア語"
+
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:291
+msgid "Comments"
+msgstr "コメント"
+
+#: src/containers/pages/JobEditPage/components/sections/JobConditions.js:143
+#: src/containers/pages/JobPage/components/JobDetailsSections/JobConditions.js:110
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:210
+msgid "Commutation Allowance"
+msgstr "通勤手当"
+
+#: src/constants/choices.js:347
+msgid "Comoran"
+msgstr "コモーラン語"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:98
+msgid "Companies Already Applied To"
+msgstr "応募した会社"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:99
+msgid "Companies Applied To"
+msgstr "応募した会社"
+
+#: src/components/SignUp/SignUpCheckEmailForm.js:36
+#: src/containers/pages/AnalyticsPage/JobAnalytics/SnapshotTableModal.js:186
+#: src/containers/pages/CandidateEditPage/components/sections/ExperienceDetails.js:58
+#: src/containers/pages/JobPage/components/ApplicationStatusBar/ApplicationStatusBar.js:52
+msgid "Company"
+msgstr "会社"
+
+#: src/constants/choices.js:257
+msgid "Company Car"
+msgstr "社用車"
+
+#: src/containers/pages/agency/AgencyClientEditPage/AgencyClientEditForm.js:83
+msgid "Company Information"
+msgstr "会社の情報"
+
+#: src/containers/pages/CompanySettings/components/Inputs.js:21
+msgid "Company Name (English)"
+msgstr "企業名（英語表記）"
+
+#: src/containers/pages/CompanySettings/components/Inputs.js:22
+msgid "Company Name (Japanese)"
+msgstr "企業名（日本語表記）"
+
+#: src/components/NavBar/components/UserMenu/UserMenu.js:74
+#: src/containers/pages/CompanySettings/CompanySettings.js:22
+#: src/containers/pages/CompanySettings/logicHooks.js:102
+msgid "Company Settings"
+msgstr "企業情報設定"
+
+#: src/constants/choices.js:260
+msgid "Company Sponsored Training"
+msgstr "能力開発"
+
+#: src/containers/pages/CandidateEditPage/components/sections/CurrentEmployment.js:38
+msgid "Compensation"
+msgstr "報酬"
+
+#: src/components/candidates/CandidateDetailsTab/sections/CurrentEmploymentSection.js:75
+#: src/containers/pages/CandidateEditPage/components/sections/CurrentEmployment.js:65
+msgid "Compensation Notes"
+msgstr "報酬詳細"
+
+#: src/utils/interviews.js:20
+#: src/utils/interviews.js:23
+msgid "Completed"
+msgstr "完了しました"
+
+#: src/utils/interviews.js:23
+msgid "Completed (Pending Assessment)"
+msgstr ""
+
+#: src/utils/interviews.js:20
+msgid "Completed (Pending Decision)"
+msgstr ""
+
+#: src/components/UI/Dropdown/StagesDropdown/dialogs/openMoveToInterviewing.js:19
+#: src/components/candidates/FormImportCandidate/FormImportCandidate.js:55
+msgid "Confirm"
+msgstr "確認"
+
+#: src/containers/pages/InvitationsPage/Invitation.js:143
+msgid "Confirm Contract"
+msgstr "契約の確認"
+
+#: src/containers/pages/JobPage/components/TabShareExternally/components/PrivateJobPosting/openConfirmDisableDialog.js:24
+msgid "Confirm Disable"
+msgstr "無効化の確認"
+
+#: src/containers/pages/CandidateConfirmation/CandidateConfirmation.js:55
+msgid "Confirm Interview Schedule"
+msgstr "面接の日程を確定"
+
+#: src/containers/pages/AuthPage/components/SetNewPassword.js:74
+msgid "Confirm Password"
+msgstr "パスワードを認証する"
+
+#: src/components/modals/RejectionModal/RejectionModal.js:131
+msgid "Confirm Rejection"
+msgstr "見送りを確定"
+
+#: src/containers/pages/CandidateConfirmation/components/Timeslot.js:38
+msgid "Confirm Schedule"
+msgstr "スケジュールを確認する"
+
+#: src/containers/pages/JobPage/components/TabShareExternally/components/CareerSiteJobPosting/openConfirmDisableDialog.js:20
+msgid "Confirm Unpublish"
+msgstr "公開中止を確認"
+
+#: src/utils/candidates/confirmArchivingCandidate.js:22
+msgid "Confirm archiving"
+msgstr "アーカイブへの移行を実行する"
+
+#: src/containers/pages/JobEditPage/components/JobForm/utils/openConfirmCloseUnfilled.js:10
+msgid "Confirm closing with unfilled openings"
+msgstr "未採用の求人をクローズする"
+
+#: src/utils/candidates/confirmDeletionCandidate.js:22
+msgid "Confirm deletion"
+msgstr "削除を確認"
+
+#: src/constants/choices.js:348
+msgid "Congolese"
+msgstr "コンゴ語"
+
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:229
+msgid "Consulting Fee"
+msgstr "コンサルティング手数料"
+
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:237
+msgid "Consulting Fee Percentage"
+msgstr "コンサルティング手数料率"
+
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:218
+msgid "Consulting Fee Type"
+msgstr "コンサルティング料金のタイプ"
+
+#: src/components/candidates/CandidateDetailsTab/sections/ContactSection.js:21
+#: src/components/modals/QuickAddCandidateModal/sections/Contact.js:17
+#: src/containers/pages/CandidateEditPage/components/CandidateForm/constants.js:97
+#: src/containers/pages/CandidateEditPage/components/sections/Contact.js:17
+#: src/containers/pages/JobPostingPageContent/components/JobPostingApplicationForm/components/ContactSection.js:18
+msgid "Contact"
+msgstr "コンタクト"
+
+#: src/components/modals/ModalFormAgencyJobContract/FormInputsJobAgencyContract.js:49
+#: src/components/modals/ModalFormAgencyJobContract/FormPreviewJobAgencyContract.js:38
+msgid "Contact Person"
+msgstr "コンタクトパーソン"
+
+#: src/components/NavBar/components/HelpDropdown/HelpDropdown.js:14
+#: src/containers/pages/NotFoundPage/NotFoundPage.js:27
+msgid "Contact Support"
+msgstr "コンタクトサポート"
+
+#: src/containers/pages/AnalyticsPage/JobAnalytics/consts.js:12
+msgid "Contacted"
+msgstr "連絡済み"
+
+#: src/components/SignUp/SignUpCheckEmailForm.js:58
+#: src/containers/pages/ActivateAccountPage.js:73
+msgid "Continue"
+msgstr "次へ"
+
+#: src/utils/alert.js:36
+msgid "Continue Editing"
+msgstr "編集を続く"
+
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:213
+msgid "Contract"
+msgstr "契約"
+
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyItem.js:89
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyItem.js:89
+msgid "Contract Details"
+msgstr "契約の詳細"
+
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyContractDetails.js:29
+msgid "Contract End Date"
+msgstr "契約終了日"
+
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:146
+msgid "Contract Signed Date"
+msgstr "契約書署名日"
+
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyContractDetails.js:27
+msgid "Contract Start Date"
+msgstr "契約開始日"
+
+#: src/components/fee/FeeApprovalsTable/FeeApprovalsTable.js:57
+#: src/components/modals/ModalFormAgencyJobContract/FormInputsJobAgencyContract.js:63
+#: src/components/modals/ModalFormAgencyJobContract/FormPreviewJobAgencyContract.js:50
+msgid "Contract Type"
+msgstr "契約タイプ"
+
+#: src/containers/pages/agency/ClientPage/ClientPage.js:88
+msgid "Contract type"
+msgstr "契約タイプ"
+
+#: src/containers/pages/AnalyticsPage/ContractedAgenciesKPI.js:19
+msgid "Contracted Agencies"
+msgstr "契約済エージェント"
+
+#: src/components/CookieUsagePopup.js:19
+msgid "Cookie usage"
+msgstr "クッキーの使用"
+
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingBlock/JobPostingBlock.js:79
+msgid "Copy"
+msgstr "コピー"
+
+#: src/constants/choices.js:525
+msgid "Corporate Website"
+msgstr "企業サイト"
+
+#: src/constants/choices.js:349
+msgid "Costa Rican"
+msgstr "コスタリカ人"
+
+#: src/utils/candidates/duplication.js:57
+msgid "Couldn't check if candidate is a duplicate"
+msgstr "候補者が重複しているかどうかを確認できませんでした。"
+
+#: src/components/SignUp/SignUpAgencyForm.js:32
+#: src/components/SignUp/SignUpAgencyForm.js:85
+#: src/components/SignUp/SignUpClientForm.js:27
+#: src/components/SignUp/SignUpClientForm.js:78
+#: src/components/SignUp/SignUpRecruiterForm.js:32
+#: src/containers/pages/CandidateEditPage/components/sections/Contact.js:65
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:84
+#: src/containers/pages/CompanySettings/components/Inputs.js:33
+#: src/containers/pages/PersonalSettings/components/Details.js:47
+#: src/containers/pages/users/UserEditPage/components/UserForm/UserForm.js:63
+#: src/containers/pages/users/UserViewPage/components/UserDetails/UserDetails.js:90
+msgid "Country"
+msgstr "国"
+
+#: src/components/modals/DataMergeModal.js:86
+msgid "Crawled Data"
+msgstr "クロールデータ"
+
+#: src/containers/pages/agency/ClientsPage/CreateAgencyClientModal.js:32
+msgid "Create"
+msgstr "作成"
+
+#: src/containers/pages/agency/ClientsPage/CreateAgencyClientModal.js:44
+msgid "Create Client"
+msgstr "クライアント作成"
+
+#: src/components/modals/AddCandidateToJobModal/components/CandidatesList.js:89
+#: src/containers/pages/CandidateEditPage/CandidateEditPage.js:13
+msgid "Create a Candidate"
+msgstr "候補者作成"
+
+#: src/containers/pages/agency/ClientsPage/ClientsPage.js:84
+msgid "Create a Client"
+msgstr "クライアント作成"
+
+#: src/containers/pages/JobEditPage/JobEditPage.js:16
+msgid "Create a Job"
+msgstr "求人作成"
+
+#: src/containers/pages/agency/ClientPage/ClientPage.js:229
+msgid "Create a job"
+msgstr "求人作成"
+
+#: src/containers/pages/client/AgencyPage/AgencyPage.js:53
+msgid "Created"
+msgstr "作成日"
+
+#: src/components/candidates/CandidateDetailsTab/sections/MetaDataSection.js:23
+#: src/containers/pages/CandidateEditPage/components/sections/Metadata.js:16
+#: src/containers/pages/JobEditPage/components/sections/Metadata.js:24
+#: src/containers/pages/JobPage/components/JobDetailsSections/Metadata.js:24
+msgid "Created By"
+msgstr "作成者"
+
+#: src/components/candidates/CandidateDetailsTab/sections/MetaDataSection.js:37
+#: src/containers/pages/CandidateEditPage/components/sections/Metadata.js:23
+#: src/containers/pages/JobEditPage/components/sections/Metadata.js:35
+#: src/containers/pages/JobPage/components/JobDetailsSections/Metadata.js:37
+#: src/containers/pages/users/UserEditPage/components/UserForm/UserForm.js:116
+#: src/containers/pages/users/UserViewPage/components/UserDetails/UserDetails.js:97
+msgid "Created Date"
+msgstr "作成日"
+
+#: src/constants/choices.js:350
+msgid "Croatian"
+msgstr "クロアチア語"
+
+#: src/components/UI/files/ModalCropImage/ModalCropImage.js:67
+msgid "Crop Image"
+msgstr ""
+
+#: src/components/UI/files/ModalCropImage/ModalCropImage.js:140
+msgid "Cropped area isn't specified"
+msgstr ""
+
+#: src/constants/choices.js:194
+msgid "Cross-Team"
+msgstr "クロースチーム"
+
+#: src/constants/choices.js:351
+msgid "Cuban"
+msgstr "キューバ人"
+
+#: src/constants/choices.js:192
+msgid "Cultural Fit"
+msgstr "文化適合"
+
+#: src/components/modals/QuickAddCandidateModal/sections/CurrentEmployment.js:42
+#: src/containers/pages/CandidateEditPage/components/sections/CandidateExpectations.js:50
+#: src/containers/pages/CandidateEditPage/components/sections/CurrentEmployment.js:47
+#: src/containers/pages/JobEditPage/components/sections/JobConditions.js:47
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:122
+msgid "Currency"
+msgstr "通貨"
+
+#: src/components/candidates/CandidateDetailsTab/sections/EducationDetailsSection/Education.js:14
+#: src/components/candidates/CandidateDetailsTab/sections/ExperienceDetailsSection/Experience.js:22
+#: src/containers/pages/CandidateEditPage/components/sections/ExperienceDetails.js:86
+msgid "Current"
+msgstr "現在"
+
+#: src/components/candidates/CandidateDetailsTab/sections/CurrentEmploymentSection.js:71
+#: src/components/modals/QuickAddCandidateModal/sections/CurrentEmployment.js:50
+#: src/containers/pages/CandidateEditPage/components/sections/CurrentEmployment.js:55
+#: src/utils/candidates/getMissingFields.js:7
+msgid "Current Annual Fixed"
+msgstr "年収に占める固定分"
+
+#: src/components/candidates/CandidateDetailsTab/sections/CurrentEmploymentSection.js:72
+#: src/components/modals/QuickAddCandidateModal/sections/CurrentEmployment.js:56
+#: src/containers/pages/CandidateEditPage/components/sections/CurrentEmployment.js:60
+msgid "Current Annual Variable"
+msgstr "年収に占める変動分"
+
+#: src/components/modals/QuickAddCandidateModal/sections/CurrentEmployment.js:33
+#: src/containers/pages/CandidateEditPage/components/sections/CurrentEmployment.js:32
+#: src/containers/pages/JobPostingPageContent/components/JobPostingApplicationForm/components/CurrentEmploymentSection.js:19
+#: src/utils/candidates/getMissingFields.js:6
+msgid "Current Company"
+msgstr "現在の勤務先"
+
+#: src/components/candidates/CandidateDetailsTab/sections/CurrentEmploymentSection.js:57
+#: src/components/modals/DataMergeModal.js:25
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:59
+#: src/containers/pages/JobPage/components/ProposalApplicationSections/ApplicationCandidates.js:28
+msgid "Current Employer"
+msgstr "現在の勤務先"
+
+#: src/components/candidates/CandidateDetailsTab/sections/CurrentEmploymentSection.js:52
+#: src/components/modals/QuickAddCandidateModal/sections/CurrentEmployment.js:28
+#: src/containers/pages/CandidateEditPage/components/CandidateForm/constants.js:99
+#: src/containers/pages/CandidateEditPage/components/sections/CurrentEmployment.js:29
+#: src/containers/pages/JobPostingPageContent/components/JobPostingApplicationForm/components/CurrentEmploymentSection.js:14
+msgid "Current Employment"
+msgstr "雇用形態"
+
+#: src/containers/pages/CandidatesPage/CandidatesPage.js:54
+msgid "Current Job"
+msgstr "現在の仕事"
+
+#: src/components/candidates/CandidateDetailsTab/sections/CurrentEmploymentSection.js:56
+#: src/components/modals/DataMergeModal.js:26
+#: src/components/modals/QuickAddCandidateModal/sections/CurrentEmployment.js:32
+#: src/containers/pages/AnalyticsPage/JobAnalytics/SnapshotTableModal.js:191
+#: src/containers/pages/CandidateEditPage/components/sections/CurrentEmployment.js:31
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:90
+#: src/containers/pages/JobPage/components/ProposalApplicationSections/ApplicationCandidates.js:22
+#: src/containers/pages/JobPostingPageContent/components/JobPostingApplicationForm/components/CurrentEmploymentSection.js:18
+#: src/utils/candidates/getMissingFields.js:5
+msgid "Current Job Title"
+msgstr "現在のポジション"
+
+#: src/components/modals/DataMergeModal.js:27
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:60
+msgid "Current Location"
+msgstr "勤務地"
+
+#: src/containers/pages/AnalyticsPage/ChartBlock.js:89
+msgid "Current Month"
+msgstr "今月"
+
+#: src/containers/pages/PersonalSettings/components/Password.js:16
+msgid "Current Password"
+msgstr "現在のパスワード"
+
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:94
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:82
+msgid "Current Salary"
+msgstr "現年収"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:81
+msgid "Current Salary Currency"
+msgstr "給与支払通貨"
+
+#: src/containers/pages/JobPage/components/StageList/StageList.js:78
+msgid "Current job"
+msgstr "現在の仕事"
+
+#: src/containers/pages/client/AgenciesPage/AgenciesPage.js:54
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyDirectoryPage.js:236
+msgid "Currently Engaged Agencies"
+msgstr "現在協力してるエージェント"
+
+#: src/components/fee/BillDescriptionInputSet.js:55
+msgid "Custom Bill Description"
+msgstr "カスタム請求の説明"
+
+#: src/constants/choices.js:352
+msgid "Cypriot"
+msgstr "キプロス"
+
+#: src/constants/choices.js:353
+msgid "Czech"
+msgstr "チェコ"
+
+#: src/containers/pages/AnalyticsPage/AnalyticsParams.js:18
+msgid "Daily"
+msgstr "日常"
+
+#: src/constants/choices.js:126
+msgid "Daily Conversation"
+msgstr "日常会話"
+
+#: src/constants/choices.js:354
+msgid "Danish"
+msgstr "デンマーク語"
+
+#: src/containers/pages/client/ClientDashboard/ClientDashboard.js:17
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+#: src/components/modals/DataMergeModal.js:120
+msgid "Data Merge"
+msgstr "データマージ"
+
+#: src/components/modals/InterviewSchedulingModal/components/Timeslot.js:71
+#: src/containers/pages/AnalyticsPage/JobAnalytics/SnapshotTableModal.js:197
+msgid "Date"
+msgstr "日付"
+
+#: src/containers/pages/JobEditPage/components/sections/Metadata.js:17
+#: src/containers/pages/JobPage/components/JobDetailsSections/Metadata.js:17
+msgid "Date Closed"
+msgstr "終了日"
+
+#: src/containers/pages/JobEditPage/components/sections/Metadata.js:16
+#: src/containers/pages/JobPage/components/JobDetailsSections/Metadata.js:16
+msgid "Date Opened"
+msgstr "開始日"
+
+#: src/containers/pages/client/ClientDashboard/ActiveJobsTable.js:46
+msgid "Date Published"
+msgstr "公開日"
+
+#: src/containers/pages/client/ClientDashboard/ProposalsTable.js:74
+msgid "Date Submitted"
+msgstr "提案日"
+
+#: src/containers/pages/JobPage/components/ProposalInterview/components/InterviewFullBody.js:44
+msgid "Date and Time"
+msgstr "日時"
+
+#: src/components/candidates/CandidateDetailsTab/sections/PersonalInfoSection.js:24
+#: src/containers/pages/CandidateEditPage/components/sections/Personal.js:49
+msgid "Date of Birth"
+msgstr "生年月日"
+
+#: src/constants/choices.js:87
+msgid "Day"
+msgstr "日"
+
+#: src/containers/pages/agency/AgencyDashboard/DealPipelineCandidatesModal.js:93
+msgid "Deal Pipeline"
+msgstr "Deal Pipeline"
+
+#: src/components/modals/InterviewAssessmentModal/components/Inputs.js:56
+#: src/containers/pages/JobPage/components/ProposalInterview/components/Assessments.js:24
+msgid "Decision"
+msgstr "決定"
+
+#: src/containers/pages/InvitationsPage/Invitation.js:90
+msgid "Decline"
+msgstr "却下"
+
+#: src/containers/pages/CandidateEditPage/components/sections/EducationDetails.js:49
+msgid "Degree"
+msgstr "専攻"
+
+#: src/containers/pages/CandidatePreviewPage.js:88
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateComments/PlainComment.js:40
+#: src/containers/pages/JobPage/components/ProposalInterview/components/InterviewDropdown.js:115
+#: src/utils/candidates/confirmDeletionCandidate.js:11
+msgid "Delete"
+msgstr "削除"
+
+#: src/components/UI/files/dialogs/openDeleteFile.js:10
+#: src/components/UI/files/dialogs/openDeleteFile.js:15
+msgid "Delete File"
+msgstr "ファイル削除"
+
+#: src/containers/pages/JobPage/components/ProposalInterview/dialogs/openDeleteInterview.js:10
+#: src/containers/pages/JobPage/components/ProposalInterview/dialogs/openDeleteInterview.js:15
+msgid "Delete Interview"
+msgstr "面接を削除"
+
+#: src/containers/pages/AnalyticsPage/AnalyticsPage.js:33
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:93
+#: src/containers/pages/JobEditPage/components/sections/Details.js:54
+#: src/containers/pages/JobPage/components/JobDetails/components/PrivateDetails.js:33
+#: src/containers/pages/JobPage/components/ProposalApplicationSections/ApplicationJob.js:35
+msgid "Department"
+msgstr "部署"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:68
+msgid "Desired Employment Type"
+msgstr "希望雇用形態"
+
+#: src/components/candidates/CandidateDetailsTab/sections/ExpectationsSection/index.js:54
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:69
+msgid "Desired Location"
+msgstr "希望勤務地"
+
+#: src/containers/pages/CandidateEditPage/components/sections/CandidateExpectations.js:58
+msgid "Desired Location(s)"
+msgstr "希望勤務地"
+
+#: src/components/candidates/CandidateDetailsTab/sections/ExpectationsSection/index.js:46
+#: src/containers/pages/CandidateEditPage/components/sections/CandidateExpectations.js:55
+#: src/containers/pages/CandidatesPage/CandidatesPage.js:82
+#: src/containers/pages/JobPage/components/StageList/StageList.js:101
+msgid "Desired Salary"
+msgstr "希望年収"
+
+#: src/components/modals/InterviewEditModal/InterviewEditModal.js:121
+#: src/containers/pages/JobEditPage/components/Interviews/Interviews.js:103
+#: src/containers/pages/JobEditPage/components/JobForm/constants.js:12
+#: src/containers/pages/JobEditPage/components/sections/Details.js:28
+#: src/containers/pages/JobPage/components/JobDetails/constants.js:4
+#: src/containers/pages/JobPage/components/JobDetailsSections/Details.js:12
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:56
+#: src/containers/pages/JobPostingPageContent/JobPostingPageContent.js:68
+#: src/containers/pages/PersonalSettings/components/Details.js:28
+#: src/containers/pages/PersonalSettings/constants.js:4
+#: src/containers/pages/users/UserEditPage/components/UserForm/UserForm.js:52
+#: src/containers/pages/users/UserEditPage/constants.js:4
+#: src/containers/pages/users/UserViewPage/components/UserDetails/UserDetails.js:83
+msgid "Details"
+msgstr "詳細"
+
+#: src/constants/choices.js:299
+msgid "Direct Apply"
+msgstr "直接応募"
+
+#: src/containers/pages/CompanySettings/utils/openDisableCareerSite.js:10
+msgid "Disable Career Site"
+msgstr "キャリアサイトを無効にする"
+
+#: src/containers/pages/JobPage/components/TabShareExternally/components/PrivateJobPosting/openConfirmDisableDialog.js:10
+msgid "Disable Private Posting"
+msgstr "非公開を無効"
+
+#: src/containers/pages/JobPage/components/TabShareExternally/components/PrivateJobPosting/PrivateJobPosting.js:117
+msgid "Disabled"
+msgstr "無効"
+
+#: src/constants/choices.js:152
+msgid "Dispatch"
+msgstr "派遣"
+
+#: src/constants/choices.js:140
+msgid "Dispatched"
+msgstr "派遣済み"
+
+#: src/constants/choices.js:355
+msgid "Djibouti"
+msgstr "ジブチ語"
+
+#: src/components/modals/DuplicationMessage/DuplicationMessage.js:81
+#: src/utils/candidates/duplication.js:60
+msgid "Do you want to proceed anyway?"
+msgstr "続行しますか？"
+
+#: src/constants/choices.js:356
+msgid "Dominican"
+msgstr "ドミニカ語"
+
+#: src/components/modals/AddCandidateToJobModal/AddCandidateToJobModal.js:33
+#: src/containers/pages/JobEditPage/components/JobForm/utils/openSeeJobPosting.js:23
+msgid "Done"
+msgstr "完了"
+
+#: src/components/UI/files/PaginatedFilePreviewPDF.js:147
+msgid "Download"
+msgstr "ダウンロード"
+
+#: src/components/candidates/CandidateResumeDownloadButton.js:17
+msgid "Download Resume"
+msgstr "CVをダウンロード"
+
+#: src/containers/pages/AuthPage/components/Agreement.js:74
+msgid "Download Terms & Conditions"
+msgstr "利用規約をダウンロードする"
+
+#: src/components/fee/FeeApprovalsTable/FeeApprovalsTable.js:36
+msgid "Draft"
+msgstr "下書き"
+
+#: src/components/UI/files/Dropzone/Dropzone.js:65
+msgid "Drag and Drop a file to upload"
+msgstr "ファイルをドラッグ＆ドロップでアップロード"
+
+#: src/components/UI/files/Dropzone/Dropzone.js:67
+msgid "Drag and Drop your files to upload"
+msgstr "ファイルをドラッグ＆ドロップでアップロード"
+
+#: src/containers/pages/CandidateEditPage/components/CandidateForm/CandidateForm.js:80
+msgid "Duplicate Candidate: This candidate may be a duplicate. If this is not the case, please <0>click here</0>."
+msgstr "Duplicate Candidate: この候補者は重複している可能性があります。重複していない場合は、<0>ここをクリック</0>してください。"
+
+#: src/components/candidates/CandidateIconPanel.js:91
+msgid "Duplicate candidate?"
+msgstr "重複した候補者？"
+
+#: src/constants/choices.js:357
+msgid "Dutch"
+msgstr "オランダ語"
+
+#: src/constants/choices.js:358
+msgid "East Timorese"
+msgstr "東ティモール語"
+
+#: src/constants/choices.js:359
+msgid "Ecuadorean"
+msgstr "エクアドル語"
+
+#: src/components/modals/ModalFormAgencyJobContract/ModalFormJobAgencyContract.js:50
+#: src/containers/pages/CandidatesPage/components/Candidate/Candidate.js:58
+#: src/containers/pages/JobPage/components/JobPageContent/JobPageContent.js:146
+#: src/containers/pages/JobPage/components/ProposalTabs/ProposalTabs.js:93
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingBlock/JobPostingBlock.js:66
+#: src/containers/pages/agency/ClientsPage/ClientsPage.js:55
+msgid "Edit"
+msgstr "編集"
+
+#: src/containers/pages/JobPage/components/ProposalQuestion/components/QuestionDropdown.js:16
+msgid "Edit Answer"
+msgstr "回答を編集"
+
+#: src/components/modals/InterviewAssessmentModal/InterviewAssessmentModal.js:37
+#: src/containers/pages/JobPage/components/ProposalInterview/components/InterviewDropdown.js:124
+msgid "Edit Assessment"
+msgstr "評価を編集"
+
+#: src/containers/pages/CandidateEditPage/CandidateEditPage.js:13
+msgid "Edit Candidate Details"
+msgstr "候補者詳細の編集"
+
+#: src/components/modals/InterviewEditModal/InterviewEditModal.js:38
+#: src/containers/pages/JobPage/components/ProposalInterview/components/InterviewDropdown.js:107
+msgid "Edit Interview"
+msgstr "面接を編集"
+
+#: src/containers/pages/JobEditPage/JobEditPage.js:16
+msgid "Edit Job Details"
+msgstr "求人詳細の編集"
+
+#: src/components/fee/FeeModal/FeeModal.js:42
+msgid "Edit Placement Form"
+msgstr "プレイスメントフォームを編集する"
+
+#: src/containers/pages/users/UserEditPage/components/UserForm/UserForm.js:50
+msgid "Edit User Details"
+msgstr ""
+
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingForm/JobPostingForm.js:49
+msgid "Edit your job posting content (may be different than your job details)"
+msgstr "求人情報内容を編集する（求人情報詳細とは異なる場合があります）"
+
+#: src/containers/pages/agency/AgencyClientEditPage/AgencyClientEditPage.js:27
+msgid "Edit {0}"
+msgstr "編集{0}"
+
+#: src/components/candidates/CandidateDetailsTab/sections/EducationDetailsSection/index.js:23
+#: src/containers/pages/CandidateEditPage/components/CandidateForm/constants.js:112
+#: src/containers/pages/CandidateEditPage/components/sections/EducationDetails.js:35
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:70
+msgid "Education Details"
+msgstr "学歴"
+
+#: src/containers/pages/JobEditPage/components/sections/Requirements.js:40
+#: src/containers/pages/JobPage/components/JobDetails/components/PrivateRequirements.js:19
+msgid "Education Level"
+msgstr "最終学歴"
+
+#: src/constants/choices.js:360
+msgid "Egyptian"
+msgstr "エジプト語"
+
+#: src/constants/choices.js:157
+msgid "Eligible"
+msgstr "対象"
+
+#: src/components/modals/InviteManagerModalForm.js:26
+#: src/containers/pages/JobPostingPageContent/components/JobPostingApplicationForm/components/ContactSection.js:24
+#: src/containers/pages/users/UserEditPage/components/UserForm/UserForm.js:69
+#: src/containers/pages/users/UserViewPage/UserViewPage.js:75
+msgid "Email"
+msgstr "メール"
+
+#: src/components/candidates/CandidateDetailsTab/sections/ContactSection.js:27
+#: src/components/modals/DataMergeModal.js:28
+#: src/components/modals/QuickAddCandidateModal/sections/Contact.js:21
+#: src/containers/pages/CandidateEditPage/components/sections/Contact.js:19
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:56
+#: src/utils/candidates/getMissingFields.js:4
+msgid "Email (Primary)"
+msgstr "メール（メイン）"
+
+#: src/components/candidates/CandidateDetailsTab/sections/ContactSection.js:32
+#: src/containers/pages/CandidateEditPage/components/sections/Contact.js:20
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:89
+msgid "Email (Secondary)"
+msgstr "メール（サブ）"
+
+#: src/components/SignUp/SignUpAgencyForm.js:64
+#: src/components/SignUp/SignUpCheckEmailForm.js:21
+#: src/components/SignUp/SignUpClientForm.js:57
+#: src/components/SignUp/SignUpRecruiterForm.js:41
+#: src/containers/pages/AuthPage/components/ForgotPassword.js:44
+#: src/containers/pages/AuthPage/components/SignIn.js:65
+msgid "Email Address"
+msgstr "メールアドレス"
+
+#: src/containers/pages/PersonalSettings/components/Notifications.js:15
+#: src/containers/pages/PersonalSettings/constants.js:7
+msgid "Email Notifications"
+msgstr "メール通知"
+
+#: src/containers/pages/PersonalSettings/components/Details.js:61
+msgid "Email address"
+msgstr "メールアドレス"
+
+#: src/constants/choices.js:361
+msgid "Emirian"
+msgstr "エミリアン語"
+
+#: src/constants/choices.js:207
+msgid "Employment Insurance"
+msgstr "雇用保険"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:62
+msgid "Employment Status"
+msgstr "雇用ステータス"
+
+#: src/components/candidates/CandidateDetailsTab/sections/CurrentEmploymentSection.js:62
+#: src/containers/pages/CandidateEditPage/components/sections/CurrentEmployment.js:76
+#: src/containers/pages/CareerSitePage/pages/CareerSiteJobPostingListPage/CareerSiteJobPostingListPage.js:86
+#: src/containers/pages/JobEditPage/components/sections/Details.js:45
+#: src/containers/pages/JobPage/components/JobDetails/components/PrivateDetails.js:30
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:70
+msgid "Employment Type"
+msgstr "雇用形態"
+
+#: src/containers/pages/CompanySettings/utils/openEnableCareerSite.js:8
+msgid "Enable Career Site"
+msgstr "キャリアサイトを有効する"
+
+#: src/containers/pages/JobPage/components/TabShareExternally/components/PrivateJobPosting/PrivateJobPosting.js:112
+msgid "Enabled"
+msgstr "有効"
+
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyItem.js:22
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyItem.js:97
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyItem.js:97
+msgid "End Contract"
+msgstr "契約を終了する"
+
+#: src/components/candidates/CandidateDetailsTab/sections/ExperienceDetailsSection/Experience.js:41
+#: src/containers/pages/CandidateEditPage/components/sections/ExperienceDetails.js:101
+msgid "End Date"
+msgstr "終了日"
+
+#: src/components/modals/InterviewSchedulingModal/components/Timeslot.js:92
+msgid "End Time"
+msgstr "終了時間"
+
+#: src/constants/choices.js:92
+#: src/constants/choices.js:97
+msgid "English"
+msgstr "英語"
+
+#: src/components/UI/ResumeInput/ResumeInput.js:18
+#: src/components/candidates/CandidateDetailsTab/sections/AttachmentsList/AttachmentsList.js:21
+msgid "English Resume"
+msgstr "英語のCV"
+
+#: src/constants/choices.js:364
+msgid "Equatorial Guinean"
+msgstr "赤道ギニア語"
+
+#: src/constants/choices.js:263
+msgid "Equity"
+msgstr "株式"
+
+#: src/constants/choices.js:366
+msgid "Eritrean"
+msgstr "エリトリア語"
+
+#: src/components/NewFileThumbnail/NewFileThumbnail.js:28
+#: src/utils/errorHandling.js:78
+msgid "Error"
+msgstr "エラー"
+
+#: src/utils/errorHandling.js:63
+msgid "Error on endpoint {url}"
+msgstr "{url}にエラーが発生しました"
+
+#: src/constants/choices.js:367
+msgid "Estonian"
+msgstr "エストニア語"
+
+#: src/constants/choices.js:368
+msgid "Ethiopian"
+msgstr "エチオピア語"
+
+#: src/components/candidates/CandidateDetailsTab/sections/ExpectationsSection/index.js:79
+msgid "Expectation Details"
+msgstr "期待の詳細"
+
+#: src/containers/pages/CandidateEditPage/components/sections/CandidateExpectations.js:82
+msgid "Expectations Details"
+msgstr "期待の詳細"
+
+#: src/components/candidates/CandidateDetailsTab/sections/ExperienceDetailsSection/index.js:23
+#: src/containers/pages/CandidateEditPage/components/CandidateForm/constants.js:108
+#: src/containers/pages/CandidateEditPage/components/sections/ExperienceDetails.js:37
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:71
+msgid "Experience Details"
+msgstr "経験の詳細"
+
+#: src/containers/pages/InvitationsPage/Invitation.js:107
+msgid "Expired"
+msgstr "期限切れ"
+
+#: src/containers/pages/InvitationsPage/Invitation.js:117
+msgid "Expires in {daysUntilInvitationExpire} days"
+msgstr "{daysUntilInvitationExpire}日で有効期限が切れます"
+
+#: src/components/candidates/LinkedInImport/LinkedInImport.js:21
+msgid "Extension was updated. Please refresh the page to synchronise"
+msgstr "エクステンションは更新しました。ページをリフレッシュしてください。"
+
+#: src/constants/choices.js:519
+msgid "Facebook"
+msgstr "フェイスブック"
+
+#: src/components/UI/files/ModalCropImage/ModalCropImage.js:139
+msgid "Failed to crop the image"
+msgstr ""
+
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyContractDetails.js:44
+msgid "Fee (rate)"
+msgstr "手数料（料率）"
+
+#: src/components/fee/FeeForm/openSuccessToast.js:22
+#: src/components/fee/FeeModal/FeeModal.js:65
+msgid "Fee form"
+msgstr "手数料フォーム"
+
+#: src/containers/pages/ApprovalsPage/ApprovalsPage.js:47
+msgid "Fees"
+msgstr "手数料"
+
+#: src/constants/choices.js:230
+msgid "Female"
+msgstr "女性"
+
+#: src/components/candidates/CandidateDetailsTab/sections/EducationDetailsSection/Education.js:32
+#: src/containers/pages/CandidateEditPage/components/sections/EducationDetails.js:66
+msgid "Field of Study"
+msgstr "専攻"
+
+#: src/constants/choices.js:369
+msgid "Fijian"
+msgstr "フィジー語"
+
+#: src/components/fee/FeeForm/SecondStep/FeeSplitAllocationFormContent.js:134
+msgid "File"
+msgstr "ファイル"
+
+#: src/components/UI/files/Dropzone/Dropzone.js:33
+msgid "File uploaded must be an accepted file type ({0}) and size less than {1}"
+msgstr "アップロードされるファイルは、承認されたファイルタイプ（{0}）で、サイズが{1}未満である必要があります。"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:74
+msgid "Files"
+msgstr "ファイル"
+
+#: src/constants/choices.js:370
+msgid "Filipino"
+msgstr "フィリピン語"
+
+#: src/containers/pages/agency/ClientPage/ClientPage.js:151
+msgid "Fill Contract"
+msgstr "契約書の記入"
+
+#: src/constants/choices.js:8
+msgid "Filled"
+msgstr "採用完了"
+
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyDirectoryFilters.js:87
+msgid "Filters"
+msgstr "フィルター"
+
+#: src/constants/choices.js:179
+msgid "Final Interview"
+msgstr "最終面接"
+
+#: src/containers/pages/agency/AgencyDashboard/DealPipelineMetrics.js:14
+msgid "Final stage"
+msgstr "最終ステージ"
+
+#: src/constants/choices.js:371
+msgid "Finnish"
+msgstr "フィンランド語"
+
+#: src/constants/choices.js:181
+msgid "First Interview"
+msgstr "一次面接"
+
+#: src/components/SignUp/SignUpAgencyForm.js:45
+#: src/components/SignUp/SignUpClientForm.js:40
+#: src/components/SignUp/SignUpRecruiterForm.js:18
+#: src/components/modals/DataMergeModal.js:23
+#: src/components/modals/InviteManagerModalForm.js:16
+#: src/components/modals/QuickAddCandidateModal/sections/Personal.js:18
+#: src/containers/pages/CandidateEditPage/components/sections/Personal.js:28
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:52
+#: src/containers/pages/JobPostingPageContent/components/JobPostingApplicationForm/components/NameSection.js:24
+#: src/containers/pages/PersonalSettings/components/Details.js:30
+#: src/containers/pages/users/UserEditPage/components/UserForm/UserForm.js:54
+msgid "First Name"
+msgstr "名"
+
+#: src/components/modals/QuickAddCandidateModal/sections/Personal.js:23
+#: src/containers/pages/CandidateEditPage/components/sections/Personal.js:34
+#: src/containers/pages/JobPostingPageContent/components/JobPostingApplicationForm/components/NameSection.js:29
+msgid "First Name (Kanji)"
+msgstr "名(漢字）"
+
+#: src/containers/pages/CandidateEditPage/components/sections/Personal.js:39
+#: src/containers/pages/JobPostingPageContent/components/JobPostingApplicationForm/components/NameSection.js:34
+msgid "First Name (Katakana)"
+msgstr "名(カタカナ）"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:54
+msgid "First Name in Japanese"
+msgstr "日本語の名"
+
+#: src/containers/pages/agency/AgencyDashboard/DealPipelineMetrics.js:12
+msgid "First stage"
+msgstr "ファーストステージ"
+
+#: src/constants/choices.js:150
+msgid "Fixed Term Contract Employee"
+msgstr "有期契約社員"
+
+#: src/constants/choices.js:137
+msgid "Fixed-term Contract Employee"
+msgstr "ファストステージ"
+
+#: src/containers/pages/JobEditPage/components/sections/JobConditions.js:101
+#: src/containers/pages/JobPage/components/JobDetailsSections/JobConditions.js:84
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:175
+msgid "Flextime Eligibility"
+msgstr "フレックス有無"
+
+#: src/components/UI/LanguageInput/LanguageInput.js:63
+msgid "Fluency Level"
+msgstr "言語レベル"
+
+#: src/constants/choices.js:128
+msgid "Fluent"
+msgstr "ビジネス上級レベル"
+
+#: src/containers/pages/AuthPage/components/SignIn.js:97
+msgid "Forgot password?"
+msgstr "パスワードをお忘れですか？"
+
+#: src/constants/choices.js:225
+msgid "Free Coffee"
+msgstr "フリーコーヒー"
+
+#: src/constants/choices.js:141
+#: src/constants/choices.js:153
+msgid "Freelance"
+msgstr "フリーランス"
+
+#: src/constants/choices.js:101
+#: src/constants/choices.js:372
+msgid "French"
+msgstr "フランス語"
+
+#: src/containers/pages/AnalyticsPage/AnalyticsPage.js:34
+#: src/containers/pages/CareerSitePage/pages/CareerSiteJobPostingListPage/CareerSiteJobPostingListPage.js:80
+#: src/containers/pages/JobEditPage/components/sections/Details.js:37
+#: src/containers/pages/JobPage/components/JobDetails/components/PrivateDetails.js:25
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:62
+msgid "Function"
+msgstr "ファンクション"
+
+#: src/containers/pages/CompanySettings/components/Inputs.js:45
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyDirectoryFilters.js:99
+msgid "Function Focus"
+msgstr "ファンクション・フォーカス"
+
+#: src/containers/pages/AnalyticsPage/ConversionRatioFunnel.js:57
+msgid "Funnel Completion Rate:<0> </0>"
+msgstr "ファンネル完了率：<0> </0>"
+
+#: src/constants/choices.js:373
+msgid "Gabonese"
+msgstr "ガボン語"
+
+#: src/constants/choices.js:374
+msgid "Gambian"
+msgstr "ガンビア語"
+
+#: src/components/candidates/CandidateDetailsTab/sections/PersonalInfoSection.js:36
+#: src/containers/pages/CandidateEditPage/components/sections/Personal.js:62
+msgid "Gender"
+msgstr "ジェンダー"
+
+#: src/constants/choices.js:193
+msgid "General"
+msgstr "一般"
+
+#: src/containers/pages/agency/AgencyClientEditPage/AgencyClientEditForm.js:50
+msgid "General info"
+msgstr "一般情報"
+
+#: src/containers/pages/JobPage/components/TabShareExternally/components/PrivateJobPosting/PrivateJobPosting.js:118
+msgid "Generate a private URL and share this job only with selected people."
+msgstr "非公開URLを作成し、選択した人だけにこの求人情報を共有することができます."
+
+#: src/constants/choices.js:375
+msgid "Georgian"
+msgstr "ジョージア語"
+
+#: src/constants/choices.js:102
+#: src/constants/choices.js:376
+msgid "German"
+msgstr "ドイツ語"
+
+#: src/constants/choices.js:377
+msgid "Ghanaian"
+msgstr "ガーナ語"
+
+#: src/components/modals/DataMergeModal.js:31
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:64
+msgid "GitHub URL"
+msgstr "GitHubのURL"
+
+#: src/constants/choices.js:521
+msgid "Github"
+msgstr "GitHub"
+
+#: src/constants/choices.js:378
+msgid "Greek"
+msgstr "ギリシャ語"
+
+#: src/constants/choices.js:379
+msgid "Grenadian"
+msgstr "グレナダ語"
+
+#: src/constants/choices.js:380
+msgid "Guatemalan"
+msgstr "グアテマラ語"
+
+#: src/constants/choices.js:381
+msgid "Guinea-Bissauan"
+msgstr "ギニアビサウ語"
+
+#: src/constants/choices.js:382
+msgid "Guinean"
+msgstr "ギニア語"
+
+#: src/constants/choices.js:383
+msgid "Guyanese"
+msgstr "ガイアナ語"
+
+#: src/constants/choices.js:223
+msgid "Gym / Wellness Membership"
+msgstr "ジム会員"
+
+#: src/constants/choices.js:73
+msgid "HK$ Hong Kong Dollar"
+msgstr "$香港ドル"
+
+#: src/constants/choices.js:384
+msgid "Haitian"
+msgstr "ハイチ語"
+
+#: src/constants/choices.js:297
+msgid "Headhunt"
+msgstr "ヘッドハント"
+
+#: src/constants/choices.js:206
+msgid "Health Insurance"
+msgstr "健康保険"
+
+#: src/constants/choices.js:385
+msgid "Herzegovinian"
+msgstr "ヘルツェゴビナ語"
+
+#: src/containers/pages/CandidateConfirmation/components/ConfirmSchedule.js:54
+msgid "Hi <0>{candidateName}</0>, you have been invited to an interview with"
+msgstr "<0>{candidateName}</0>様、この人に面接に招待されました："
+
+#: src/constants/choices.js:199
+msgid "High School Diploma"
+msgstr "高卒"
+
+#: src/constants/choices.js:103
+msgid "Hindi"
+msgstr "ヒンディー語"
+
+#: src/constants/choices.js:174
+#: src/containers/pages/AnalyticsPage/CandidateSourceStat.js:73
+#: src/containers/pages/JobPage/components/ApplicationStages/ApplicationStages.js:15
+msgid "Hired"
+msgstr "採用済み"
+
+#: src/containers/pages/AnalyticsPage/CandidatesHired.js:11
+msgid "Hired Candidates"
+msgstr "雇用された候補者"
+
+#: src/containers/pages/AnalyticsPage/CandidateSourceStat.js:39
+msgid "Hired Candidates source"
+msgstr "雇われた候補者の獲得源"
+
+#: src/components/modals/InterviewAssessmentModal/components/Inputs.js:35
+#: src/containers/pages/JobEditPage/components/sections/HiringProcess.js:122
+#: src/containers/pages/JobPage/components/JobDetailsSections/HiringProcess.js:66
+msgid "Hiring Criteria"
+msgstr "採用要件"
+
+#: src/constants/roles.js:28
+#: src/containers/pages/JobEditPage/components/sections/HiringProcess.js:73
+#: src/containers/pages/JobPage/components/JobDetailsSections/HiringProcess.js:22
+#: src/containers/pages/JobPage/components/ProposalApplicationSections/ApplicationJob.js:39
+#: src/containers/pages/agency/AgencyDashboard/JobsTable.js:79
+#: src/containers/pages/client/ClientDashboard/ActiveJobsTable.js:52
+msgid "Hiring Manager"
+msgstr "採用マネジャー"
+
+#: src/containers/pages/JobEditPage/components/JobForm/constants.js:15
+#: src/containers/pages/JobEditPage/components/sections/HiringProcess.js:69
+#: src/containers/pages/JobPage/components/JobDetails/constants.js:7
+#: src/containers/pages/JobPage/components/JobDetailsSections/HiringProcess.js:18
+msgid "Hiring Process"
+msgstr "採用プロセス"
+
+#: src/containers/pages/JobEditPage/components/sections/HiringProcess.js:166
+msgid "Hiring Process Notes"
+msgstr "採用プロセスメモ"
+
+#: src/constants/choices.js:386
+msgid "Honduran"
+msgstr "ホンジュラス語"
+
+#: src/constants/choices.js:88
+msgid "Hour"
+msgstr "時間"
+
+#: src/constants/choices.js:262
+msgid "Housing Support"
+msgstr "住宅手当"
+
+#: src/constants/choices.js:387
+msgid "Hungarian"
+msgstr "ハンガリー語"
+
+#: src/containers/pages/AuthPage/components/Agreement.js:101
+msgid "I Agree"
+msgstr "同意します"
+
+#: src/components/SignUp/SignUpAgencyForm.js:101
+#: src/components/SignUp/SignUpClientForm.js:93
+#: src/components/SignUp/SignUpRecruiterForm.js:63
+msgid "I agree to <0>Terms Of Service</0>"
+msgstr "私は<0>サービスの規約</0>に同意します"
+
+#: src/containers/pages/JobPostingPageContent/components/JobPostingApplicationForm/components/Agreement.js:21
+msgid "I have read and agreed to the"
+msgstr "を読み、同意しました"
+
+#: src/containers/pages/AuthPage/components/Agreement.js:78
+msgid "I have read and agreed to the Terms and Conditions & <0>Privacy Policies</0>"
+msgstr "利用規約および<0>個人情報保護方針</0>を読み、同意しました。"
+
+#: src/constants/choices.js:388
+msgid "I-Kiribati"
+msgstr "アイ・キリバス語"
+
+#: src/components/candidates/CandidateDetailsTab/sections/MetaDataSection.js:30
+#: src/containers/pages/CandidateEditPage/components/sections/Metadata.js:19
+#: src/containers/pages/JobEditPage/components/sections/Metadata.js:29
+#: src/containers/pages/JobPage/components/JobDetailsSections/Metadata.js:30
+#: src/containers/pages/users/UserEditPage/components/UserForm/UserForm.js:113
+#: src/containers/pages/users/UserViewPage/components/UserDetails/UserDetails.js:95
+msgid "ID"
+msgstr "ID"
+
+#: src/containers/pages/agency/AgencyClientEditPage/AgencyClientEditForm.js:153
+msgid "IOS/IOA"
+msgstr "IOS/IOA"
+
+#: src/constants/choices.js:389
+msgid "Icelander"
+msgstr "アイスランド語"
+
+#: src/containers/pages/AnalyticsPage/JobAnalytics/consts.js:11
+msgid "Identified"
+msgstr "個人特定済み"
+
+#: src/constants/choices.js:289
+msgid "Immediate"
+msgstr "今すぐ"
+
+#: src/components/jobs/JobLonglistImport.js:164
+#: src/containers/pages/CandidatesPage/CandidatesPage.js:146
+msgid "Import"
+msgstr "インポート"
+
+#: src/components/modals/ModalImportCandidate/ModalImportCandidate.js:65
+msgid "Import candidate"
+msgstr "候補者インポート"
+
+#: src/components/modals/ModalImportCandidate/ModalImportCandidate.js:36
+msgid "Import failed. This candidate already exists in your DB"
+msgstr "インポートに失敗しました。この候補者はすでにデータベースに存在しています。"
+
+#: src/constants/choices.js:180
+msgid "In Process"
+msgstr "プロセス中"
+
+#: src/components/fee/FeeApprovalsTable/FeeApprovalsTable.js:42
+msgid "In revision"
+msgstr "リビジョン中"
+
+#: src/containers/pages/users/UserViewPage/UserViewPage.js:87
+#: src/containers/pages/users/UserViewPage/components/UserDetails/UserDetails.js:77
+msgid "Inactive"
+msgstr "無効"
+
+#: src/constants/choices.js:390
+msgid "Indian"
+msgstr "インド語"
+
+#: src/constants/choices.js:391
+msgid "Indonesian"
+msgstr "インドネシア語"
+
+#: src/components/modals/ModalFormAgencyJobContract/FormInputsJobAgencyContract.js:56
+#: src/components/modals/ModalFormAgencyJobContract/FormPreviewJobAgencyContract.js:43
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:92
+#: src/containers/pages/agency/AgencyClientEditPage/AgencyClientEditForm.js:105
+msgid "Industry"
+msgstr "業界"
+
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyContractDetails.js:34
+msgid "Initial Fee"
+msgstr "初期費用"
+
+#: src/containers/pages/CandidateEditPage/components/sections/EducationDetails.js:56
+msgid "Institution Name"
+msgstr "学校名"
+
+#: src/containers/pages/AuthPage/components/InstructionsSent.js:23
+msgid "Instructions for resetting your password have been sent to {email}"
+msgstr "パスワードを再設定するための手順が{email}に送信されています。"
+
+#: src/containers/pages/AuthPage/components/InstructionsSent.js:17
+msgid "Instructions sent!"
+msgstr "手順を案内しました"
+
+#: src/containers/pages/agency/AgencyDashboard/DealPipelineMetrics.js:13
+msgid "Intermediate stage"
+msgstr "中間ステージ"
+
+#: src/constants/roles.js:24
+msgid "Internal Recruiter"
+msgstr "社内リクルーター"
+
+#: src/containers/pages/JobEditPage/components/sections/HiringProcess.js:98
+msgid "Internal Recruiters"
+msgstr "Internal Recruiters"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:106
+msgid "Internal Status"
+msgstr "社内ステータス"
+
+#: src/containers/pages/JobPage/components/ProposalInterview/components/InterviewFullBody.js:50
+#: src/containers/pages/JobPage/components/ProposalInterview/components/InterviewShortBody.js:17
+msgid "Interview Details"
+msgstr "面接詳細"
+
+#: src/components/modals/InterviewSchedulingModal/components/Inputs.js:114
+msgid "Interview Invitation Details"
+msgstr "面接招待状の詳細"
+
+#: src/components/modals/InterviewSchedulingModal/hooks.js:175
+msgid "Interview Proposal (Send interview time slots to Candidate)"
+msgstr ""
+
+#: src/utils/interviews.js:35
+msgid "Interview {0} - {1}"
+msgstr ""
+
+#: src/containers/pages/AnalyticsPage/JobAnalytics/consts.js:13
+msgid "Interviewed"
+msgstr "面接済"
+
+#: src/components/modals/InterviewEditModal/InterviewEditModal.js:115
+#: src/components/modals/InterviewSchedulingModal/components/Inputs.js:103
+#: src/containers/pages/JobEditPage/components/Interviews/Interviews.js:95
+#: src/containers/pages/JobPage/components/ProposalInterview/components/InterviewFullBody.js:41
+#: src/containers/pages/JobPage/components/ProposalInterview/components/InterviewShortBody.js:13
+msgid "Interviewer"
+msgstr "面接官"
+
+#: src/containers/pages/JobPage/components/ProposalInterview/components/HeaderActionsShort.js:15
+msgid "Interviewer:"
+msgstr "面接官："
+
+#: src/constants/choices.js:26
+#: src/constants/choices.js:172
+#: src/containers/pages/JobPage/components/ApplicationStages/ApplicationStages.js:20
+#: src/containers/pages/JobPage/components/InterviewingStage/InterviewingStage.js:32
+#: src/containers/pages/client/ClientDashboard/Statistics.js:14
+msgid "Interviewing"
+msgstr "面接選考中"
+
+#: src/containers/pages/JobEditPage/components/Interviews/Interviews.js:74
+#: src/containers/pages/JobPage/components/JobDetailsSections/HiringProcess.js:99
+#: src/containers/pages/JobPage/components/ProposalApplicationSections/ApplicationInterviews.js:40
+msgid "Interviews"
+msgstr "面接"
+
+#: src/containers/pages/InvitationsPage/Invitation.js:83
+msgid "Invitation will expire in {daysUntilInvitationExpire} days"
+msgstr "招待は、{daysUntilInvitationExpire} 日で期限切れになります"
+
+#: src/containers/pages/InvitationsPage/InvitationsPage.js:41
+#: src/containers/pages/InvitationsPage/InvitationsPage.js:54
+#: src/containers/pages/InvitationsPage/InvitationsPage.js:56
+msgid "Invitations"
+msgstr "招待"
+
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyItem.js:44
+msgid "Invite Agency"
+msgstr "エージェントを招待"
+
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyDirectoryPage.js:38
+msgid "Invite All"
+msgstr "すべてを招待する"
+
+#: src/components/modals/InviteManagerModalForm.js:37
+msgid "Invite a Manager"
+msgstr "マネージャーを招待"
+
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyDirectoryPage.js:32
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyItem.js:49
+msgid "Invited"
+msgstr "招待済"
+
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:250
+msgid "Invoice"
+msgstr "請求書"
+
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:264
+msgid "Invoice Due Date"
+msgstr "請求書支払期限日"
+
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:197
+msgid "Invoice Email"
+msgstr "請求メール"
+
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:258
+msgid "Invoice Issuance Date"
+msgstr "請求書発行日"
+
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:281
+msgid "Invoice Payment Date"
+msgstr "請求支払日"
+
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:272
+msgid "Invoice Status"
+msgstr "請求書ステータス"
+
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:252
+msgid "Invoice Value"
+msgstr "請求書の金額"
+
+#: src/constants/choices.js:392
+msgid "Iranian"
+msgstr "イラン語"
+
+#: src/constants/choices.js:393
+msgid "Iraqi"
+msgstr "イラク語"
+
+#: src/constants/choices.js:394
+msgid "Irish"
+msgstr "アイルランド語"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:105
+msgid "Is Client Contact"
+msgstr "クライアントコンタクトである"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:104
+msgid "Is Met"
+msgstr "面談済"
+
+#: src/constants/choices.js:395
+msgid "Israeli"
+msgstr "イスラエル語"
+
+#: src/containers/pages/agency/ClientPage/ClientPage.js:141
+msgid "Issue a Fee"
+msgstr "手数料請求を行う"
+
+#: src/constants/choices.js:104
+#: src/constants/choices.js:396
+msgid "Italian"
+msgstr "イタリア語"
+
+#: src/constants/choices.js:397
+msgid "Ivorian"
+msgstr "コートジボワール語"
+
+#: src/constants/choices.js:241
+msgid "JLPT"
+msgstr "日本語能力試験"
+
+#: src/constants/choices.js:398
+msgid "Jamaican"
+msgstr "ジャマイカ語"
+
+#: src/constants/choices.js:93
+#: src/constants/choices.js:98
+#: src/constants/choices.js:399
+msgid "Japanese"
+msgstr "日本語"
+
+#: src/components/UI/ResumeInput/ResumeInput.js:25
+#: src/components/candidates/CandidateDetailsTab/sections/AttachmentsList/AttachmentsList.js:23
+msgid "Japanese CV (Shokumu-keirekisho)"
+msgstr "職務経歴書（日本語）"
+
+#: src/containers/pages/CandidatesPage/CandidatesPage.js:64
+#: src/containers/pages/JobPage/components/StageList/StageList.js:85
+msgid "Japanese Fluency"
+msgstr "日本語レベル"
+
+#: src/components/UI/ResumeInput/ResumeInput.js:21
+#: src/components/candidates/CandidateDetailsTab/sections/AttachmentsList/AttachmentsList.js:22
+msgid "Japanese Resume (Rirekisho)"
+msgstr "履歴書（日本語）"
+
+#: src/constants/choices.js:105
+msgid "Javanese"
+msgstr "ジャワ語"
+
+#: src/components/candidates/FormImportCandidate/FormImportCandidate.js:82
+#: src/containers/pages/JobPage/components/ProposalApplicationSections/ApplicationJob.js:26
+#: src/containers/pages/JobPage/modals/MoveProposalModalForm.js:14
+#: src/containers/pages/client/AgencyPage/AgencyPage.js:41
+msgid "Job"
+msgstr "求人"
+
+#: src/components/candidates/CandidateDetailsTab/sections/ApplicationsSection.js:31
+msgid "Job Applications"
+msgstr "求人の応募者"
+
+#: src/containers/pages/AnalyticsPage/JobAverageOpen.js:57
+msgid "Job Average Days Open"
+msgstr "求人平均募集日数"
+
+#: src/components/candidates/CandidateDetailsTab/sections/ExpectationsSection/index.js:86
+#: src/containers/pages/CandidateEditPage/components/sections/CandidateExpectations.js:91
+msgid "Job Change Urgency"
+msgstr "転職意欲"
+
+#: src/containers/pages/JobEditPage/components/JobForm/constants.js:14
+#: src/containers/pages/JobEditPage/components/sections/JobConditions.js:42
+#: src/containers/pages/JobPage/components/JobDetails/constants.js:6
+#: src/containers/pages/JobPage/components/JobDetailsSections/JobConditions.js:40
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:118
+#: src/containers/pages/JobPostingPageContent/JobPostingPageContent.js:70
+msgid "Job Conditions"
+msgstr "働き方と処遇"
+
+#: src/components/modals/ModalFormAgencyJobContract/ModalFormJobAgencyContract.js:69
+msgid "Job Contract"
+msgstr "雇用形態"
+
+#: src/containers/pages/JobPage/components/JobPageContent/JobPageContent.js:70
+msgid "Job Details"
+msgstr "求人詳細"
+
+#: src/containers/pages/AnalyticsPage/AnalyticsPage.js:35
+msgid "Job Owner"
+msgstr "Jobオーナー"
+
+#: src/containers/pages/JobPage/components/TabShareExternally/components/CareerSiteJobPosting/CareerSiteJobPosting.js:77
+msgid "Job Posting - Career Site"
+msgstr "求人情報 - キャリアサイト"
+
+#: src/containers/pages/JobEditPage/components/sections/HiringProcess.js:88
+msgid "Job Status"
+msgstr "求人ステータス"
+
+#: src/components/fee/FeeApprovalsTable/FeeApprovalsTable.js:84
+#: src/containers/pages/CandidateEditPage/components/sections/ExperienceDetails.js:51
+#: src/containers/pages/CareerSitePage/pages/CareerSiteJobPostingListPage/CareerSiteJobPostingListPage.js:68
+#: src/containers/pages/JobEditPage/components/sections/Details.js:29
+#: src/containers/pages/JobPage/components/JobDetails/components/PrivateDetails.js:24
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:57
+#: src/containers/pages/JobsPage/JobsPage.js:65
+#: src/containers/pages/agency/AgencyDashboard/JobsTable.js:49
+#: src/containers/pages/agency/ClientPage/ClientPage.js:83
+#: src/containers/pages/client/ClientDashboard/ActiveJobsTable.js:40
+#: src/containers/pages/client/ClientDashboard/ProposalsTable.js:68
+msgid "Job Title"
+msgstr "仕事名"
+
+#: src/containers/pages/agency/AgencyDashboard/JobsTable.js:68
+msgid "Job opened"
+msgstr "募集中の求人"
+
+#: src/containers/pages/agency/AgencyDashboard/CandidatesTable.js:69
+#: src/containers/pages/agency/AgencyDashboard/DealPipelineCandidatesModal.js:53
+msgid "Job title"
+msgstr "求人名"
+
+#: src/components/Menu/index.js:17
+#: src/components/Menu/index.js:25
+#: src/containers/pages/AnalyticsPage/JobAnalytics/JobAnalyticsPage.js:31
+#: src/containers/pages/CareerSitePage/pages/CareerSiteJobPostingListPage/CareerSiteJobPostingListPage.js:96
+#: src/containers/pages/JobsPage/JobsPage.js:133
+msgid "Jobs"
+msgstr "求人"
+
+#: src/containers/pages/InvitationsPage/Invitation.js:125
+msgid "Jobs:"
+msgstr "求人："
+
+#: src/constants/choices.js:400
+msgid "Jordanian"
+msgstr "ヨルダン語"
+
+#: src/constants/choices.js:401
+msgid "Kazakhstani"
+msgstr "カザフスタン語"
+
+#: src/constants/choices.js:532
+msgid "Keep"
+msgstr "保管"
+
+#: src/containers/pages/JobEditPage/components/JobForm/utils/openCantBeFilled.js:22
+#: src/containers/pages/JobEditPage/components/JobForm/utils/openConfirmCloseUnfilled.js:27
+msgid "Keep editing"
+msgstr "編集を続ける"
+
+#: src/constants/choices.js:402
+msgid "Kenyan"
+msgstr "ケニア語"
+
+#: src/constants/choices.js:405
+msgid "Kittian and Nevisian"
+msgstr "キティアンとネイビス語"
+
+#: src/constants/choices.js:106
+msgid "Korean"
+msgstr "韓国語"
+
+#: src/constants/choices.js:407
+msgid "Kuwaiti"
+msgstr "クウェート語"
+
+#: src/constants/choices.js:408
+msgid "Kyrgyz"
+msgstr "キルギス語"
+
+#: src/constants/choices.js:107
+msgid "Lahnda"
+msgstr "ラーンダ語"
+
+#: src/components/UI/LanguageInput/LanguageInput.js:50
+#: src/containers/pages/PersonalSettings/components/Details.js:40
+#: src/containers/pages/users/UserEditPage/components/UserForm/UserForm.js:57
+#: src/containers/pages/users/UserViewPage/components/UserDetails/UserDetails.js:87
+msgid "Language"
+msgstr "言語"
+
+#: src/components/UI/LanguageInput/LanguageInput.js:76
+#: src/components/candidates/CandidatePreview.js:72
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:78
+#: src/containers/pages/JobPage/components/JobDetailsSections/Requirements.js:48
+#: src/utils/candidates/getMissingFields.js:20
+msgid "Languages"
+msgstr "言語"
+
+#: src/constants/choices.js:409
+msgid "Laotian"
+msgstr "ラオス語"
+
+#: src/containers/pages/agency/AgencyDashboard/CandidatesTable.js:88
+msgid "Last Activity"
+msgstr "最後のアクティビティ"
+
+#: src/containers/pages/users/UserEditPage/components/UserForm/UserForm.js:114
+#: src/containers/pages/users/UserViewPage/components/UserDetails/UserDetails.js:96
+msgid "Last Login"
+msgstr "最終ログイン"
+
+#: src/components/SignUp/SignUpAgencyForm.js:54
+#: src/components/SignUp/SignUpClientForm.js:49
+#: src/components/SignUp/SignUpRecruiterForm.js:22
+#: src/components/modals/InviteManagerModalForm.js:21
+#: src/components/modals/QuickAddCandidateModal/sections/Personal.js:19
+msgid "Last Name"
+msgstr "姓"
+
+#: src/components/modals/QuickAddCandidateModal/sections/Personal.js:24
+#: src/containers/pages/CandidateEditPage/components/sections/Personal.js:35
+#: src/containers/pages/JobPostingPageContent/components/JobPostingApplicationForm/components/NameSection.js:30
+msgid "Last Name (Kanji)"
+msgstr "姓（漢字）"
+
+#: src/containers/pages/CandidateEditPage/components/sections/Personal.js:40
+#: src/containers/pages/JobPostingPageContent/components/JobPostingApplicationForm/components/NameSection.js:35
+msgid "Last Name (Katakana)"
+msgstr "姓（カタカナ）"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:55
+msgid "Last Name in Japanese"
+msgstr "日本語の姓"
+
+#: src/components/modals/DataMergeModal.js:24
+#: src/containers/pages/CandidateEditPage/components/sections/Personal.js:30
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:53
+#: src/containers/pages/JobPostingPageContent/components/JobPostingApplicationForm/components/NameSection.js:25
+#: src/containers/pages/PersonalSettings/components/Details.js:31
+#: src/containers/pages/users/UserEditPage/components/UserForm/UserForm.js:55
+msgid "Last Name(s)"
+msgstr "姓"
+
+#: src/components/modals/CandidatePreviewModal/CandidatePreviewModal.js:61
+#: src/containers/pages/CandidatePreviewPage.js:79
+#: src/containers/pages/client/ClientDashboard/ProposalsTable.js:79
+msgid "Last activity"
+msgstr "最後のアクティビティ"
+
+#: src/constants/choices.js:410
+msgid "Latvian"
+msgstr "ラトビア語"
+
+#: src/components/fee/FeeForm/SecondStep/FeeSplitAllocationFormContent.js:95
+msgid "Lead BD Consultant"
+msgstr "リードBDコンサルタント"
+
+#: src/components/fee/FeeForm/SecondStep/FeeSplitAllocationFormContent.js:102
+msgid "Lead BD Consultant Split"
+msgstr "リードBDコンサルタントの割当"
+
+#: src/components/fee/FeeForm/SecondStep/FeeSplitAllocationFormContent.js:71
+msgid "Lead Candidate Consultant"
+msgstr "リードキャンディデイトコンサルタント"
+
+#: src/components/fee/FeeForm/SecondStep/FeeSplitAllocationFormContent.js:78
+msgid "Lead Candidate Consultant Split"
+msgstr "リードキャンディデイトコンサルタントの割当"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:87
+msgid "Lead Consultant"
+msgstr "リードコンサルタント"
+
+#: src/constants/choices.js:411
+msgid "Lebanese"
+msgstr "レバノン語"
+
+#: src/constants/choices.js:412
+msgid "Liberian"
+msgstr "リベリア語"
+
+#: src/constants/choices.js:413
+msgid "Libyan"
+msgstr "リビア語"
+
+#: src/constants/choices.js:414
+msgid "Liechtensteiner"
+msgstr "リヒテンシュタイナー語"
+
+#: src/components/candidates/FormImportCandidate/FormImportCandidate.js:79
+#: src/constants/choices.js:518
+msgid "LinkedIn"
+msgstr "リンクドイン"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:63
+msgid "LinkedIn Profile"
+msgstr "リンクドインのプロフィール"
+
+#: src/containers/pages/CandidateEditPage/components/sections/Contact.js:80
+#: src/containers/pages/JobPostingPageContent/components/JobPostingApplicationForm/components/OnlineProfilesSection.js:17
+msgid "Linkedin"
+msgstr "リンクドイン"
+
+#: src/components/candidates/CandidateDetailsTab/sections/ContactSection.js:56
+msgid "Linkedin Profile"
+msgstr "リンクドインのプロフィール"
+
+#: src/constants/choices.js:415
+msgid "Lithuanian"
+msgstr "リトアニア語"
+
+#: src/containers/pages/client/ClientDashboard/Statistics.js:11
+msgid "Live Jobs"
+msgstr "募集中の求人"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateComments/CandidateComments.js:118
+#: src/containers/pages/JobPage/components/ProposalComments.js:112
+msgid "Load more"
+msgstr "さらに読み込む"
+
+#: src/containers/pages/agency/AgencyClientEditPage/AgencyClientEditPage.js:26
+#: src/containers/pages/agency/ClientPage/ClientPage.js:207
+#: src/containers/pages/client/AgencyPage/AgencyPage.js:102
+msgid "Loading..."
+msgstr "読み込んでいます..."
+
+#: src/components/candidates/CandidateDetailsTab/sections/ExperienceDetailsSection/Experience.js:42
+#: src/containers/pages/CandidateEditPage/components/sections/ExperienceDetails.js:106
+#: src/containers/pages/CareerSitePage/pages/CareerSiteJobPostingListPage/CareerSiteJobPostingListPage.js:74
+#: src/containers/pages/JobsPage/JobsPage.js:94
+msgid "Location"
+msgstr "勤務地"
+
+#: src/containers/pages/AuthPage/components/Agreement.js:97
+msgid "Log Out"
+msgstr "ログアウト"
+
+#: src/containers/pages/ActivateAccountPage.js:77
+#: src/containers/pages/AuthPage/AuthPage.js:49
+msgid "Login"
+msgstr "ログイン"
+
+#: src/containers/pages/CompanySettings/components/Inputs.js:55
+msgid "Logo"
+msgstr "ロゴ"
+
+#: src/components/NavBar/components/UserMenu/UserMenu.js:85
+#: src/containers/pages/HomePage/HomePage.js:52
+#: src/containers/pages/HomePage/HomePage.js:69
+msgid "Logout"
+msgstr "ログアウト"
+
+#: src/containers/pages/AnalyticsPage/JobAnalytics/SnapshotTableModal.js:81
+#: src/containers/pages/AnalyticsPage/JobAnalytics/SnapshotTableModal.js:131
+msgid "Longlist"
+msgstr "ロングリスト"
+
+#: src/constants/choices.js:416
+msgid "Luxembourger"
+msgstr "ルクセンブルク語"
+
+#: src/constants/choices.js:417
+msgid "Macedonian"
+msgstr "マケドニア語"
+
+#: src/constants/choices.js:418
+msgid "Malagasy"
+msgstr "マダガスカル語"
+
+#: src/constants/choices.js:419
+msgid "Malawian"
+msgstr "マラウイ語"
+
+#: src/constants/choices.js:108
+msgid "Malay"
+msgstr "マレー語"
+
+#: src/constants/choices.js:420
+msgid "Malaysian"
+msgstr "マレー人"
+
+#: src/constants/choices.js:421
+msgid "Maldivian"
+msgstr "モルディブ語"
+
+#: src/constants/choices.js:229
+msgid "Male"
+msgstr "男性"
+
+#: src/constants/choices.js:422
+msgid "Malian"
+msgstr "マリアン語"
+
+#: src/constants/choices.js:423
+msgid "Maltese"
+msgstr "マルタ語"
+
+#: src/constants/roles.js:31
+msgid "Manager"
+msgstr "マネージャー"
+
+#: src/constants/choices.js:109
+msgid "Mandarin Chinese"
+msgstr "北京語"
+
+#: src/constants/choices.js:110
+msgid "Marathi"
+msgstr "マラーティー語"
+
+#: src/components/NavBar/components/NotificationDropdown/NotificationsDropdown.js:73
+#: src/containers/pages/NotificationsPage/NotificationsPage.js:43
+msgid "Mark all as read"
+msgstr "すべて既読にする"
+
+#: src/constants/choices.js:424
+msgid "Marshallese"
+msgstr "マーシャル語"
+
+#: src/constants/choices.js:201
+msgid "Master's Degree"
+msgstr "修士"
+
+#: src/constants/choices.js:425
+msgid "Mauritanian"
+msgstr "モーリタニア語"
+
+#: src/constants/choices.js:426
+msgid "Mauritian"
+msgstr "モーリタニア語"
+
+#: src/containers/pages/AnalyticsPage/OpenJobs.js:11
+msgid "Max number of open jobs"
+msgstr "募集中求人の最大数"
+
+#: src/components/candidates/CandidateDetailsTab/sections/SkillsExperienceSection.js:33
+#: src/containers/pages/CandidateEditPage/components/sections/SkillsAndExperience.js:47
+msgid "Maximum No. of People Managed"
+msgstr "最大マネジメント人数"
+
+#: src/components/modals/CancelInterviewProposalModal/components/CancelInterviewProposalModalContent/CancelInterviewProposalModalContent.js:57
+msgid "Message (shown if candidate clicks on the proposal link)"
+msgstr ""
+
+#: src/containers/pages/CandidateConfirmation/components/InterviewProposalCancelled.js:21
+msgid "Message from company:"
+msgstr ""
+
+#: src/components/candidates/CandidateDetailsTab/sections/MetaDataSection.js:18
+msgid "MetaData"
+msgstr "メタデータ"
+
+#: src/containers/pages/CandidateEditPage/components/CandidateForm/constants.js:120
+#: src/containers/pages/CandidateEditPage/components/sections/Metadata.js:13
+#: src/containers/pages/JobEditPage/components/JobForm/constants.js:17
+#: src/containers/pages/JobEditPage/components/sections/Metadata.js:14
+#: src/containers/pages/JobPage/components/JobDetails/constants.js:9
+#: src/containers/pages/JobPage/components/JobDetailsSections/Metadata.js:14
+#: src/containers/pages/users/UserEditPage/components/UserForm/UserForm.js:111
+#: src/containers/pages/users/UserEditPage/constants.js:5
+#: src/containers/pages/users/UserViewPage/components/UserDetails/UserDetails.js:93
+msgid "Metadata"
+msgstr "メタデータ"
+
+#: src/constants/choices.js:427
+msgid "Mexican"
+msgstr "メキシコ人"
+
+#: src/constants/choices.js:428
+msgid "Micronesian"
+msgstr "ミクロネシア語"
+
+#: src/containers/pages/CandidateEditPage/components/sections/Personal.js:29
+msgid "Middle Name"
+msgstr "ミドルネーム"
+
+#: src/constants/choices.js:254
+msgid "Minimum Number of Holidays Per Year"
+msgstr "年間最小休日日数"
+
+#: src/components/modals/QuickAddCandidateModal/logicHooks.js:153
+#: src/components/modals/QuickAddCandidateModal/logicHooks.js:153
+#: src/containers/pages/CandidateEditPage/components/CandidateForm/logicHooks.js:209
+#: src/containers/pages/CandidateEditPage/components/CandidateForm/logicHooks.js:209
+msgid "Missing Information"
+msgstr "不足情報"
+
+#: src/components/candidates/CandidateIconPanel.js:80
+msgid "Missing information"
+msgstr "不足情報"
+
+#: src/containers/pages/JobEditPage/components/sections/Details.js:75
+#: src/containers/pages/JobPage/components/JobDetailsSections/Details.js:15
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:76
+msgid "Mission"
+msgstr "ミッション"
+
+#: src/components/candidates/CandidateDetailsTab/sections/MetaDataSection.js:42
+#: src/containers/pages/CandidateEditPage/components/sections/Metadata.js:24
+#: src/containers/pages/JobEditPage/components/sections/Metadata.js:37
+#: src/containers/pages/JobPage/components/JobDetailsSections/Metadata.js:40
+msgid "Modified Date"
+msgstr "更新日"
+
+#: src/constants/choices.js:429
+msgid "Moldovan"
+msgstr "モルドバ語"
+
+#: src/constants/choices.js:430
+msgid "Monacan"
+msgstr "モナカン人"
+
+#: src/constants/choices.js:431
+msgid "Mongolian"
+msgstr "モンゴル語"
+
+#: src/constants/choices.js:85
+msgid "Month"
+msgstr "月"
+
+#: src/containers/pages/AnalyticsPage/AnalyticsParams.js:20
+msgid "Monthly"
+msgstr "毎月"
+
+#: src/containers/pages/JobPage/components/JobDetailsSections/JobConditions.js:55
+msgid "Monthly Salary"
+msgstr "月収"
+
+#: src/constants/choices.js:432
+msgid "Moroccan"
+msgstr "モロッコ語"
+
+#: src/constants/choices.js:433
+msgid "Mosotho"
+msgstr "モッソト語"
+
+#: src/constants/choices.js:434
+msgid "Motswana"
+msgstr "モツワナ語"
+
+#: src/components/UI/Dropdown/StagesDropdown/dialogs/openMoveToInterviewing.js:10
+msgid "Move to Interviewing?"
+msgstr "面接に移動しますか？"
+
+#: src/constants/choices.js:435
+msgid "Mozambican"
+msgstr "モザンビーク語"
+
+#: src/containers/pages/agency/AgencyDashboard/JobsTable.js:103
+#: src/containers/pages/agency/AgencyDashboard/JobsTable.js:126
+msgid "My Jobs"
+msgstr "My Jobs"
+
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:113
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:151
+msgid "NBV Period"
+msgstr "NBV期間"
+
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:127
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:165
+msgid "NFI Period"
+msgstr "NFI期間"
+
+#: src/components/jobs/JobLonglistImport.js:103
+#: src/containers/pages/CandidatesPage/CandidatesPage.js:37
+#: src/containers/pages/JobPage/components/StageList/StageList.js:50
+#: src/containers/pages/JobPostingPageContent/components/JobPostingApplicationForm/components/NameSection.js:20
+#: src/containers/pages/agency/ClientsPage/ClientsPage.js:31
+#: src/containers/pages/agency/ClientsPage/CreateAgencyClientModal.js:21
+#: src/containers/pages/users/UserViewPage/UserViewPage.js:53
+msgid "Name"
+msgstr "名前"
+
+#: src/constants/choices.js:436
+msgid "Namibian"
+msgstr "ナミビア語"
+
+#: src/components/candidates/CandidateDetailsTab/sections/PersonalInfoSection.js:35
+#: src/containers/pages/CandidateEditPage/components/sections/Personal.js:55
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:101
+msgid "Nationality"
+msgstr "国籍"
+
+#: src/constants/choices.js:129
+msgid "Native"
+msgstr "ネイティブ"
+
+#: src/constants/choices.js:437
+msgid "Nauruan"
+msgstr "ナウル語"
+
+#: src/components/fee/FeeApprovalsTable/FeeApprovalsTable.js:48
+msgid "Needs placement"
+msgstr "プレイスメント情報の提出"
+
+#: src/constants/choices.js:438
+msgid "Nepalese"
+msgstr "ネパール語"
+
+#: src/components/NewFileThumbnail/NewFileThumbnail.js:28
+#: src/constants/choices.js:15
+#: src/constants/choices.js:22
+#: src/constants/choices.js:186
+msgid "New"
+msgstr "新着"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateComments/CandidateComments.js:50
+#: src/containers/pages/JobPage/components/ProposalComments.js:57
+msgid "New Comment"
+msgstr "新しいコメント"
+
+#: src/containers/pages/PersonalSettings/components/Password.js:20
+msgid "New Password"
+msgstr "新しいパスワード"
+
+#: src/constants/choices.js:439
+msgid "New Zealander"
+msgstr "ニュージーランド人"
+
+#: src/components/SwaggerTable/components/TablePagination/TablePagination.js:137
+#: src/components/Table/components/TablePagination/TablePagination.js:114
+#: src/components/UI/files/PaginatedFilePreviewPDF.js:132
+#: src/components/candidates/CandidateResumePreview.js:102
+#: src/components/fee/FeeForm/FirstStep/FeeFormFirstStep.js:57
+msgid "Next"
+msgstr "次へ"
+
+#: src/constants/choices.js:440
+msgid "Ni-Vanuatu"
+msgstr "Ni-Vanuatu"
+
+#: src/constants/choices.js:441
+msgid "Nicaraguan"
+msgstr "ニカラグア語"
+
+#: src/constants/choices.js:442
+msgid "Nigerian"
+msgstr "ナイジェリア語"
+
+#: src/constants/choices.js:443
+msgid "Nigerien"
+msgstr "ナイジェリア人"
+
+#: src/constants/choices.js:236
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyItem.js:34
+msgid "No"
+msgstr "いいえ"
+
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:186
+msgid "No Candidate"
+msgstr "候補者がいません。"
+
+#: src/containers/pages/CareerSitePage/components/NoJobPostingsPlaceholder/NoJobPostingsPlaceholder.js:13
+msgid "No Current Openings"
+msgstr "現在募集中のものはありません"
+
+#: src/components/Table/Table.js:96
+msgid "No Data"
+msgstr "データなし"
+
+#: src/containers/pages/NotificationsPage/NotificationsPage.js:49
+msgid "No Notification"
+msgstr "通知がありません。"
+
+#: src/containers/pages/CareerSitePage/components/JobPostingsNotFoundPlaceholder/JobPostingsNotFoundPlaceholder.js:11
+#: src/containers/pages/CareerSitePage/pages/CareerSiteJobPostingListPage/CareerSiteJobPostingListPage.js:109
+msgid "No Openings found"
+msgstr "該当する求人募集はありません。"
+
+#: src/containers/pages/users/UserViewPage/UserViewPage.js:110
+msgid "No Users found"
+msgstr "ユーザーが見つかりません"
+
+#: src/containers/pages/AnalyticsPage/NoDataPlaceholder.js:9
+msgid "No data."
+msgstr "データなし。"
+
+#: src/components/interviews/InterviewNotificationRecipients/InterviewNotificationRecipients.js:26
+msgid "No invitation will be sent"
+msgstr ""
+
+#: src/components/UI/LanguageInput/LanguageInput.js:53
+msgid "No language selected"
+msgstr "言語が選択されていません"
+
+#: src/components/UI/LanguageInput/LanguageInput.js:66
+msgid "No level selected"
+msgstr "レベルが選択されていません"
+
+#: src/containers/pages/JobEditPage/components/sections/HiringProcess.js:79
+msgid "No. of Openings"
+msgstr "採用人数"
+
+#: src/constants/choices.js:198
+msgid "None"
+msgstr "無し"
+
+#: src/containers/pages/CandidateConfirmation/components/ConfirmSchedule.js:81
+msgid "None of the time slots fit your schedule?"
+msgstr "都合があいませんか？"
+
+#: src/constants/choices.js:444
+msgid "North Korean"
+msgstr "北朝鮮語"
+
+#: src/constants/choices.js:445
+msgid "Northern Irish"
+msgstr "北アイルランド語"
+
+#: src/constants/choices.js:446
+msgid "Norwegian"
+msgstr "ノルウェー語"
+
+#: src/constants/choices.js:158
+msgid "Not Eligible"
+msgstr "対象外"
+
+#: src/constants/choices.js:285
+msgid "Not Looking"
+msgstr "探していません"
+
+#: src/utils/candidates/duplication.js:22
+msgid "Not a duplicate"
+msgstr "重複していません"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:79
+#: src/containers/pages/JobPage/modals/NoteModalForm.js:62
+msgid "Note"
+msgstr "ノート"
+
+#: src/containers/pages/agency/AgencyClientEditPage/AgencyClientEditForm.js:78
+msgid "Notes"
+msgstr "ノート"
+
+#: src/components/candidates/CandidateDetailsTab/sections/ExpectationsSection/index.js:91
+#: src/containers/pages/CandidateEditPage/components/sections/CandidateExpectations.js:98
+msgid "Notice Period"
+msgstr "退職までに必要な期間"
+
+#: src/components/NavBar/components/NotificationDropdown/NotificationsDropdown.js:65
+#: src/containers/pages/NotificationsPage/NotificationsPage.js:35
+#: src/containers/pages/NotificationsPage/NotificationsPage.js:39
+msgid "Notifications"
+msgstr "通知"
+
+#: src/containers/pages/JobPage/components/JobDetailsSections/HiringProcess.js:28
+msgid "Number of Openings"
+msgstr "採用予定人数"
+
+#: src/containers/pages/AnalyticsPage/JobAverageOpen.js:32
+msgid "Number of days a job was in progress"
+msgstr "求人充足までの経過日数"
+
+#: src/constants/choices.js:27
+msgid "Offer"
+msgstr "オファー"
+
+#: src/constants/choices.js:28
+msgid "Offer Accepted"
+msgstr "オファー受理"
+
+#: src/constants/choices.js:29
+msgid "Offer Declined"
+msgstr "オファー辞退"
+
+#: src/containers/pages/agency/AgencyDashboard/DealPipelineMetrics.js:15
+#: src/containers/pages/client/ClientDashboard/Statistics.js:15
+msgid "Offer stage"
+msgstr "オファーステージ"
+
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:100
+msgid "Offered Salary"
+msgstr "オファー年収"
+
+#: src/containers/pages/JobPage/components/ApplicationStages/ApplicationStages.js:19
+msgid "Offering"
+msgstr "オファー中"
+
+#: src/constants/choices.js:447
+msgid "Omani"
+msgstr "オマーン語"
+
+#: src/constants/choices.js:5
+msgid "On Hold"
+msgstr "保留中"
+
+#: src/containers/pages/agency/AgencyDashboard/CandidatesTable.js:100
+msgid "On Hold<0> </0><1>({0})</1>"
+msgstr "保留中<0> </0> <1>（{0}）</1>"
+
+#: src/constants/choices.js:162
+msgid "On Site Only"
+msgstr "リモート不可"
+
+#: src/utils/candidates/confirmDeletionCandidate.js:23
+msgid "Once deleted, you will not be able to restore the candidate."
+msgstr "削除後、元には戻れません。"
+
+#: src/components/UI/Dropdown/StagesDropdown/dialogs/openMoveToInterviewing.js:11
+msgid "Once in Interviewing, you will not be allowed to change the Application stage until all interviews are completed."
+msgstr "面接中にすべての面接が完了したまでにステージを変更できません"
+
+#: src/components/modals/InterviewSchedulingModal/components/Inputs.js:124
+msgid "Once the candidate confirms, an interview invitation will be sent to:"
+msgstr "候補者が承認した次第、この方々に面接招待状を送信："
+
+#: src/containers/pages/JobPage/components/ProposalInterview/components/CancelInterviewModal.js:28
+msgid "Once you cancel, an interview cancellation will be sent to:"
+msgstr "キャンセル後、面接のキャンセル通知はこの方々に送信："
+
+#: src/components/modals/CancelInterviewProposalModal/components/CancelInterviewProposalModalContent/CancelInterviewProposalModalContent.js:64
+msgid "Once you cancel, the interview proposal link will no longer be valid. If you want to reschedule the interview, you must send a new interview proposal to the candidate."
+msgstr ""
+
+#: src/constants/choices.js:249
+msgid "One-Time Sign On Bonus"
+msgstr "ワンタイムサインインボーナス"
+
+#: src/containers/pages/CandidateEditPage/components/sections/Contact.js:76
+#: src/containers/pages/JobPostingPageContent/components/JobPostingApplicationForm/components/OnlineProfilesSection.js:13
+msgid "Online Profiles"
+msgstr "オンラインプロフィール"
+
+#: src/constants/choices.js:4
+msgid "Open"
+msgstr "募集中"
+
+#: src/containers/pages/AnalyticsPage/OpenJobs.js:30
+#: src/containers/pages/AnalyticsPage/OpenJobsKPI.js:12
+msgid "Open Jobs"
+msgstr "募集中の求人"
+
+#: src/containers/pages/agency/AgencyClientEditPage/AgencyClientEditForm.js:65
+msgid "Originator"
+msgstr "獲得者"
+
+#: src/components/fee/BillDescriptionInputSet.js:27
+#: src/components/modals/RejectionModal/RejectionModal.js:163
+#: src/constants/choices.js:231
+#: src/constants/choices.js:243
+#: src/constants/choices.js:272
+#: src/constants/choices.js:302
+#: src/constants/choices.js:527
+#: src/containers/pages/CandidateEditPage/components/sections/Attachments.js:43
+#: src/containers/pages/CandidateEditPage/components/sections/CandidateExpectations.js:74
+msgid "Other"
+msgstr "その他"
+
+#: src/containers/pages/JobEditPage/components/sections/JobConditions.js:151
+#: src/containers/pages/JobPage/components/JobDetailsSections/JobConditions.js:114
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:218
+msgid "Other Benefits"
+msgstr "他の福利厚生"
+
+#: src/components/candidates/CandidateDetailsTab/sections/ExpectationsSection/index.js:59
+#: src/containers/pages/CandidateEditPage/components/sections/CandidateExpectations.js:67
+msgid "Other Desired Benefits"
+msgstr "希望した福利厚生"
+
+#: src/containers/pages/agency/AgencyClientEditPage/AgencyClientEditForm.js:147
+msgid "Other Info"
+msgstr "その他の情報"
+
+#: src/containers/pages/JobEditPage/components/sections/JobConditions.js:115
+#: src/containers/pages/JobPage/components/JobDetailsSections/JobConditions.js:91
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:188
+msgid "Overtime Conditions"
+msgstr "残業条件"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:107
+msgid "Owner"
+msgstr "オーナー"
+
+#: src/components/UI/files/PaginatedFilePreviewPDF.js:115
+msgid "Page {currentPage} of {pageCount}"
+msgstr "{currentPage} / {pageCount}"
+
+#: src/components/candidates/CandidateResumePreview.js:89
+msgid "Page {pageNumber} of {numPages}"
+msgstr "{pageNumber} / {numPages}"
+
+#: src/containers/pages/JobEditPage/components/sections/JobConditions.js:125
+#: src/containers/pages/JobPage/components/JobDetailsSections/JobConditions.js:96
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:192
+msgid "Paid Leave Days (Annual)"
+msgstr "年間有給休暇日数"
+
+#: src/constants/choices.js:448
+msgid "Pakistani"
+msgstr "パキスタン語"
+
+#: src/constants/choices.js:449
+msgid "Palauan"
+msgstr "パラオ語"
+
+#: src/constants/choices.js:450
+msgid "Panamanian"
+msgstr "パナマ語"
+
+#: src/constants/choices.js:453
+msgid "Papua New Guinean"
+msgstr "パプアニューギニア語"
+
+#: src/constants/choices.js:455
+msgid "Paraguayan"
+msgstr "パラグアイ語"
+
+#: src/constants/choices.js:147
+msgid "Part Time Employee"
+msgstr "アルバイト"
+
+#: src/constants/choices.js:139
+msgid "Part-time Employee"
+msgstr "パートタイム"
+
+#: src/constants/choices.js:283
+msgid "Passively Looking"
+msgstr "やや高い"
+
+#: src/components/SignUp/SignUpAgencyForm.js:73
+#: src/components/SignUp/SignUpClientForm.js:66
+#: src/components/SignUp/SignUpRecruiterForm.js:50
+#: src/containers/pages/AuthPage/components/SetNewPassword.js:61
+#: src/containers/pages/AuthPage/components/SignIn.js:76
+#: src/containers/pages/PersonalSettings/constants.js:5
+msgid "Password"
+msgstr "パスワード"
+
+#: src/components/modals/InterviewSchedulingModal/hooks.js:168
+msgid "Past Scheduling (Record an interview that already took place)"
+msgstr ""
+
+#: src/containers/pages/client/ClientDashboard/Statistics.js:13
+msgid "Pending CV review"
+msgstr "履歴書審査中"
+
+#: src/components/fee/FeeApprovalsTable/FeeApprovalsTable.js:24
+msgid "Pending approval"
+msgstr "承認待ち"
+
+#: src/containers/pages/JobEditPage/components/sections/JobConditions.js:67
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:145
+msgid "Per"
+msgstr "毎に"
+
+#: src/constants/choices.js:134
+#: src/constants/choices.js:146
+msgid "Permanent Employee"
+msgstr "正社員"
+
+#: src/components/candidates/CandidateDetailsTab/sections/PersonalInfoSection.js:19
+#: src/components/modals/QuickAddCandidateModal/sections/Personal.js:14
+#: src/containers/pages/CandidateEditPage/components/CandidateForm/constants.js:96
+#: src/containers/pages/CandidateEditPage/components/sections/Personal.js:26
+msgid "Personal"
+msgstr "パーソナル"
+
+#: src/components/NavBar/components/UserMenu/UserMenu.js:71
+#: src/containers/pages/PersonalSettings/PersonalSettings.js:12
+#: src/containers/pages/PersonalSettings/logicHooks.js:19
+msgid "Personal Settings"
+msgstr "個人設定"
+
+#: src/components/modals/DataMergeModal.js:29
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:65
+msgid "Personal Website URL"
+msgstr "個人のウェブサイトのURL"
+
+#: src/constants/choices.js:456
+msgid "Peruvian"
+msgstr "ペルー語"
+
+#: src/constants/choices.js:202
+msgid "PhD"
+msgstr "博士"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:57
+#: src/containers/pages/JobPostingPageContent/components/JobPostingApplicationForm/components/ContactSection.js:28
+msgid "Phone"
+msgstr "電話番号"
+
+#: src/components/modals/QuickAddCandidateModal/sections/Contact.js:22
+msgid "Phone (Primary)"
+msgstr "電話番号（メイン）"
+
+#: src/components/candidates/CandidateDetailsTab/sections/ContactSection.js:39
+#: src/containers/pages/CandidateEditPage/components/sections/Contact.js:28
+msgid "Phone Number (Primary)"
+msgstr "携帯電話番号（メイン）"
+
+#: src/components/candidates/CandidateDetailsTab/sections/ContactSection.js:41
+#: src/containers/pages/CandidateEditPage/components/sections/Contact.js:34
+msgid "Phone Number (Secondary)"
+msgstr "携帯電話番号（サブ）"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:102
+msgid "Phone number (Primary)"
+msgstr "携帯電話番号（メイン）"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:103
+msgid "Phone number (Secondary)"
+msgstr "携帯電話番号（サブ）"
+
+#: src/containers/pages/CandidateEditPage/components/sections/Attachments.js:29
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:73
+msgid "Photo"
+msgstr "写真"
+
+#: src/components/fee/FeeModal/FeeModal.js:44
+msgid "Placement Form"
+msgstr "プレイスメントフォーム"
+
+#: src/containers/pages/FeePage/FeePage.js:54
+msgid "Placement form"
+msgstr "プレイスメントフォーム"
+
+#: src/components/candidates/CandidateIconPanel.js:106
+msgid "Placement waiting approval"
+msgstr "プレイスメントフォーム承認待ち"
+
+#: src/containers/pages/ApprovalsPage/ApprovalsPage.js:52
+msgid "Placements"
+msgstr "プレイスメント"
+
+#: src/components/candidates/CandidateDetailsTab/sections/CandidateManagementSection.js:40
+#: src/containers/pages/CandidateEditPage/components/sections/CandidateManagement.js:43
+msgid "Platform"
+msgstr "プラットフォーム"
+
+#: src/containers/pages/CandidateEditPage/components/sections/CandidateManagement.js:65
+msgid "Platform Other"
+msgstr "その他のプラットフォーム"
+
+#: src/components/modals/InterviewSchedulingModal/components/ProposeTimeslots.js:42
+msgid "Please add at least one time slot"
+msgstr "最低一つの候補日程が必要です"
+
+#: src/containers/pages/HomePage/HomePage.js:48
+msgid "Please check your email to activate your account."
+msgstr "アカウントを有効化するために電子メールをチェックしてください"
+
+#: src/components/modals/InterviewSchedulingModal/components/NoEmailMessage.js:19
+msgid "Please invite the Candidate to this interview outside ZooKeep."
+msgstr "ZooKeep外でこの候補者に面接の日程調整をしてください"
+
+#: src/containers/pages/AuthPage/components/LoginInProgress.js:12
+msgid "Please wait"
+msgstr "お待ちください"
+
+#: src/constants/choices.js:457
+msgid "Polish"
+msgstr "ポーランド語"
+
+#: src/containers/pages/agency/AgencyClientEditPage/AgencyClientEditForm.js:128
+msgid "Portal Information"
+msgstr "ポータル情報"
+
+#: src/containers/pages/agency/AgencyClientEditPage/AgencyClientEditForm.js:137
+msgid "Portal Login"
+msgstr "ポータルログイン"
+
+#: src/containers/pages/agency/AgencyClientEditPage/AgencyClientEditForm.js:141
+msgid "Portal Password"
+msgstr "ポータルパスワード"
+
+#: src/containers/pages/agency/AgencyClientEditPage/AgencyClientEditForm.js:135
+msgid "Portal URL"
+msgstr "ポータルのＵＲＬ"
+
+#: src/constants/choices.js:111
+#: src/constants/choices.js:458
+msgid "Portuguese"
+msgstr "ポルトガル語"
+
+#: src/containers/pages/JobPage/components/TabShareExternally/components/CareerSiteJobPosting/CareerSiteJobPosting.js:127
+msgid "Post your job on your company <0>Career Site</0> and make it visible to anyone."
+msgstr "会社に求人情報を掲載する<0>キャリアサイト</0>誰でも見られるようにする."
+
+#: src/containers/pages/CandidateEditPage/components/sections/Contact.js:61
+msgid "Postal Code"
+msgstr "郵便番号"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:61
+msgid "Potential Locations"
+msgstr "可能な勤務地"
+
+#: src/constants/choices.js:169
+#: src/containers/pages/JobPage/components/ApplicationStages/ApplicationStages.js:23
+msgid "Pre-Screening"
+msgstr "スクリーニング前"
+
+#: src/containers/pages/CandidateEditPage/components/sections/Contact.js:60
+msgid "Prefecture"
+msgstr "県"
+
+#: src/components/UI/files/PaginatedFilePreviewPDF.js:125
+#: src/components/candidates/CandidateResumePreview.js:95
+msgid "Prev"
+msgstr "前へ"
+
+#: src/containers/pages/CandidatePreviewPage.js:26
+msgid "Preview Candidate #{candidateId}"
+msgstr "候補者プレビュー表示#{candidateId}"
+
+#: src/components/SwaggerTable/components/TablePagination/TablePagination.js:112
+#: src/components/Table/components/TablePagination/TablePagination.js:90
+#: src/components/fee/FeeForm/SecondStep/FeeSplitAllocationForm.js:64
+msgid "Previous"
+msgstr "前へ"
+
+#: src/components/candidates/CandidateIconPanel.js:19
+msgid "Previously placed"
+msgstr "以前に転職支援歴あり"
+
+#: src/components/SignUp/SignUpAgencyForm.js:39
+#: src/components/SignUp/SignUpClientForm.js:34
+msgid "Primary Contact"
+msgstr "主要担当者"
+
+#: src/containers/pages/agency/AgencyClientEditPage/AgencyClientEditForm.js:112
+msgid "Primary Contact Number"
+msgstr "主要担当者の電話番号"
+
+#: src/containers/pages/JobPostingPageContent/components/JobPostingApplicationForm/components/Agreement.js:28
+msgid "Privacy Policies"
+msgstr "個人情報取り扱い"
+
+#: src/components/NavBar/components/UserMenu/UserMenu.js:89
+#: src/containers/pages/LegalAgreementFilePage.js:41
+msgid "Privacy Policy"
+msgstr "個人情報保護方針"
+
+#: src/containers/pages/JobPage/components/TabShareExternally/components/PrivateJobPosting/PrivateJobPosting.js:69
+#: src/containers/pages/JobPage/components/TabShareExternally/components/PrivateJobPosting/PrivateJobPosting.js:80
+msgid "Private Posting"
+msgstr "非公開掲載"
+
+#: src/containers/pages/JobEditPage/components/sections/JobConditions.js:79
+#: src/containers/pages/JobPage/components/JobDetailsSections/JobConditions.js:74
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:159
+msgid "Probation Period (months)"
+msgstr "研修期間（月）"
+
+#: src/constants/choices.js:531
+msgid "Proceed"
+msgstr "次へ"
+
+#: src/constants/choices.js:16
+#: src/constants/choices.js:23
+msgid "Proceeding"
+msgstr "進行中"
+
+#: src/containers/pages/ApprovalsPage/ApprovalsPage.js:57
+msgid "Proposals"
+msgstr "プロポーザル"
+
+#: src/containers/pages/JobPage/components/ProposalInterview/components/InterviewFullBody.js:22
+msgid "Proposed time slots"
+msgstr "提案された候補日程"
+
+#: src/containers/pages/JobPage/components/TabShareExternally/components/CareerSiteJobPosting/CareerSiteJobPosting.js:120
+msgid "Published"
+msgstr "公開済"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:97
+msgid "Pull Factors"
+msgstr "興味喚起要因"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:96
+msgid "Push Factors"
+msgstr "退職希望要因"
+
+#: src/constants/choices.js:459
+msgid "Qatari"
+msgstr "カタール語"
+
+#: src/containers/pages/JobPostingPageContent/components/JobPostingApplicationForm/components/QuestionsSection.js:13
+msgid "Questions"
+msgstr "質問"
+
+#: src/constants/choices.js:78
+msgid "R$ Brazilian Real"
+msgstr "R$ブラジル・レアル"
+
+#: src/containers/pages/JobPage/components/ProposalTabs/ProposalTabs.js:115
+msgid "Reactivate Candidate"
+msgstr "候補者の再アクティベート"
+
+#: src/containers/pages/agency/AgencyDashboard/DealPipelineMetrics.js:21
+msgid "Realistic"
+msgstr "Realistic"
+
+#: src/containers/pages/agency/AgencyDashboard/DealPipelineCandidatesModal.js:78
+msgid "Realistic value"
+msgstr "Realistic Value"
+
+#: src/containers/pages/JobPage/modals/MoveProposalModalForm.js:55
+msgid "Reallocate Proposal"
+msgstr "提案を再割り当て"
+
+#: src/components/modals/RejectionModal/RejectionModal.js:149
+msgid "Reason"
+msgstr "理由"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:77
+msgid "Reason for Job Changes"
+msgstr "転職理由"
+
+#: src/containers/pages/JobEditPage/components/sections/Details.js:58
+#: src/containers/pages/JobPage/components/JobDetails/components/PrivateDetails.js:34
+msgid "Reason for Opening"
+msgstr "求人背景"
+
+#: src/containers/pages/AnalyticsPage/CandidateDeclineReasonStat.js:52
+msgid "Reasons for Declines"
+msgstr "不採用の理由"
+
+#: src/components/candidates/CandidateIconPanel.js:29
+msgid "Recently placed"
+msgstr "転職支援済"
+
+#: src/constants/roles.js:32
+#: src/containers/pages/JobEditPage/components/sections/HiringProcess.js:107
+msgid "Recruiter"
+msgstr "リクルーター"
+
+#: src/constants/choices.js:298
+msgid "Referral"
+msgstr "リファーラル"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:91
+msgid "Referred By"
+msgstr "リファーラル提供者"
+
+#: src/constants/choices.js:533
+msgid "Reject"
+msgstr "見送り"
+
+#: src/components/modals/RejectionModal/RejectionModal.js:130
+msgid "Reject Candidate"
+msgstr "候補者を見送り"
+
+#: src/constants/choices.js:17
+#: src/constants/choices.js:175
+#: src/containers/pages/InvitationsPage/Invitation.js:102
+#: src/containers/pages/JobPage/components/ApplicationStages/ApplicationStages.js:26
+msgid "Rejected"
+msgstr "不採用"
+
+#: src/components/modals/RejectionModal/RejectionModal.js:137
+msgid "Rejected by"
+msgstr "拒否した者："
+
+#: src/components/modals/RejectionModal/RejectionModal.js:18
+msgid "Rejected by Candidate"
+msgstr "候補者から拒否"
+
+#: src/components/modals/RejectionModal/RejectionModal.js:17
+msgid "Rejected by Company"
+msgstr "会社が拒否しました"
+
+#: src/containers/pages/JobPage/components/ApplicationStatusBar/ApplicationStatusBar.js:13
+msgid "Rejected by {by}:"
+msgstr "{by}が拒否しました"
+
+#: src/constants/choices.js:251
+msgid "Relocation"
+msgstr "転勤"
+
+#: src/constants/choices.js:220
+msgid "Relocation Assistance"
+msgstr "転居援助"
+
+#: src/constants/choices.js:164
+msgid "Remote Only"
+msgstr "リモートワークのみ"
+
+#: src/constants/choices.js:163
+msgid "Remote Possible"
+msgstr "リモートワーク可能"
+
+#: src/constants/choices.js:185
+msgid "Replacement"
+msgstr "交代"
+
+#: src/containers/pages/CandidateConfirmation/components/ConfirmSchedule.js:89
+msgid "Request Additional Timeslots"
+msgstr "追加日程を依頼"
+
+#: src/containers/pages/CandidateConfirmation/components/RequestAdditionalTimeslots.js:14
+msgid "Request submitted"
+msgstr "依頼を送信しました"
+
+#: src/containers/pages/JobEditPage/components/JobForm/constants.js:13
+#: src/containers/pages/JobEditPage/components/sections/Requirements.js:26
+#: src/containers/pages/JobEditPage/components/sections/Requirements.js:30
+#: src/containers/pages/JobPage/components/JobDetails/constants.js:5
+#: src/containers/pages/JobPage/components/JobDetailsSections/Requirements.js:22
+#: src/containers/pages/JobPage/components/JobDetailsSections/Requirements.js:25
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:94
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:97
+#: src/containers/pages/JobPostingPageContent/JobPostingPageContent.js:69
+msgid "Requirements"
+msgstr "応募条件"
+
+#: src/components/fee/FeeForm/SecondStep/FeeSplitAllocationFormContent.js:119
+msgid "Research Split Allocations"
+msgstr "リサーチャーの割当"
+
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingForm/openResetJobPostingDialog.js:10
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingForm/openResetJobPostingDialog.js:32
+msgid "Reset Content"
+msgstr "内容をリセット"
+
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingForm/JobPostingForm.js:57
+msgid "Reset all changes to Job Details content"
+msgstr "求人詳細内容の変更をすべてリセット"
+
+#: src/components/candidates/CandidateDetailsTab/sections/ExperienceDetailsSection/Experience.js:46
+#: src/containers/pages/CandidateEditPage/components/sections/ExperienceDetails.js:116
+#: src/containers/pages/JobEditPage/components/sections/Details.js:82
+#: src/containers/pages/JobPage/components/JobDetailsSections/Details.js:21
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:83
+msgid "Responsibilities"
+msgstr "仕事内容"
+
+#: src/containers/pages/CandidatePreviewPage.js:85
+#: src/utils/candidates/duplication.js:30
+msgid "Restore"
+msgstr "戻す"
+
+#: src/containers/pages/AuthPage/AuthPage.js:58
+#: src/containers/pages/AuthPage/components/ForgotPassword.js:38
+msgid "Restore Password"
+msgstr "パスワードの復元"
+
+#: src/components/modals/QuickAddCandidateModal/sections/Resume.js:17
+#: src/containers/pages/CandidateEditPage/components/sections/Attachments.js:24
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:72
+#: src/containers/pages/JobPostingPageContent/components/JobPostingApplicationForm/components/ResumeSection.js:13
+#: src/utils/candidates/getMissingFields.js:23
+msgid "Resume"
+msgstr "CV"
+
+#: src/components/candidates/CandidateResumePreview.js:74
+msgid "Resume Preview"
+msgstr "CVプレビュー"
+
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:160
+msgid "Retainer Fee"
+msgstr "リテーナー手数料"
+
+#: src/containers/pages/JobEditPage/components/JobForm/utils/openSeeJobPosting.js:20
+msgid "Review Postings"
+msgstr "投稿内容の確認"
+
+#: src/containers/pages/PersonalSettings/components/Details.js:89
+#: src/containers/pages/users/UserEditPage/components/UserForm/UserForm.js:93
+#: src/containers/pages/users/UserViewPage/UserViewPage.js:66
+#: src/containers/pages/users/UserViewPage/components/UserDetails/UserDetails.js:85
+msgid "Role"
+msgstr "ロール"
+
+#: src/constants/choices.js:460
+msgid "Romanian"
+msgstr "ルーマニア語"
+
+#: src/constants/choices.js:112
+#: src/constants/choices.js:461
+msgid "Russian"
+msgstr "ロシア語"
+
+#: src/constants/choices.js:462
+msgid "Rwandan"
+msgstr "ルワンダ語"
+
+#: src/constants/choices.js:463
+msgid "Saint Lucian"
+msgstr "セントルシアン語"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:76
+#: src/containers/pages/client/ClientDashboard/ActiveJobsTable.js:57
+msgid "Salary"
+msgstr "給料"
+
+#: src/containers/pages/JobEditPage/components/sections/JobConditions.js:61
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:138
+msgid "Salary - Maximum"
+msgstr "給料 - 最高"
+
+#: src/containers/pages/JobEditPage/components/sections/JobConditions.js:55
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:131
+msgid "Salary - Minimum"
+msgstr "給料 - 最低"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:75
+msgid "Salary Currency"
+msgstr "給与支払通貨"
+
+#: src/constants/choices.js:464
+msgid "Salvadoran"
+msgstr "サルバドル語"
+
+#: src/constants/choices.js:465
+msgid "Samoan"
+msgstr "サモア語"
+
+#: src/constants/choices.js:466
+msgid "San Marinese"
+msgstr "サンマリネーゼ語"
+
+#: src/constants/choices.js:467
+msgid "Sao Tomean"
+msgstr "サオ・トメアン語"
+
+#: src/constants/choices.js:468
+msgid "Saudi"
+msgstr "サウジ人"
+
+#: src/components/UI/ButtonBar/ButtonBar.js:72
+#: src/components/fee/FeeForm/SecondStep/FeeSplitAllocationForm.js:82
+#: src/components/modals/InterviewSchedulingModal/hooks.js:155
+#: src/components/modals/ModalForm.js:107
+#: src/components/modals/ModalFormAgencyJobContract/ModalFormJobAgencyContract.js:55
+#: src/containers/pages/JobPage/components/ProposalQuestion/components/QuestionButtons.js:18
+#: src/containers/pages/agency/AgencyClientEditPage/AgencyClientEditForm.js:186
+msgid "Save"
+msgstr "保存"
+
+#: src/utils/alert.js:32
+msgid "Save Anyway"
+msgstr "保存"
+
+#: src/components/fee/FeeForm/FirstStep/FeeFormFirstStep.js:57
+msgid "Save and Next"
+msgstr "保存して次へ"
+
+#: src/containers/pages/JobEditPage/components/JobForm/utils/openConfirmCloseUnfilled.js:23
+#: src/utils/candidates/duplication.js:14
+msgid "Save anyway"
+msgstr "保存"
+
+#: src/components/modals/InterviewSchedulingModal/InterviewSchedulingModal.js:51
+#: src/containers/pages/JobPage/components/ProposalInterview/components/InterviewButtons.js:60
+msgid "Schedule Interview"
+msgstr "面接を日程調整する"
+
+#: src/components/modals/InterviewSchedulingModal/components/Inputs.js:89
+msgid "Scheduling Type"
+msgstr ""
+
+#: src/constants/choices.js:256
+msgid "Schooling for Kids"
+msgstr "子供の学費サポート"
+
+#: src/hooks/candidateHooks.js:61
+msgid "Score or Level"
+msgstr "スコア・レベル"
+
+#: src/constants/choices.js:469
+msgid "Scottish"
+msgstr "スコットランド語"
+
+#: src/constants/choices.js:170
+#: src/containers/pages/JobPage/components/ApplicationStages/ApplicationStages.js:22
+msgid "Screening"
+msgstr "提案前スクリーニング"
+
+#: src/containers/pages/JobPage/components/JobDetailsSections/HiringProcess.js:82
+#: src/containers/pages/JobPage/components/ProposalApplicationSections/ApplicationQuestions.js:22
+msgid "Screening Questions"
+msgstr "スクリーニング質問"
+
+#: src/containers/pages/JobEditPage/components/sections/HiringProcess.js:140
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:224
+msgid "Screening questions"
+msgstr "スクリーニング質問"
+
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyDirectoryTableHeader.js:35
+msgid "Search Agencies"
+msgstr "エージェント検索"
+
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyDirectoryPage.js:256
+msgid "Search vetted, quality firms and recruiting agencies in Japan."
+msgstr "吟味された質の高い企業や転職エージェンシーを検索します。"
+
+#: src/components/SelectInput/SelectSearchInput.js:16
+#: src/components/Table/components/TableSearchInput/TableSearchInput.js:32
+#: src/components/UI/SearchInput/SearchInput.js:46
+msgid "Search..."
+msgstr "検索"
+
+#: src/containers/pages/agency/ClientPage/ClientPage.js:138
+#: src/containers/pages/client/ClientDashboard/ActiveJobsTable.js:77
+msgid "See Analytics"
+msgstr "アナリティクスを見る"
+
+#: src/containers/pages/agency/ClientPage/ClientPage.js:135
+msgid "See Contract"
+msgstr "契約を見る"
+
+#: src/components/SeeMore.js:47
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyDirectoryFilters.js:50
+msgid "See Less"
+msgstr "表示を減らす"
+
+#: src/components/SeeMore.js:51
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyDirectoryFilters.js:54
+msgid "See More"
+msgstr "続きを見る"
+
+#: src/components/NavBar/components/NotificationDropdown/NotificationsDropdown.js:87
+msgid "See all"
+msgstr "すべてを見る"
+
+#: src/components/MultiselectMenu/MultiselectMenu.js:125
+msgid "Select All"
+msgstr "すべて選択"
+
+#: src/components/jobs/JobLonglistImport.js:127
+msgid "Select Job"
+msgstr "求人を選択"
+
+#: src/containers/pages/CandidateConfirmation/components/ConfirmSchedule.js:59
+msgid "Select a time slot for your interview."
+msgstr "都合が良い面接の日時を選択してください"
+
+#: src/components/jobs/JobLonglistImport.js:147
+msgid "Select all"
+msgstr "すべて選択"
+
+#: src/components/modals/ModalFormAgencyJobContract/FormInputsJobAgencyContract.js:68
+msgid "Select contract type"
+msgstr "契約タイプを選択"
+
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:83
+#: src/components/modals/ModalFormAgencyJobContract/FormInputsJobAgencyContract.js:75
+msgid "Select date"
+msgstr "日付を選択"
+
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:221
+msgid "Select fee type"
+msgstr "手数料のタイプを選択"
+
+#: src/components/modals/ModalFormAgencyJobContract/FormInputsJobAgencyContract.js:59
+msgid "Select industry"
+msgstr "業界を選択"
+
+#: src/components/fee/FeeForm/SecondStep/FeeSplitAllocationFormContent.js:49
+msgid "Select user"
+msgstr "ユーザーを選択"
+
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:201
+msgid "Send"
+msgstr "送信"
+
+#: src/components/modals/InterviewSchedulingModal/hooks.js:153
+msgid "Send Invitation"
+msgstr "招待状を送信"
+
+#: src/containers/pages/AuthPage/components/ForgotPassword.js:50
+msgid "Send Me Instructions"
+msgstr "自分へ対応案内を送信"
+
+#: src/components/modals/InterviewSchedulingModal/hooks.js:151
+msgid "Send Schedule Proposal"
+msgstr "日程調整の招待状を送信"
+
+#: src/components/fee/FeeForm/ApprovalButtons.js:44
+msgid "Send to revision"
+msgstr "修正依頼を送信"
+
+#: src/constants/choices.js:470
+msgid "Senegalese"
+msgstr "セネガル語"
+
+#: src/containers/Zendesk.js:105
+msgid "Sent Successfully! Support will contact you shortly."
+msgstr "送信しました！サポートチームからのご連絡をお待ちください"
+
+#: src/constants/choices.js:471
+msgid "Serbian"
+msgstr "セルビア語"
+
+#: src/swrAPI/openSessionExpiredDialog.js:11
+msgid "Session Expired"
+msgstr ""
+
+#: src/containers/pages/AuthPage/AuthPage.js:62
+#: src/containers/pages/AuthPage/components/SetNewPassword.js:56
+msgid "Set New Password"
+msgstr "新しいパスワードを設定"
+
+#: src/constants/choices.js:472
+msgid "Seychellois"
+msgstr "セーシェル人"
+
+#: src/constants/choices.js:113
+msgid "Shanghainese"
+msgstr "上海語"
+
+#: src/containers/pages/JobPage/components/JobPageContent/JobPageContent.js:86
+msgid "Share Externally"
+msgstr "外部へ情報発信"
+
+#: src/containers/pages/JobPage/components/TabShareExternally/components/PrivateJobPosting/PrivateJobPosting.js:113
+msgid "Share this private URL with selected people:"
+msgstr "この非公開のURLを選択した人と共有する:"
+
+#: src/containers/pages/AnalyticsPage/JobAnalytics/SnapshotTableModal.js:80
+#: src/containers/pages/AnalyticsPage/JobAnalytics/SnapshotTableModal.js:132
+msgid "Shortlist"
+msgstr "ショートリスト"
+
+#: src/containers/pages/AnalyticsPage/JobAnalytics/consts.js:14
+msgid "Shortlisted"
+msgstr "ショートリスト済"
+
+#: src/components/SimpleDropdown.js:49
+msgid "Show"
+msgstr "表示"
+
+#: src/constants/choices.js:473
+msgid "Sierra Leonean"
+msgstr "シエラレオネ人"
+
+#: src/containers/pages/AuthPage/components/SignIn.js:101
+#: src/swrAPI/openSessionExpiredDialog.js:15
+msgid "Sign In"
+msgstr "サインイン"
+
+#: src/components/SignUp/SignUp.js:88
+#: src/components/SignUp/SignUpAgencyForm.js:113
+#: src/components/SignUp/SignUpClientForm.js:105
+#: src/components/SignUp/SignUpRecruiterForm.js:75
+msgid "Sign Up"
+msgstr "新規アカウント作成"
+
+#: src/components/SignUp/SignUp.js:109
+msgid "Sign Up as Agency"
+msgstr "エージェントとして新規アカウント作成"
+
+#: src/components/SignUp/SignUp.js:100
+msgid "Sign Up as Company"
+msgstr "クライアントとして新規アカウント作成"
+
+#: src/components/SignUp/SignUp.js:122
+msgid "Sign Up as Recruiter"
+msgstr "リクルーターとして新規アカウント作成"
+
+#: src/containers/pages/AuthPage/components/SignIn.js:59
+msgid "Sign in"
+msgstr "サインイン"
+
+#: src/containers/pages/InvitationsPage/Invitation.js:138
+msgid "Signature Confirmed"
+msgstr "確認された署名"
+
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:108
+msgid "Signed Date"
+msgstr "署名日"
+
+#: src/components/modals/ModalFormAgencyJobContract/FormInputsJobAgencyContract.js:71
+#: src/components/modals/ModalFormAgencyJobContract/FormPreviewJobAgencyContract.js:55
+msgid "Signed at"
+msgstr "に署名された"
+
+#: src/components/modals/InterviewSchedulingModal/hooks.js:163
+msgid "Simple Scheduling (Candidate has been invited outside ZooKeep)"
+msgstr ""
+
+#: src/constants/choices.js:474
+msgid "Singaporean"
+msgstr "シンガポール人"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:85
+msgid "Skill Domain"
+msgstr "スキルドメイン"
+
+#: src/components/UI/LabeledInputs/TagsInput/TagsInput.js:68
+#: src/components/candidates/CandidateDetailsTab/sections/SkillsExperienceSection.js:101
+#: src/containers/pages/CandidateEditPage/components/sections/SkillsAndExperience.js:19
+#: src/containers/pages/JobEditPage/components/sections/Requirements.js:56
+#: src/containers/pages/JobPage/components/JobDetailsSections/Requirements.js:36
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:107
+msgid "Skills"
+msgstr "スキルドメイン"
+
+#: src/containers/pages/CandidateEditPage/components/CandidateForm/constants.js:102
+#: src/containers/pages/CandidateEditPage/components/sections/SkillsAndExperience.js:17
+msgid "Skills & Experience"
+msgstr "スキル・経験"
+
+#: src/containers/pages/JobPage/components/ProposalInterview/components/InterviewDropdown.js:114
+#: src/containers/pages/JobPage/components/ProposalInterview/dialogs/openSkipInterview.js:10
+#: src/containers/pages/JobPage/components/ProposalInterview/dialogs/openSkipInterview.js:23
+msgid "Skip Interview"
+msgstr ""
+
+#: src/constants/choices.js:475
+msgid "Slovakian"
+msgstr "スロバキア語"
+
+#: src/constants/choices.js:476
+msgid "Slovenian"
+msgstr "スロベニア語"
+
+#: src/containers/pages/JobEditPage/components/sections/JobConditions.js:135
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:202
+msgid "Social Insurance"
+msgstr "社会保険"
+
+#: src/containers/pages/JobPage/components/JobDetailsSections/JobConditions.js:106
+msgid "Social Insurances"
+msgstr "社会保険"
+
+#: src/constants/choices.js:479
+msgid "Solomon Islander"
+msgstr "ソロモン諸島人"
+
+#: src/constants/choices.js:481
+msgid "Somali"
+msgstr "ソマリア語"
+
+#: src/components/BlockingPromptFormChanged.js:28
+msgid "Some data is not saved. Are you sure you want to leave the page?"
+msgstr "一部のデータは保存されません。ページを離れてもいいですか？"
+
+#: src/utils/form/makeSaveFilesForForm.js:43
+msgid "Some of the files have failed to upload"
+msgstr "一部のファイルのアップロードに失敗しました"
+
+#: src/utils/errorHandling.js:91
+msgid "Something went wrong with Zendesk."
+msgstr "Zendeskに不具合がありました"
+
+#: src/components/ErrorToastContent.js:27
+msgid "Something went wrong."
+msgstr "何か不具合がありました。"
+
+#: src/containers/pages/NotFoundPage/NotFoundPage.js:23
+msgid "Sorry, an error has occurred, the requested page was not found!"
+msgstr "エラーが発生しました。要求されたページが見つかりませんでした。"
+
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyDirectoryTableHeader.js:43
+msgid "Sort"
+msgstr "並べ替え"
+
+#: src/containers/pages/AnalyticsPage/CandidatesByStage.js:74
+msgid "Sort By"
+msgstr "で並べ替え"
+
+#: src/components/SubFormCandidateSource.js:112
+#: src/components/candidates/CandidateDetailsTab/sections/CandidateManagementSection.js:33
+#: src/components/modals/QuickAddCandidateModal/sections/CandidateManagement.js:41
+#: src/containers/pages/CandidateEditPage/components/sections/CandidateManagement.js:36
+#: src/containers/pages/CandidatesPage/CandidatesPage.js:95
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:58
+#: src/containers/pages/JobPage/components/ProposalApplicationSections/ApplicationCandidates.js:34
+#: src/containers/pages/JobPage/components/StageList/StageList.js:111
+#: src/containers/pages/client/ClientDashboard/ProposalsTable.js:108
+#: src/utils/candidates/getMissingFields.js:8
+msgid "Source"
+msgstr "ソース"
+
+#: src/components/modals/QuickAddCandidateModal/sections/CandidateManagement.js:57
+#: src/containers/pages/CandidateEditPage/components/sections/CandidateManagement.js:59
+msgid "Source Details"
+msgstr "ソース詳細"
+
+#: src/containers/pages/AnalyticsPage/CandidateSourceStat.js:57
+msgid "Source of Candidates"
+msgstr "候補者の獲得源"
+
+#: src/components/candidates/CandidateDetailsTab/sections/CandidateManagementSection.js:47
+#: src/components/modals/QuickAddCandidateModal/sections/CandidateManagement.js:48
+#: src/containers/pages/CandidateEditPage/components/sections/CandidateManagement.js:50
+#: src/utils/candidates/getMissingFields.js:9
+msgid "Sourced By"
+msgstr "で獲得"
+
+#: src/constants/choices.js:482
+msgid "South African"
+msgstr "南アフリカ語"
+
+#: src/constants/choices.js:483
+msgid "South Korean"
+msgstr "韓国語"
+
+#: src/constants/choices.js:114
+#: src/constants/choices.js:484
+msgid "Spanish"
+msgstr "スペイン語"
+
+#: src/constants/choices.js:270
+msgid "Special Insurance"
+msgstr "特別保険"
+
+#: src/components/fee/FeeForm/SecondStep/FeeSplitAllocationFormContent.js:56
+msgid "Split Allocations"
+msgstr "割当"
+
+#: src/constants/choices.js:485
+msgid "Sri Lankan"
+msgstr "スリランカ語"
+
+#: src/containers/pages/agency/AgencyDashboard/DealPipelineCandidatesModal.js:62
+msgid "Stage"
+msgstr "ステージ"
+
+#: src/constants/roles.js:25
+msgid "Standard User"
+msgstr "通常ユーザー"
+
+#: src/containers/pages/CandidateEditPage/components/sections/ExperienceDetails.js:76
+msgid "Start Date"
+msgstr "入社日"
+
+#: src/components/modals/InterviewSchedulingModal/components/Timeslot.js:80
+msgid "Start Time"
+msgstr "勤務開始時刻"
+
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:122
+msgid "Start Work"
+msgstr "入社"
+
+#: src/components/candidates/CandidateDetailsTab/sections/ExperienceDetailsSection/Experience.js:40
+msgid "Start date"
+msgstr "入社日"
+
+#: src/components/fee/FeeApprovalsTable/FeeApprovalsTable.js:96
+#: src/containers/pages/AnalyticsPage/JobAnalytics/SnapshotTableModal.js:214
+#: src/containers/pages/JobPage/components/StageList/StageList.js:71
+#: src/containers/pages/agency/AgencyDashboard/CandidatesTable.js:93
+#: src/containers/pages/agency/AgencyDashboard/JobsTable.js:90
+#: src/containers/pages/agency/ClientPage/ClientPage.js:106
+#: src/containers/pages/client/AgencyPage/AgencyPage.js:58
+#: src/containers/pages/client/ClientDashboard/ProposalsTable.js:85
+#: src/containers/pages/users/UserViewPage/UserViewPage.js:83
+msgid "Status"
+msgstr "ステータス"
+
+#: src/containers/pages/CandidateEditPage/components/sections/Contact.js:53
+msgid "Street"
+msgstr "丁目・番地"
+
+#: src/components/fee/FeeApprovalsTable/FeeApprovalsTable.js:92
+msgid "Submission Date"
+msgstr "提出日"
+
+#: src/components/SwaggerForm/SwaggerForm.js:94
+#: src/constants/errorHandling.js:3
+msgid "Submission error: some fields are missing or improperly filled"
+msgstr "提出エラー：いくつかのフィールドが不足しているか、不適切に入力されています。"
+
+#: src/constants/choices.js:171
+#: src/containers/pages/JobPage/components/ApplicationStages/ApplicationStages.js:21
+msgid "Submissions"
+msgstr "提出"
+
+#: src/containers/pages/JobPostingPageContent/components/JobPostingApplicationForm/hooks.js:194
+msgid "Submit Application"
+msgstr "応募する"
+
+#: src/components/fee/FeeModal/FeeModal.js:47
+msgid "Submit a Placement Form"
+msgstr "プレイスメントフォームを提出"
+
+#: src/components/fee/FeeForm/SecondStep/FeeSplitAllocationForm.js:94
+msgid "Submit for Approval"
+msgstr "承認を依頼"
+
+#: src/components/fee/FeeApprovalsTable/FeeApprovalsTable.js:88
+msgid "Submitted By"
+msgstr "が承認済"
+
+#: src/containers/pages/agency/AgencyDashboard/CandidatesTable.js:146
+#: src/containers/pages/client/ClientDashboard/ProposalsTable.js:123
+msgid "Submitted Candidates"
+msgstr "提案済の候補者"
+
+#: src/components/fee/FeeForm/hooks.js:21
+msgid "Submitted by {0} {1}"
+msgstr " {0} {1}が提案済"
+
+#: src/constants/choices.js:486
+msgid "Sudanese"
+msgstr "スーダン語"
+
+#: src/components/modals/InterviewSchedulingModal/components/ProposeTimeslots.js:25
+msgid "Suggest a few time slots to find a common time with the candidate."
+msgstr "円滑な調整を行うため複数日程の確保を推奨"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:67
+msgid "Summary"
+msgstr "概要"
+
+#: src/components/fee/FeeForm/SecondStep/FeeSplitAllocationFormContent.js:83
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:88
+msgid "Support Consultant"
+msgstr "サポートコンサルタント"
+
+#: src/components/fee/FeeForm/SecondStep/FeeSplitAllocationFormContent.js:90
+msgid "Support Consultant Split"
+msgstr "サポートコンサルタント割当"
+
+#: src/constants/choices.js:487
+msgid "Surinamer"
+msgstr "スリナマー語"
+
+#: src/constants/choices.js:125
+msgid "Survival"
+msgstr "初級"
+
+#: src/constants/choices.js:488
+msgid "Swazi"
+msgstr "スワジ語"
+
+#: src/constants/choices.js:489
+msgid "Swedish"
+msgstr "スウェーデン語"
+
+#: src/constants/choices.js:490
+msgid "Swiss"
+msgstr "スイス語"
+
+#: src/constants/choices.js:491
+msgid "Syrian"
+msgstr "シリア語"
+
+#: src/constants/choices.js:242
+msgid "TOEFL"
+msgstr "TOEFL"
+
+#: src/constants/choices.js:240
+msgid "TOEIC"
+msgstr "TOEIC"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:80
+msgid "Tags"
+msgstr "タグ"
+
+#: src/constants/choices.js:492
+msgid "Taiwanese"
+msgstr "台湾語"
+
+#: src/constants/choices.js:493
+msgid "Tajik"
+msgstr "タジキスタン語"
+
+#: src/constants/roles.js:27
+#: src/containers/pages/agency/AgencyDashboard/JobsTable.js:74
+msgid "Talent Associate"
+msgstr "Talent Associate"
+
+#: src/constants/choices.js:115
+msgid "Tamil"
+msgstr "タミル語"
+
+#: src/constants/choices.js:494
+msgid "Tanzanian"
+msgstr "タンザニア語"
+
+#: src/containers/pages/JobEditPage/components/sections/Details.js:65
+#: src/containers/pages/JobPage/components/JobDetails/components/PrivateDetails.js:36
+msgid "Target Hiring Date"
+msgstr "求人充足目標日"
+
+#: src/components/candidates/CandidateDetailsTab/sections/CurrentEmploymentSection.js:64
+#: src/constants/choices.js:266
+#: src/containers/pages/CandidateEditPage/components/sections/CurrentEmployment.js:83
+msgid "Tax Equalization"
+msgstr "税均等化"
+
+#: src/constants/choices.js:191
+msgid "Technical Fit"
+msgstr "実技・技術課題"
+
+#: src/containers/pages/JobEditPage/components/sections/JobConditions.js:108
+#: src/containers/pages/JobPage/components/JobDetailsSections/JobConditions.js:88
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:181
+msgid "Telework Eligibility"
+msgstr "リモートワーク環境"
+
+#: src/constants/choices.js:116
+msgid "Telugu"
+msgstr "テルグ語"
+
+#: src/components/NavBar/components/UserMenu/UserMenu.js:91
+#: src/containers/pages/LegalAgreementFilePage.js:45
+msgid "Terms & Conditions"
+msgstr "規約と条件"
+
+#: src/containers/pages/AuthPage/components/Agreement.js:51
+msgid "Terms & Privacy Policy"
+msgstr "規約とプライバシーポリシー"
+
+#: src/constants/choices.js:117
+#: src/constants/choices.js:495
+msgid "Thai"
+msgstr "タイ語"
+
+#: src/containers/pages/JobPostingPageContent/components/JobPostingApplicationSubmitted/ApplicationSubmitted.js:19
+msgid "Thank you for applying to this job!"
+msgstr "ご応募ありがとうございました"
+
+#: src/containers/pages/CandidateConfirmation/components/CandidateConfirmed.js:19
+msgid "Thank you for confirming your interview"
+msgstr "面接の日程を承認して頂いてありがとうございます"
+
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:26
+msgid "The <0>{0}</0> field was changed by <1>{actor}</1>{1}"
+msgstr "The <0>{0}</0> は <1>{actor}</1>{1}が変更済"
+
+#: src/utils/candidates/duplication.js:76
+#: src/utils/candidates/duplication.js:76
+msgid ""
+"The candidate you are trying to import or create is a duplicate of a previously\n"
+"archived candidate. Do you want to restore the original candidate?"
+msgstr "インポートまたは作成しようとしている候補者は、以前にアーカイブされた候補者の複製です。元の候補者を復元しますか？"
+
+#: src/containers/pages/JobPostingPageContent/components/JobPostingApplicationSubmitted/ApplicationSubmitted.js:23
+msgid "The company has been notified and will review your application shortly.<0/>A confirmation email has been sent to <1>{email}</1>."
+msgstr ""
+"担当者が応募書類をまもなくレビューします<0/>\n"
+"確認メールを<1>{email}</1>に送信しました"
+
+#: src/components/ErrorToastContent.js:28
+msgid "The development team has been notified and will look into the issue."
+msgstr "これについて開発者に連絡しました。"
+
+#: src/components/TimezoneDisplay/TimezoneDisplay.js:19
+msgid "The time zone is set to {timezoneName} (GMT{0})"
+msgstr "タイムゾーンは{timezoneName}（GMT{0}）に設定されています。"
+
+#: src/containers/pages/CandidateConfirmation/components/RequestAdditionalTimeslots.js:25
+msgid "They will get back to you with new time slots shortly."
+msgstr "新しい候補の通知が届いたまでにしばらくお待ちください"
+
+#: src/utils/candidates/checkIfProposedByLinkedin.js:16
+msgid "This candidate has already been proposed for this job"
+msgstr "この候補者はすでにこの求人に提案されています"
+
+#: src/components/modals/DuplicationMessage/DuplicationMessage.js:19
+msgid "This candidate has already been submitted for this job by another organization."
+msgstr "この候補者は既に別のエージェントから、この求人に提案されています"
+
+#: src/containers/pages/CandidateEditPage/components/CandidateForm/logicHooks.js:49
+msgid "This candidate has been proposed for a job and cannot be archived."
+msgstr "この候補者は求人に提案中のため、アーカイブすることはできません"
+
+#: src/components/modals/DuplicationMessage/DuplicationMessage.js:31
+msgid "This candidate is already in your db"
+msgstr "この候補者はデーターベースに既に存在しています"
+
+#: src/components/modals/DuplicationMessage/DuplicationMessage.js:32
+msgid "This candidate might be already in your db"
+msgstr "この候補者はデーターベースに既に存在する可能性があります"
+
+#: src/components/modals/DuplicationMessage/DuplicationMessage.js:14
+msgid "This candidate might have been submitted for this job by another organization."
+msgstr "この候補者は別のエージェントから、この求人に提案済の可能性があります"
+
+#: src/utils/candidates/confirmArchivingCandidate.js:23
+msgid "This candidate will be archived. You will be able to restore it in the future."
+msgstr "この候補はアーカイブされますが、後に復元することができます"
+
+#: src/containers/pages/AnalyticsPage/JobAnalytics/SnapshotTableModal.js:157
+msgid "This day"
+msgstr "今日"
+
+#: src/containers/pages/CandidateConfirmation/components/InterviewProposalCancelled.js:15
+msgid "This interview proposal link is no longer valid"
+msgstr ""
+
+#: src/components/modals/InterviewSchedulingModal/components/NoEmailMessage.js:15
+msgid "This invitation will not be sent to the Candidate."
+msgstr "この招待状は候補者に送信しません"
+
+#: src/containers/pages/JobEditPage/components/JobForm/utils/openSeeJobPosting.js:12
+msgid "This job is currently shared externally. If you have changed the Job content, you may want to update your job postings."
+msgstr "この求人は現在、外部公開されています。求人内容を変更した場合は、求人情報を更新してください。"
+
+#: src/containers/pages/AnalyticsPage/JobAnalytics/SnapshotTableModal.js:165
+msgid "This month"
+msgstr "今月"
+
+#: src/components/CookieUsagePopup.js:22
+msgid "This site requires cookies and 3rd-party services to function properly. To continue, you must agree to our<0> </0><1>Privacy Policy</1>."
+msgstr "このサイトは、クッキーやサードパーティのサービスを必要とします。続行するには、私たちの<0> </0> <1>プライバシーポリシー</1>に同意する必要があります"
+
+#: src/containers/pages/AnalyticsPage/JobAnalytics/SnapshotTableModal.js:161
+msgid "This week"
+msgstr "今週"
+
+#: src/components/modals/InterviewSchedulingModal/components/RejectedTimeslots.js:26
+msgid "Time slots previously Declined or Cancelled:"
+msgstr "以前拒否やキャンセルした候補日程："
+
+#: src/components/UI/files/FileItem/FileItem.js:44
+msgid "Title"
+msgstr "ポジション"
+
+#: src/utils/interviews.js:12
+#: src/utils/interviews.js:15
+msgid "To Be Rescheduled"
+msgstr "再日程調整待ち"
+
+#: src/containers/pages/JobEditPage/components/JobForm/handlers.js:50
+msgid ""
+"To open a job you have to have more\n"
+"openings than number of hired candidates'"
+msgstr "求人を「募集中」にするには、採用済の候補者数よりも多い募集数にする必要があります"
+
+#: src/constants/choices.js:496
+msgid "Togolese"
+msgstr "トーゴ語"
+
+#: src/constants/choices.js:497
+msgid "Tongan"
+msgstr "トンガ語"
+
+#: src/containers/pages/agency/AgencyDashboard/DealPipelineMetrics.js:16
+#: src/containers/pages/agency/AgencyDashboard/DealPipelineMetrics.js:20
+msgid "Total"
+msgstr "合計"
+
+#: src/components/candidates/CandidateDetailsTab/sections/CurrentEmploymentSection.js:70
+msgid "Total Annual Salary"
+msgstr "年収"
+
+#: src/components/jobs/JobLonglistImport.js:107
+msgid "Total Selected: {0}"
+msgstr "選択されたの合計: {0}"
+
+#: src/containers/pages/client/ClientDashboard/Statistics.js:12
+msgid "Total candidates submitted"
+msgstr "提案済み候補者数"
+
+#: src/containers/pages/agency/AgencyDashboard/DealPipelineCandidatesModal.js:74
+msgid "Total value"
+msgstr "合計金額"
+
+#: src/constants/choices.js:500
+msgid "Trinidadian or Tobagonian"
+msgstr "トリニダード人またはトバゴン人"
+
+#: src/constants/choices.js:502
+msgid "Tunisian"
+msgstr "チュニジア人"
+
+#: src/constants/choices.js:118
+#: src/constants/choices.js:503
+msgid "Turkish"
+msgstr "トルコ語"
+
+#: src/constants/choices.js:504
+msgid "Tuvaluan"
+msgstr "ツバル語"
+
+#: src/components/modals/DataMergeModal.js:30
+#: src/containers/pages/CandidatesPage/components/Candidate/CandidateLog/LogEntry.js:66
+msgid "Twitter URL"
+msgstr "Twitter URL"
+
+#: src/components/UI/ResumeInput/ResumeInput.js:75
+#: src/components/modals/InterviewEditModal/InterviewEditModal.js:110
+#: src/containers/pages/JobEditPage/components/Interviews/Interviews.js:90
+#: src/containers/pages/agency/AgencyClientEditPage/AgencyClientEditForm.js:93
+msgid "Type"
+msgstr "タイプ"
+
+#: src/components/candidates/FormImportCandidate/FormImportCandidate.js:47
+msgid "URL"
+msgstr "ＵＲＬ"
+
+#: src/constants/choices.js:505
+msgid "Ugandan"
+msgstr "ウガンダ語"
+
+#: src/constants/choices.js:506
+msgid "Ukrainian"
+msgstr "ウクライナ語"
+
+#: src/constants/choices.js:142
+msgid "Unemployed"
+msgstr "無職"
+
+#: src/containers/pages/JobEditPage/components/JobForm/utils/openCantBeFilled.js:10
+msgid "Unfilled openings"
+msgstr "募集中求人"
+
+#: src/containers/pages/JobPage/components/TabShareExternally/components/CareerSiteJobPosting/openConfirmDisableDialog.js:10
+msgid "Unpublish Job Posting"
+msgstr "求人掲載の公開停止"
+
+#: src/containers/pages/JobPage/components/TabShareExternally/components/CareerSiteJobPosting/CareerSiteJobPosting.js:125
+msgid "Unpublished"
+msgstr "未公開"
+
+#: src/containers/pages/AnalyticsPage/JobAnalytics/SnapshotTableModal.js:158
+msgid "Up to this day"
+msgstr "今日まで"
+
+#: src/containers/pages/AnalyticsPage/JobAnalytics/SnapshotTableModal.js:166
+msgid "Up to this month"
+msgstr "今月まで"
+
+#: src/containers/pages/AnalyticsPage/JobAnalytics/SnapshotTableModal.js:162
+msgid "Up to this week"
+msgstr "今週まで"
+
+#: src/containers/pages/JobEditPage/components/JobForm/utils/openSeeJobPosting.js:10
+msgid "Update Job Postings"
+msgstr "求人情報の更新"
+
+#: src/containers/pages/agency/AgencyClientEditPage/AgencyClientEditForm.js:161
+msgid "Updated by"
+msgstr "が更新済"
+
+#: src/constants/choices.js:119
+msgid "Urdu"
+msgstr "ウルドゥー語"
+
+#: src/constants/choices.js:276
+msgid "Urgent"
+msgstr "大変高い"
+
+#: src/constants/choices.js:507
+msgid "Uruguayan"
+msgstr "ウルグアイ語"
+
+#: src/components/NavBar/components/HelpDropdown/HelpDropdown.js:18
+msgid "User Guide"
+msgstr "ユーザーガイド"
+
+#: src/components/Menu/index.js:41
+#: src/containers/pages/users/UserViewPage/UserViewPage.js:96
+msgid "Users"
+msgstr "ユーザー"
+
+#: src/constants/choices.js:508
+msgid "Uzbekistani"
+msgstr "ウズベキスタン語"
+
+#: src/constants/choices.js:509
+msgid "Venezuelan"
+msgstr "ベネズエラ語"
+
+#: src/constants/choices.js:120
+#: src/constants/choices.js:510
+msgid "Vietnamese"
+msgstr "ベトナム語"
+
+#: src/components/SwaggerTable/components/TablePagination/TablePagination.js:145
+#: src/components/Table/components/TablePagination/TablePagination.js:122
+msgid "View"
+msgstr "見る"
+
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyItem.js:60
+msgid "View Details"
+msgstr "詳細を見る"
+
+#: src/constants/choices.js:219
+msgid "Visa Sponsorship"
+msgstr "ビザ取得サポート"
+
+#: src/utils/candidates/duplication.js:53
+#: src/utils/candidates/duplication.js:53
+msgid "Warning"
+msgstr "警告"
+
+#: src/containers/pages/CandidateConfirmation/components/RequestAdditionalTimeslots.js:19
+msgid "We let the company know that none of these time slots are working."
+msgstr "この日程候補はどれも都合が合わないことを会社に知らせます。"
+
+#: src/containers/pages/CompanySettings/components/Inputs.js:28
+#: src/containers/pages/agency/AgencyClientEditPage/AgencyClientEditForm.js:122
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: src/constants/choices.js:86
+msgid "Week"
+msgstr "週"
+
+#: src/containers/pages/AnalyticsPage/AnalyticsParams.js:19
+msgid "Weekly"
+msgstr "毎週"
+
+#: src/containers/pages/AuthPage/components/SignIn.js:37
+msgid "Welcome, {0} {1}"
+msgstr "ようこそ, {0} {1}"
+
+#: src/constants/choices.js:210
+msgid "Welfare Pension Insurance"
+msgstr "厚生年金"
+
+#: src/constants/choices.js:511
+msgid "Welsh"
+msgstr "ウェルシュ語"
+
+#: src/containers/pages/client/ClientDashboard/Statistics.js:16
+msgid "Wins"
+msgstr "Wins"
+
+#: src/containers/pages/JobEditPage/components/sections/Requirements.js:47
+#: src/containers/pages/JobPage/components/JobDetails/components/PrivateRequirements.js:21
+msgid "Work Experience"
+msgstr "経験"
+
+#: src/containers/pages/JobEditPage/components/sections/JobConditions.js:83
+#: src/containers/pages/JobPage/components/JobDetailsSections/JobConditions.js:77
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:163
+msgid "Work Location"
+msgstr "勤務地"
+
+#: src/constants/choices.js:214
+msgid "Workers Accident Compensation Insurance"
+msgstr "労災保険"
+
+#: src/components/candidates/CandidateDetailsTab/sections/SkillsExperienceSection.js:27
+msgid "Working Experience"
+msgstr "経験"
+
+#: src/containers/pages/JobEditPage/components/sections/JobConditions.js:91
+#: src/containers/pages/JobPage/components/JobDetailsSections/JobConditions.js:78
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:169
+msgid "Working Hours"
+msgstr "勤務時間"
+
+#: src/constants/choices.js:84
+msgid "Year"
+msgstr "年"
+
+#: src/components/candidates/CandidateDetailsTab/sections/EducationDetailsSection/Education.js:33
+#: src/containers/pages/CandidateEditPage/components/sections/EducationDetails.js:77
+msgid "Year Completed (or Expected)"
+msgstr "卒業年（見込み）"
+
+#: src/constants/choices.js:512
+msgid "Yemenite"
+msgstr "イエメン語"
+
+#: src/constants/choices.js:235
+#: src/containers/pages/client/AgencyDirectoryPage/AgencyItem.js:38
+#: src/utils/alert.js:24
+msgid "Yes"
+msgstr "はい"
+
+#: src/components/NotFoundTablePlaceholder.js:16
+msgid "You can try to adjust your search or filters"
+msgstr "検索またはフィルターを調整することができます"
+
+#: src/components/modals/DuplicationMessage/DuplicationMessage.js:26
+msgid "You have already submitted this candidate to this job"
+msgstr "あなたは既にこの求人にこの候補者を提案しました"
+
+#: src/containers/pages/JobEditPage/components/JobForm/handlers.js:43
+msgid "You have no permission to change number of openings"
+msgstr "採用人数を変更する権限はありません"
+
+#: src/containers/pages/JobEditPage/components/JobForm/handlers.js:46
+msgid "You have no permission to open the job"
+msgstr "求人を作成する権限はありません"
+
+#: src/components/modals/DuplicationMessage/DuplicationMessage.js:27
+msgid "You may have already submitted this candidate to this job"
+msgstr "あなたは既にこの求人にこの候補者を提案したことがあります"
+
+#: src/components/modals/RejectionModal/RejectionModal.js:171
+msgid "You must add this field"
+msgstr "このフィールドは必ず記入してください"
+
+#: src/components/modals/QuickAddCandidateModal/logicHooks.js:174
+#: src/containers/pages/CandidateEditPage/components/CandidateForm/logicHooks.js:234
+#: src/containers/pages/JobPostingPageContent/components/JobPostingApplicationForm/hooks.js:97
+msgid "You must select a Type"
+msgstr "タイプを選択してください"
+
+#: src/containers/pages/JobPage/components/TabShareExternally/TabShareExternally.js:24
+msgid "Your Job must be Open in order to share it externally"
+msgstr "求人情報を外部公開するには、オープンにする必要があります"
+
+#: src/containers/pages/AuthPage/components/SideInfo.js:16
+msgid "Your Talent Acquisition Enabler"
+msgstr "あなたはTalent Acquisition Enablerです"
+
+#: src/containers/pages/HomePage/HomePage.js:65
+msgid "Your account is pending approval."
+msgstr "アカウントの承認が保留されています"
+
+#: src/containers/pages/JobPage/components/TabShareExternally/components/CareerSiteJobPosting/CareerSiteJobPosting.js:136
+msgid "Your company must first enable your company Career Site in order to publish your job."
+msgstr "求人情報を公開するためには、まずあなたの会社キャリアサイトを有効にする必要があります"
+
+#: src/containers/pages/JobPage/components/TabShareExternally/components/CareerSiteJobPosting/CareerSiteJobPosting.js:121
+msgid "Your job posting is listed on your company Career Site here:"
+msgstr "あなたの会社キャリアサイトに掲載されている求人情報はこちらです:"
+
+#: src/containers/pages/CandidateConfirmation/components/CandidateConfirmed.js:24
+msgid "Your meeting with {0} has been scheduled:"
+msgstr "{0}とのミーティングの日程調整が完了しました："
+
+#: src/swrAPI/openSessionExpiredDialog.js:12
+msgid "Your session has timed out. Please sign in again."
+msgstr ""
+
+#: src/containers/pages/AuthPage/components/InstructionsSent.js:27
+msgid "You’ll receive this email within 5 minutes."
+msgstr "このメールは5分以内に届きます。"
+
+#: src/constants/choices.js:121
+msgid "Yue Chinese"
+msgstr "越中国"
+
+#: src/constants/choices.js:513
+msgid "Zambian"
+msgstr "ザンビア語"
+
+#: src/constants/choices.js:514
+msgid "Zimbabwean"
+msgstr "ジンバブエ語"
+
+#: src/components/candidates/FormImportCandidate/FormImportCandidate.js:71
+msgid "Zoho"
+msgstr "Zoho"
+
+#: src/components/AvatarList/AvatarList.js:55
+msgid "and {countDiff} more"
+msgstr "と{countDiff}より"
+
+#: src/components/interviews/InterviewNotificationRecipients/InterviewNotificationRecipients.js:46
+msgid "assigned recruiter(s)"
+msgstr "アサインされたリクルーター"
+
+#: src/components/candidates/CandidateCurrentJob/CandidateCurrentJob.js:30
+msgid "at {currentCompany}"
+msgstr "{currentCompany}で"
+
+#: src/containers/pages/AnalyticsPage/CandidateSourceStat.js:42
+#: src/containers/pages/AnalyticsPage/CandidatesHired.js:14
+msgid "by department"
+msgstr "部門別"
+
+#: src/containers/pages/AnalyticsPage/JobAverageOpen.js:36
+msgid "by departments"
+msgstr "部署別"
+
+#: src/containers/pages/AnalyticsPage/JobAverageOpen.js:46
+msgid "by function"
+msgstr "ファンクション別"
+
+#: src/containers/pages/AnalyticsPage/CandidateSourceStat.js:44
+#: src/containers/pages/AnalyticsPage/CandidatesHired.js:16
+msgid "by hiring manager"
+msgstr "Hiring Manager別"
+
+#: src/containers/pages/AnalyticsPage/JobAverageOpen.js:41
+msgid "by hiring managers"
+msgstr "Hiring Manager別"
+
+#: src/components/interviews/InterviewNotificationRecipients/InterviewNotificationRecipients.js:49
+msgid "candidate"
+msgstr "候補者"
+
+#: src/components/modals/ModalFormAgencyJobContract/FormInputsJobAgencyContract.js:52
+msgid "e.g John Smith"
+msgstr "例）太郎山田"
+
+#: src/components/fee/FeeForm/FirstStep/FeeFirstStepContent.js:84
+msgid "e.g."
+msgstr "例）"
+
+#: src/components/modals/QuickAddCandidateModal/sections/CurrentEmployment.js:51
+#: src/components/modals/QuickAddCandidateModal/sections/CurrentEmployment.js:57
+#: src/containers/pages/JobEditPage/components/sections/JobConditions.js:56
+#: src/containers/pages/JobEditPage/components/sections/JobConditions.js:62
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:132
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:139
+msgid "e.g. 500,000"
+msgstr "例）500,000"
+
+#: src/containers/pages/CandidateEditPage/components/sections/EducationDetails.js:51
+msgid "e.g. Bachelor"
+msgstr "例）大卒"
+
+#: src/containers/pages/CandidateEditPage/components/sections/EducationDetails.js:68
+msgid "e.g. Computer Science"
+msgstr "例）情報工学"
+
+#: src/containers/pages/CandidateEditPage/components/sections/EducationDetails.js:58
+msgid "e.g. MIT"
+msgstr "例）ＯＯ大学"
+
+#: src/containers/pages/CandidateEditPage/components/sections/ExperienceDetails.js:60
+msgid "e.g. Netflix"
+msgstr "例）ネットフリックス"
+
+#: src/containers/pages/JobEditPage/components/sections/JobConditions.js:84
+#: src/containers/pages/JobPage/components/TabShareExternally/components/JobPostingFormContent/JobPostingFormContent.js:164
+msgid "e.g. New York"
+msgstr "例）ニューヨーク"
+
+#: src/containers/pages/CandidateEditPage/components/sections/ExperienceDetails.js:53
+msgid "e.g. Software Developer"
+msgstr "例）ソフト開発者"
+
+#: src/containers/pages/AnalyticsPage/CandidateDeclineReasonStat.js:38
+#: src/containers/pages/AnalyticsPage/CandidatesByStage.js:38
+#: src/containers/pages/AnalyticsPage/JobAverageOpen.js:36
+#: src/containers/pages/AnalyticsPage/OpenJobs.js:14
+msgid "for department"
+msgstr "部門のための"
+
+#: src/containers/pages/AnalyticsPage/CandidateDeclineReasonStat.js:42
+#: src/containers/pages/AnalyticsPage/JobAverageOpen.js:46
+#: src/containers/pages/AnalyticsPage/OpenJobs.js:18
+msgid "for function"
+msgstr "ファンクションのため"
+
+#: src/containers/pages/AnalyticsPage/CandidateDeclineReasonStat.js:40
+#: src/containers/pages/AnalyticsPage/CandidatesByStage.js:40
+#: src/containers/pages/AnalyticsPage/JobAverageOpen.js:42
+#: src/containers/pages/AnalyticsPage/OpenJobs.js:16
+msgid "for hiring manager"
+msgstr "採用マネジャーのための"
+
+#: src/containers/pages/JobPostingPageContent/components/JobPostingApplicationForm/hooks.js:131
+msgid "hCaptcha Error: {err}"
+msgstr "hCaptcha エラー: {err}"
+
+#: src/containers/pages/JobPostingPageContent/components/JobPostingApplicationForm/hooks.js:127
+msgid "hCaptcha Token Expired"
+msgstr "hCaptcha Token 期限切れ"
+
+#: src/containers/pages/AnalyticsPage/CandidateSourceStat.js:46
+#: src/containers/pages/AnalyticsPage/CandidatesByStage.js:42
+#: src/containers/pages/AnalyticsPage/CandidatesHired.js:18
+msgid "in function"
+msgstr "ファンクションで"
+
+#: src/components/interviews/InterviewNotificationRecipients/InterviewNotificationRecipients.js:45
+msgid "interviewer(s)"
+msgstr "面接官"
+
+#: src/components/SwaggerTable/components/TablePagination/TablePagination.js:158
+#: src/components/Table/components/TablePagination/TablePagination.js:136
+msgid "items per page"
+msgstr "ページあたりの項目"
+
+#: src/components/format/FormattedSalary.js:72
+msgid "starting from"
+msgstr "最低"
+
+#: src/components/format/FormattedSalary.js:78
+msgid "up to"
+msgstr "まで"
+
+#: src/components/fee/FeeForm/openSuccessToast.js:18
+msgid "{0} - {1}'s placement form"
+msgstr "{0} - {1}のプレイスメントフォーム"
+
+#: src/containers/pages/CandidatesPage/components/CandidateInfoRow/CandidateInfoRow.js:36
+msgid "{0} / year"
+msgstr "{0} / 年"
+
+#: src/containers/pages/AnalyticsPage/JobAnalytics/JobAnalyticsPage.js:115
+msgid "{0} Analytics"
+msgstr "{0} アナリティクス"
+
+#: src/components/fee/FeeModal/FeeModal.js:63
+#: src/containers/pages/FeePage/FeePage.js:53
+#: src/containers/pages/FeePage/PlacementPage.js:53
+msgid "{0} placement form"
+msgstr "{0}プレイスメントフォーム"
+
+#: src/containers/pages/JobEditPage/components/JobForm/utils/openConfirmCloseUnfilled.js:12
+msgid "{availableOpenings, plural, one {There is still an opening available. Do you still want to close the job?} other {There are still # openings available. Do you still want to close the job?}}"
+msgstr "採用予定人数{availableOpenings, plural, one {#} other {#}}を満たしていないですが、クローズしますか？"
+
+#: src/containers/pages/JobEditPage/components/JobForm/utils/openCantBeFilled.js:12
+msgid "{availableOpenings, plural, one {This job can't be marked as \"Filled\" as there is # open position.} other {This job can't be marked as \"Filled\" as there are # open positions.}}"
+msgstr "この求人は、 {availableOpenings, plural, one {#} other {#}}の採用人数満たされてないため、「充足済」とすることはできません"
+
+#: src/containers/pages/JobPage/components/JobPageContent/components/JobOpenSince/JobOpenSince.js:57
+msgid "{daysOpen, plural, one {# day} other {# days}}"
+msgstr "{daysOpen, plural, one {# 日} other {# 日}}"
+
+#: src/components/modals/DuplicationMessage/DuplicationMessage.js:70
+msgid "{daysSinceLastSubmitted, plural, =0 {today} =1 {yesterday} other {# days ago}}"
+msgstr "{daysSinceLastSubmitted, plural, =0 {今日} =1 {昨日} other {# 日前}}"
+
+#: src/components/fee/FeeForm/openSuccessToast.js:38
+msgid "{formName} has been successfully saved"
+msgstr "{formName} は保存できました"
+
+#: src/components/fee/FeeForm/openSuccessToast.js:30
+msgid "{formName} has been successfully saved and approved"
+msgstr "{formName} は保存され、承認されました"
+
+#: src/components/fee/FeeForm/openSuccessToast.js:34
+msgid "{formName} has been successfully saved and sent to revision"
+msgstr "{formName} は保存され、修正を送信しました"
+
+#: src/components/fee/FeeForm/openSuccessToast.js:27
+msgid "{formName} has been successfully submitted"
+msgstr "{formName} は正常に提出されました"
+
+#: src/containers/pages/AnalyticsPage/JobAnalytics/SnapshotTableModal.js:65
+msgid "{hidden, plural, =1 {# candidate from agency longlist is not visible in the table} other {# candidates from agency longlist are not visible in the table}}"
+msgstr "{hidden, plural, =1 {# candidate from agency longlist is not visible in the table} other {# candidates from agency longlist are not visible in the table}}"
+
+#: src/containers/pages/InvitationsPage/Invitation.js:97
+msgid "{invitationName} invitation"
+msgstr "{invitationName}招待"
+
+#: src/containers/pages/AnalyticsPage/JobAnalytics/JobAnalyticsPage.js:36
+msgid "{jobTitle} Analytics"
+msgstr "{jobTitle} アナリティクス"
+
+#: src/components/UI/Checkbox/Checkbox.js:42
+msgid "{label}"
+msgstr "{label}"
+
+#: src/containers/pages/JobPage/components/JobPageContent/components/JobOpenSince/JobOpenSince.js:54
+msgid "{monthsOpen, plural, one {# month} other {# months}}"
+msgstr "{monthsOpen, plural, one {# 月} other {# 月}}"
+
+#: src/components/SwaggerTable/components/TablePagination/TablePagination.js:96
+#: src/components/Table/components/TablePagination/TablePagination.js:75
+msgid "{pageFirstItemNumber}-{pageLastItemNumber} out of {count} items"
+msgstr "{pageFirstItemNumber}-{pageLastItemNumber} は {count} のうち"
+
+#: src/components/candidates/CandidatePreview.js:18
+msgid "{position} at {company}"
+msgstr "{company}で{position}"
+
+#: src/components/FileThumbnail/FileThumbnail.js:37
+#: src/components/Menu/MenuItem.js:32
+#: src/components/SwaggerTable/components/TableInFilter.js:42
+msgid "{title}"
+msgstr "{title}"
+
+#: src/containers/pages/JobPage/components/JobPageContent/components/JobOpenSince/JobOpenSince.js:51
+msgid "{yearsOpen, plural, one {# year} other {# years}}"
+msgstr "{yearsOpen, plural, one {# 年} other {# 年}}"
+
+#: src/constants/choices.js:53
+msgid "£ British Pound"
+msgstr "£イギリスポンド"
+
+#: src/constants/choices.js:48
+msgid "¥ Chinese Yuan Renminbi"
+msgstr "¥中国元"
+
+#: src/constants/choices.js:37
+msgid "¥ Japanese Yen"
+msgstr "¥日本円"
+
+#: src/containers/pages/AuthPage/components/SideInfo.js:22
+msgid "© {0} ZooKeep"
+msgstr "© {0} ZooKeep"
+
+#: src/constants/choices.js:173
+msgid "Оffering"
+msgstr "内定オファー"
+
+#: src/constants/choices.js:58
+msgid "₩ South Korean Won"
+msgstr "₩韓国ウォン"
+
+#: src/constants/choices.js:45
+msgid "€ Euro"
+msgstr "€ユーロ"
+
+#: src/constants/choices.js:63
+msgid "₹ Indian Rupee"
+msgstr "₹インドルピー"

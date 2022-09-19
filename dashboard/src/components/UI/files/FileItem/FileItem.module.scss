@@ -1,0 +1,70 @@
+@import 'styles/variables';
+
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+.nameWrapper {
+  position: relative;
+  top: 21px;
+  display: flex;
+  align-items: center;
+
+  &.withoutTitle {
+    top: 0;
+  }
+}
+
+.titleWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.titleError {
+  font-weight: 400;
+  color: $danger;
+  margin-top: 5px;
+}
+
+.itemName {
+  line-height: 16px;
+  overflow: hidden;
+  max-width: 350px;
+  cursor: default;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.downloadable {
+  color: $primary;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.input {
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+
+.failedUpload {
+  color: $danger;
+  margin-left: 10px;
+}
+
+.successUpload {
+  color: $success-dark;
+  margin-left: 10px;
+}
+
+.delete {
+  margin-left: 24px;
+  cursor: pointer;
+}

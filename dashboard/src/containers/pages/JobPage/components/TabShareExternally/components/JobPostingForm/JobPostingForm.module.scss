@@ -1,0 +1,22 @@
+@import 'styles/variables';
+
+.subheading {
+  margin: 0 30px;
+}
+
+.resetPanel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: $text-light;
+}
+
+.resetIcon {
+  vertical-align: bottom;
+  margin-right: 6px;
+}
+
+.loading {
+  margin-top: 30px;
+}

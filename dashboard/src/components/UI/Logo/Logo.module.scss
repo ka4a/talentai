@@ -1,0 +1,11 @@
+@import 'styles/variables';
+
+.logo {
+  font-size: 20px;
+  color: $text-light;
+  cursor: pointer;
+
+  span {
+    color: $secondary;
+  }
+}

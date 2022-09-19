@@ -1,0 +1,81 @@
+@import 'styles/variables';
+
+.trigger {
+  margin-right: 20px;
+  padding: 0;
+
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.container {
+  border: 1px solid $neutral-dark !important;
+  border-radius: 8px !important;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list {
+  overflow-y: scroll;
+  width: 405px;
+  height: 305px;
+
+  scrollbar-width: none; // Firefox
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.seeAll {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid $neutral-dark;
+
+  button {
+    margin-top: 10px;
+  }
+}
+
+.notificationButton {
+  button {
+    padding: 0;
+    height: unset;
+  }
+
+  div {
+    font-size: 14px;
+    font-weight: 500;
+    color: $text-normal;
+    text-transform: none;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+}
+
+.buttonWrapper {
+  position: relative;
+}
+
+.badge {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12.5px;
+  background-color: $danger;
+  color: $white;
+  border-radius: 4px;
+  position: absolute;
+  top: -7px;
+  right: -11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1px 4px;
+}

@@ -1,0 +1,16 @@
+.userBadge {
+  background: rgba(9, 30, 66, 0.08);
+  border: 1px solid transparent;
+  border-radius: 20px;
+  color: rgb(66, 82, 110);
+  padding: 0 0.3em 2px 0.23em;
+
+  &.currentUser {
+    background: rgb(0, 82, 204);
+    color: rgb(244, 245, 247);
+  }
+}
+
+.multiLineComment {
+  white-space: pre-wrap;
+}

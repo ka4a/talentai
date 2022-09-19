@@ -1,0 +1,29 @@
+@import 'styles/variables';
+
+.root {
+  display: flex;
+  align-items: center;
+  color: $text-normal;
+}
+
+.subInfo {
+  margin-right: 30px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+
+  svg {
+    fill: $text-light;
+    margin-right: 7px;
+  }
+}
+
+.salary {
+  background: $neutral-light;
+  color: $text-light;
+  border-radius: 32px;
+  padding: 0 10px;
+  height: 26px;
+}

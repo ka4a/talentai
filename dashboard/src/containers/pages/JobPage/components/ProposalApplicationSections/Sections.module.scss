@@ -1,0 +1,49 @@
+@import 'styles/variables';
+
+%sectionWrapper {
+  background: $white;
+  border: 1px solid $neutral-dark;
+  border-radius: 8px;
+  flex: 1;
+}
+
+.halfSection {
+  @extend %sectionWrapper;
+
+  &:first-child {
+    margin-right: 20px;
+  }
+}
+
+.title {
+  color: $text-normal;
+  padding: 20px 25px 0;
+}
+
+.row {
+  border-bottom: 1px solid $neutral-dark;
+  padding: 20px 25px;
+
+  &:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+}
+
+.itemsSection {
+  @extend %sectionWrapper;
+
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.itemsList {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemHeaderWrapper {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}

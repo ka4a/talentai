@@ -1,0 +1,15 @@
+@import 'styles/variables';
+
+.value {
+  color: $text-light;
+}
+
+.label {
+  color: $text-light;
+}
+
+.subLabel {
+  color: $text-normal;
+  display: block;
+  padding-top: 4px;
+}

@@ -1,0 +1,4 @@
+from .test_serializers import *
+from .fee_split_allocation_serializer import FeeSplitAllocationSerializerTests
+from .fee_serializer import FeeSerializerTests
+from .client_settings_serializer import ClientSettingsSerializerTests

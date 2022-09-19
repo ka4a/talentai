@@ -1,0 +1,15 @@
+{% load i18n %}
+
+{% blocktrans %}
+Dear {{ candidate }},
+{% endblocktrans %}
+<br />
+{% blocktrans %}
+{{ sender }} from {{ organisation }} has invited you to book a slot for an interview for {{ job }}.
+{% endblocktrans %}
+<br />
+<br /><a href='{{ base_url }}{% url 'select_interview_timeslot' uuid=uuid %}'>
+  {% trans 'Choose a slot' %}
+</a>
+<br />
+<br />{% trans 'Thank You' %}

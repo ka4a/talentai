@@ -1,0 +1,17 @@
+[main]
+host = https://www.transifex.com
+
+[zookeep.dashboard-text]
+file_filter = dashboard/src/locales/<lang>/messages.po
+minimum_perc = 0
+source_file = dashboard/src/locales/en/messages.po
+source_lang = en
+type = PO
+
+[zookeep.backend-text]
+file_filter = locale/<lang>/LC_MESSAGES/django.po
+minimum_perc = 0
+source_file = locale/en/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+

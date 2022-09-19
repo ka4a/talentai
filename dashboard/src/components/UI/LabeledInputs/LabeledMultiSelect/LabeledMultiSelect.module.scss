@@ -1,0 +1,160 @@
+@import 'styles/variables';
+@import '../commonInputStyles.module';
+
+.wrapper {
+  position: relative;
+  z-index: 200;
+}
+
+@mixin menu {
+  & .multiselect__menu {
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid $neutral-dark;
+    box-shadow: none !important;
+    overflow: hidden;
+    z-index: 100000;
+  }
+
+  & .multiselect__menu-list {
+    padding: 0;
+  }
+
+  & .multiselect__option {
+    padding: 10px 10px 10px 38px;
+    color: $text-normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    cursor: pointer;
+    position: relative;
+
+    &.multiselect__option--is-selected {
+      background: none;
+      font-weight: 700;
+
+      &:before {
+        background: $primary url('/assets/images/icons/icon-checkbox.svg') center
+          no-repeat;
+        border: 1px solid $primary;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        border-radius: 4px;
+      }
+    }
+
+    &:before {
+      display: block;
+      content: '';
+      width: 18px;
+      height: 18px;
+      background: $white;
+      border: 1px solid $neutral-dark;
+      box-sizing: border-box;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+      border-radius: 4px;
+
+      position: absolute;
+      left: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+.multiselect {
+  & :global {
+    & .multiselect__control {
+      background: $white;
+      border-radius: 8px;
+      border: 1px solid $neutral-darker;
+      box-shadow: none !important;
+      min-height: 45px;
+
+      &:hover {
+        border: 1px solid $primary-dark;
+      }
+
+      &:focus {
+        border: 1px solid $primary;
+      }
+
+      & .multiselect__value-container {
+        padding: 9px 16px;
+      }
+
+      & .multiselect__indicator-separator {
+        display: none;
+      }
+
+      & .multiselect__indicator {
+        & svg {
+          fill: $text-light;
+        }
+
+        &.multiselect__clear-indicator {
+          display: none;
+        }
+      }
+
+      & .multiselect__placeholder {
+        color: $text-lighter;
+        font-size: 14px;
+        margin: 0;
+        line-height: 14px;
+      }
+
+      & .multiselect__input {
+        margin: 0;
+      }
+    }
+    & .css-1rhbuit-multiValue {
+      margin-right: 10px;
+      background: $neutral;
+      border-radius: 4px;
+      padding: 3px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 14px;
+    }
+
+    & .multiselect__multi-value__remove {
+      padding: 0;
+      background: none !important;
+    }
+
+    & .multiselect__multi-value__label {
+      padding-right: 0;
+    }
+
+    & .multiselect__multi-value__remove {
+      padding: 0;
+      margin-right: 5px;
+      background: url('/assets/images/icons/icon-select-close.svg') center no-repeat !important;
+      margin-left: 3px;
+      cursor: pointer;
+
+      svg {
+        opacity: 0;
+      }
+    }
+
+    @include menu;
+  }
+}
+.menu {
+  // Required, so menu is rendered on top of form buttons
+  > div {
+    z-index: 301;
+  }
+  & :global {
+    @include menu;
+  }
+}
+
+.label {
+  background-color: $white;
+  color: $text-light;
+  position: absolute;
+  left: 10px;
+  padding: 0 4px;
+}

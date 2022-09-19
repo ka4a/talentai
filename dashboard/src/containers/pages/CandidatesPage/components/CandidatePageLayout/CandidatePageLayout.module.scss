@@ -1,0 +1,17 @@
+.wrapper {
+  position: relative;
+  overflow-x: auto;
+  padding-bottom: 48px;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.details {
+  top: 10px;
+}
+
+.innerWrapperDetailsClosed {
+  padding-top: 0;
+}

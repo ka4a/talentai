@@ -1,0 +1,10 @@
+{% load i18n %}{% blocktrans %}
+Dear {{ candidate }}, your interview with {{ organisation }} has been cancelled:
+{% endblocktrans %}
+<br/>
+<br/>{% trans 'Position' %}: {{ job }}
+<br/>
+<br/>{% trans 'When' %}: {{ timeframe }}
+<br/>
+<br/>{% trans 'Candidate' %}: {{ candidate }}
+<br/>{% trans 'Interviewer' %}: {{ interviewer }}

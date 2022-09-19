@@ -1,0 +1,12 @@
+@import 'styles/variables';
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+
+  &.disabled {
+    cursor: default;
+  }
+}

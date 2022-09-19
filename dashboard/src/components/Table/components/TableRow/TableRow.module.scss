@@ -1,0 +1,47 @@
+@import 'styles/variables';
+
+.rowHover {
+  cursor: pointer;
+
+  .cell:first-child a {
+    color: $primary !important;
+  }
+}
+
+.isActive {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+  background: $secondary;
+
+  .cell {
+    background: $secondary;
+    border-color: $secondary !important;
+
+    & :global {
+      & .user-name,
+      & .text-grey {
+        color: $white !important;
+      }
+    }
+  }
+}
+
+.withBorder {
+  &:before {
+    background: $neutral-dark;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    display: block;
+    width: 1px;
+    height: calc(100% - 32px);
+    content: '';
+    transform: translateY(-50%);
+  }
+
+  &:last-child {
+    &:before {
+      display: none;
+    }
+  }
+}

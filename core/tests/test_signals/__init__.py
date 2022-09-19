@@ -1,0 +1,3 @@
+from .candidate_file_saved import TestCandidateFileSaved
+from .job_file_saved import TestJobFileSaved
+from .legal_agreement_saved import TestLegalAgreementSaved

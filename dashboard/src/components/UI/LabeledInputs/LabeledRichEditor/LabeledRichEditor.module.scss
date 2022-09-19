@@ -1,0 +1,41 @@
+@import 'styles/variables';
+@import '../commonInputStyles.module';
+
+.innerWrapper {
+  border: 1px solid $neutral-darker;
+  border-radius: 8px;
+}
+
+.editor {
+  padding: 15px 15px 10px;
+
+  p,
+  ul {
+    margin-bottom: 0;
+  }
+}
+
+.toolbar {
+  border-top: 1px solid $neutral-darker;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  .toolbarSection {
+    display: flex;
+  }
+}
+
+.markButton {
+  align-items: center;
+  border-radius: 4px;
+  display: flex;
+  height: 28px;
+  justify-content: center;
+  width: 28px;
+  margin-right: 10px;
+  cursor: pointer;
+
+  &.isActive {
+    background-color: $neutral;
+  }
+}

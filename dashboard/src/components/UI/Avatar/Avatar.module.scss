@@ -1,0 +1,38 @@
+@import 'styles/variables';
+
+.square {
+  border-radius: 5px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+@mixin size($size) {
+  width: $size;
+  height: $size;
+  min-width: $size;
+  min-height: $size;
+}
+
+.xs {
+  @include size(36px);
+  font-size: 12px;
+}
+
+.sm {
+  @include size(80px);
+}
+
+.lg {
+  @include size(150px);
+  font-size: 48px;
+}
+
+.noImage {
+  color: $white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: center / contain no-repeat url(../../../assets/images/defaultAvatar.png);
+}

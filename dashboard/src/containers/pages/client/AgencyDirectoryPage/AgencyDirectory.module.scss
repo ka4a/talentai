@@ -1,0 +1,31 @@
+.container {
+  width: 100%;
+  border: solid 2px #f9f9f9;
+  border-radius: 4px;
+  padding: 16px 16px 16px 24px;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+
+.button {
+  width: 135px;
+}
+
+.detailsField {
+  &Wide {
+    grid-column: span 2;
+  }
+
+  &Title {
+    width: 100%;
+    font-weight: bold;
+  }
+
+  &Value {
+    width: 100%;
+  }
+}

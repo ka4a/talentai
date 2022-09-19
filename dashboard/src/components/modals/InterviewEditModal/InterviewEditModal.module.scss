@@ -1,0 +1,24 @@
+@import 'styles/variables';
+@import 'styles/form.module';
+
+.contentWrapper {
+  padding: 30px;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 30px;
+
+  & > div {
+    flex: 1;
+
+    &:first-child {
+      margin-right: 20px;
+    }
+  }
+}
+
+.buttonBar {
+  margin-top: 0;
+  border-top: 1px solid $neutral-dark;
+}

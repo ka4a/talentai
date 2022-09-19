@@ -1,0 +1,99 @@
+@import 'styles/variables';
+
+.header {
+  background: $white;
+}
+
+.mainHeader {
+  padding: 10px 0 30px;
+
+  .headerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .headerLeft {
+    display: flex;
+    flex: 1;
+    align-items: center;
+  }
+
+  .headerRight {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 10px;
+  }
+
+  .title {
+    color: $text-normal;
+    margin-right: 30px;
+    text-transform: capitalize;
+  }
+
+  .badge {
+    margin-right: 30px;
+  }
+
+  .date {
+    color: $text-normal;
+    white-space: nowrap;
+  }
+
+  @media screen and (max-width: 1000px) {
+    flex-direction: column;
+    align-items: flex-start;
+
+    .headerRight {
+      margin-left: 0;
+    }
+  }
+}
+
+.textLight {
+  color: $text-light;
+  display: inline-block;
+}
+
+.highlightedInfoWrapper {
+  display: flex;
+}
+
+.function {
+  margin-right: 20px;
+}
+
+.contentWrapper {
+  background-color: $neutral-light;
+
+  .tabs {
+    background-color: white;
+    position: relative; // needed for showing above tabs content in Z axis
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.05);
+    padding: 0;
+
+    ul {
+      max-width: 1600px;
+      margin: 0 auto;
+      padding: 0 50px;
+    }
+  }
+}
+
+.buttonsContainer {
+  position: relative;
+}
+
+.buttonWrapper {
+  position: absolute;
+  z-index: 50;
+  top: -18px;
+  right: 50px;
+  display: flex;
+
+  button,
+  a {
+    margin-left: 20px;
+  }
+}

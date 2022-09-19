@@ -1,0 +1,4 @@
+{{ text|linebreaks }}
+{% if link %}
+<br/><br/><a href='{{ base_url }}{{ link }}'>{{link_text|default:"Link"}}</a>
+{% endif %}

@@ -1,0 +1,967 @@
+[
+	{
+		"code": "af",
+		"name_en": "Afghanistan",
+		"name_ja": "アフガニスタン"
+	},
+	{
+		"code": "al",
+		"name_en": "Albania",
+		"name_ja": "アルバニア"
+	},
+	{
+		"code": "dz",
+		"name_en": "Algeria",
+		"name_ja": "アルジェリア"
+	},
+	{
+		"code": "ad",
+		"name_en": "Andorra",
+		"name_ja": "アンドラ"
+	},
+	{
+		"code": "ao",
+		"name_en": "Angola",
+		"name_ja": "アンゴラ"
+	},
+	{
+		"code": "ag",
+		"name_en": "Antigua and Barbuda",
+		"name_ja": "アンティグア・バーブーダ"
+	},
+	{
+		"code": "ar",
+		"name_en": "Argentina",
+		"name_ja": "アルゼンチン"
+	},
+	{
+		"code": "am",
+		"name_en": "Armenia",
+		"name_ja": "アルメニア"
+	},
+	{
+		"code": "au",
+		"name_en": "Australia",
+		"name_ja": "オーストラリア"
+	},
+	{
+		"code": "at",
+		"name_en": "Austria",
+		"name_ja": "オーストリア"
+	},
+	{
+		"code": "az",
+		"name_en": "Azerbaijan",
+		"name_ja": "アゼルバイジャン"
+	},
+	{
+		"code": "bs",
+		"name_en": "Bahamas",
+		"name_ja": "バハマ"
+	},
+	{
+		"code": "bh",
+		"name_en": "Bahrain",
+		"name_ja": "バーレーン"
+	},
+	{
+		"code": "bd",
+		"name_en": "Bangladesh",
+		"name_ja": "バングラデシュ"
+	},
+	{
+		"code": "bb",
+		"name_en": "Barbados",
+		"name_ja": "バルバドス"
+	},
+	{
+		"code": "by",
+		"name_en": "Belarus",
+		"name_ja": "ベラルーシ"
+	},
+	{
+		"code": "be",
+		"name_en": "Belgium",
+		"name_ja": "ベルギー"
+	},
+	{
+		"code": "bz",
+		"name_en": "Belize",
+		"name_ja": "ベリーズ"
+	},
+	{
+		"code": "bj",
+		"name_en": "Benin",
+		"name_ja": "ベナン"
+	},
+	{
+		"code": "bt",
+		"name_en": "Bhutan",
+		"name_ja": "ブータン"
+	},
+	{
+		"code": "bo",
+		"name_en": "Bolivia (Plurinational State of)",
+		"name_ja": "ボリビア多民族国"
+	},
+	{
+		"code": "ba",
+		"name_en": "Bosnia and Herzegovina",
+		"name_ja": "ボスニア・ヘルツェゴビナ"
+	},
+	{
+		"code": "bw",
+		"name_en": "Botswana",
+		"name_ja": "ボツワナ"
+	},
+	{
+		"code": "br",
+		"name_en": "Brazil",
+		"name_ja": "ブラジル"
+	},
+	{
+		"code": "bn",
+		"name_en": "Brunei Darussalam",
+		"name_ja": "ブルネイ・ダルサラーム"
+	},
+	{
+		"code": "bg",
+		"name_en": "Bulgaria",
+		"name_ja": "ブルガリア"
+	},
+	{
+		"code": "bf",
+		"name_en": "Burkina Faso",
+		"name_ja": "ブルキナファソ"
+	},
+	{
+		"code": "bi",
+		"name_en": "Burundi",
+		"name_ja": "ブルンジ"
+	},
+	{
+		"code": "cv",
+		"name_en": "Cabo Verde",
+		"name_ja": "カーボベルデ"
+	},
+	{
+		"code": "kh",
+		"name_en": "Cambodia",
+		"name_ja": "カンボジア"
+	},
+	{
+		"code": "cm",
+		"name_en": "Cameroon",
+		"name_ja": "カメルーン"
+	},
+	{
+		"code": "ca",
+		"name_en": "Canada",
+		"name_ja": "カナダ"
+	},
+	{
+		"code": "cf",
+		"name_en": "Central African Republic",
+		"name_ja": "中央アフリカ共和国"
+	},
+	{
+		"code": "td",
+		"name_en": "Chad",
+		"name_ja": "チャド"
+	},
+	{
+		"code": "cl",
+		"name_en": "Chile",
+		"name_ja": "チリ"
+	},
+	{
+		"code": "cn",
+		"name_en": "China",
+		"name_ja": "中華人民共和国"
+	},
+	{
+		"code": "co",
+		"name_en": "Colombia",
+		"name_ja": "コロンビア"
+	},
+	{
+		"code": "km",
+		"name_en": "Comoros",
+		"name_ja": "コモロ"
+	},
+	{
+		"code": "cg",
+		"name_en": "Congo",
+		"name_ja": "コンゴ共和国"
+	},
+	{
+		"code": "cd",
+		"name_en": "Congo, Democratic Republic of the",
+		"name_ja": "コンゴ民主共和国"
+	},
+	{
+		"code": "cr",
+		"name_en": "Costa Rica",
+		"name_ja": "コスタリカ"
+	},
+	{
+		"code": "ci",
+		"name_en": "Côte d'Ivoire",
+		"name_ja": "コートジボワール"
+	},
+	{
+		"code": "hr",
+		"name_en": "Croatia",
+		"name_ja": "クロアチア"
+	},
+	{
+		"code": "cu",
+		"name_en": "Cuba",
+		"name_ja": "キューバ"
+	},
+	{
+		"code": "cy",
+		"name_en": "Cyprus",
+		"name_ja": "キプロス"
+	},
+	{
+		"code": "cz",
+		"name_en": "Czechia",
+		"name_ja": "チェコ"
+	},
+	{
+		"code": "dk",
+		"name_en": "Denmark",
+		"name_ja": "デンマーク"
+	},
+	{
+		"code": "dj",
+		"name_en": "Djibouti",
+		"name_ja": "ジブチ"
+	},
+	{
+		"code": "dm",
+		"name_en": "Dominica",
+		"name_ja": "ドミニカ国"
+	},
+	{
+		"code": "do",
+		"name_en": "Dominican Republic",
+		"name_ja": "ドミニカ共和国"
+	},
+	{
+		"code": "ec",
+		"name_en": "Ecuador",
+		"name_ja": "エクアドル"
+	},
+	{
+		"code": "eg",
+		"name_en": "Egypt",
+		"name_ja": "エジプト"
+	},
+	{
+		"code": "sv",
+		"name_en": "El Salvador",
+		"name_ja": "エルサルバドル"
+	},
+	{
+		"code": "gq",
+		"name_en": "Equatorial Guinea",
+		"name_ja": "赤道ギニア"
+	},
+	{
+		"code": "er",
+		"name_en": "Eritrea",
+		"name_ja": "エリトリア"
+	},
+	{
+		"code": "ee",
+		"name_en": "Estonia",
+		"name_ja": "エストニア"
+	},
+	{
+		"code": "sz",
+		"name_en": "Eswatini",
+		"name_ja": "エスワティニ"
+	},
+	{
+		"code": "et",
+		"name_en": "Ethiopia",
+		"name_ja": "エチオピア"
+	},
+	{
+		"code": "fj",
+		"name_en": "Fiji",
+		"name_ja": "フィジー"
+	},
+	{
+		"code": "fi",
+		"name_en": "Finland",
+		"name_ja": "フィンランド"
+	},
+	{
+		"code": "fr",
+		"name_en": "France",
+		"name_ja": "フランス"
+	},
+	{
+		"code": "ga",
+		"name_en": "Gabon",
+		"name_ja": "ガボン"
+	},
+	{
+		"code": "gm",
+		"name_en": "Gambia",
+		"name_ja": "ガンビア"
+	},
+	{
+		"code": "ge",
+		"name_en": "Georgia",
+		"name_ja": "ジョージア"
+	},
+	{
+		"code": "de",
+		"name_en": "Germany",
+		"name_ja": "ドイツ"
+	},
+	{
+		"code": "gh",
+		"name_en": "Ghana",
+		"name_ja": "ガーナ"
+	},
+	{
+		"code": "gr",
+		"name_en": "Greece",
+		"name_ja": "ギリシャ"
+	},
+	{
+		"code": "gd",
+		"name_en": "Grenada",
+		"name_ja": "グレナダ"
+	},
+	{
+		"code": "gt",
+		"name_en": "Guatemala",
+		"name_ja": "グアテマラ"
+	},
+	{
+		"code": "gn",
+		"name_en": "Guinea",
+		"name_ja": "ギニア"
+	},
+	{
+		"code": "gw",
+		"name_en": "Guinea-Bissau",
+		"name_ja": "ギニアビサウ"
+	},
+	{
+		"code": "gy",
+		"name_en": "Guyana",
+		"name_ja": "ガイアナ"
+	},
+	{
+		"code": "ht",
+		"name_en": "Haiti",
+		"name_ja": "ハイチ"
+	},
+	{
+		"code": "hn",
+		"name_en": "Honduras",
+		"name_ja": "ホンジュラス"
+	},
+	{
+		"code": "hu",
+		"name_en": "Hungary",
+		"name_ja": "ハンガリー"
+	},
+	{
+		"code": "is",
+		"name_en": "Iceland",
+		"name_ja": "アイスランド"
+	},
+	{
+		"code": "in",
+		"name_en": "India",
+		"name_ja": "インド"
+	},
+	{
+		"code": "id",
+		"name_en": "Indonesia",
+		"name_ja": "インドネシア"
+	},
+	{
+		"code": "ir",
+		"name_en": "Iran (Islamic Republic of)",
+		"name_ja": "イラン・イスラム共和国"
+	},
+	{
+		"code": "iq",
+		"name_en": "Iraq",
+		"name_ja": "イラク"
+	},
+	{
+		"code": "ie",
+		"name_en": "Ireland",
+		"name_ja": "アイルランド"
+	},
+	{
+		"code": "il",
+		"name_en": "Israel",
+		"name_ja": "イスラエル"
+	},
+	{
+		"code": "it",
+		"name_en": "Italy",
+		"name_ja": "イタリア"
+	},
+	{
+		"code": "jm",
+		"name_en": "Jamaica",
+		"name_ja": "ジャマイカ"
+	},
+	{
+		"code": "jp",
+		"name_en": "Japan",
+		"name_ja": "日本"
+	},
+	{
+		"code": "jo",
+		"name_en": "Jordan",
+		"name_ja": "ヨルダン"
+	},
+	{
+		"code": "kz",
+		"name_en": "Kazakhstan",
+		"name_ja": "カザフスタン"
+	},
+	{
+		"code": "ke",
+		"name_en": "Kenya",
+		"name_ja": "ケニア"
+	},
+	{
+		"code": "ki",
+		"name_en": "Kiribati",
+		"name_ja": "キリバス"
+	},
+	{
+		"code": "kp",
+		"name_en": "Korea (Democratic People's Republic of)",
+		"name_ja": "朝鮮民主主義人民共和国"
+	},
+	{
+		"code": "kr",
+		"name_en": "Korea, Republic of",
+		"name_ja": "大韓民国"
+	},
+	{
+		"code": "kw",
+		"name_en": "Kuwait",
+		"name_ja": "クウェート"
+	},
+	{
+		"code": "kg",
+		"name_en": "Kyrgyzstan",
+		"name_ja": "キルギス"
+	},
+	{
+		"code": "la",
+		"name_en": "Lao People's Democratic Republic",
+		"name_ja": "ラオス人民民主共和国"
+	},
+	{
+		"code": "lv",
+		"name_en": "Latvia",
+		"name_ja": "ラトビア"
+	},
+	{
+		"code": "lb",
+		"name_en": "Lebanon",
+		"name_ja": "レバノン"
+	},
+	{
+		"code": "ls",
+		"name_en": "Lesotho",
+		"name_ja": "レソト"
+	},
+	{
+		"code": "lr",
+		"name_en": "Liberia",
+		"name_ja": "リベリア"
+	},
+	{
+		"code": "ly",
+		"name_en": "Libya",
+		"name_ja": "リビア"
+	},
+	{
+		"code": "li",
+		"name_en": "Liechtenstein",
+		"name_ja": "リヒテンシュタイン"
+	},
+	{
+		"code": "lt",
+		"name_en": "Lithuania",
+		"name_ja": "リトアニア"
+	},
+	{
+		"code": "lu",
+		"name_en": "Luxembourg",
+		"name_ja": "ルクセンブルク"
+	},
+	{
+		"code": "mg",
+		"name_en": "Madagascar",
+		"name_ja": "マダガスカル"
+	},
+	{
+		"code": "mw",
+		"name_en": "Malawi",
+		"name_ja": "マラウイ"
+	},
+	{
+		"code": "my",
+		"name_en": "Malaysia",
+		"name_ja": "マレーシア"
+	},
+	{
+		"code": "mv",
+		"name_en": "Maldives",
+		"name_ja": "モルディブ"
+	},
+	{
+		"code": "ml",
+		"name_en": "Mali",
+		"name_ja": "マリ"
+	},
+	{
+		"code": "mt",
+		"name_en": "Malta",
+		"name_ja": "マルタ"
+	},
+	{
+		"code": "mh",
+		"name_en": "Marshall Islands",
+		"name_ja": "マーシャル諸島"
+	},
+	{
+		"code": "mr",
+		"name_en": "Mauritania",
+		"name_ja": "モーリタニア"
+	},
+	{
+		"code": "mu",
+		"name_en": "Mauritius",
+		"name_ja": "モーリシャス"
+	},
+	{
+		"code": "mx",
+		"name_en": "Mexico",
+		"name_ja": "メキシコ"
+	},
+	{
+		"code": "fm",
+		"name_en": "Micronesia (Federated States of)",
+		"name_ja": "ミクロネシア連邦"
+	},
+	{
+		"code": "md",
+		"name_en": "Moldova, Republic of",
+		"name_ja": "モルドバ共和国"
+	},
+	{
+		"code": "mc",
+		"name_en": "Monaco",
+		"name_ja": "モナコ"
+	},
+	{
+		"code": "mn",
+		"name_en": "Mongolia",
+		"name_ja": "モンゴル"
+	},
+	{
+		"code": "me",
+		"name_en": "Montenegro",
+		"name_ja": "モンテネグロ"
+	},
+	{
+		"code": "ma",
+		"name_en": "Morocco",
+		"name_ja": "モロッコ"
+	},
+	{
+		"code": "mz",
+		"name_en": "Mozambique",
+		"name_ja": "モザンビーク"
+	},
+	{
+		"code": "mm",
+		"name_en": "Myanmar",
+		"name_ja": "ミャンマー"
+	},
+	{
+		"code": "na",
+		"name_en": "Namibia",
+		"name_ja": "ナミビア"
+	},
+	{
+		"code": "nr",
+		"name_en": "Nauru",
+		"name_ja": "ナウル"
+	},
+	{
+		"code": "np",
+		"name_en": "Nepal",
+		"name_ja": "ネパール"
+	},
+	{
+		"code": "nl",
+		"name_en": "Netherlands",
+		"name_ja": "オランダ"
+	},
+	{
+		"code": "nz",
+		"name_en": "New Zealand",
+		"name_ja": "ニュージーランド"
+	},
+	{
+		"code": "ni",
+		"name_en": "Nicaragua",
+		"name_ja": "ニカラグア"
+	},
+	{
+		"code": "ne",
+		"name_en": "Niger",
+		"name_ja": "ニジェール"
+	},
+	{
+		"code": "ng",
+		"name_en": "Nigeria",
+		"name_ja": "ナイジェリア"
+	},
+	{
+		"code": "mk",
+		"name_en": "North Macedonia",
+		"name_ja": "北マケドニア"
+	},
+	{
+		"code": "no",
+		"name_en": "Norway",
+		"name_ja": "ノルウェー"
+	},
+	{
+		"code": "om",
+		"name_en": "Oman",
+		"name_ja": "オマーン"
+	},
+	{
+		"code": "pk",
+		"name_en": "Pakistan",
+		"name_ja": "パキスタン"
+	},
+	{
+		"code": "pw",
+		"name_en": "Palau",
+		"name_ja": "パラオ"
+	},
+	{
+		"code": "pa",
+		"name_en": "Panama",
+		"name_ja": "パナマ"
+	},
+	{
+		"code": "pg",
+		"name_en": "Papua New Guinea",
+		"name_ja": "パプアニューギニア"
+	},
+	{
+		"code": "py",
+		"name_en": "Paraguay",
+		"name_ja": "パラグアイ"
+	},
+	{
+		"code": "pe",
+		"name_en": "Peru",
+		"name_ja": "ペルー"
+	},
+	{
+		"code": "ph",
+		"name_en": "Philippines",
+		"name_ja": "フィリピン"
+	},
+	{
+		"code": "pl",
+		"name_en": "Poland",
+		"name_ja": "ポーランド"
+	},
+	{
+		"code": "pt",
+		"name_en": "Portugal",
+		"name_ja": "ポルトガル"
+	},
+	{
+		"code": "qa",
+		"name_en": "Qatar",
+		"name_ja": "カタール"
+	},
+	{
+		"code": "ro",
+		"name_en": "Romania",
+		"name_ja": "ルーマニア"
+	},
+	{
+		"code": "ru",
+		"name_en": "Russian Federation",
+		"name_ja": "ロシア連邦"
+	},
+	{
+		"code": "rw",
+		"name_en": "Rwanda",
+		"name_ja": "ルワンダ"
+	},
+	{
+		"code": "kn",
+		"name_en": "Saint Kitts and Nevis",
+		"name_ja": "セントクリストファー・ネイビス"
+	},
+	{
+		"code": "lc",
+		"name_en": "Saint Lucia",
+		"name_ja": "セントルシア"
+	},
+	{
+		"code": "vc",
+		"name_en": "Saint Vincent and the Grenadines",
+		"name_ja": "セントビンセントおよびグレナディーン諸島"
+	},
+	{
+		"code": "ws",
+		"name_en": "Samoa",
+		"name_ja": "サモア"
+	},
+	{
+		"code": "sm",
+		"name_en": "San Marino",
+		"name_ja": "サンマリノ"
+	},
+	{
+		"code": "st",
+		"name_en": "Sao Tome and Principe",
+		"name_ja": "サントメ・プリンシペ"
+	},
+	{
+		"code": "sa",
+		"name_en": "Saudi Arabia",
+		"name_ja": "サウジアラビア"
+	},
+	{
+		"code": "sn",
+		"name_en": "Senegal",
+		"name_ja": "セネガル"
+	},
+	{
+		"code": "rs",
+		"name_en": "Serbia",
+		"name_ja": "セルビア"
+	},
+	{
+		"code": "sc",
+		"name_en": "Seychelles",
+		"name_ja": "セーシェル"
+	},
+	{
+		"code": "sl",
+		"name_en": "Sierra Leone",
+		"name_ja": "シエラレオネ"
+	},
+	{
+		"code": "sg",
+		"name_en": "Singapore",
+		"name_ja": "シンガポール"
+	},
+	{
+		"code": "sk",
+		"name_en": "Slovakia",
+		"name_ja": "スロバキア"
+	},
+	{
+		"code": "si",
+		"name_en": "Slovenia",
+		"name_ja": "スロベニア"
+	},
+	{
+		"code": "sb",
+		"name_en": "Solomon Islands",
+		"name_ja": "ソロモン諸島"
+	},
+	{
+		"code": "so",
+		"name_en": "Somalia",
+		"name_ja": "ソマリア"
+	},
+	{
+		"code": "za",
+		"name_en": "South Africa",
+		"name_ja": "南アフリカ"
+	},
+	{
+		"code": "ss",
+		"name_en": "South Sudan",
+		"name_ja": "南スーダン"
+	},
+	{
+		"code": "es",
+		"name_en": "Spain",
+		"name_ja": "スペイン"
+	},
+	{
+		"code": "lk",
+		"name_en": "Sri Lanka",
+		"name_ja": "スリランカ"
+	},
+	{
+		"code": "sd",
+		"name_en": "Sudan",
+		"name_ja": "スーダン"
+	},
+	{
+		"code": "sr",
+		"name_en": "Suriname",
+		"name_ja": "スリナム"
+	},
+	{
+		"code": "se",
+		"name_en": "Sweden",
+		"name_ja": "スウェーデン"
+	},
+	{
+		"code": "ch",
+		"name_en": "Switzerland",
+		"name_ja": "スイス"
+	},
+	{
+		"code": "sy",
+		"name_en": "Syrian Arab Republic",
+		"name_ja": "シリア・アラブ共和国"
+	},
+	{
+		"code": "tj",
+		"name_en": "Tajikistan",
+		"name_ja": "タジキスタン"
+	},
+	{
+		"code": "tz",
+		"name_en": "Tanzania, United Republic of",
+		"name_ja": "タンザニア"
+	},
+	{
+		"code": "th",
+		"name_en": "Thailand",
+		"name_ja": "タイ"
+	},
+	{
+		"code": "tl",
+		"name_en": "Timor-Leste",
+		"name_ja": "東ティモール"
+	},
+	{
+		"code": "tg",
+		"name_en": "Togo",
+		"name_ja": "トーゴ"
+	},
+	{
+		"code": "to",
+		"name_en": "Tonga",
+		"name_ja": "トンガ"
+	},
+	{
+		"code": "tt",
+		"name_en": "Trinidad and Tobago",
+		"name_ja": "トリニダード・トバゴ"
+	},
+	{
+		"code": "tn",
+		"name_en": "Tunisia",
+		"name_ja": "チュニジア"
+	},
+	{
+		"code": "tr",
+		"name_en": "Turkey",
+		"name_ja": "トルコ"
+	},
+	{
+		"code": "tm",
+		"name_en": "Turkmenistan",
+		"name_ja": "トルクメニスタン"
+	},
+	{
+		"code": "tv",
+		"name_en": "Tuvalu",
+		"name_ja": "ツバル"
+	},
+	{
+		"code": "ug",
+		"name_en": "Uganda",
+		"name_ja": "ウガンダ"
+	},
+	{
+		"code": "ua",
+		"name_en": "Ukraine",
+		"name_ja": "ウクライナ"
+	},
+	{
+		"code": "ae",
+		"name_en": "United Arab Emirates",
+		"name_ja": "アラブ首長国連邦"
+	},
+	{
+		"code": "gb",
+		"name_en": "United Kingdom of Great Britain and Northern Ireland",
+		"name_ja": "イギリス"
+	},
+	{
+		"code": "us",
+		"name_en": "United States of America",
+		"name_ja": "アメリカ合衆国"
+	},
+	{
+		"code": "uy",
+		"name_en": "Uruguay",
+		"name_ja": "ウルグアイ"
+	},
+	{
+		"code": "uz",
+		"name_en": "Uzbekistan",
+		"name_ja": "ウズベキスタン"
+	},
+	{
+		"code": "vu",
+		"name_en": "Vanuatu",
+		"name_ja": "バヌアツ"
+	},
+	{
+		"code": "ve",
+		"name_en": "Venezuela (Bolivarian Republic of)",
+		"name_ja": "ベネズエラ・ボリバル共和国"
+	},
+	{
+		"code": "vn",
+		"name_en": "Viet Nam",
+		"name_ja": "ベトナム"
+	},
+	{
+		"code": "ye",
+		"name_en": "Yemen",
+		"name_ja": "イエメン"
+	},
+	{
+		"code": "zm",
+		"name_en": "Zambia",
+		"name_ja": "ザンビア"
+	},
+	{
+		"code": "zw",
+		"name_en": "Zimbabwe",
+		"name_ja": "ジンバブエ"
+	}
+]

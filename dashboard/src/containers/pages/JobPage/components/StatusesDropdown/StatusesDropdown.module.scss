@@ -1,0 +1,34 @@
+@import 'styles/variables';
+
+.trigger {
+  align-items: center;
+  background-color: $white;
+  border: 1px solid $neutral-darker;
+  border-radius: 6px;
+  color: $text-normal;
+  display: flex;
+  height: 28px;
+  justify-content: space-between;
+  padding: 0 11px;
+  width: 220px;
+
+  svg {
+    fill: $text-normal;
+  }
+}
+
+.label {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.disabled {
+  color: $primary-disabled;
+  border: 1px solid $primary-disabled;
+  cursor: default;
+
+  svg {
+    fill: $primary-disabled;
+  }
+}

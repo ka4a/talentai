@@ -1,0 +1,8 @@
+@import 'styles/variables';
+
+.root {
+  display: flex;
+  align-items: center;
+  color: $text-light;
+  flex-direction: column;
+}

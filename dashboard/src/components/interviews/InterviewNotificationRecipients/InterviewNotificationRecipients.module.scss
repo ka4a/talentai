@@ -1,0 +1,11 @@
+@import 'styles/variables';
+
+.root {
+  line-height: 150%;
+  color: $text-light;
+
+  ul {
+    padding-left: 0;
+    list-style: none;
+  }
+}

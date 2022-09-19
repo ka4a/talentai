@@ -1,0 +1,15 @@
+@import 'styles/variables';
+
+.iconCircle {
+  $diameter: 120px;
+  border-radius: $diameter/2;
+  width: $diameter;
+  height: $diameter;
+  background-color: $neutral-dark;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+  box-sizing: border-box;
+  padding-bottom: 4px;
+}

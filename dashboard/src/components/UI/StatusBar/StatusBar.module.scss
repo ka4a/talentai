@@ -1,0 +1,28 @@
+@import 'styles/variables';
+
+@mixin statusBar($color, $background) {
+  background: $background;
+  border: 1px solid $color;
+  color: $color;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.regular {
+  @include statusBar($primary, $primary-light);
+}
+
+.success {
+  @include statusBar($success-dark, $success-light);
+}
+
+.danger {
+  @include statusBar($danger, $danger-light);
+}
+
+.warning {
+  @include statusBar($warning-dark, $warning-light);
+}

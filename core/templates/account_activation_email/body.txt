@@ -1,0 +1,9 @@
+{% load i18n %}{% autoescape off %}
+
+{% trans "Please go to the following page to activate you account:" %}
+{{ base_url }}{% url 'account_activate' token=token %}
+
+{% trans "Thanks for using our site!" %}
+
+{% blocktrans %}The {{ site_name }} team{% endblocktrans %}
+{% endautoescape %}

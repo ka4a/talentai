@@ -1,0 +1,26 @@
+@import 'styles/variables';
+
+.nameWrapper {
+  align-items: center;
+  display: flex;
+}
+
+.name {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 190px;
+  overflow: hidden;
+  line-height: 22px;
+}
+
+.whiteText {
+  color: $white;
+}
+
+.avatar {
+  margin-right: 10px;
+}
+
+.caption {
+  color: $text-light;
+}

@@ -1,0 +1,15 @@
+@import 'styles/variables';
+
+.wrapper {
+  align-items: center;
+  background: $neutral-light;
+  border-radius: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 30px;
+  padding: 10px 15px;
+
+  & > div {
+    margin-right: 15px;
+  }
+}

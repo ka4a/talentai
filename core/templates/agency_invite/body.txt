@@ -1,0 +1,10 @@
+{% load i18n %}{% autoescape off %}
+{% blocktrans %}You're receiving this email because you've been invited to {{ site_name }}.{% endblocktrans %}
+
+{% trans "Please go to the following page to sign up:" %}
+{{ base_url }}{% url 'agency_sign_up_token' token=token %}
+
+{% trans "Thanks for using our site!" %}
+
+{% blocktrans %}The {{ site_name }} team{% endblocktrans %}
+{% endautoescape %}

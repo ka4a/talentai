@@ -1,0 +1,36 @@
+@import 'styles/variables';
+
+.title {
+  color: $text-normal;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+
+  & > div {
+    flex: 1;
+
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+}
+
+.delete {
+  cursor: pointer;
+  margin-left: 15px;
+  top: 22px;
+  position: relative;
+}
+
+.addButton {
+  color: $primary;
+  text-transform: uppercase;
+
+  & > button {
+    padding: 0;
+  }
+}

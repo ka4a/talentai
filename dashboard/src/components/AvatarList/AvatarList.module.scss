@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+}
+
+.item {
+  border: 1px solid white;
+  transition: 0.2s;
+  background-color: white;
+  user-select: none;
+}
+
+.item:nth-child(n + 2) {
+  margin-left: -5px;
+}
+
+.item:hover {
+  z-index: 100 !important;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.new-item:hover {
+  cursor: pointer;
+}

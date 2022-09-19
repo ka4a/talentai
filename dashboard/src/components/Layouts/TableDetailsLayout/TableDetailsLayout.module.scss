@@ -1,0 +1,115 @@
+@import 'styles/variables';
+
+.wrapper {
+  background-color: $neutral-light;
+  overflow-x: auto;
+}
+
+.innerWrapper {
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.innerWrapper.fixedWidth {
+  @media screen and (max-width: 1600px) {
+    width: 1500px;
+    padding-right: 50px;
+  }
+}
+
+.main {
+  background: $white;
+  border: 1px solid $neutral-dark;
+  border-radius: 12px;
+  overflow-y: auto;
+  width: 100%;
+  min-width: 920px;
+  padding: 0;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.14);
+}
+
+.mainCandidates {
+  top: 10px;
+}
+
+.resetMargin {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.sidebar {
+  padding: 0;
+
+  & :global {
+    & .table-custom-wrapper {
+      padding-right: 30px;
+    }
+
+    .stages-table {
+      position: static;
+      width: 100%;
+      transform: none;
+    }
+  }
+}
+
+.controls {
+  position: absolute;
+  z-index: 200;
+  top: 24px;
+  right: 21px;
+  display: flex;
+}
+
+.iconButton {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  outline: none;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.close {
+  background: $white url('/assets/images/icons/close-icon.svg') center no-repeat;
+}
+
+.fullscreen {
+  background: $white;
+
+  svg {
+    width: 18px;
+    height: 18px;
+    fill: $text-light;
+  }
+}
+
+.isOpen {
+  padding: 10px 16px;
+
+  & :global {
+    & table tr td .with-border:before {
+      display: none;
+    }
+
+    & .stages-wrapper {
+      position: static;
+      width: auto;
+      padding: 0;
+      transform: none;
+    }
+  }
+}
+
+.isClose {
+  margin-right: 0;
+  margin-left: 0;
+  padding-top: 10px;
+}

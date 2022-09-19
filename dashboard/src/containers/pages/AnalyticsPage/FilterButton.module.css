@@ -1,0 +1,19 @@
+.buttonSelected {
+  font-size: 1em;
+  font-weight: 600;
+  border-radius: 16px;
+  border: solid 2px #dddddd;
+  background-color: #fafafa;
+  padding: 3px 16px;
+}
+
+.button {
+  color: #8593a3;
+
+  font-size: 1em;
+  font-weight: 600;
+  border-radius: 16px;
+  border: solid 2px transparent;
+  background-color: transparent;
+  padding: 3px 16px;
+}

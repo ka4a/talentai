@@ -1,0 +1,90 @@
+@import 'styles/variables';
+
+:global {
+  .ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+  }
+
+  .ReactModal__Overlay--after-open {
+    opacity: 1;
+  }
+
+  .ReactModal__Overlay--before-close {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+$left: 50%;
+$gap: 70px;
+
+.container {
+  background-color: transparent;
+  border: none;
+  left: $left;
+  margin-right: -50%;
+  outline: none;
+  position: relative;
+  top: $gap;
+  transform: translate(-$left);
+  overflow: hidden;
+
+  &.withoutOverflow {
+    overflow: unset;
+  }
+}
+
+.overlay {
+  background-color: rgba(41, 45, 69, 0.78);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow-y: auto;
+  position: fixed;
+  z-index: 300;
+}
+
+.wrapper {
+  background-color: $white;
+  border: 1px solid $neutral-dark;
+  border-radius: 14px;
+  overflow: hidden;
+
+  &.withoutOverflow {
+    overflow: unset;
+  }
+}
+
+.contentWrapper {
+  $headerPlusFooterHeight: 150px;
+  & > * {
+    overflow-y: auto;
+    max-height: calc(100vh - #{$gap} * 2 - #{$headerPlusFooterHeight});
+
+    scrollbar-width: none; // Firefox
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  $headerHeight: 82px;
+  &.withoutFooter > * {
+    max-height: calc(100vh - #{$gap} * 2 - #{$headerHeight});
+  }
+}
+
+.header {
+  border-bottom: 1px solid $neutral-dark;
+  padding: 24px 27px;
+}
+
+.body {
+  padding: 20px 30px;
+}
+
+.withShadow {
+  box-shadow: 0 -5px 5px -5px rgba(0, 0, 0, 0.15);
+  border-top-color: $neutral-dark;
+}

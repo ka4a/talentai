@@ -1,0 +1,9 @@
+{% load i18n %}{% blocktrans with candidate_url=action_object.get_absolute_url candidate_name=action_object.name job_url=target.job.get_absolute_url job_title=target.job.title %}
+<p>A Candidate Has Been Hired!</p>
+<br/>
+<p>Candidate: <a href='{{ base_url }}{{ candidate_url }}'>{{ candidate_name }}</a></p>
+<p>Job: <a href='{{ base_url }}{{ job_url }}'>{{ job_title }}</a></p>
+{% endblocktrans %}
+{% if link %}
+<br/><br/><a href='{{ base_url }}{{ link }}'>{{link_text|default:"Link"}}</a>
+{% endif %}

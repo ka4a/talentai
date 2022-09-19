@@ -1,0 +1,36 @@
+@import 'styles/variables';
+@import '../StagesDropdown/StagesDropdown.module';
+
+.actionButton {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0;
+
+  svg {
+    fill: $text-light;
+  }
+}
+
+:global(.dropdown) {
+  .actionsMenu {
+    background: $white;
+    border: 1px solid $neutral-darker;
+    color: inherit;
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    // Using important to override inline styles added by dropdown
+    top: 100% !important;
+    right: 0 !important;
+    left: auto !important;
+    transform: none !important;
+    overflow: hidden;
+    width: max-content;
+    min-width: unset;
+
+    a.option {
+      @extend .option;
+    }
+  }
+}

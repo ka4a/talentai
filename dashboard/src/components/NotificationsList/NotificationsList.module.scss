@@ -1,0 +1,26 @@
+@import 'styles/variables';
+
+.borderlessTable {
+  tr td {
+    border: 0 !important;
+  }
+}
+
+.fullWidthTable {
+  tr td {
+    padding: 10px;
+
+    &:first-child {
+      width: 10px;
+      max-width: 39px;
+    }
+  }
+}
+
+.timeAgo {
+  display: block;
+  padding-top: 10px;
+  span {
+    color: $text-light !important;
+  }
+}

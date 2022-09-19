@@ -1,0 +1,56 @@
+{% if is_popup %}
+<script>
+  document.getElementById('id_client').setAttribute("readonly", "readonly");
+
+  // refresh parent page on close
+  window.onunload = refreshParent;
+  function refreshParent() {
+      window.opener.location.reload();
+  }
+</script>
+{% else %}
+<script>
+    var profile_type = document.getElementById('id_role');
+
+    function includes(list, instance, startWith) {
+      for (var i = startWith || 0; i < list.length; i++) {
+        if (list[i] === instance) return true;
+      }
+      return false;
+    }
+
+    function hasClassName(element, className) {
+      return includes(element.className.split(' '), className);
+    }
+
+    function omitClassName(classNameString) {}
+
+    function getParent(elementId, className, levelLimit) {
+      var parent = document.getElementById(elementId);
+      for (var i = 0; i < levelLimit; i++) {
+        parent = parent.parentElement;
+        if (hasClassName(parent, className)) {
+          return parent;
+        }
+      }
+      return parent;
+    }
+
+    var client = getParent('id_client', 'field-client', 3);
+    var agency = getParent('id_agency', 'field-agency', 3);
+
+    function setAllowed(element, list, instance) {
+      element.style.display = includes(list, instance, 1) ? 'block' : null;
+    }
+
+    function onProfileTypeChange() {
+      var tags = profile_type.value.split(',');
+      setAllowed(client, tags, 'client');
+      setAllowed(agency, tags, 'agency');
+      console.log(profile_type.value);
+    }
+
+    onProfileTypeChange();
+    profile_type.addEventListener('change', onProfileTypeChange)
+</script>
+{% endif %}

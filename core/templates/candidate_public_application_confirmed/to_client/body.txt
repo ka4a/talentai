@@ -1,0 +1,13 @@
+{% load i18n %}
+{% autoescape off %}
+{% blocktrans %}
+{{ job }} ({{ job_url }}) job received a new candidate application ({{ proposal_url }}):
+
+Personal Information
+Name: {{ candidate }}
+Email: {{ email }}
+Phone: {{ phone }}
+CV: {{ cv }}
+Attached Files: {{ attached_files }}
+{% endblocktrans %}
+{% endautoescape %}

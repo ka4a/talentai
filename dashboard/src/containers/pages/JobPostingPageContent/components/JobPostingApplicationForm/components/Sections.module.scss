@@ -1,0 +1,37 @@
+@import 'styles/variables';
+@import 'styles/form.module';
+
+.questionWrapper {
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .question {
+    margin-bottom: 10px;
+  }
+}
+
+.agreementWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 30px 30px 0;
+
+  .checkbox {
+    margin-right: 10px;
+  }
+
+  .link {
+    color: $primary;
+  }
+}
+
+.required {
+  font-size: 28px;
+  line-height: 20px;
+  color: $danger;
+  display: inline-block;
+  height: 15px;
+  margin-left: 2px;
+  vertical-align: middle;
+}

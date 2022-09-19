@@ -1,0 +1,2725 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Rali <rali@hccr.com>, 2021
+# Robin Anupol <anupol@reustle.co>, 2021
+# Alain Scialoja <alain@reustle.co>, 2021
+# Izumi Kikuchi <izumi@hccr.com>, 2021
+# Ribong Kang <ribong@hccr.com>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-04 05:41+0000\n"
+"PO-Revision-Date: 2021-10-01 03:59+0000\n"
+"Last-Translator: Ribong Kang <ribong@hccr.com>, 2021\n"
+"Language-Team: Japanese (https://www.transifex.com/hccr-kk/teams/120454/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: core/admin.py:45
+msgid "client"
+msgstr "クライアント"
+
+#: core/admin.py:717 core/admin.py:730
+msgid "Profile"
+msgstr "プロフィール"
+
+#: core/admin.py:719 core/admin.py:732
+msgid "Personal info"
+msgstr "個人情報"
+
+#: core/admin.py:723 core/admin.py:735
+msgid "Permissions"
+msgstr "アクセス権"
+
+#: core/admin.py:726 core/admin.py:736
+msgid "Important dates"
+msgstr "重要な日付"
+
+#: core/constants.py:81
+msgid "View Application"
+msgstr "応募を閲覧"
+
+#: core/constants.py:82
+msgid "View Job"
+msgstr "求人を閲覧"
+
+#: core/constants.py:86
+msgid "Associated"
+msgstr "紐付完了"
+
+#: core/constants.py:87
+msgid "Pre-Screening"
+msgstr "N/A"
+
+#: core/constants.py:88
+msgid "Screening"
+msgstr "スクリーニング"
+
+#: core/constants.py:89
+msgid "Submissions"
+msgstr "紹介"
+
+#: core/constants.py:90 core/constants.py:131 core/models.py:89
+msgid "Interviewing"
+msgstr "面接"
+
+#: core/constants.py:91
+msgid "Offering"
+msgstr "内定オファー"
+
+#: core/constants.py:92
+msgid "Hired"
+msgstr "採用"
+
+#: core/constants.py:122
+msgid "Associated to Job"
+msgstr "求人に紐付"
+
+#: core/constants.py:123
+msgid "Applied by Candidate"
+msgstr "候補者による応募"
+
+#: core/constants.py:124
+msgid "Suitable"
+msgstr "募集条件に合致"
+
+#: core/constants.py:126 core/models.py:3025
+msgid "Contacted"
+msgstr "連絡済"
+
+#: core/constants.py:127
+msgid "Qualified"
+msgstr "スクリーニングを通過"
+
+#: core/constants.py:129
+msgid "Submitted to Hiring Manager"
+msgstr "採用担当者へ提案済"
+
+#: core/constants.py:133
+msgid "Pending Hiring Decision"
+msgstr "採用判断待ち"
+
+#: core/constants.py:134
+msgid "Offer To Be Prepared"
+msgstr "オファー準備中"
+
+#: core/constants.py:135
+msgid "Pending Offer Acceptance"
+msgstr "候補者からのオファー受諾待ち"
+
+#: core/constants.py:137
+msgid "Pending Start"
+msgstr "入社予定"
+
+#: core/constants.py:138
+msgid "Started"
+msgstr "勤務開始"
+
+#: core/constants.py:203 core/models.py:4364
+msgid "To Be Scheduled"
+msgstr "要日程調整"
+
+#: core/constants.py:204 core/models.py:4365
+msgid "Pending Candidate Confirmation"
+msgstr "候補者からの確定待ち"
+
+#: core/constants.py:205 core/models.py:4366
+msgid "Scheduled"
+msgstr "日程調整済"
+
+#: core/constants.py:206
+msgid "To Be Rescheduled"
+msgstr "要再日程調整"
+
+#: core/constants.py:207 core/models.py:4368
+msgid "Canceled"
+msgstr "キャンセル"
+
+#: core/constants.py:208
+msgid "Completed"
+msgstr "完了"
+
+#: core/forms.py:83
+msgid "Password"
+msgstr "パスワード"
+
+#: core/forms.py:85
+msgid ""
+"Raw passwords are not stored, so there is no way to see this user's "
+"password, but you can change the password using <a href=\"{}\">this "
+"form</a>."
+msgstr ""
+"非暗号化パスワードが保存されていないため、このユーザーのパスワードを確認することができませんが、 <a "
+"href=\"{}\">このフォーム</a>から変更できます。"
+
+#: core/models.py:75
+msgid "Year"
+msgstr "年"
+
+#: core/models.py:76
+msgid "Month"
+msgstr "月"
+
+#: core/models.py:77
+msgid "Week"
+msgstr "週"
+
+#: core/models.py:78
+msgid "Day"
+msgstr "日"
+
+#: core/models.py:79
+msgid "Hour"
+msgstr "時間"
+
+#: core/models.py:85 core/models.py:372
+msgid "New"
+msgstr "新規求人"
+
+#: core/models.py:86
+msgid "Proceeding"
+msgstr "進行中"
+
+#: core/models.py:87
+msgid "CV approved"
+msgstr "CV承認済"
+
+#: core/models.py:88
+msgid "CV rejected"
+msgstr "CV拒否済"
+
+#: core/models.py:90 core/models.py:191
+msgid "Offer"
+msgstr "オファー"
+
+#: core/models.py:91
+msgid "Offer Accepted"
+msgstr "オファー受諾"
+
+#: core/models.py:92
+msgid "Offer Declined"
+msgstr "オファー辞退"
+
+#: core/models.py:93
+msgid "Candidate Quits Process"
+msgstr "候補者による選考辞退"
+
+#: core/models.py:94 core/models.py:184
+msgid "Closed"
+msgstr "掲載終了"
+
+#: core/models.py:96
+msgid "Not Contacted"
+msgstr "未連絡"
+
+#: core/models.py:97
+msgid "Contacted - Not Interested"
+msgstr "連絡済 - 興味なし"
+
+#: core/models.py:98
+msgid "Contacted - Pending Interview"
+msgstr "連絡済 - 面接予定"
+
+#: core/models.py:99
+msgid "Interviewed - Interested"
+msgstr "面接済 - 興味あり"
+
+#: core/models.py:100
+msgid "Interviewed - Not Interested"
+msgstr "面接済 - 興味なし"
+
+#: core/models.py:101
+msgid "Interviewed - Pending feedback"
+msgstr "面接済 - フィードバック待ち"
+
+#: core/models.py:102
+msgid "Interviewed - Not Suitable"
+msgstr "面接済 - 不適格"
+
+#: core/models.py:130
+#, python-brace-format
+msgid "Proposal status changed to \"{status}\""
+msgstr "提案ステータスが\"{status}\"に変更"
+
+#: core/models.py:131
+msgid "Shortlisted"
+msgstr "ショートリスト"
+
+#: core/models.py:132
+msgid "Longlisted"
+msgstr "ロングリスト"
+
+#: core/models.py:134
+msgid ""
+"An interview on {start_at:%a, %b %d - %H:%M} - {end_at:%H:%M} has been "
+"arranged."
+msgstr "{start_at:%a, %b %d - %H:%M} - {end_at:%H:%M}の面接は確定しました。"
+
+#: core/models.py:136
+msgid "The candidate has been invited to an interview"
+msgstr "候補者は面接に招待済みです。"
+
+#: core/models.py:137
+msgid "A scheduled interview has been canceled"
+msgstr "面接はキャンセルされました。"
+
+#: core/models.py:139
+#, python-brace-format
+msgid "{candidate} has rejected all proposed time slots for the interview."
+msgstr "{candidate}は全ての面接日程を断りました。"
+
+#: core/models.py:141
+msgid "The candidate has been placed"
+msgstr "この候補者は採用済です。"
+
+#: core/models.py:142 core/models.py:176 core/models.py:4367
+#: core/notifications.py:700
+msgid "Rejected"
+msgstr "不採用"
+
+#: core/models.py:167
+msgid "First Interview"
+msgstr "一次面接"
+
+#: core/models.py:168
+msgid "In Process"
+msgstr "面接選考中"
+
+#: core/models.py:169
+msgid "Final Interview"
+msgstr "最終面接"
+
+#: core/models.py:173
+msgid "Agency Invited"
+msgstr "エージェントに求人共有済"
+
+#: core/models.py:174 core/models.py:4725
+msgid "Pending"
+msgstr "承認待ち"
+
+#: core/models.py:175
+msgid "Initiated"
+msgstr "開始済"
+
+#: core/models.py:177
+msgid "Expired"
+msgstr "期限切れ"
+
+#: core/models.py:181
+msgid "Open"
+msgstr "募集中"
+
+#: core/models.py:182
+msgid "On Hold"
+msgstr "採用中断"
+
+#: core/models.py:183
+msgid "Filled"
+msgstr "採用完了"
+
+#: core/models.py:188
+msgid "First round"
+msgstr "ファーストラウンド"
+
+#: core/models.py:189
+msgid "Intermediate round"
+msgstr "中間ラウンド"
+
+#: core/models.py:190
+msgid "Final round"
+msgstr "最終ラウンド"
+
+#: core/models.py:192
+msgid "Out of deal pipeline"
+msgstr "ディール・パイプライン 外"
+
+#: core/models.py:231
+msgid "Key account"
+msgstr "キー・アカウント"
+
+#: core/models.py:232
+msgid "Auxiliary account"
+msgstr "二次的アカウント"
+
+#: core/models.py:233
+msgid "New account"
+msgstr "新規アカウント"
+
+#: core/models.py:237
+msgid "Architecture & Construction"
+msgstr "建築・工事"
+
+#: core/models.py:238
+msgid "Automobile / Aviation & Aerospace"
+msgstr "自動車・航空・航空宇宙"
+
+#: core/models.py:239
+msgid "Banking & Financial Services"
+msgstr "金融・ファイナンス"
+
+#: core/models.py:240
+msgid "Consulting"
+msgstr "コンサルタント"
+
+#: core/models.py:241
+msgid "Education / Training / Coaching"
+msgstr "教育"
+
+#: core/models.py:242
+msgid "Electronic Goods"
+msgstr "電気製品"
+
+#: core/models.py:243
+msgid "Energy & Natural Resources"
+msgstr "エネルギー・天然資源"
+
+#: core/models.py:244
+msgid "Fintech"
+msgstr "フィンテック"
+
+#: core/models.py:245
+msgid "Food & Beverage / FMCG"
+msgstr "飲食"
+
+#: core/models.py:246
+msgid "Hardware"
+msgstr "ハードウェア"
+
+#: core/models.py:248
+msgid "Healthcare / Pharmaceutical / Life Sciences"
+msgstr "ヘルスケア・ライフサイエンス・製薬"
+
+#: core/models.py:250
+msgid "IT / Technology/ Digital & Telecom"
+msgstr "IT"
+
+#: core/models.py:251
+msgid "Insurance"
+msgstr "保険"
+
+#: core/models.py:252
+msgid "Legal & Compliance"
+msgstr "法務・コンプライアンス"
+
+#: core/models.py:254
+msgid "Leisure / Hospitality / Restaurants / Travel & Tourism"
+msgstr "旅行・観光"
+
+#: core/models.py:256
+msgid "Manufacturing / Industrial"
+msgstr "製造業 "
+
+#: core/models.py:258
+msgid "Media / Art & Entertaiment / Communication / Agency"
+msgstr "メディア・通信"
+
+#: core/models.py:260
+msgid "Public Sector"
+msgstr "公共部門"
+
+#: core/models.py:262
+msgid "Real Estate / Property & Construction"
+msgstr "不動産"
+
+#: core/models.py:264
+msgid "Recruitment"
+msgstr "人材・リクルーティング"
+
+#: core/models.py:266
+msgid "Retail / Fashion / Luxury / Consumer Goods"
+msgstr "ファッション"
+
+#: core/models.py:268
+msgid "Services"
+msgstr "サービス"
+
+#: core/models.py:269
+msgid "Software"
+msgstr "ソフトウェア"
+
+#: core/models.py:270
+msgid "Transportation / Shipping / Logistics"
+msgstr "物流"
+
+#: core/models.py:274 core/models.py:290
+msgid "MTS"
+msgstr "MTS"
+
+#: core/models.py:275 core/models.py:289
+msgid "Retainer"
+msgstr "リテーナー"
+
+#: core/models.py:276 core/models.py:291
+msgid "Contingent"
+msgstr "コンティンジェンシー"
+
+#: core/models.py:307
+msgid "AF"
+msgstr "AF"
+
+#: core/models.py:308
+msgid "SLF"
+msgstr "SLF"
+
+#: core/models.py:309
+msgid "FF"
+msgstr "FF"
+
+#: core/models.py:310
+msgid "Monthly"
+msgstr "月"
+
+#: core/models.py:311
+msgid "Internal"
+msgstr "社内"
+
+#: core/models.py:312
+msgid "External"
+msgstr "外部"
+
+#: core/models.py:313
+msgid "Placement Fee"
+msgstr "成功報酬"
+
+#: core/models.py:362 core/models.py:376
+msgid "None"
+msgstr "無し"
+
+#: core/models.py:363
+msgid "0-1 year"
+msgstr "1年以内"
+
+#: core/models.py:364
+msgid "1-2 years"
+msgstr "1-2年"
+
+#: core/models.py:365
+msgid "2-5 years"
+msgstr "2-5年"
+
+#: core/models.py:366
+msgid "5-10 years"
+msgstr "5-10年"
+
+#: core/models.py:367
+msgid "10+ years"
+msgstr "10年以上"
+
+#: core/models.py:371
+msgid "Replacement"
+msgstr "交代"
+
+#: core/models.py:377
+msgid "High School Diploma"
+msgstr "高卒"
+
+#: core/models.py:378
+msgid "Bachelor's Degree"
+msgstr "大卒"
+
+#: core/models.py:379
+msgid "Master's Degree"
+msgstr "修士"
+
+#: core/models.py:380
+msgid "PhD"
+msgstr "博士"
+
+#: core/models.py:384
+msgid "Eligible"
+msgstr "対象"
+
+#: core/models.py:385
+msgid "Not Eligible"
+msgstr "対象外"
+
+#: core/models.py:389
+msgid "Health Insurance"
+msgstr "健康保険"
+
+#: core/models.py:390
+msgid "Employment Insurance"
+msgstr "雇用保険"
+
+#: core/models.py:391
+msgid "Welfare Pension Insurance"
+msgstr "厚生年金"
+
+#: core/models.py:392
+msgid "Workers Accident Compensation Insurance"
+msgstr "労災保険"
+
+#: core/models.py:396
+msgid "Visa Sponsorship"
+msgstr "ビザ取得サポート"
+
+#: core/models.py:397
+msgid "Relocation Assistance"
+msgstr "転居手当"
+
+#: core/models.py:398
+msgid "Gym / Wellness Membership"
+msgstr "ジム会員"
+
+#: core/models.py:399
+msgid "Free Coffee"
+msgstr "フリーコーヒー"
+
+#: core/models.py:403 core/models.py:3070
+msgid "Permanent Employee"
+msgstr "正社員"
+
+#: core/models.py:404
+msgid "Part Time Employee"
+msgstr "パート"
+
+#: core/models.py:405
+msgid "Fixed Term Contract Employee"
+msgstr "契約社員"
+
+#: core/models.py:406
+msgid "Dispatch"
+msgstr "派遣社員"
+
+#: core/models.py:407 core/models.py:3075
+msgid "Freelance"
+msgstr "フリーランス"
+
+#: core/models.py:411
+msgid "On Site Only"
+msgstr "リモート不可"
+
+#: core/models.py:412
+msgid "Remote Possible"
+msgstr "リモート可能"
+
+#: core/models.py:413
+msgid "Remote Only"
+msgstr "リモートのみ"
+
+#: core/models.py:428
+msgid "Notification"
+msgstr "通知"
+
+#: core/models.py:442
+#, python-brace-format
+msgid "Your contract with the {0} has been initiated."
+msgstr "{0}との契約が開始されています。"
+
+#: core/models.py:444
+#, python-brace-format
+msgid ""
+"You have successfully initiated a contract with {{actor.name}}.\n"
+"{0}"
+msgstr ""
+" {{actor.name}}との契約が開始されました。\n"
+"{0}"
+
+#: core/models.py:453
+msgid "Job access has been removed"
+msgstr "求人へのアクセスが無効になりました。"
+
+#: core/models.py:455
+#, python-brace-format
+msgid ""
+"{{actor.name}} has no longer access to the jobs you shared.\n"
+"{0}"
+msgstr ""
+"{{actor.name}}は共有された求人へのアクセス権限が無効になりました。\n"
+"{0}"
+
+#: core/models.py:465
+msgid "Candidate placement is submitted for approval"
+msgstr "承認待ちプレイスメントが提出されました。"
+
+#: core/models.py:467
+#, python-brace-format
+msgid ""
+"{action_object.client.name} - {action_object.candidate.name}'s placement "
+"form has been submitted for your approval"
+msgstr ""
+"承認が必要な{action_object.client.name} - "
+"{action_object.candidate.name}のプレイスメントフォームが受信されました。"
+
+#: core/models.py:475 core/models.py:495
+msgid "Candidate placement is sent to revision"
+msgstr "プレイスメントフォームの修正を要求しました。"
+
+#: core/models.py:477
+#, python-brace-format
+msgid ""
+"{action_object.client.name} - {action_object.candidate.name}'s placement "
+"form is waiting for your approval"
+msgstr ""
+"{action_object.client.name} - "
+"{action_object.candidate.name}のプレイスメントフォームへの承認が必要です。"
+
+#: core/models.py:485
+msgid "Candidate placement is set as draft"
+msgstr "プレイスメントフォームは一時保存されました。"
+
+#: core/models.py:487
+#, python-brace-format
+msgid ""
+"{action_object.client.name} - {action_object.candidate.name}'s placement "
+"form has been saved as draft"
+msgstr ""
+"{action_object.client.name} - "
+"{action_object.candidate.name}のプレイスメントフォームは一時保存されました。"
+
+#: core/models.py:497
+#, python-brace-format
+msgid ""
+"{action_object.client.name} - {action_object.candidate.name}'s placement "
+"form has been submitted for revision"
+msgstr ""
+"{action_object.client.name} - "
+"{action_object.candidate.name}のプレイスメントフォームが修正のため提出されました。"
+
+#: core/models.py:505
+msgid "Candidate placement is approved"
+msgstr "プレイスメントフォームは承認されました。"
+
+#: core/models.py:507
+#, python-brace-format
+msgid ""
+"{action_object.client.name} - {action_object.candidate.name}'s placement "
+"form has been approved"
+msgstr ""
+"{action_object.client.name} - "
+"{action_object.candidate.name}のプレイスメントフォームは承認されました。"
+
+#: core/models.py:515
+msgid "Fee is submitted for approval"
+msgstr "手数料につき承認申請がされました。"
+
+#: core/models.py:517
+#, python-brace-format
+msgid ""
+"{action_object.contract_type_title} - {action_object.bill_description_title}"
+" fee has been submitted for your approval"
+msgstr ""
+"提出された{action_object.contract_type_title} - "
+"{action_object.bill_description_title}の手数料の承認が必要です"
+
+#: core/models.py:525
+msgid "Fee is waiting approval"
+msgstr "手数料につき承認待ちです"
+
+#: core/models.py:527
+#, python-brace-format
+msgid ""
+"{action_object.contract_type_title} - {action_object.bill_description_title}"
+" fee is waiting for your approval"
+msgstr ""
+"{action_object.contract_type_title} - "
+"{action_object.bill_description_title}の手数料につき承認待ちです"
+
+#: core/models.py:535
+msgid "Fee is set as draft"
+msgstr "手数料は一時保存されました"
+
+#: core/models.py:537
+#, python-brace-format
+msgid ""
+"{action_object.contract_type_title} - {action_object.bill_description_title}"
+" fee has been saved as draft"
+msgstr ""
+"{action_object.contract_type_title} - "
+"{action_object.bill_description_title}の手数料は一時保存されました"
+
+#: core/models.py:545
+msgid "Fee is sent to revision"
+msgstr "手数料の修正を要求しました"
+
+#: core/models.py:547
+#, python-brace-format
+msgid ""
+"{action_object.contract_type_title} - {action_object.bill_description_title}"
+" fee has been submitted for revision"
+msgstr ""
+"{action_object.contract_type_title} - {action_object.bill_description_title}"
+" の手数料が修正のため提出されました"
+
+#: core/models.py:555
+msgid "Fee is approved"
+msgstr "手数料は承認されました"
+
+#: core/models.py:557
+#, python-brace-format
+msgid ""
+"{action_object.contract_type_title} - {action_object.bill_description_title}"
+" fee has been approved"
+msgstr ""
+"{action_object.contract_type_title} - "
+"{action_object.bill_description_title}の手数料は承認されました"
+
+#: core/models.py:566
+msgid "Candidate shortlisted for a job"
+msgstr "候補者はショートリストに追加しました"
+
+#: core/models.py:567
+#, python-brace-format
+msgid "{actor.name} shortlisted {action_object.name} for \"{target.title}\""
+msgstr "{actor.name} は {action_object.name} を{target.title}のショートリストに追加しました"
+
+#: core/models.py:573
+msgid "Candidate longlisted for a job"
+msgstr "候補者はロングリストに追加しました"
+
+#: core/models.py:574
+#, python-brace-format
+msgid "{actor.name} longlisted {action_object.name} for \"{target.title}\""
+msgstr "{actor.name}は {action_object.name} を \"{target.title}\"のロングリストに追加しました"
+
+#: core/models.py:580
+msgid "Talent Associate assigns you to a job"
+msgstr "タレントアソシエイトがあなたを求人に紐付けました"
+
+#: core/models.py:581 core/models.py:644
+#, python-brace-format
+msgid "{actor.full_name} assigned you to \"{target.title}\""
+msgstr "{actor.full_name}はあなたを\"{target.title}\"に紐付けました"
+
+#: core/models.py:587
+msgid "Client creates a contract with your agency"
+msgstr "クライアントがあなたのエイジェンシーと契約を作成しました"
+
+#: core/models.py:588
+#, python-brace-format
+msgid "{actor.name} has invited you to view their open positions"
+msgstr "{actor.name} はあなたに募集中の求人情報を送りました"
+
+#: core/models.py:590
+#, python-brace-format
+msgid ""
+"{actor.name} has invited you to view their open positions on the ZooKeep "
+"platform."
+msgstr "{actor.name} はあなたにZooKeepで募集中の求人情報を送りました"
+
+#: core/models.py:597
+msgid "Agency declined invitation"
+msgstr "エイジェンシーがあなたの招待を断りました"
+
+#: core/models.py:598
+#, python-brace-format
+msgid "{actor.name} has declined your invitation to see your jobs."
+msgstr "{actor.name}はあなたの募集中の求人の招待を断りました"
+
+#: core/models.py:603
+msgid "Agency accepted invitation"
+msgstr "エイジェンシーがあなたの招待を受け取りました"
+
+#: core/models.py:604
+#, python-brace-format
+msgid "{actor.name} has accepted your invitation to see your jobs."
+msgstr "{actor.name}は募集中の求人の招待を受けました"
+
+#: core/models.py:609
+msgid "Contract is signed by one of the parties"
+msgstr "契約は当事者のうち一方により署名されました"
+
+#: core/models.py:611
+#, python-brace-format
+msgid ""
+"{actor.name} have confirmed the contract is signed.\n"
+"Please open invitation page and confirm."
+msgstr ""
+"{actor.name}は契約がサインされたことを確認しました。\n"
+"招待ページからご確認ください。"
+
+#: core/models.py:617
+msgid "You will be able to submit candidates once they assign you to a job."
+msgstr "求人を振り分けられた後に候補者を提出できるようになります"
+
+#: core/models.py:622
+#, python-brace-format
+msgid "Assign {actor.name} to your openings."
+msgstr "{actor.name}をあなたの掲載中の求人に紐づけました"
+
+#: core/models.py:626
+msgid "The invitation has expired"
+msgstr "招待の有効期限が切れました"
+
+#: core/models.py:630
+msgid "You did not find an agreement"
+msgstr "契約は成立しませんでした"
+
+#: core/models.py:636
+msgid "Client assigns your agency to a job"
+msgstr "クライアントがあなたのエイジェンシーを求人の担当にしました"
+
+#: core/models.py:637
+#, python-brace-format
+msgid "{actor.name} assigned your agency to \"{target.title}\""
+msgstr "{actor.name}はあなたのエイジェンシーを\"{target.title}\"の担当にしました"
+
+#: core/models.py:643
+msgid "Your agency assigns you to a job"
+msgstr "エイジェンシーがあなたを求人の担当にしました"
+
+#: core/models.py:649
+msgid "Client updates a job"
+msgstr "クライアントが求人を更新しました"
+
+#: core/models.py:649
+#, python-brace-format
+msgid "{actor.name} updated \"{target.title}\""
+msgstr "{actor.name} が\"{target.title}\"を更新しました"
+
+#: core/models.py:653
+msgid "Candidate is reallocated to a different job"
+msgstr "候補者が他の求人に移されました"
+
+#: core/models.py:655
+#, python-brace-format
+msgid ""
+"{actor.name} reallocated {action_object.name} from {from_job} to "
+"{target.title}"
+msgstr "{actor.name} が{action_object.name} を{from_job} から{target.title}に移しました"
+
+#: core/models.py:661
+msgid "User is mentioned"
+msgstr "ユーザーはメンションされました"
+
+#: core/models.py:662
+#, python-brace-format
+msgid "{actor.full_name} mentioned you on {target.candidate}"
+msgstr "{actor.full_name} あなたを {target.candidate}でメンションしました"
+
+#: core/models.py:664
+#, python-brace-format
+msgid ""
+"{actor.full_name} mentioned you on {target.candidate}: "
+"\"{target.formatted_text}\""
+msgstr ""
+"{actor.full_name} はあなたを {target.candidate}でメンションしました: "
+"\"{target.formatted_text}\""
+
+#: core/models.py:666
+#, python-brace-format
+msgid "Notification: New comment on {target.candidate}"
+msgstr "通知:  {target.candidate}で新しいコメントがあります"
+
+#: core/models.py:671
+msgid "Comment mentioning user is deleted"
+msgstr "ユーザーをメンションしているコメントが削除されました"
+
+#: core/models.py:673
+#, python-brace-format
+msgid ""
+"{actor.full_name} deleted a comment mentioning you on {target.candidate}: "
+"\"{target.formatted_text}\""
+msgstr ""
+"{actor.full_name}は、{target.candidate}であなたをメンションしているコメントを削除しました： "
+"\"{target.formatted_text}\""
+
+#: core/models.py:675
+#, python-brace-format
+msgid "Notification: Comment deleted on {target.candidate}"
+msgstr "通知: {target.candidate}でコメントが削除されました"
+
+#: core/models.py:681
+msgid "Candidate is Added to Job"
+msgstr "候補者が求人に追加されました"
+
+#: core/models.py:682 core/models.py:695
+#, python-brace-format
+msgid "{actor_name} added {action_object.name} to {target.job.title}"
+msgstr "{actor_name} は{target.job.title}に{action_object.name} を追加しました"
+
+#: core/models.py:684
+#, python-brace-format
+msgid ""
+"A Candidate you sourced was added to a Job.\n"
+"\n"
+"Candidate: {action_object.name}\n"
+"Job: {target.job.title}\n"
+"Candidate was added to job by {actor_name} on {datetime}"
+msgstr ""
+"あなたがソースした候補者が求人に追加されました\n"
+"\n"
+"候補者：{action_object.name}\n"
+"求人：　{target.job.title}\n"
+"候補者は、{datetime}に{actor_name}によって求人に追加されました"
+
+#: core/models.py:689
+#, python-brace-format
+msgid "{action_object.name} was added to {target.job.title}"
+msgstr "{action_object.name}が{target.job.title}に追加されました"
+
+#: core/models.py:694
+msgid "Candidate is Added to Job (excl. Direct Application)"
+msgstr "候補者が求人に追加されました（直接応募を除く）"
+
+#: core/models.py:697
+#, python-brace-format
+msgid ""
+"A new Candidate was added to a Job you manage.\n"
+"\n"
+"Candidate: {action_object.name}\n"
+"Job: {target.job.title}\n"
+"Candidate was added to job by {actor_name} on {datetime}"
+msgstr ""
+"あなたが管理する求人に新しい候補者が追加されました。\n"
+"\n"
+"候補者：{action_object.name}\n"
+"求人：　{target.job.title}\n"
+"候補者は、{datetime}に{actor_name}によって求人に追加されました"
+
+#: core/models.py:702
+#, python-brace-format
+msgid "{action_object.name} Was Added to {target.job.title}"
+msgstr "{action_object.name}が{target.job.title}に追加されました"
+
+#: core/models.py:707
+msgid "Candidate is Added to Job - Direct Application"
+msgstr "候補者が求人に追加されました- 直接応募"
+
+#: core/models.py:708
+#, python-brace-format
+msgid "{actor.name} applied to {target.job.title}"
+msgstr "{actor.name}が{target.job.title}に適用されました"
+
+#: core/models.py:710
+#, python-brace-format
+msgid ""
+"A new Candidate applied to a Job you manage.\n"
+"\n"
+"Candidate: {actor.name}\n"
+"Job: {target.job.title}\n"
+"Candidate applied on {datetime}"
+msgstr ""
+"あなたが管理する仕事に新しい候補者が応募しました。\n"
+"\n"
+"候補者：{actor.name}\n"
+"求人：　{target.job.title}\n"
+"{datetime}に候補者が応募しました"
+
+#: core/models.py:715
+#, python-brace-format
+msgid "{actor.name} Applied to {target.job.title}"
+msgstr "{actor.name} は{target.job.title}に応募しました"
+
+#: core/models.py:720 core/models.py:731 core/models.py:737 core/models.py:751
+msgid "N/A"
+msgstr "N/A"
+
+#: core/models.py:721
+#, python-brace-format
+msgid "Please review {action_object.name} submitted to {target.job.title}"
+msgstr "{target.job.title}に送信された{action_object.name}を確認してください"
+
+#: core/models.py:723
+#, python-brace-format
+msgid ""
+"Please review {action_object.name} submitted to {target.job.title}\n"
+"\n"
+"You can Click on \"Approve\" or \"Reject\" Candidate directly from the Application."
+msgstr ""
+"{action_object.name}に提出された{target.job.title}をご確認ください\n"
+"\n"
+"応募書類から直接「承認」または「拒否」をクリックすることができます"
+
+#: core/models.py:726
+#, python-brace-format
+msgid "Application Submission Pending Review for {target.job.title}"
+msgstr "{target.job.title}の提出された応募書類の審査待ち"
+
+#: core/models.py:732
+#, python-brace-format
+msgid "You {decision} {action_object.name} submitted to {target.job.title}"
+msgstr "あなたは{decision} {action_object.name}に{target.job.title}提案しました"
+
+#: core/models.py:739
+#, python-brace-format
+msgid "{action_object.name} is Pending Hiring Decision for {target.job.title}"
+msgstr "{action_object.name}は{target.job.title}に対して採用判断待ち"
+
+#: core/models.py:742
+#, python-brace-format
+msgid ""
+"A Candidate Application is Pending Hiring Decision!\n"
+"\n"
+"Candidate: {action_object.name}\n"
+"Job: {target.job.title}"
+msgstr ""
+"応募書類につき採用判断待ちです！\n"
+"\n"
+"候補者：{action_object.name}\n"
+"求人：　{target.job.title}"
+
+#: core/models.py:746
+#, python-brace-format
+msgid "Pending Hiring Decision for {action_object.name}"
+msgstr "{action_object.name}につき採用判断待ちです"
+
+#: core/models.py:752
+#, python-brace-format
+msgid "{action_object.name} Has Been Hired for {target.job.title}"
+msgstr "{action_object.name}は{target.job.title}に採用されました"
+
+#: core/models.py:754
+#, python-brace-format
+msgid ""
+"A Candidate Has Been Hired!\n"
+"\n"
+"Candidate: {action_object.name}\n"
+"Job: {target.job.title}"
+msgstr ""
+"候補者が採用されました！\n"
+"\n"
+"候補者：{action_object.name}\n"
+"求人：　{target.job.title}"
+
+#: core/models.py:758
+#, python-brace-format
+msgid "{action_object.name} Has been Hired"
+msgstr "{action_object.name}が採用されました"
+
+#: core/models.py:763
+msgid "Application Status is Updated"
+msgstr "選考状況が更新されました"
+
+#: core/models.py:765
+#, python-brace-format
+msgid ""
+"{actor_name} changed the Status of {action_object.name} for "
+"{target.job.title} to {status}"
+msgstr ""
+"{actor_name} は {action_object.name}の状況を{target.job.title}から{status}に変更しました"
+
+#: core/models.py:768
+#, python-brace-format
+msgid ""
+"An Application Status was updated.\n"
+"\n"
+"Candidate: {action_object.name}\n"
+"Job: {target.job.title}\n"
+"Status: {old_status} → {status}\n"
+"By {actor_name} on {datetime}"
+msgstr ""
+"選考状況が更新されました。\n"
+"\n"
+"候補者：{action_object.name}\n"
+"求人：　{target.job.title}\n"
+"状況：　{old_status} → {status}\n"
+"{datetime}に{actor_name}により"
+
+#: core/models.py:774
+#, python-brace-format
+msgid "{action_object.name} Moved to {status}"
+msgstr "{action_object.name}は {status}に移されました"
+
+#: core/models.py:779
+msgid "Job is Filled up"
+msgstr "求人が採用完了しました"
+
+#: core/models.py:780
+#, python-brace-format
+msgid "{target.title} has been filled 🎉"
+msgstr "{target.title}が採用済み🎉"
+
+#: core/models.py:782
+#, python-brace-format
+msgid ""
+"{target.title} has been filled.\n"
+"\n"
+"Hired Candidate(s):\n"
+"{hired_candidates}"
+msgstr ""
+"{target.title}が採用済み。\n"
+"\n"
+"採用された候補者(の方々)：\n"
+"{hired_candidates}"
+
+#: core/models.py:786
+#, python-brace-format
+msgid "{target.title} is Filled 🎉"
+msgstr "{target.title}が採用済み🎉"
+
+#: core/models.py:791
+msgid "Application is Rejected"
+msgstr "応募が見送られました"
+
+#: core/models.py:792
+#, python-brace-format
+msgid "{actor.name} rejected {action_object.name} for {target.job.title}"
+msgstr "{actor.name}は{target.job.title}につき{action_object.name}を断りました"
+
+#: core/models.py:794
+#, python-brace-format
+msgid ""
+"A Candidate Application was rejected!\n"
+"\n"
+"Candidate: {action_object.name}\n"
+"Job: {target.job.title}\n"
+"Candidate was Rejected by {actor.name} on {datetime}"
+msgstr ""
+"応募が見送られました！\n"
+"\n"
+"候補者：{action_object.name}\n"
+"求人：　{target.job.title}\n"
+"候補者が{datetime}に{actor.name}により見送られました"
+
+#: core/models.py:800
+#, python-brace-format
+msgid "{action_object.name} Application to {target.job.title} was Rejected!"
+msgstr "{action_object.name}の{target.job.title}への応募が見送られました！"
+
+#: core/models.py:806
+msgid "Interview Proposal is Sent to Candidate"
+msgstr "候補者に面接の招待状を送りました"
+
+#: core/models.py:808
+#, python-brace-format
+msgid ""
+"Interview Proposal was sent to {action_object.candidate.name} for "
+"{target.job.title}"
+msgstr "{action_object.candidate.name}に{target.job.title}の面接の招待状を送りました"
+
+#: core/models.py:814
+msgid "Interview Proposal is Confirmed by Candidate"
+msgstr "面接日程が候補者により確定されました"
+
+#: core/models.py:816
+#, python-brace-format
+msgid ""
+"{actor.name} confirmed the interview {action_object.order} for "
+"{target.job.title} with {action_object.interviewer.name}"
+msgstr ""
+"{actor.name}が{action_object.interviewer.name}との{target.job.title}に関する{action_object.order}面接を確定しました"
+
+#: core/models.py:819
+#, python-brace-format
+msgid ""
+"The interview {action_object.order} with {actor.name} has been confirmed:\n"
+"\n"
+"Job: {target.job.title}\n"
+"\n"
+"When: {timeframe}\n"
+"\n"
+"Candidate: {actor.name}\n"
+"Interviewer: {action_object.interviewer.name}\n"
+"\n"
+"{action_object.notes}"
+msgstr ""
+"{actor.name}との{action_object.order}面接が確定しました：\n"
+"\n"
+"求人：　{target.job.title}\n"
+"日時：　{timeframe}\n"
+"候補者：{actor.name}\n"
+"面接官：{action_object.interviewer.name}\n"
+"\n"
+"{action_object.notes}"
+
+#: core/models.py:827
+#, python-brace-format
+msgid ""
+"{target.job.title} - Interview {action_object.order} with {actor.name} "
+"confirmed"
+msgstr "{target.job.title}- {actor.name}との{action_object.order}面接は確定しました"
+
+#: core/models.py:833
+msgid "Proposal interview confirmed"
+msgstr "面接日程が確定しました。"
+
+#: core/models.py:834
+#, python-brace-format
+msgid "{actor.name} confirmed the interview for {target.job.title}"
+msgstr "{actor.name} が \"{target.job.title}\"の面接を確定しました"
+
+#: core/models.py:836
+#, python-brace-format
+msgid ""
+"Dear {action_object.interviewer.name}, your interview with {actor.name} has been confirmed:\n"
+"\n"
+"Job: {target.job.title}\n"
+"\n"
+"When: {timeframe}\n"
+"\n"
+"Candidate: {actor.name}\n"
+"Interviewer: {action_object.interviewer.name}\n"
+"\n"
+"{action_object.notes}"
+msgstr ""
+"{action_object.interviewer.name}様、\n"
+"\n"
+"{actor.name}との面接が確定しました：\n"
+"\n"
+"求人：　{target.job.title}\n"
+"\n"
+"日時：　{timeframe}\n"
+"\n"
+"候補者：{actor.name}\n"
+"面接官：{action_object.interviewer.name}\n"
+"\n"
+"{action_object.notes}"
+
+#: core/models.py:843
+#, python-brace-format
+msgid "{target.job.title} - Interview with {actor.name} confirmed"
+msgstr "{target.job.title}- {actor.name}との面接が確定しました"
+
+#: core/models.py:848 core/models.py:866
+msgid "Proposal interview rejected"
+msgstr "面接が見送られました"
+
+#: core/models.py:850 core/models.py:868
+#, python-brace-format
+msgid "Interview Proposal was declined by {actor.name} for {target.job.title}"
+msgstr "{target.job.title}の面接招待は{actor.name}により断られました"
+
+#: core/models.py:853
+#, python-brace-format
+msgid ""
+"The interview proposal for interview {action_object.order} with {actor.name} has been declined:\n"
+"Please try to schedule the interview again.\n"
+"\n"
+"Job: {target.job.title}\n"
+"\n"
+"Candidate: {actor.name}\n"
+"Interviewer: {action_object.interviewer.name}\n"
+msgstr ""
+"{actor.name}との{action_object.order}面接招待は断られました：\n"
+"もう一度別の日程で招待を送りましょう。\n"
+"\n"
+"求人：　{target.job.title}\n"
+"\n"
+"候補者：{actor.name}\n"
+"面接官：{action_object.interviewer.name}\n"
+
+#: core/models.py:860 core/models.py:878
+#, python-brace-format
+msgid "{target.job.title} - Interview Proposal with {actor.name} was Declined"
+msgstr "{target.job.title}- {actor.name}との面接招待は断られました"
+
+#: core/models.py:871
+#, python-brace-format
+msgid ""
+"Dear {action_object.interviewer.name}, your interview proposal with {actor.name} has been declined.\n"
+"The Recruiter will contact you to schedule the interview again.\n"
+"\n"
+"Job: {target.job.title}\n"
+"\n"
+"Candidate: {actor.name}\n"
+"Interviewer: {action_object.interviewer.name}\n"
+msgstr ""
+"{action_object.interviewer.name}様、\n"
+"\n"
+"{actor.name}との面接招待が断られました。\n"
+"リクルーターによる再度の日程調整のご連絡をお待ちください。\n"
+"\n"
+"求人：　{target.job.title}\n"
+"\n"
+"候補者：{actor.name}\n"
+"面接官：{action_object.interviewer.name}\n"
+
+#: core/models.py:884
+msgid "Proposal interview canceled"
+msgstr "面接がキャンセル"
+
+#: core/models.py:886
+#, python-brace-format
+msgid ""
+"Interview {action_object.order} with {target.candidate.name} for "
+"{target.job.title} has been cancelled by {actor.name}"
+msgstr ""
+"{target.candidate.name}との{target.job.title}のための{action_object.order}面接が{actor.name}によりキャンセルされました。"
+
+#: core/models.py:889
+#, python-brace-format
+msgid ""
+"Dear {action_object.interviewer.name}, your interview with {target.candidate.name} has been cancelled:\n"
+"\n"
+"Job: {target.job.title}\n"
+"\n"
+"When: {timeframe}\n"
+"\n"
+"Candidate: {target.candidate.name}\n"
+"Interviewer: {action_object.interviewer.name}\n"
+"\n"
+msgstr ""
+"{action_object.interviewer.name}様、\n"
+"\n"
+"{target.candidate.name}との面接がキャンセルされました。\n"
+"\n"
+"求人：　{target.job.title}\n"
+"\n"
+"日時：　{timeframe}\n"
+"\n"
+"候補者：{target.candidate.name}\n"
+"面接官：{action_object.interviewer.name}\n"
+
+#: core/models.py:896
+#, python-brace-format
+msgid "{target.job.title} - Interview with {target.candidate.name} cancelled"
+msgstr "{target.job.title}- {target.candidate.name}との面接はキャンセルされました"
+
+#: core/models.py:902 core/models.py:920
+msgid "Interview assessment is added"
+msgstr "面接に対する評価が追加されました"
+
+#: core/models.py:904 core/models.py:922
+#, python-brace-format
+msgid ""
+"New Assessment Added to Interview {action_object.order} for "
+"{target.candidate.name} applying to {target.job.title}"
+msgstr ""
+"{target.job.title}- "
+"{target.candidate.name}の新しい評価は{action_object.order}に追加されました"
+
+#: core/models.py:907
+#, python-brace-format
+msgid ""
+"A Interview Assessment was added:\n"
+"\n"
+"Job: {target.job.title}\n"
+"\n"
+"Interview {action_object.order} on {timeframe}\n"
+"\n"
+"Candidate: {target.candidate.name}\n"
+"Interviewer: {action_object.interviewer.name}"
+msgstr ""
+"新しい評価は面接に追加されました：\n"
+"\n"
+"求人：{target.job.title}\n"
+"\n"
+"面接：{action_object.order}\n"
+"日時：{timeframe}\n"
+"\n"
+"候補者：{target.candidate.name}\n"
+"面接官：{action_object.interviewer.name}"
+
+#: core/models.py:914 core/models.py:932
+#, python-brace-format
+msgid "{target.job.title} - New Assessment for {target.candidate.name}"
+msgstr "{target.job.title} - {target.candidate.name}の新しい評価"
+
+#: core/models.py:925
+#, python-brace-format
+msgid ""
+"Dear {action_object.interviewer.name}, a New Assessment was added to your interview:\n"
+"\n"
+"Job: {target.job.title}\n"
+"\n"
+"Interview {action_object.order} on {timeframe}\n"
+"\n"
+"Candidate: {target.candidate.name}\n"
+"Interviewer: {action_object.interviewer.name}"
+msgstr ""
+"{action_object.interviewer.name}様、\n"
+"あなたの面接に新しい評価が追加されました。\n"
+"\n"
+"求人：{target.job.title}\n"
+"\n"
+"面接：{action_object.order}\n"
+"日時：{timeframe}\n"
+"\n"
+"候補者：{target.candidate.name}\n"
+"面接官：{action_object.interviewer.name}"
+
+#: core/models.py:1047
+msgid "email address"
+msgstr "メールアドレス"
+
+#: core/models.py:1049
+msgid "first name"
+msgstr "名"
+
+#: core/models.py:1050
+msgid "last name"
+msgstr "姓"
+
+#: core/models.py:1176 core/serializers.py:126
+msgid "Country is required for Agency Users"
+msgstr "エイジェンシーのユーザーによる国の記載は必須項目です"
+
+#: core/models.py:1461
+msgid "IOA"
+msgstr "IOA"
+
+#: core/models.py:1462
+msgid "IOS"
+msgstr "IOS"
+
+#: core/models.py:1583 core/serializers.py:4043 core/serializers.py:4114
+msgid "This field is required."
+msgstr "この項目は必須です。"
+
+#: core/models.py:1912
+msgid "Terms and Conditions"
+msgstr "規約と条件"
+
+#: core/models.py:1913
+msgid "Privacy Policy"
+msgstr "個人情報取り扱い"
+
+#: core/models.py:1948
+msgid "Placement type"
+msgstr "プレイスメントタイプ"
+
+#: core/models.py:1949
+msgid "Industry focus"
+msgstr "業界のフォーカス"
+
+#: core/models.py:2202
+msgid "Mandarin Chinese"
+msgstr "北京語"
+
+#: core/models.py:2203
+msgid "Spanish"
+msgstr "スペイン語"
+
+#: core/models.py:2204 talentai/settings_base.py:122
+msgid "English"
+msgstr "英語"
+
+#: core/models.py:2205
+msgid "Hindi"
+msgstr "ヒンディー語"
+
+#: core/models.py:2206
+msgid "Arabic"
+msgstr "アラビア語"
+
+#: core/models.py:2207
+msgid "Poruguese"
+msgstr "ポルトガル語"
+
+#: core/models.py:2208
+msgid "Bengali"
+msgstr "ベンガル語"
+
+#: core/models.py:2209
+msgid "Russian"
+msgstr "ロシア語"
+
+#: core/models.py:2210 talentai/settings_base.py:123
+msgid "Japanese"
+msgstr "日本語"
+
+#: core/models.py:2211
+msgid "Lahnda"
+msgstr "ラフンダー語"
+
+#: core/models.py:2212
+msgid "German"
+msgstr "ドイツ人"
+
+#: core/models.py:2213
+msgid "Javanese"
+msgstr "ジャワ語"
+
+#: core/models.py:2214
+msgid "Shanghainese"
+msgstr "上海語"
+
+#: core/models.py:2215
+msgid "Malay"
+msgstr "マレー語"
+
+#: core/models.py:2216
+msgid "Telugu"
+msgstr "テルグ語"
+
+#: core/models.py:2217
+msgid "Vietnamese"
+msgstr "ベトナム語"
+
+#: core/models.py:2218
+msgid "Korean"
+msgstr "韓国語"
+
+#: core/models.py:2219
+msgid "French"
+msgstr "フランス語"
+
+#: core/models.py:2220
+msgid "Marathi"
+msgstr "マラーティー語"
+
+#: core/models.py:2221
+msgid "Tamil"
+msgstr "タミル語"
+
+#: core/models.py:2222
+msgid "Urdu"
+msgstr "ウルドゥー語"
+
+#: core/models.py:2223
+msgid "Turkish"
+msgstr "トルコ語"
+
+#: core/models.py:2224
+msgid "Italian"
+msgstr "イタリア語"
+
+#: core/models.py:2225
+msgid "Yue Chinese"
+msgstr "粤語"
+
+#: core/models.py:2226
+msgid "Thai"
+msgstr "タイ語"
+
+#: core/models.py:2231
+msgid "Survival"
+msgstr "初級"
+
+#: core/models.py:2232
+msgid "Daily Conversation"
+msgstr "中級"
+
+#: core/models.py:2233
+msgid "Advanced"
+msgstr "上級"
+
+#: core/models.py:2234
+msgid "Fluent"
+msgstr "ビジネスレベル"
+
+#: core/models.py:2235
+msgid "Native"
+msgstr "ネイティブ"
+
+#: core/models.py:2964
+msgid "External Agencies"
+msgstr "外部エイジェンシー"
+
+#: core/models.py:2965
+msgid "Job Boards"
+msgstr "求人広告"
+
+#: core/models.py:2966
+msgid "Referrals"
+msgstr "リファーラル"
+
+#: core/models.py:2967
+msgid "Applicants (Direct)"
+msgstr "(直接)応募"
+
+#: core/models.py:2968
+msgid "Career Event"
+msgstr "イベント"
+
+#: core/models.py:2969
+msgid "BIC"
+msgstr "BIC"
+
+#: core/models.py:2973 core/models.py:3123
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: core/models.py:2974
+msgid "BizReach"
+msgstr "BizReach"
+
+#: core/models.py:2975
+msgid "EnJapan"
+msgstr "EnJapan"
+
+#: core/models.py:2976
+msgid "Doda"
+msgstr "Doda"
+
+#: core/models.py:2977 core/models.py:3081 core/models.py:3104
+#: core/models.py:3129
+msgid "Other"
+msgstr "その他"
+
+#: core/models.py:2982
+msgid "Job Board"
+msgstr "求人広告"
+
+#: core/models.py:2983
+msgid "Other Job Board"
+msgstr "他の求人広告"
+
+#: core/models.py:3024
+msgid "Not contacted"
+msgstr "未連絡"
+
+#: core/models.py:3026
+msgid "Generally unqualified"
+msgstr "不適格"
+
+#: core/models.py:3027
+msgid "Active"
+msgstr "アクティブ"
+
+#: core/models.py:3037
+msgid "TOEIC"
+msgstr "TOEIC"
+
+#: core/models.py:3038
+msgid "JLPT"
+msgstr "JLPT"
+
+#: core/models.py:3039
+msgid "TOEFL"
+msgstr "TOEFL"
+
+#: core/models.py:3040
+msgid "Other Cerfication"
+msgstr "その他の資格"
+
+#: core/models.py:3069
+msgid "Unemployed"
+msgstr "無職"
+
+#: core/models.py:3071
+msgid "Fixed-term Contract Employee"
+msgstr "契約社員"
+
+#: core/models.py:3072
+msgid "Part-time Employee"
+msgstr "パート"
+
+#: core/models.py:3073
+msgid "Business Owner"
+msgstr "事業主"
+
+#: core/models.py:3074
+msgid "Dispatched"
+msgstr "派遣社員"
+
+#: core/models.py:3079
+msgid "Male"
+msgstr "男性"
+
+#: core/models.py:3080
+msgid "Female"
+msgstr "女性"
+
+#: core/models.py:3085
+msgid "Individual Contributor"
+msgstr "マネジメント経験なし"
+
+#: core/models.py:3086
+msgid "Team"
+msgstr "チーム"
+
+#: core/models.py:3087
+msgid "Division"
+msgstr "部署"
+
+#: core/models.py:3088
+msgid "Country"
+msgstr "国"
+
+#: core/models.py:3089
+msgid "Region"
+msgstr "地域"
+
+#: core/models.py:3090
+msgid "Global"
+msgstr "グローバル"
+
+#: core/models.py:3094
+msgid "One-Time Sign On Bonus"
+msgstr "ワンタイムボーナス"
+
+#: core/models.py:3095
+msgid "Relocation"
+msgstr "引越しサポート"
+
+#: core/models.py:3096
+msgid "Minimum Number of Holidays Per Year"
+msgstr "年間の最小休日日数"
+
+#: core/models.py:3097
+msgid "Schooling for Kids"
+msgstr "子どもの教育サポート"
+
+#: core/models.py:3098
+msgid "Company Car"
+msgstr "社用車の支給"
+
+#: core/models.py:3099
+msgid "Company Sponsored Training"
+msgstr "教育訓練サポート"
+
+#: core/models.py:3100
+msgid "Housing Support"
+msgstr "住宅手当"
+
+#: core/models.py:3101
+msgid "Equity"
+msgstr "株式付与"
+
+#: core/models.py:3102
+msgid "Tax Equalization"
+msgstr "税均等化"
+
+#: core/models.py:3103
+msgid "Special Insurance"
+msgstr "特別保険"
+
+#: core/models.py:3108
+msgid "Immediate"
+msgstr "即時"
+
+#: core/models.py:3109
+msgid "2 Weeks"
+msgstr "2週間"
+
+#: core/models.py:3110
+msgid "1 Month"
+msgstr "1ヶ月"
+
+#: core/models.py:3111
+msgid "2 Months"
+msgstr "2ヶ月"
+
+#: core/models.py:3112
+msgid "3+ Months"
+msgstr "3ヶ月以上"
+
+#: core/models.py:3116
+msgid "Urgent"
+msgstr "緊急"
+
+#: core/models.py:3117
+msgid "Actively Looking"
+msgstr "大変高い"
+
+#: core/models.py:3118
+msgid "Passively Looking"
+msgstr "やや高い"
+
+#: core/models.py:3119
+msgid "Not Looking"
+msgstr "低い"
+
+#: core/models.py:3124
+msgid "Facebook"
+msgstr "Facebook"
+
+#: core/models.py:3125
+msgid "Biz Reach"
+msgstr "Biz Reach"
+
+#: core/models.py:3126
+msgid "Github"
+msgstr "Github"
+
+#: core/models.py:3127
+msgid "CareerCross"
+msgstr "CareerCross"
+
+#: core/models.py:3128
+msgid "Corporate Website"
+msgstr "コーポレートサイト"
+
+#: core/models.py:3437
+msgid "Candidate with this Zoho ID already exists."
+msgstr "このZoho IDを持つ候補者は既に存在しています。"
+
+#: core/models.py:3447
+msgid "Candidate with this LinkedIn already exists."
+msgstr "このLinkedInの候補者は既に登録されています。"
+
+#: core/models.py:3452 core/models.py:3457
+msgid "Email already in use."
+msgstr "このメールは既に使用中です。"
+
+#: core/models.py:3462 core/models.py:3463
+msgid "Emails must be unique."
+msgstr "メールアドレスは重複してはいけません。"
+
+#: core/models.py:3478
+#, python-brace-format
+msgid "candidate with id {self.original.pk} does not exist."
+msgstr "ID {self.original.pk}の候補が存在しません。"
+
+#: core/models.py:4178
+msgid "You"
+msgstr "あなた"
+
+#: core/models.py:4321
+msgid "Assignment"
+msgstr "課題・適性検査"
+
+#: core/models.py:4322
+msgid "Technical Fit"
+msgstr "実技・技術課題"
+
+#: core/models.py:4323
+msgid "Cultural Fit"
+msgstr "文化適合"
+
+#: core/models.py:4324
+msgid "General"
+msgstr "面接"
+
+#: core/models.py:4325
+msgid "Cross-team"
+msgstr "クロスチーム面接"
+
+#: core/models.py:4477
+#, python-brace-format
+msgid ""
+"Interview between {interview.organization.name} and "
+"{interview.candidate.name} for {interview.job.title} position"
+msgstr ""
+"{interview.job.title}の求人で、{interview.organization.name}と{interview.candidate.name}の面接"
+
+#: core/models.py:4589
+msgid "Proceed"
+msgstr "進行中"
+
+#: core/models.py:4590
+msgid "Keep"
+msgstr "保管"
+
+#: core/models.py:4591
+msgid "Reject"
+msgstr "お見送り"
+
+#: core/models.py:4724
+msgid "Draft"
+msgstr "下書き"
+
+#: core/models.py:4726 core/notifications.py:700
+msgid "Approved"
+msgstr "承認済"
+
+#: core/models.py:4727
+msgid "Needs revision"
+msgstr "要修正"
+
+#: core/models.py:4737
+msgid "Fixed"
+msgstr "定額料金"
+
+#: core/models.py:4738
+msgid "Percentile"
+msgstr "割合"
+
+#: core/models.py:4742
+msgid "Paid"
+msgstr "支払済"
+
+#: core/models.py:4743
+msgid "Overdue"
+msgstr "延滞"
+
+#: core/models.py:4744
+msgid "Sent"
+msgstr "請求済"
+
+#: core/models.py:4745
+msgid "Not Sent"
+msgstr "未請求"
+
+#: core/models.py:4950
+msgid "Fee"
+msgstr "手数料"
+
+#: core/models.py:4951
+msgid "Placement"
+msgstr "プレイスメント"
+
+#: core/models.py:4952
+msgid "Proposal"
+msgstr "候補者提案"
+
+#: core/models.py:4963
+msgid "log entry"
+msgstr "ログ エントリー"
+
+#: core/models.py:4964
+msgid "log entries"
+msgstr "ログ エントリー"
+
+#: core/serializer_fields.py:156 core/serializers.py:882
+msgid "This field may not be blank."
+msgstr "このフィールドは空白にできません。"
+
+#: core/serializers.py:337
+msgid "Your old password was entered incorrectly. Please enter it again."
+msgstr "古いパスワードが正しく入力されていません。もう一度入力してください。"
+
+#: core/serializers.py:886
+msgid "End date can't be less than Start date."
+msgstr "終了日は開始日より前の日程で入力することはできません。"
+
+#: core/serializers.py:1189 core/serializers.py:4022 core/serializers.py:4090
+msgid "This field is required"
+msgstr "この項目は必須です"
+
+#: core/serializers.py:1390 core/serializers.py:3800
+msgid "LinkedIn URL is not correct"
+msgstr "LinkedInのURLが正しくありません"
+
+#: core/serializers.py:1407 core/serializers.py:1904
+msgid "Should have only one level of each language."
+msgstr "各言語ではレベルは一つだけ設定できます。"
+
+#: core/serializers.py:2219
+msgid "User and Job should belong to the same Organization."
+msgstr "ユーザーと求人は同じ組織に属している必要があります。"
+
+#: core/serializers.py:2334
+msgid "Can't be less than Salary From"
+msgstr "より給料を少なく設定することはできません。"
+
+#: core/serializers.py:2340
+msgid "Can't be less than the number of hired candidates"
+msgstr "採用された候補者の数より少なく設定することはできません"
+
+#: core/serializers.py:2343
+msgid "You have no permission to change number of openings"
+msgstr "採用人数を変更する権限がありません。"
+
+#: core/serializers.py:2350
+msgid ""
+"Can't set job as \"Open\". Job should have more openings than hired "
+"candidates"
+msgstr "採用完了済みの求人です。求人を「募集中」にするには採用された人数を増やしてください。"
+
+#: core/serializers.py:2353
+msgid "You have no permission to set this job as \"Open\""
+msgstr "求人を「募集中」にする権限がありません。"
+
+#: core/serializers.py:2356
+msgid "Can't set job as \"Filled\". Job has unfilled openings"
+msgstr "採用予定人数を満たしていない求人です。求人を「採用完了」にするには採用予定人数を減らしてください。"
+
+#: core/serializers.py:2719
+#, python-brace-format
+msgid "Invalid Hiring Criterion: {hiring_criterion_assessment}"
+msgstr "無効な採用条件：{hiring_criterion_assessment}"
+
+#: core/serializers.py:2817
+msgid ""
+"Users you've selected are not members of organisation which submitted the "
+"candidate"
+msgstr "あなたが選択したユーザーは、候補者を提案した組織のメンバーではありません"
+
+#: core/serializers.py:2820
+msgid "This field is required while scheduling"
+msgstr "この項目は必須です"
+
+#: core/serializers.py:2821
+msgid "This field is required while confirming"
+msgstr "この項目は必須です"
+
+#: core/serializers.py:2827
+msgid "Job proposal is assigned to belongs to other organisation"
+msgstr "求人の提案は、他の組織が担当しています"
+
+#: core/serializers.py:2837
+msgid "Order exceeds number of interviews"
+msgstr "面接の回数が上限を超えています"
+
+#: core/serializers.py:2847
+msgid "Must specify at least one timeslot"
+msgstr "最低限一つの候補日程を設定する必要があります"
+
+#: core/serializers.py:3043
+msgid "Interview creation is not allowed"
+msgstr "面接作成が許可されていません"
+
+#: core/serializers.py:3044
+msgid "Timeslot was already selected"
+msgstr "そのタイムスロットは、すでに選択されています"
+
+#: core/serializers.py:3256 core/serializers.py:4687
+msgid "Anonymous User"
+msgstr "匿名ユーザー"
+
+#: core/serializers.py:3337 core/serializers.py:3426
+msgid "Candidate is already proposed."
+msgstr "候補者は、既に紹介されています。"
+
+#: core/serializers.py:3343
+msgid "Job is not open."
+msgstr "求人が「募集中」になっていません。"
+
+#: core/serializers.py:3402
+msgid "Job Question ID provided not valid"
+msgstr "ジョブクエスチョンのIDが無効です"
+
+#: core/serializers.py:3403
+#, python-format
+msgid "Job has no posting: %(posting)s"
+msgstr "求人の掲載はございません: %(posting)s"
+
+#: core/serializers.py:3548 core/serializers.py:4807
+msgid "Job has to be open"
+msgstr "求人は「募集中」にする必要があります"
+
+#: core/serializers.py:3613
+msgid "Only members of organisation which created the job can modify proposal"
+msgstr "求人を作成したユーザーが所属する組織のみ提案内容を編集できます"
+
+#: core/serializers.py:3665
+msgid "User with this email address already exists."
+msgstr "このメールアドレスを使用しているユーザーが既に存在しています。"
+
+#: core/serializers.py:3715
+msgid "Your email's domain is not connected to an agency."
+msgstr "あなたのメールアドレスのドメインは、エイジェンシーに登録されていません。"
+
+#: core/serializers.py:3822
+msgid "Already proposed to this job."
+msgstr "既にこの求人に提案されています。"
+
+#: core/serializers.py:3826
+msgid "Can't move proposal to other organization's job."
+msgstr "他組織の求人に候補者を提案することはできません。"
+
+#: core/serializers.py:3835
+msgid "The candidate is already proposed to this job."
+msgstr "候補者は、既にこの求人に提案されています。"
+
+#: core/serializers.py:3869
+msgid "Invalid Zoho Candidate URL."
+msgstr "無効なZoho候補者のURL。"
+
+#: core/serializers.py:4041
+#, python-brace-format
+msgid "\"{choice}\" is not a valid choice."
+msgstr "「{choice}」は有効な選択ではありません。"
+
+#: core/serializers.py:4042
+#, python-brace-format
+msgid "No choices available for \"{mode}\"."
+msgstr "\"{mode}\"のために利用可能な選択肢がありません。"
+
+#: core/serializers.py:4115
+msgid "This field can't be blank."
+msgstr "このフィールドは空白にすることはできません。"
+
+#: core/serializers.py:4215
+msgid "Contract with this client doesn't exist"
+msgstr "このクライアントとの契約は存在しません。"
+
+#: core/serializers.py:4288
+msgid "Either Placement or Job Contract ID should be provided"
+msgstr "プレイスメントまたは求人契約IDのいずれかを提供してください"
+
+#: core/serializers.py:4292
+msgid "Retainer fee date must be set if not a placement fee"
+msgstr "プレイスメント手数料またはリテーナー手数料を設定する必要があります"
+
+#: core/serializers.py:4306
+#, python-brace-format
+msgid "Sum of fields must be equal to {total}"
+msgstr "記入欄の合計が{total}に一致しなければいけません"
+
+#: core/serializers.py:4327
+msgid "Non-empty split requires user to be selected."
+msgstr "スプリットにはユーザーを選択してください。"
+
+#: core/serializers.py:4418 core/serializers.py:4468
+msgid "Splits must add up to 100%"
+msgstr "合計は100％にならなければなりません。"
+
+#: core/serializers.py:4756
+msgid "Anonymous"
+msgstr "匿名"
+
+#: core/serializers.py:4811
+msgid "Missing `to_status` for quick action"
+msgstr "Quick Actionのための'to_status'は存在していません"
+
+#: core/tasks.py:318 core/tasks.py:319 core/tasks.py:322
+msgid "(Empty)"
+msgstr "(Empty)"
+
+#: core/templates/account_activation_email/body.txt:3
+msgid "Please go to the following page to activate you account:"
+msgstr "アカウントを有効にするために、このページに移動してください。"
+
+#: core/templates/account_activation_email/body.txt:6
+#: core/templates/agency_invite/body.txt:7
+#: core/templates/invite/invite_sent_email.html:10
+#: core/templates/recruiter_registration_email/body.html:8
+msgid "Thanks for using our site!"
+msgstr "このサイトを利用いただきありがとうございます。"
+
+#: core/templates/account_activation_email/body.txt:8
+#: core/templates/agency_invite/body.txt:9
+#: core/templates/invite/invite_sent_email.html:12
+#: core/templates/recruiter_registration_email/body.html:10
+#, python-format
+msgid "The %(site_name)s team"
+msgstr "%(site_name)sのチーム"
+
+#: core/templates/account_activation_email/subject.txt:2
+#, python-format
+msgid "Please activate you account on %(site_name)s"
+msgstr "%(site_name)sでアカウントを有効にしてください。"
+
+#: core/templates/admin/registration/logged_out.html:12
+msgid "Home"
+msgstr "ホーム"
+
+#: core/templates/admin/registration/logged_out.html:18
+msgid "Thanks for spending some quality time with the Web site today."
+msgstr "ご利用ありがとうございます。"
+
+#: core/templates/admin/registration/logged_out.html:20
+msgid "Log in again"
+msgstr "再度ログイン"
+
+#: core/templates/agency_invite/body.txt:2
+#, python-format
+msgid ""
+"You're receiving this email because you've been invited to %(site_name)s."
+msgstr "%(site_name)sに招待されたため、このメールを受信して​​います。"
+
+#: core/templates/agency_invite/body.txt:4
+msgid "Please go to the following page to sign up:"
+msgstr "アカウントを作成するために、このページに移動してください。"
+
+#: core/templates/agency_invite/subject.txt:2
+#, python-format
+msgid "You've been invited to %(site_name)s"
+msgstr "あなたは%(site_name)sに招待されました。"
+
+#: core/templates/candidate_interview_canceled/to_candidate/body.html:1
+#, python-format
+msgid ""
+"\n"
+"Dear %(candidate)s, your interview with %(organisation)s has been cancelled:\n"
+msgstr ""
+"\n"
+"%(candidate)s様, %(organisation)sとの面接がキャンセルされました。\n"
+
+#: core/templates/candidate_interview_canceled/to_candidate/body.html:5
+msgid "Position"
+msgstr "ポジション"
+
+#: core/templates/candidate_interview_canceled/to_candidate/body.html:7
+#: core/templates/candidate_interview_confirmed/to_candidate/body.html:5
+#: core/templates/notifications/interview_proposal_confirmed_interviewer.html:5
+#: core/templates/notifications/interview_proposal_confirmed_proposer.html:5
+msgid "When"
+msgstr "日時"
+
+#: core/templates/candidate_interview_canceled/to_candidate/body.html:9
+#: core/templates/notifications/interview_proposal_confirmed_interviewer.html:6
+#: core/templates/notifications/interview_proposal_confirmed_proposer.html:6
+msgid "Candidate"
+msgstr "候補者"
+
+#: core/templates/candidate_interview_canceled/to_candidate/body.html:10
+#: core/templates/notifications/interview_proposal_confirmed_interviewer.html:7
+#: core/templates/notifications/interview_proposal_confirmed_proposer.html:7
+msgid "Interviewer"
+msgstr "面接官"
+
+#: core/templates/candidate_interview_canceled/to_candidate/body.txt:1
+#, python-format
+msgid ""
+"Dear %(candidate)s, your interview with %(organisation)s has been cancelled:\n"
+"\n"
+"Position: %(job)s\n"
+"\n"
+"When: %(timeframe)s\n"
+"\n"
+"Candidate: %(candidate)s\n"
+"Interviewer: %(interviewer)s\n"
+msgstr ""
+"%(candidate)s様、\n"
+"%(organisation)sとの面接はキャンセルされました：\n"
+"\n"
+"ポジション：%(job)s\n"
+"\n"
+"日時：%(timeframe)s\n"
+"\n"
+"候補者：%(candidate)s\n"
+"面接官：%(interviewer)s\n"
+
+#: core/templates/candidate_interview_confirmed/to_candidate/body.html:1
+#, python-format
+msgid ""
+"\n"
+"  Dear %(candidate)s, your interview with %(organisation)s has been confirmed:\n"
+msgstr ""
+"\n"
+"%(candidate)s様、\n"
+"\n"
+"%(organisation)sとの面接が確定されました。\n"
+
+#: core/templates/candidate_interview_confirmed/to_candidate/body.html:6
+msgid "Who"
+msgstr "関係者"
+
+#: core/templates/candidate_interview_confirmed/to_candidate/body.txt:1
+#, python-format
+msgid ""
+"Dear %(candidate)s,\n"
+"your interview with %(organisation)s has been confirmed:\n"
+"\n"
+"When: %(timeframe)s\n"
+"Who: %(user)s, %(candidate)s\n"
+"\n"
+"%(info)s\n"
+msgstr ""
+"%(candidate)s様、\n"
+"%(organisation)sとの面接が確定しました。\n"
+"\n"
+"日時： %(timeframe)s\n"
+"関係者：%(user)s, %(candidate)s\n"
+"\n"
+"%(info)s\n"
+
+#: core/templates/candidate_interview_invitation/body.html:3
+#, python-format
+msgid ""
+"\n"
+"Dear %(candidate)s,\n"
+msgstr ""
+"\n"
+"%(candidate)s,様、\n"
+
+#: core/templates/candidate_interview_invitation/body.html:7
+#, python-format
+msgid ""
+"\n"
+"%(sender)s from %(organisation)s has invited you to book a slot for an interview for %(job)s.\n"
+msgstr ""
+"\n"
+"%(organisation)sの%(sender)s が、%(job)sの面接のための候補日程を送りました。\n"
+
+#: core/templates/candidate_interview_invitation/body.html:12
+msgid "Choose a slot"
+msgstr "日程を選択してください。"
+
+#: core/templates/candidate_interview_invitation/body.html:15
+msgid "Thank You"
+msgstr "ありがとうございます"
+
+#: core/templates/candidate_interview_invitation/subject.txt:1
+#, python-format
+msgid "Confirm Interview for %(job)s at %(organisation)s"
+msgstr "%(organisation)sでの%(job)sの面接日程"
+
+#: core/templates/candidate_public_application_confirmed/to_candidate/body.txt:3
+#, python-format
+msgid ""
+"\n"
+"  Your application for the %(job)s job was submitted successfully.\n"
+"Here's a copy of your application data.\n"
+"\n"
+"Personal Information\n"
+"Name: %(candidate)s\n"
+"Email: %(email)s\n"
+"Phone: %(phone)s\n"
+"CV: %(cv)s\n"
+"Attached Files: %(attached_files)s\n"
+msgstr ""
+"\n"
+"%(job)sの求人のための応募が正常に提出されました。\n"
+"あなたが提出した応募情報は以下の通りになります。\n"
+"\n"
+"個人情報\n"
+"名前：%(candidate)s\n"
+"メール：%(email)s\n"
+"電話番号：%(phone)s\n"
+"CV：%(cv)s\n"
+"添付ファイル：%(attached_files)s\n"
+
+#: core/templates/candidate_public_application_confirmed/to_client/body.txt:3
+#, python-format
+msgid ""
+"\n"
+"%(job)s (%(job_url)s) job received a new candidate application (%(proposal_url)s):\n"
+"\n"
+"Personal Information\n"
+"Name: %(candidate)s\n"
+"Email: %(email)s\n"
+"Phone: %(phone)s\n"
+"CV: %(cv)s\n"
+"Attached Files: %(attached_files)s\n"
+msgstr ""
+"\n"
+"%(job)s (%(job_url)s)に対し新たな応募 (%(proposal_url)s)がありました：\n"
+"\n"
+"個人情報\n"
+"名前：%(candidate)s\n"
+"メール：%(email)s\n"
+"電話番号：%(phone)s\n"
+"CV： %(cv)s\n"
+"添付ファイル：%(attached_files)s\n"
+
+#: core/templates/invite/invite_sent_email.html:2
+#, python-format
+msgid ""
+"You're receiving this email because you've been invited to %(client)s on "
+"%(site_name)s."
+msgstr "%(client)sがあなたを%(site_name)sに招待したため、このメールをお送りしています"
+
+#: core/templates/invite/invite_sent_email.html:4
+#: core/templates/recruiter_registration_email/body.html:3
+msgid "Please go to the following page and set your new password:"
+msgstr "次のページに移動し、新しいパスワードを設定してください。"
+
+#: core/templates/invite/invite_sent_email.html:8
+msgid "Your username is:"
+msgstr "あなたのユーザー名は："
+
+#: core/templates/invite/invite_sent_subject.txt:2
+#, python-format
+msgid "You've been invited as a Hiring Manager to %(site_name)s"
+msgstr "あなたは%(site_name)sにHiring Managerとして招待されています。"
+
+#: core/templates/notifications/client_changed_proposal_status.html:1
+#, python-format
+msgid ""
+"\n"
+"<p>An Application Status was updated.</p>\n"
+"<br/>\n"
+"<p>Candidate: <a href='%(base_url)s%(candidate_url)s'>%(candidate_name)s</a></p>\n"
+"<p>Job: <a href='%(base_url)s%(job_url)s'>%(job_title)s</a></p>\n"
+"<p>Status: <span style=\"text-decoration: line-through;\">%(old_status)s</span> → %(status)s</p>\n"
+"<p>By %(actor_name)s on %(datetime)s</p>\n"
+msgstr ""
+"\n"
+"<p>応募者ステータスが更新されました</p>\n"
+"<br/>\n"
+"<p>候補者: <a href='%(base_url)s%(candidate_url)s'>%(candidate_name)s</a></p>\n"
+"<p>求人: <a href='%(base_url)s%(job_url)s'>%(job_title)s</a></p>\n"
+"<p>状況: <span style=\"text-decoration: line-through;\">%(old_status)s</span> → %(status)s</p>\n"
+"<p>%(datetime)sに%(actor_name)sより</p>\n"
+
+#: core/templates/notifications/interview_proposal_confirmed_interviewer.html:1
+#, python-format
+msgid ""
+"\n"
+"Dear %(user)s, your interview with %(candidate)s has been confirmed:\n"
+msgstr ""
+"\n"
+"%(user)s様、\n"
+"\n"
+"%(candidate)sとの面接が確定されました：\n"
+
+#: core/templates/notifications/interview_proposal_confirmed_interviewer.html:4
+#: core/templates/notifications/interview_proposal_confirmed_proposer.html:4
+msgid "Job"
+msgstr "求人"
+
+#: core/templates/notifications/interview_proposal_confirmed_proposer.html:1
+#, python-format
+msgid ""
+"\n"
+"The interview %(interview_order)s with %(candidate)s has been confirmed:\n"
+msgstr ""
+"\n"
+"%(candidate)sとの面接%(interview_order)sが確定しました：\n"
+"\n"
+
+#: core/templates/notifications/job_is_filled.html:1
+#, python-format
+msgid ""
+"\n"
+"<p><a href='%(base_url)s%(job_url)s'>%(job_title)s</a> has been filled.</p>\n"
+"<br/>\n"
+"<p>\n"
+"    Hired Candidate(s):\n"
+msgstr ""
+"\n"
+"<p><a href='%(base_url)s%(job_url)s'>%(job_title)s</a> の採用は完了しました。</p>\n"
+"<br/>\n"
+"<p>\n"
+"    雇われた候補者(の方々)：\n"
+
+#: core/templates/notifications/new_proposal_candidate_direct_application.html:1
+#, python-format
+msgid ""
+"\n"
+"<p>A new Candidate applied to a Job you manage.</p>\n"
+"<br/>\n"
+"<p>Candidate: <a href='%(base_url)s%(candidate_url)s'>%(candidate_name)s</a></p>\n"
+"<p>Job: <a href='%(base_url)s%(job_url)s'>%(job_title)s</a></p>\n"
+"<p>Candidate applied on %(datetime)s</p>\n"
+msgstr ""
+"\n"
+"<p>新しい候補者が、あなたが管理する求人に応募しました。</p>\n"
+"<br/>\n"
+"<p>候補者: <a href='%(base_url)s%(candidate_url)s'>%(candidate_name)s</a></p>\n"
+"<p>求人: <a href='%(base_url)s%(job_url)s'>%(job_title)s</a></p>\n"
+"<p> %(datetime)sに応募しました。</p>\n"
+
+#: core/templates/notifications/new_proposal_candidate_recruiter.html:1
+#, python-format
+msgid ""
+"\n"
+"<p>A new Candidate was added to a Job you manage.</p>\n"
+"<br/>\n"
+"<p>Candidate: <a href='%(base_url)s%(candidate_url)s'>%(candidate_name)s</a></p>\n"
+"<p>Job: <a href='%(base_url)s%(job_url)s'>%(job_title)s</a></p>\n"
+"<p>Candidate was added to job by %(actor_name)s on %(datetime)s</p>\n"
+msgstr ""
+"\n"
+"<p>新しい候補者が、あなたが管理する求人に追加されました。</p>\n"
+"<br/>\n"
+"<p>候補者: <a href='%(base_url)s%(candidate_url)s'>%(candidate_name)s</a></p>\n"
+"<p>求人: <a href='%(base_url)s%(job_url)s'>%(job_title)s</a></p>\n"
+"<p>候補者は%(actor_name)sが%(datetime)sに追加しました。</p>\n"
+
+#: core/templates/notifications/new_proposal_candidate_sourced_by.html:1
+#, python-format
+msgid ""
+"\n"
+"<p>A Candidate you sourced was added to a Job.</p>\n"
+"<br/>\n"
+"<p>Candidate: <a href='%(base_url)s%(candidate_url)s'>%(candidate_name)s</a></p>\n"
+"<p>Job: <a href='%(base_url)s%(job_url)s'>%(job_title)s</a></p>\n"
+"<p>Candidate was added to job by %(actor_name)s on %(datetime)s</p>\n"
+msgstr ""
+"\n"
+"<p>あなたが獲得した候補者が求人に追加されました。</p>\n"
+"<br/>\n"
+"<p>候補者: <a href='%(base_url)s%(candidate_url)s'>%(candidate_name)s</a></p>\n"
+"<p>求人:　 <a href='%(base_url)s%(job_url)s'>%(job_title)s</a></p>\n"
+"<p>候補者は%(actor_name)sが%(datetime)sに追加しました。</p>\n"
+
+#: core/templates/notifications/proposal_is_rejected.html:1
+#, python-format
+msgid ""
+"\n"
+"<p>A Candidate Application was rejected!</p>\n"
+"<br/>\n"
+"<p>Candidate: <a href='%(base_url)s%(candidate_url)s'>%(candidate_name)s</a></p>\n"
+"<p>Job: <a href='%(base_url)s%(job_url)s'>%(job_title)s</a></p>\n"
+"<p>Candidate was Rejected by %(actor.name)s on %(datetime)s</p>\n"
+msgstr ""
+"\n"
+"<p>候補者が断られました！</p>\n"
+"<br/>\n"
+"<p>候補者: <a href='%(base_url)s%(candidate_url)s'>%(candidate_name)s</a></p>\n"
+"<p>求人:　 <a href='%(base_url)s%(job_url)s'>%(job_title)s</a></p>\n"
+"<p>%(datetime)sに%(actor.name)sにより断られました。</p>\n"
+
+#: core/templates/notifications/proposal_pending_hiring_decision.html:1
+#, python-format
+msgid ""
+"\n"
+"<p>A Candidate Application is Pending Hiring Decision!</p>\n"
+"<br/>\n"
+"<p>Candidate: <a href='%(base_url)s%(candidate_url)s'>%(candidate_name)s</a></p>\n"
+"<p>Job: <a href='%(base_url)s%(job_url)s'>%(job_title)s</a></p>\n"
+msgstr ""
+"\n"
+"<p>候補者は採用判断待ちです！</p>\n"
+"<br/>\n"
+"<p>候補者：<a href='%(base_url)s%(candidate_url)s'>%(candidate_name)s</a></p>\n"
+"<p>求人：<a href='%(base_url)s%(job_url)s'>%(job_title)s</a></p>\n"
+
+#: core/templates/notifications/proposal_pending_start.html:1
+#, python-format
+msgid ""
+"\n"
+"<p>A Candidate Has Been Hired!</p>\n"
+"<br/>\n"
+"<p>Candidate: <a href='%(base_url)s%(candidate_url)s'>%(candidate_name)s</a></p>\n"
+"<p>Job: <a href='%(base_url)s%(job_url)s'>%(job_title)s</a></p>\n"
+msgstr ""
+"\n"
+"<p>候補者は採用されました！</p>\n"
+"<br/>\n"
+"<p>候補者：<a href='%(base_url)s%(candidate_url)s'>%(candidate_name)s</a></p>\n"
+"<p>求人：<a href='%(base_url)s%(job_url)s'>%(job_title)s</a></p>\n"
+"\n"
+
+#: core/templates/notifications/proposal_submitted_to_hiring_manager.html:1
+#, python-format
+msgid ""
+"\n"
+"<p>Please review <a href='%(base_url)s%(candidate_url)s'>%(candidate_name)s</a> submitted to <a href='%(base_url)s%(job_url)s'>%(job_title)s</a></p>\n"
+"<br/>\n"
+"<p>You can Click on \"Approve\" or \"Reject\" Candidate directly from the Application.</p>\n"
+msgstr ""
+"\n"
+"<p>  <a href='%(base_url)s%(job_url)s'>%(job_title)s</a>につき提出された<a href='%(base_url)s%(candidate_url)s'>%(candidate_name)s</a>をご確認ください</p>\n"
+"<br/>\n"
+"<p>応募書類から直接「承認」または「拒否」をクリックできます。</p>\n"
+
+#: core/templates/recruiter_registration_email/subject.txt:2
+#, python-format
+msgid "Finish registration on %(site_name)s"
+msgstr "%(site_name)sで登録完了の手続きをお願い致します。"
+
+#: core/utils/image.py:15 core/views/candidates.py:631
+#: core/views/candidates.py:665 core/views/views.py:1114
+msgid "No file in request data."
+msgstr "要求されたファイルはありません。"
+
+#: core/utils/image.py:22
+msgid "Image file is not valid."
+msgstr "画像ファイルは有効ではありません。"
+
+#: core/utils/view.py:12 core/views/candidates.py:614
+#: core/views/candidates.py:695 core/views/views.py:1137
+msgid "File not found."
+msgstr "ファイルが見つかりません。"
+
+#: core/validators.py:29
+#, python-format
+msgid ""
+"This password must contain at least %(num_special_chars)d special "
+"character/s."
+msgstr "パスワードには少なくともスペシャルキャラクター %(num_special_chars)d を一つ以上含む必要があります。"
+
+#: core/validators.py:37
+#, python-format
+msgid ""
+"Your password must contain at least %(num_special_chars)d special "
+"character/s."
+msgstr "パスワードには少なくとも一つ以上のスペシャルキャラクター %(num_special_chars)dを含めないといけません。"
+
+#: core/views/analytics.py:243
+msgid "Unassigned department"
+msgstr "割り当てられていない部署"
+
+#: core/views/candidates.py:125
+msgid "Deleted User"
+msgstr "削除されたユーザー"
+
+#: core/views/candidates.py:133
+msgid "Deleted Skill"
+msgstr "削除されたスキル"
+
+#: core/views/candidates.py:535
+msgid "Candidate is not archived."
+msgstr "候補者はアーカ​​イブされていません。"
+
+#: core/views/candidates.py:598 core/views/candidates.py:628
+#: core/views/candidates.py:662 core/views/candidates.py:686
+msgid "Incorrect file type."
+msgstr "不適切なファイル形式"
+
+#: core/views/candidates.py:646 core/views/candidates.py:677
+msgid "Candidate file uploaded."
+msgstr "候補者ファイルをアップロードしました。"
+
+#: core/views/candidates.py:707
+msgid "Candidate file deleted."
+msgstr "候補者ファイルが削除されました。"
+
+#: core/views/client_settings.py:62 core/views/client_settings.py:71
+#: core/views/views.py:270 core/views/views.py:286
+msgid "Saved."
+msgstr "保存されました。"
+
+#: core/views/ext_api.py:197
+msgid ""
+"This candidate has already been submitted for this job by your organization."
+msgstr "この候補者は他のメンバーによって既にこの求人に提案されています。"
+
+#: core/views/ext_api.py:202
+msgid "You have already submitted this candidate to this job"
+msgstr "この候補者は既にこの求人に提案されています。"
+
+#: core/views/jobs.py:338 core/views/views.py:672 core/views/views.py:1234
+msgid "Not found."
+msgstr "見つかりません。"
+
+#: core/views/proposals.py:163
+msgid "Moved."
+msgstr "移動しました。"
+
+#: core/views/user_activate_account.py:92
+msgid "Activation link is not valid."
+msgstr "アクティベーションリンクは無効です。"
+
+#: core/views/user_activate_account.py:97
+msgid "Your account is activated."
+msgstr "あなたのアカウントが有効になりました。"
+
+#: core/views/user_change_password.py:42
+msgid "Password changed."
+msgstr "パスワードが変更されました。"
+
+#: core/views/user_reset_password.py:44
+msgid "Password reset email sent."
+msgstr "パスワードリセットのメールが送信されました。"
+
+#: core/views/user_reset_password.py:72
+msgid "Reset link is not valid."
+msgstr "リセットのためのリンクは無効になっています。"
+
+#: core/views/user_reset_password.py:82
+msgid "Password reset successfully."
+msgstr "パスワードが正常にリセットされました。"
+
+#: core/views/views.py:403
+msgid "User is already assigned as a Job Manager."
+msgstr "ユーザーは、既にジョブマネージャーとして割り当てられています。"
+
+#: core/views/views.py:420
+msgid "User assigned as a Job Manager."
+msgstr "ユーザーは、既にジョブマネージャーとして割り当てられています。"
+
+#: core/views/views.py:432
+msgid "User is not a Manager of this Job."
+msgstr "ユーザーは、この求人のジョブマネージャーではありません。"
+
+#: core/views/views.py:438
+msgid "User removed from Job Managers."
+msgstr "ユーザーは、ジョブマネージャーから削除されました。"
+
+#: core/views/views.py:459
+msgid "Invite link sent."
+msgstr "招待リンクが送信されました。"
+
+#: core/views/views.py:477
+msgid "Your account is deactivated."
+msgstr "アカウントは無効です。"
+
+#: core/views/views.py:501
+msgid "Email or password is not valid."
+msgstr "メールまたはパスワードが有効ではありません。"
+
+#: core/views/views.py:510
+msgid "Logged out."
+msgstr "ログアウトしました。"
+
+#: core/views/views.py:530
+msgid "Email's domain is used by an agency."
+msgstr "メールのドメインは、他のエイジェンシーが使用しています。"
+
+#: core/views/views.py:564
+msgid ""
+"Your account was created. Please check your email to activate your account."
+msgstr "あなたのアカウントが作成されました。有効にするためにあなたのメールを確認してください。"
+
+#: core/views/views.py:580 core/views/views.py:607
+msgid "Signup disabled"
+msgstr "アカウント作成は無効にしています"
+
+#: core/views/views.py:591
+msgid "Your account was created."
+msgstr "あなたのアカウントが作成されました。"
+
+#: core/views/views.py:593 core/views/views.py:618
+msgid "Your account was created and is pending approval."
+msgstr "あなたのアカウントが作成され、承認待ちです。"
+
+#: core/views/views.py:1129
+msgid "File deleted"
+msgstr "ファイルを削除しました。"
+
+#: core/zoho.py:461
+msgid "Could not find this candidate."
+msgstr "この候補者を見つけることができませんでした。"
+
+#: core/zoho.py:463
+msgid "Could not load candidate data from Zoho."
+msgstr "Zohoからの候補者データを転送できませんでした。"

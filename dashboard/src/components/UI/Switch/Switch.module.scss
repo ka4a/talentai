@@ -1,0 +1,53 @@
+@import 'styles/variables';
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.switch {
+  background-color: $primary-disabled;
+  border-radius: 14px;
+  position: relative;
+  width: 50px;
+  height: 24px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:active:not(.disabled) {
+    background-color: darken($primary-disabled, 5%);
+  }
+
+  &.checked:not(.disabled) {
+    background-color: $success-dark;
+
+    &:active {
+      background-color: $success-darker;
+    }
+  }
+
+  &.disabled {
+    opacity: 0.5;
+    cursor: unset;
+  }
+}
+
+.circle {
+  background-color: $white;
+  border-radius: 14px;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  transition: all 0.2s ease-in;
+
+  &.checked {
+    transform: translateX(26px);
+  }
+}
+
+.label {
+  cursor: pointer;
+}

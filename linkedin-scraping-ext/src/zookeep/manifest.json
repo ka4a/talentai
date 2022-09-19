@@ -1,0 +1,28 @@
+{
+  "name": "ZooKeep.com Extension",
+  "description": "ZooKeep.com Extension",
+  "version": "dev",
+  "manifest_version": 2,
+  "homepage_url": "https://zookeep.com",
+  "background": {
+    "scripts": ["background.bundle.js"]
+  },
+  "permissions": [
+    "tabs",
+    "cookies",
+    "storage",
+    "https://zookeep.com/*",
+    "*://*.linkedin.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.linkedin.com/*"],
+      "js": ["main.bundle.js"],
+      "css": ["css/main.css"]
+    }
+  ],
+  "icons": {
+    "128": "img/logo.png",
+    "16": "img/logo.png"
+  }
+}
